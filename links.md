@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Links
+permalink: /links
 ---
 This is a list of resources I've found useful and would like to keep for reference. I hope others
 find them useful as well!

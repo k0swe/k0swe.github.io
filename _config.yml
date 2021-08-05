@@ -3,7 +3,7 @@ email: k0swe@arrl.net
 description: >-
   Events and projects for amateur radio operator K0SWE, a.k.a. Chris.
 baseurl: ""
-url: "https://blog.k0swe.radio"
+url: "https://www.k0swe.radio"
 github_username:  xylo04
 
 # Build settings
@@ -20,7 +20,7 @@ plugins:
 # their entries' file path in the `include:` list.
 #
 exclude:
-  - .idea
+  - .idea/
   - .jekyll-cache/
   - .sass-cache/
   - Gemfile

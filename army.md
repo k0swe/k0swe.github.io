@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Army
+permalink: /army
 ---
 I served in the Army Reserve from 2005 to 2011, with a deployment to Joint Base Balad, Iraq in
 2008-2009. I was part of the Army Signal Corps, a 25U Signal Support Systems Specialist, essentially

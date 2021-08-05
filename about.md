@@ -1,9 +1,9 @@
 ---
 layout: page
 title: About
-permalink: /about/
+permalink: /about
 ---
-This is the personal home page of amateur radio operator K0SWE, a.k.a. Chris.
+This is the personal website of amateur radio operator K0SWE, a.k.a. Chris.
 
 I'm a professional software engineer, husband and father. I was previously a 25U (radio and IT
 technician) in the US Army, and graduated from the University of Colorado Boulder with a bachelor's
