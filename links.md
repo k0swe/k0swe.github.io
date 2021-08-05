@@ -37,7 +37,7 @@ find them useful as well!
 * DMR
   * [RadioID.net](https://radioid.net/) to get a DMR ID
   * [Brandmeister](https://brandmeister.network/)
-* [EchoLink](https://brandmeister.network/)
+* [EchoLink](https://secure.echolink.org/)
 * AX.25
   * [APRS](http://www.aprs.org/)
     * [APRS.fi](https://aprs.fi/) and [findu.com](http://www.findu.com/) for viewing APRS-IS data
@@ -48,7 +48,7 @@ find them useful as well!
     on the Pi
   * [PiGate](http://www.pigate.net/) for using Winlink on another computer via WiFi
   * PiPat, another Winlink over Wifi system
-  * [TNC-Pi](https://tnc-x.com/TNCPi.htm) - a TNC running on a Raspberry Pi
+  * [TNC-Pi](https://tnc-x.com/) - a TNC running on a Raspberry Pi
   * [Mobilinkd](http://www.mobilinkd.com/) - a portable TNC with Bluetooth
 * Digital multi-mode low-power hotspots
   * Most use the [Multi-Mode Digital Voice Modem (MMDVM)](https://github.com/g4klx/MMDVM) firmware
@@ -65,19 +65,19 @@ find them useful as well!
 
 ### TYT MD-380
 
-* [md380tools](https://github.com/travisgoodspeed/md380tools)
-  and [md380tools-vm](https://github.com/KD4Z/md380tools-vm): This looks like a great improvement
-  for the TYT MD-380, but I don't think it was compatible with the V05.01 hardware that I got. I
-  encountered an [analog squelch issue](https://github.com/KD4Z/md380tools-vm) I couldn't resolve.
-  The md380tools repo is currently based on D013.020. I was able to get the radio working again with
-  stock D015.001.
+* [md380tools](https://github.com/travisgoodspeed/md380tools) and
+  [md380tools-vm](https://github.com/KD4Z/md380tools-vm): This looks like a great improvement for
+  the TYT MD-380, but I don't think it was compatible with the V05.01 hardware that I got. I
+  encountered an [analog squelch issue](https://ham.stackexchange.com/q/14604/14609) I couldn't
+  resolve. The md380tools repo is currently based on D013.020. I was able to get the radio working
+  again with stock D015.001.
 
 ### AnyTone D878UV
 
-* Jim Blocker KF5IW continuously updates and publishes
-  a [DMR contact list](https://kf5iw.com/contactdb.php) with worldwide coverage from sources like
+* Jim Blocker KF5IW continuously updates and publishes a
+  [DMR contact list](https://kf5iw.com/contactdb.php) with worldwide coverage from sources like
   radioid.net, so you can always tell who's talking.
-* Dave Casler KE0OG has a [helpful video](https://kf5iw.com/contactdb.php) on setting up the AnyTone
+* Dave Casler KE0OG has a [helpful video](https://youtu.be/MjnmOmSdqVU) on setting up the AnyTone
   D878UV for APRS, because it's not intuitive (at least, not as a first-time APRS user).
 
 ## Software
