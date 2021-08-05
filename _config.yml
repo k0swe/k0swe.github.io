@@ -7,7 +7,7 @@ url: "https://www.k0swe.radio"
 github_username:  xylo04
 
 # Build settings
-theme: minima
+theme: jekyll-theme-tactile
 plugins:
   - jekyll-feed
 
