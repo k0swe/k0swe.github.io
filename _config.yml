@@ -2,12 +2,12 @@ title: K0SWE Blog
 email: k0swe@arrl.net
 description: >-
   Events and projects for amateur radio operator K0SWE, a.k.a. Chris.
-baseurl: "blog"
-url: "https://k0swe.github.io/"
+baseurl: "/blog"
+url: "https://k0swe.github.io"
 github_username:  xylo04
 
 # Build settings
-theme: jekyll-theme-tactile
+theme: minima
 
 # Exclude from processing.
 # The following items will not be processed, by default.
