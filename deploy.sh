@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 COMMIT=`git rev-parse --short HEAD`
+bundle install
 bundle exec jekyll build
 cd _site
 touch .nojekyll
