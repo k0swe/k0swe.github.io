@@ -28,4 +28,12 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run Jekyll build and deploy
-        run: ./deploy.sh
+        run: |
+          COMMIT=`git rev-parse --short HEAD`
+          bundle install
+          bundle exec jekyll build
+          cd _site
+          touch .nojekyll
+          git add -A
+          git commit -m "Generated site at $COMMIT"
+          git push origin public
