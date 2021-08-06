@@ -17,4 +17,4 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run Jekyll build and deploy
-        run: ./deploy
+        run: ./deploy.sh
