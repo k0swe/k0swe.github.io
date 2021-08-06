@@ -21,6 +21,7 @@ exclude:
   - .idea/
   - .jekyll-cache/
   - .sass-cache/
+  - deploy.sh
   - Gemfile
   - Gemfile.lock
   - gemfiles/
