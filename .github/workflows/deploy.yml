@@ -7,13 +7,13 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    
-    steps:
-      - name: Setup Ruby
-        uses: ruby/setup-ruby@v1.80.0
 
+    steps:
       - name: Checkout
         uses: actions/checkout@v2
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1.80.0
 
       # Runs a single command using the runners shell
       - name: Run Jekyll build and deploy
