@@ -1,4 +1,71 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://k0swe.radio/feed.xml" rel="self" type="application/atom+xml" /><link href="https://k0swe.radio/" rel="alternate" type="text/html" /><updated>2021-08-06T23:30:22+00:00</updated><id>https://k0swe.radio/feed.xml</id><title type="html">K0SWE Blog</title><subtitle>Events and projects for amateur radio operator K0SWE, a.k.a. Chris.</subtitle><entry><title type="html">Got My Ticket</title><link href="https://k0swe.radio/2019/04/16/ticket.html" rel="alternate" type="text/html" title="Got My Ticket" /><published>2019-04-16T00:00:00+00:00</published><updated>2019-04-16T00:00:00+00:00</updated><id>https://k0swe.radio/2019/04/16/ticket</id><content type="html" xml:base="https://k0swe.radio/2019/04/16/ticket.html">&lt;p&gt;&lt;img src=&quot;/assets/golden_ticket.jpg&quot; alt=&quot;Golden ticket&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://k0swe.radio/feed.xml" rel="self" type="application/atom+xml" /><link href="https://k0swe.radio/" rel="alternate" type="text/html" /><updated>2021-08-07T00:44:07+00:00</updated><id>https://k0swe.radio/feed.xml</id><title type="html">K0SWE Blog</title><subtitle>Events and projects for amateur radio operator K0SWE, a.k.a. Chris.</subtitle><entry><title type="html">Getting started with RTL-SDR</title><link href="https://k0swe.radio/2019/08/11/rtlsdr.html" rel="alternate" type="text/html" title="Getting started with RTL-SDR" /><published>2019-08-11T00:00:00+00:00</published><updated>2019-08-11T00:00:00+00:00</updated><id>https://k0swe.radio/2019/08/11/rtlsdr</id><content type="html" xml:base="https://k0swe.radio/2019/08/11/rtlsdr.html">&lt;p&gt;&lt;img src=&quot;https://1.bp.blogspot.com/-aVB1pJTOUI4/XXQtNpAGbbI/AAAAAAABp3k/Ij-X4r6ebCsKJmLxDb6R-w3rCpmVWuHAwCLcBGAs/s320/Gqrx.png&quot; alt=&quot;gqrx window on 97.3 FM&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I’m intrigued by software-defined radios, which are the cutting edge in radio technology and have a
+much wider operating range than their discrete component cousins. When I saw that one popular model
+was $20, I picked one up on a whim without really knowing what to expect.&lt;/p&gt;
+
+&lt;p&gt;I had purchased an &lt;a href=&quot;https://amzn.com/B011HVUEME&quot;&gt;RTL-SDR Blog V3 kit&lt;/a&gt;. I was just a tad disappointed
+to learn it’s a receive-only SDR, but for the price, I wasn’t expecting perfection. I found a couple
+of YouTube &lt;a href=&quot;https://youtu.be/9QzklSyKqQM&quot;&gt;videos&lt;/a&gt; to give me some ideas for things to try.&lt;/p&gt;
+
+&lt;p&gt;Since I run Linux primarily, I found that &lt;a href=&quot;http://gqrx.dk/download/install-ubuntu&quot;&gt;Gqrx&lt;/a&gt;
+was a good starting point. It wasn’t too difficult to get installed and running. This is my first
+experience with waterfall displays and being able to quickly tune around. It’s fun looking at
+broadcast FM stations to see which ones have digital sidebands, or scrolling around in the ham bands
+to find transmissions like little caterpillars running down the screen. I can definitely see where
+this will be a nice tool in my ham radio toolbox.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">PiPat</title><link href="https://k0swe.radio/2019/07/14/pipat.html" rel="alternate" type="text/html" title="PiPat" /><published>2019-07-14T00:00:00+00:00</published><updated>2019-07-14T00:00:00+00:00</updated><id>https://k0swe.radio/2019/07/14/pipat</id><content type="html" xml:base="https://k0swe.radio/2019/07/14/pipat.html">&lt;p&gt;&lt;img src=&quot;https://1.bp.blogspot.com/-mn9mlZGJo6M/XXQfNEIJoJI/AAAAAAABp3M/x-QlGJSUH6Ap8rp23cqGLV9srcE7a1FzgCLcBGAs/s320/IMG_20190806_160827%2B%25281%2529.jpg&quot; alt=&quot;PiPat set up in a car&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I was looking forward to using &lt;a href=&quot;http://pigate.net/&quot;&gt;PiGate&lt;/a&gt; on my TNC-Pi rig as a Winlink
+client, but the pre-built disk images don’t work with my hardware (Raspberry Pi 3B+). The
+integrator/maintainer of PiGate, Mark Griffith &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;KD0QYN&lt;/code&gt;, told me that building a new image is
+getting harder because Raspbian has moved to PHP7, and SquirrelMail is incompatible and is not
+likely to be updated.&lt;/p&gt;
+
+&lt;p&gt;Instead, I set about setting up something similar with &lt;a href=&quot;http://getpat.io/&quot;&gt;Pat&lt;/a&gt;
+and setting up the Pi in Wi-Fi AP mode. There are only a couple of Winlink RMSs on VHF in my area,
+and none that I can reach from my house on my current equipment, so I’ve been driving to a nearby
+hill with good line-of-sight. I can power the Pi with a USB battery, connect my phone or laptop to
+the Wi-Fi AP, and go to town with the Pat web application! I call it
+&lt;a href=&quot;https://www.k0swe.radio/pipat&quot;&gt;PiPat&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">TNC-Pi</title><link href="https://k0swe.radio/2019/06/15/tnc-pi.html" rel="alternate" type="text/html" title="TNC-Pi" /><published>2019-06-15T00:00:00+00:00</published><updated>2019-06-15T00:00:00+00:00</updated><id>https://k0swe.radio/2019/06/15/tnc-pi</id><content type="html" xml:base="https://k0swe.radio/2019/06/15/tnc-pi.html">&lt;p&gt;&lt;img src=&quot;https://1.bp.blogspot.com/-muhcLR6ATy0/XXQeB67lbtI/AAAAAAABp28/IOIPnN556hwHIqxjDgxO2o7Q-RZKhclmwCLcBGAs/s320/IMG_20190615_134739%2B%25281%2529.jpg&quot; alt=&quot;TNC-Pi set up on a desktop&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I purchased a &lt;a href=&quot;https://tnc-x.com/TNCPi.htm&quot;&gt;TNC-Pi 2&lt;/a&gt; from Coastal Chipworks (John Hansen, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;W2FS&lt;/code&gt;).
+It took longer than I’d like to admit to assemble, but I did get it working. So far I’ve gotten
+&lt;a href=&quot;https://xastir.org/index.php/Main_Page&quot;&gt;XASTIR&lt;/a&gt; for APRS working (had to build from source), and
+been able to view local RF station reports, view APRS-IS data and even published RF messages to the
+internet as an IGate.&lt;/p&gt;
+
+&lt;p&gt;If I continue playing with APRS, I’ll probably look at
+&lt;a href=&quot;http://www.ka2ddo.org/ka2ddo/YAAC.html&quot;&gt;YAAC&lt;/a&gt;. XASTIR works and is full-featured and mature, but
+that UI is showing its age. I’d also like a headless IGate option, and
+&lt;a href=&quot;http://www.aprs-is.net/javAPRSSrvr/&quot;&gt;javAPRSSrvr&lt;/a&gt;
+sounds like a solid option.&lt;/p&gt;
+
+&lt;p&gt;I’d still like to play around with Winlink and PiGate, and see that the TNC’s transmit is working
+along with receive.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Dirty 30</title><link href="https://k0swe.radio/2019/06/01/dirty30.html" rel="alternate" type="text/html" title="Dirty 30" /><published>2019-06-01T00:00:00+00:00</published><updated>2019-06-01T00:00:00+00:00</updated><id>https://k0swe.radio/2019/06/01/dirty30</id><content type="html" xml:base="https://k0swe.radio/2019/06/01/dirty30.html">&lt;p&gt;&lt;img src=&quot;https://1.bp.blogspot.com/-aDcFNfTcZcs/XXQdNwNgbzI/AAAAAAABp2w/rOlHaLaLuCUTgByACtZ_z4wIcALb1EmlgCLcBGAs/s320/IMG_20190601_120214.jpg&quot; alt=&quot;Shielding a laptop from the rain&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I joined about 40 hams from Colorado AuxComm, several ARES districts and the Rocky Mountain Ham
+Radio group to provide race communications for the Dirty 30, a 30 mile/50 km ultra trail run through
+Golden Gate Canyon State Park. Our mission is to make sure that every runner that steps on the
+mountainous, dispersed course also steps off at the end of the day, and by all accounts, 2019 was a
+very good year for the comms team.&lt;/p&gt;
+
+&lt;p&gt;My aid station (#3, Horseshoe Trailhead) started the day with no RFID mat to automatically read
+bibs, so I spent the morning manually entering bib numbers into my laptop, connected via Wi-Fi and
+microwave back to the comm trailer running the centralized race web server.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Vanity Callsign Came In</title><link href="https://k0swe.radio/2019/05/12/vanity.html" rel="alternate" type="text/html" title="Vanity Callsign Came In" /><published>2019-05-12T00:00:00+00:00</published><updated>2019-05-12T00:00:00+00:00</updated><id>https://k0swe.radio/2019/05/12/vanity</id><content type="html" xml:base="https://k0swe.radio/2019/05/12/vanity.html">&lt;p&gt;&lt;img src=&quot;https://media.gq.com/photos/599edbab065b7f266534b9b1/master/w_1600%2Cc_limit/How-To-Be-Vain-Art-01.jpg&quot; alt=&quot;How To Be Vain A Modern Man's Grooming Guide&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;My amateur callsign is now &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;K0SWE&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Many people use their initials, but combinations of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;K0&lt;/code&gt; and my initials end up with rather
+unfortunate connotations. Instead, I chose something with my job title, “software engineer,” which
+at my workplace is abbreviated as SWE.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">TYT MD-380</title><link href="https://k0swe.radio/2019/04/26/tyt.html" rel="alternate" type="text/html" title="TYT MD-380" /><published>2019-04-26T00:00:00+00:00</published><updated>2019-04-26T00:00:00+00:00</updated><id>https://k0swe.radio/2019/04/26/tyt</id><content type="html" xml:base="https://k0swe.radio/2019/04/26/tyt.html">&lt;p&gt;&lt;img src=&quot;https://cdn.shopify.com/s/files/1/0011/7220/9721/products/28-020-389_01_13e03b44-1144-4b17-814e-b8044a9026cd.JPG?v=1550113464&quot; alt=&quot;TYT MD-380&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;While working analog FM, I’ve heard several folks mention digital modes. There are a couple of
+competing standards, but it sounds like locally in the Denver area, DMR is the most popular. In
+light of that, I picked up a TYT MD-380 dual-band DMR handheld. It’s certainly nice to have
+something more sophisticated than the Baofeng I’ve been using.&lt;/p&gt;
+
+&lt;p&gt;Luckily, it uses the same Kenwood K1 style plug, so headsets and hand mics will be compatible
+between them.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Got My Ticket</title><link href="https://k0swe.radio/2019/04/16/ticket.html" rel="alternate" type="text/html" title="Got My Ticket" /><published>2019-04-16T00:00:00+00:00</published><updated>2019-04-16T00:00:00+00:00</updated><id>https://k0swe.radio/2019/04/16/ticket</id><content type="html" xml:base="https://k0swe.radio/2019/04/16/ticket.html">&lt;p&gt;&lt;img src=&quot;/assets/golden_ticket.jpg&quot; alt=&quot;Golden ticket&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;My amateur radio license has been assigned! For now, I’m KE0VJM. I’ve been listening to the bands a
 bit on a Baofeng UV-5R. I’ve heard some negative reviews about their effects on the ham bands, so I
