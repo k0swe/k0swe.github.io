@@ -1,0 +1,37 @@
+---
+layout: post
+title:  "PCB arrived, but..."
+date:   2020-05-19
+---
+![Unpopulated custom PCB on an Arduino](https://1.bp.blogspot.com/-RZOVvqiJ5hg/XsP2YeQi_TI/AAAAAAABvYE/pvzIZE-myWQaGT6_UUHID-G22dysdVW1gCPcBGAYYCw/s320/IMG_20200518_162337.jpg)
+
+The good news: my PCBs arrived! The bad news: they don't work, at least not out of the box.
+
+I was super excited to get my
+[custom K3NG keyer boards](https://k0swe.radio/2020/05/02/pcb-design) in the
+mail! I spent some time soldering components last night, but found that it wasn't working. My first
+clue was that there is no Morse code "HI" on the sidetone speaker, nor do the paddles do anything.
+The serial port Winkeyer seems to work, so the Arduino is functioning. Then I tried plugging the
+transceiver output into an external practice oscillator and found that it was always grounded. Huh.
+
+![Spaghetti mess of wires](https://1.bp.blogspot.com/-dFC1vXyiH-o/XsP4NFrPH_I/AAAAAAABvYY/LOYBnpwSIbURwyQ1kBUnN5b9G9XQxjFwgCPcBGAYYCw/s320/IMG_20200518_221735.jpg)
+
+I think I found the culprit. Can you spot it?
+
+![Sparkfun transistor kit box](https://1.bp.blogspot.com/-1qBz5eqmsdg/XsP2ezlN_RI/AAAAAAABvX8/JSdexK9tlYkOqmjHLQ8ecJSBNz07XVqGgCLcBGAsYHQ/s320/IMG_20200518_222441.jpg)
+
+![KiCad transistor footprint](https://1.bp.blogspot.com/-a-HAZ-kL4Bg/XsP2iLMBsxI/AAAAAAABvYA/ydUswpjlQ5InseVjdH4ch5QBMb5na0H_wCLcBGAsYHQ/s320/IMG_20200518_222500.jpg)
+
+The KiCad footprint has the transistor pins in a different order than the transistors I have. The
+base, collector and emitter are out of order. Lesson learned: attention to detail, don't trust
+KiCad's footprints to be perfect for your parts.
+
+In another mistake, I chose resistor footprints that were exactly as long as my components, but the
+resistor leads don't bend that sharply and so the resistors don't sit flat. Minor annoyance to fix
+next time.
+
+Since these are through-hole parts, I think I can desolder the incorrect transistors and finagle new
+transistors with longer legs into the as-designed holes. I looked briefly for different transistors
+that would match my board's pin-out but didn't immediately see them, and it would take time to order
+those. For prototyping's sake, I want to work around this problem quickly and see if the board works
+otherwise.
