@@ -8,7 +8,7 @@ date:   2020-05-19
 The good news: my PCBs arrived! The bad news: they don't work, at least not out of the box.
 
 I was super excited to get my
-[custom K3NG keyer boards](https://k0swe.radio/2020/05/02/pcb-design) in the
+[custom K3NG keyer boards](/2020/05/02/pcb-design.html) in the
 mail! I spent some time soldering components last night, but found that it wasn't working. My first
 clue was that there is no Morse code "HI" on the sidetone speaker, nor do the paddles do anything.
 The serial port Winkeyer seems to work, so the Arduino is functioning. Then I tried plugging the

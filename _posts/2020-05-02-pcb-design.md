@@ -14,7 +14,7 @@ a clock. I had the electronics and the software, but never really figured out th
 of attaching the steppers to my clock's hands.
 
 Well, fast forward. About 6 months ago I was
-[messing around](https://k0swe.radio/2019/10/10/cw) with the
+[messing around](/2019/10/10/cw.html) with the
 [K3NG Morse keyer design](https://github.com/k3ng/k3ng_cw_keyer/wiki/210-Build:-Schematic). I built
 a basic one on a breadboard, but decided at that time to purchase a
 [Mortty](https://hamprojects.info/mortty/) kit for its size. I still like the Mortty and if I end up
