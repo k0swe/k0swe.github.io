@@ -3,21 +3,21 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.7.1 -->
-<title>PiPat | K0SWE Blog</title>
+<title>Raspberry Pi Time | K0SWE Blog</title>
 <meta name="generator" content="Jekyll v3.9.0" />
-<meta property="og:title" content="PiPat" />
+<meta property="og:title" content="Raspberry Pi Time" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Events and projects for amateur radio operator K0SWE, a.k.a. Chris." />
 <meta property="og:description" content="Events and projects for amateur radio operator K0SWE, a.k.a. Chris." />
-<link rel="canonical" href="https://k0swe.radio/2019/07/14/pipat.html" />
-<meta property="og:url" content="https://k0swe.radio/2019/07/14/pipat.html" />
+<link rel="canonical" href="https://k0swe.radio/2019/09/01/raspberry-pi-time.html" />
+<meta property="og:url" content="https://k0swe.radio/2019/09/01/raspberry-pi-time.html" />
 <meta property="og:site_name" content="K0SWE Blog" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2019-07-14T00:00:00+00:00" />
+<meta property="article:published_time" content="2019-09-01T00:00:00+00:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="PiPat" />
+<meta property="twitter:title" content="Raspberry Pi Time" />
 <script type="application/ld+json">
-{"description":"Events and projects for amateur radio operator K0SWE, a.k.a. Chris.","url":"https://k0swe.radio/2019/07/14/pipat.html","@type":"BlogPosting","headline":"PiPat","dateModified":"2019-07-14T00:00:00+00:00","datePublished":"2019-07-14T00:00:00+00:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://k0swe.radio/2019/07/14/pipat.html"},"@context":"https://schema.org"}</script>
+{"description":"Events and projects for amateur radio operator K0SWE, a.k.a. Chris.","url":"https://k0swe.radio/2019/09/01/raspberry-pi-time.html","@type":"BlogPosting","headline":"Raspberry Pi Time","dateModified":"2019-09-01T00:00:00+00:00","datePublished":"2019-09-01T00:00:00+00:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://k0swe.radio/2019/09/01/raspberry-pi-time.html"},"@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="https://k0swe.radio/feed.xml" title="K0SWE Blog" /></head>
 <body><header class="site-header" role="banner">
@@ -40,29 +40,34 @@
         <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">PiPat</h1>
+    <h1 class="post-title p-name" itemprop="name headline">Raspberry Pi Time</h1>
     <p class="post-meta">
-      <time class="dt-published" datetime="2019-07-14T00:00:00+00:00" itemprop="datePublished">Jul 14, 2019
+      <time class="dt-published" datetime="2019-09-01T00:00:00+00:00" itemprop="datePublished">Sep 1, 2019
       </time></p>
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">
-    <p><img src="https://1.bp.blogspot.com/-mn9mlZGJo6M/XXQfNEIJoJI/AAAAAAABp3M/x-QlGJSUH6Ap8rp23cqGLV9srcE7a1FzgCLcBGAs/s320/IMG_20190806_160827%2B%25281%2529.jpg" alt="PiPat set up in a car" /></p>
+    <p><img src="https://1.bp.blogspot.com/-m2wpfJ6fXwg/XXRZU4xTomI/AAAAAAABp38/Giappm1VQe8634gvcHGFP0PBrTGgXnhhgCLcBGAs/s1600/clock12.gif" alt="Clock showing 12:00" /></p>
 
-<p>I was looking forward to using <a href="http://pigate.net/">PiGate</a> on my TNC-Pi rig as a Winlink
-client, but the pre-built disk images don’t work with my hardware (Raspberry Pi 3B+). The
-integrator/maintainer of PiGate, Mark Griffith <code class="language-plaintext highlighter-rouge">KD0QYN</code>, told me that building a new image is
-getting harder because Raspbian has moved to PHP7, and SquirrelMail is incompatible and is not
-likely to be updated.</p>
+<p>One thing that bugs me when working with Raspberry Pis is that they don’t have a real-time clock (
+RTC), so when you remove power, the system clock stops. This isn’t a problem when you’re
+internet-connected, because <code class="language-plaintext highlighter-rouge">ntpd</code> will just go out to the internet and fetch the current time.
+However, when working in the field, the lack of an RTC causes Winlink emails and application logs to
+have the wrong time stamps, which is annoying at best.</p>
 
-<p>Instead, I set about setting up something similar with <a href="http://getpat.io/">Pat</a>
-and setting up the Pi in Wi-Fi AP mode. There are only a couple of Winlink RMSs on VHF in my area,
-and none that I can reach from my house on my current equipment, so I’ve been driving to a nearby
-hill with good line-of-sight. I can power the Pi with a USB battery, connect my phone or laptop to
-the Wi-Fi AP, and go to town with the Pat web application! I call it
-<a href="https://docs.google.com/document/d/1dJY5iXwyYGQgYm9Cp68SarbZO_Nobx-BP2fhIsRSx08/preview">PiPat</a>.</p>
+<p>I did a little research into using my GPS module to update the system clock. Apparently that
+is 
+<a href="https://gpsd.gitlab.io/gpsd/gpsd-time-service-howto.html#_feeding_ntpd_from_gpsd">supported by <code class="language-plaintext highlighter-rouge">ntpd</code></a>,
+but the documentation on it assumed a much deeper knowledge of NTP than I have, and it’s not clear
+it even works in a non-internet-connected situation. It also uses a protocol called <code class="language-plaintext highlighter-rouge">1PPS</code>, which
+has to be supported by the GPS hardware as well as the kernel. That’s too much work for me to track
+down right now.</p>
 
-  </div><a class="u-url" href="/2019/07/14/pipat.html" hidden></a>
+<p>But another option presented itself: Adafruit sells
+<a href="https://www.adafruit.com/product/4282">add-on RTC modules</a> which use the Pi’s I2C bus. I picked one
+up, and it didn’t take too much fiddling to get it working. Hooray for accurate time in the field!</p>
+
+  </div><a class="u-url" href="/2019/09/01/raspberry-pi-time.html" hidden></a>
 </article>
 
       </div>

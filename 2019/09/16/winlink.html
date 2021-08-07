@@ -3,21 +3,21 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.7.1 -->
-<title>PiPat | K0SWE Blog</title>
+<title>Winlink on Windows | K0SWE Blog</title>
 <meta name="generator" content="Jekyll v3.9.0" />
-<meta property="og:title" content="PiPat" />
+<meta property="og:title" content="Winlink on Windows" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Events and projects for amateur radio operator K0SWE, a.k.a. Chris." />
-<meta property="og:description" content="Events and projects for amateur radio operator K0SWE, a.k.a. Chris." />
-<link rel="canonical" href="https://k0swe.radio/2019/07/14/pipat.html" />
-<meta property="og:url" content="https://k0swe.radio/2019/07/14/pipat.html" />
+<meta name="description" content="Winlink of course started out being a Microsoft Windows-based product, and Winlink 2000 still seems to be the most popular client software out there. I figured it was time to at least make sure I could use this more conventional configuration." />
+<meta property="og:description" content="Winlink of course started out being a Microsoft Windows-based product, and Winlink 2000 still seems to be the most popular client software out there. I figured it was time to at least make sure I could use this more conventional configuration." />
+<link rel="canonical" href="https://k0swe.radio/2019/09/16/winlink.html" />
+<meta property="og:url" content="https://k0swe.radio/2019/09/16/winlink.html" />
 <meta property="og:site_name" content="K0SWE Blog" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2019-07-14T00:00:00+00:00" />
+<meta property="article:published_time" content="2019-09-16T00:00:00+00:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="PiPat" />
+<meta property="twitter:title" content="Winlink on Windows" />
 <script type="application/ld+json">
-{"description":"Events and projects for amateur radio operator K0SWE, a.k.a. Chris.","url":"https://k0swe.radio/2019/07/14/pipat.html","@type":"BlogPosting","headline":"PiPat","dateModified":"2019-07-14T00:00:00+00:00","datePublished":"2019-07-14T00:00:00+00:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://k0swe.radio/2019/07/14/pipat.html"},"@context":"https://schema.org"}</script>
+{"description":"Winlink of course started out being a Microsoft Windows-based product, and Winlink 2000 still seems to be the most popular client software out there. I figured it was time to at least make sure I could use this more conventional configuration.","url":"https://k0swe.radio/2019/09/16/winlink.html","@type":"BlogPosting","headline":"Winlink on Windows","dateModified":"2019-09-16T00:00:00+00:00","datePublished":"2019-09-16T00:00:00+00:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://k0swe.radio/2019/09/16/winlink.html"},"@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="https://k0swe.radio/feed.xml" title="K0SWE Blog" /></head>
 <body><header class="site-header" role="banner">
@@ -40,29 +40,37 @@
         <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">PiPat</h1>
+    <h1 class="post-title p-name" itemprop="name headline">Winlink on Windows</h1>
     <p class="post-meta">
-      <time class="dt-published" datetime="2019-07-14T00:00:00+00:00" itemprop="datePublished">Jul 14, 2019
+      <time class="dt-published" datetime="2019-09-16T00:00:00+00:00" itemprop="datePublished">Sep 16, 2019
       </time></p>
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">
-    <p><img src="https://1.bp.blogspot.com/-mn9mlZGJo6M/XXQfNEIJoJI/AAAAAAABp3M/x-QlGJSUH6Ap8rp23cqGLV9srcE7a1FzgCLcBGAs/s320/IMG_20190806_160827%2B%25281%2529.jpg" alt="PiPat set up in a car" /></p>
+    <p>Winlink of course started out being a Microsoft Windows-based product, and Winlink 2000 still seems
+to be the most popular client software out there. I figured it was time to at least make sure I
+could use this more conventional configuration.</p>
 
-<p>I was looking forward to using <a href="http://pigate.net/">PiGate</a> on my TNC-Pi rig as a Winlink
-client, but the pre-built disk images don’t work with my hardware (Raspberry Pi 3B+). The
-integrator/maintainer of PiGate, Mark Griffith <code class="language-plaintext highlighter-rouge">KD0QYN</code>, told me that building a new image is
-getting harder because Raspbian has moved to PHP7, and SquirrelMail is incompatible and is not
-likely to be updated.</p>
+<p>The most conventional setup I know of is using a radio with a built-in TNC like a Kenwood TM-D710,
+but I don’t have anything like that. I was able to get these two configurations working with
+Windows:</p>
 
-<p>Instead, I set about setting up something similar with <a href="http://getpat.io/">Pat</a>
-and setting up the Pi in Wi-Fi AP mode. There are only a couple of Winlink RMSs on VHF in my area,
-and none that I can reach from my house on my current equipment, so I’ve been driving to a nearby
-hill with good line-of-sight. I can power the Pi with a USB battery, connect my phone or laptop to
-the Wi-Fi AP, and go to town with the Pat web application! I call it
-<a href="https://docs.google.com/document/d/1dJY5iXwyYGQgYm9Cp68SarbZO_Nobx-BP2fhIsRSx08/preview">PiPat</a>.</p>
+<blockquote>
+  <p><img src="https://1.bp.blogspot.com/-gkRS4AWCZ8c/XYBU1FYKIHI/AAAAAAABp8g/WdFS1R8xjPcrwrhtgQLb2I3jil8cUrqbwCLcBGAsYHQ/s320/IMG_20190916_161424.jpg" alt="Winlink 2000 via Dire Wolf and SignaLink USB" /></p>
 
-  </div><a class="u-url" href="/2019/07/14/pipat.html" hidden></a>
+  <p>Winlink 2000 via Dire Wolf and SignaLink USB</p>
+</blockquote>
+
+<blockquote>
+  <p><img src="https://1.bp.blogspot.com/-IYgAi4Xh8Xg/XYBU_n2EbXI/AAAAAAABp8o/o9R4ZXHVBSwYITckrz_LnJz1ndVSyVtVQCLcBGAsYHQ/s320/IMG_20190916_162148.jpg" alt="PiPat via Chrome" /></p>
+
+  <p>PiPat via Chrome</p>
+</blockquote>
+
+<p>I’m still going to avoid Windows when possible, but it’s good to know I’m not completely inept with
+it.</p>
+
+  </div><a class="u-url" href="/2019/09/16/winlink.html" hidden></a>
 </article>
 
       </div>

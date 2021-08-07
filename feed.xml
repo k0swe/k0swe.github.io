@@ -1,4 +1,227 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://k0swe.radio/feed.xml" rel="self" type="application/atom+xml" /><link href="https://k0swe.radio/" rel="alternate" type="text/html" /><updated>2021-08-07T00:44:07+00:00</updated><id>https://k0swe.radio/feed.xml</id><title type="html">K0SWE Blog</title><subtitle>Events and projects for amateur radio operator K0SWE, a.k.a. Chris.</subtitle><entry><title type="html">Getting started with RTL-SDR</title><link href="https://k0swe.radio/2019/08/11/rtlsdr.html" rel="alternate" type="text/html" title="Getting started with RTL-SDR" /><published>2019-08-11T00:00:00+00:00</published><updated>2019-08-11T00:00:00+00:00</updated><id>https://k0swe.radio/2019/08/11/rtlsdr</id><content type="html" xml:base="https://k0swe.radio/2019/08/11/rtlsdr.html">&lt;p&gt;&lt;img src=&quot;https://1.bp.blogspot.com/-aVB1pJTOUI4/XXQtNpAGbbI/AAAAAAABp3k/Ij-X4r6ebCsKJmLxDb6R-w3rCpmVWuHAwCLcBGAs/s320/Gqrx.png&quot; alt=&quot;gqrx window on 97.3 FM&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://k0swe.radio/feed.xml" rel="self" type="application/atom+xml" /><link href="https://k0swe.radio/" rel="alternate" type="text/html" /><updated>2021-08-07T01:34:39+00:00</updated><id>https://k0swe.radio/feed.xml</id><title type="html">K0SWE Blog</title><subtitle>Events and projects for amateur radio operator K0SWE, a.k.a. Chris.</subtitle><entry><title type="html">Microwave IP Networks</title><link href="https://k0swe.radio/2019/10/29/microwave.html" rel="alternate" type="text/html" title="Microwave IP Networks" /><published>2019-10-29T00:00:00+00:00</published><updated>2019-10-29T00:00:00+00:00</updated><id>https://k0swe.radio/2019/10/29/microwave</id><content type="html" xml:base="https://k0swe.radio/2019/10/29/microwave.html">&lt;p&gt;&lt;img src=&quot;https://images-na.ssl-images-amazon.com/images/I/814Ie5r7SbL._AC_SL1500_.jpg&quot; alt=&quot;MikroTik LHG&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I’ve been curious ever since June to learn more about &lt;a href=&quot;https://www.rmham.org/&quot;&gt;RMHam&lt;/a&gt;’s microwave
+data network that they deployed up at the Dirty 30, so I started doing some research and asking
+questions.&lt;/p&gt;
+
+&lt;p&gt;My research brought me back to &lt;a href=&quot;https://www.arednmesh.org/&quot;&gt;AREDN&lt;/a&gt;; I’d seen references to it in the
+past but this time I dug in a bit further. In concept, it’s an ad-hoc mesh IP network operating on
+microwave ham bands. The frequencies are close enough to Wi-Fi that even some consumer Wi-Fi access
+points like the Linksys WRT54G will work, although commercial equipment like Ubiquiti is
+recommended. Hams can opt to put up a node on their shacks, become part of the mesh, and use any
+services available elsewhere in the mesh. Services include things like chat, file sharing, VoIP
+audio/video conferencing and IP webcams. Internet access can also be piped in, although due to the
+prohibition on encryption on ham bands, it can’t be raw internet access. AREDN sounds like it’s
+closely related to &lt;a href=&quot;http://www.broadband-hamnet.org/&quot;&gt;BBHN&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;This sounded useful and somewhat similar to RMHam’s system, so I asked a couple of folks about it.
+Apparently they haven’t adopted AREDN because they’ve had some negative experiences with it. Pueblo
+County ARES attempted to deploy a large AREDN system, but found that it didn’t integrate well with
+non-AREDN systems, particularly RMHam’s existing microwave IP network. It turns out some of the
+autoconfiguration magic of AREDN that allows any ham to get a node up and running quickly also
+interferes with being able to interoperate with other systems. Specifically, all AREDN nodes
+use &lt;a href=&quot;https://en.wikipedia.org/wiki/Private_network&quot;&gt;private network&lt;/a&gt; addresses, which means anyone
+outside of AREDN can’t connect to services inside without having some sort of network address
+translation (NAT) in place. That could probably be overcome with something similar to UPnP, but
+Pueblo ARES also apparently found that the network was not reliable; I didn’t ask further on that
+point.&lt;/p&gt;
+
+&lt;p&gt;Instead of using AREDN’s autoconfiguration, RMHam prefers to manually manage most of the details.
+They prefer MikroTik hardware, use a lot of static IPs and select their own routing protocols; this
+lets them interop with commercial ISPs and access the entire network directly. I hope to learn more
+about how RMHam conducts business. I’m not savvy enough at networking to say whether all of this is
+necessary. I like the idea of network autoconfiguration, but I’m enough of a computer power user to
+know that choosing “auto” isn’t always the best option.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">More Raspberry Pi Time</title><link href="https://k0swe.radio/2019/10/17/more-rpi-time.html" rel="alternate" type="text/html" title="More Raspberry Pi Time" /><published>2019-10-17T00:00:00+00:00</published><updated>2019-10-17T00:00:00+00:00</updated><id>https://k0swe.radio/2019/10/17/more-rpi-time</id><content type="html" xml:base="https://k0swe.radio/2019/10/17/more-rpi-time.html">&lt;p&gt;&lt;img src=&quot;https://mk0spaceflightnoa02a.kinstacdn.com/wp-content/uploads/2014/12/GPS_IIF.jpg&quot; alt=&quot;GPS satellite&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I’ve updated
+&lt;a href=&quot;https://docs.google.com/document/d/1dJY5iXwyYGQgYm9Cp68SarbZO_Nobx-BP2fhIsRSx08/preview&quot;&gt;PiPat&lt;/a&gt;
+with new instructions for getting time from GPS. I had wanted to rely mainly on an RTC module, but
+it doesn’t fit in my existing 3D-printed case, so I would need to modify the case to be about 5mm
+taller and print a new copy. That’s honestly just too much work. I’m already using a GPS module and
+figured there must be a way to get time from &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;gpsd&lt;/code&gt;, so I dug deeper.&lt;/p&gt;
+
+&lt;p&gt;Back in August I found references to feeding &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ntpd&lt;/code&gt; from &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;gpsd&lt;/code&gt; which assumed you wanted your very
+own stratum 1 time-server, which was overly complicated and overly precise for my purposes. This
+time my research uncovered that Raspberry Pi has moved from &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ntpd&lt;/code&gt; to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;timedatectl&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;chrony&lt;/code&gt;,
+which makes lots of older advice obsolete. This is actually OK, because feeding &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;chrony&lt;/code&gt; from &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;gpsd&lt;/code&gt;
+is more straightforward.&lt;/p&gt;
+
+&lt;p&gt;The result is that when I have the GPS unit plugged into my Raspberry Pi Pat rig, I get good time
+even in the field!&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">CW</title><link href="https://k0swe.radio/2019/10/10/cw.html" rel="alternate" type="text/html" title="CW" /><published>2019-10-10T00:00:00+00:00</published><updated>2019-10-10T00:00:00+00:00</updated><id>https://k0swe.radio/2019/10/10/cw</id><content type="html" xml:base="https://k0swe.radio/2019/10/10/cw.html">&lt;p&gt;Lacking an HF radio, there’s not a lot I can do about learning to operate on HF. There’s a certain
+amount of theoretical knowledge and equipment research to be done, and demonstrations via YouTube
+definitely help, but I’m one who learns best by doing.&lt;/p&gt;
+
+&lt;p&gt;While I wait to pull the trigger on getting an HF rig, however, I can do something I’ve been
+dragging my feet on: learning Morse code, often referred to in the ham realm as “continuous wave” or
+CW. There was a time when it was required knowledge for every amateur to get their license, but it’s
+no longer obligatory. I had considered it old-fashioned, even for a bit after getting my license,
+but I’m learning that it’s still quite active and versatile. When there’s almost zero bandwidth and
+nothing else is getting through, Morse is still the simplest and most reliable way to cut through
+the static.&lt;/p&gt;
+
+&lt;p&gt;There are a couple of facets to learning Morse: sending (transmitting a message) and copying
+(receiving and interpreting). For my first steps in both, memorizing letters, I found a decent
+Android app,
+&lt;a href=&quot;https://play.google.com/store/apps/details?id=com.limesdevelopment.morsecode.premium&quot;&gt;LimesDevelopment Morse Code&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;sending&quot;&gt;Sending&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://1.bp.blogspot.com/-mPv3fMIHiDg/XaJfMIOaD_I/AAAAAAABqg0/_6G-REx-5MMqydn1_kWzxzO4qponLfsSQCLcBGAsYHQ/s320/IMG_20191002_220158.jpg&quot; alt=&quot;K3NG Keyer circuit on a breadboard&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;When you think of sending Morse code, the first image that comes to mind is the traditional straight
+key. I don’t expect that I’ll ever be much good at straight-key operation; my hands are already
+precariously close to tendinitis from my day job. I know there are proponents of learning straight
+key first then going to dual paddles, but I need to do what lets me operate.&lt;/p&gt;
+
+&lt;p&gt;I went looking for a simple code practice setup and found the
+&lt;a href=&quot;https://blog.radioartisan.com/arduino-cw-keyer/&quot;&gt;K3NG Keyer&lt;/a&gt;, an Arduino-based dual paddle keyer
+project. It contains a raft of features, so many so that it can’t fit “fully loaded” onto an Arduino
+UNO. It makes a good practice set, but it’s also useful beyond that. While many radios have a
+built-in dual paddle keyer, K3NG can support a computer-interface protocol called Winkeyer that
+works with various amateur radio logging and contesting software.&lt;/p&gt;
+
+&lt;p&gt;I didn’t even have a dual-paddle key when I began, so I used two micro tactile buttons, visible in
+the bottom right of the above picture. Not fun!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://1.bp.blogspot.com/-W9WB6xOSIAI/XaJn47NuTWI/AAAAAAABqhY/FNEDhBTzaV82CZJFi_6-EKaNQz1XQ0RYwCLcBGAsYHQ/s200/IMG_20191012_165126.jpg&quot; alt=&quot;Mortty with dual-paddle key&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I was pleased with my initial try, but wanted something more finished and rugged, so I picked up a
+K3NG variant called the &lt;a href=&quot;https://hamprojects.info/mortty/&quot;&gt;Mortty&lt;/a&gt;. It doesn’t try to pack in every
+feature of K3NG, but rather it aims for the most useful features in a small, inexpensive and rugged
+package. It comes as a kit. It was easy to assemble, but I had a little trouble with it. It turns
+out, I bent some pins in the USB jack. The seller very kindly offered to replace the broken part,
+but I opted to replace the $4 part myself. Mortty does not come with a speaker for side-tone, so
+without a radio, it needs a separate code practice oscillator, which I’ve been building out of yet
+another Arduino. If I settle on a design I like for a code practice oscillator, I’ll publish it.&lt;/p&gt;
+
+&lt;p&gt;I also went to a hamfest and picked up not one but three dual-paddle keys! I found a nice Bencher
+key, an MFJ-561 mini travel key, and a homemade magnetic QRP paddle. The last two were included with
+a Rockmite 40m QRP radio kit built in Altoids tins. I don’t feel like I have the expertise to try
+QRP (low power) operating yet, but it’s definitely of interest.&lt;/p&gt;
+
+&lt;h2 id=&quot;copying&quot;&gt;Copying&lt;/h2&gt;
+
+&lt;p&gt;The art of understanding other people’s Morse is harder than sending (at least, that’s my opinion so
+far). There are actually a couple of formalized methodologies to learning Morse. The first
+is &lt;a href=&quot;http://www.justlearnmorsecode.com/farnsworth.html&quot;&gt;Farnsworth timing&lt;/a&gt;, where the dits and dahs
+of each letter are sent at a relatively high speed, but extra space is put between the letters and
+words. This encourages one to learn the “shape” of each symbol rather than counting dits and dahs,
+which doesn’t work when trying to speed up. The other formalized methodology is
+the &lt;a href=&quot;http://www.justlearnmorsecode.com/koch.html&quot;&gt;Koch method&lt;/a&gt;, which introduces just one or two
+letters at a time in a specific order and plays them semi-randomly for a minute. Once you can copy
+90% of the limited set of letters, more are added.&lt;/p&gt;
+
+&lt;p&gt;The Android app I mentioned earlier is a good starting point, but I think using that, I’m counting
+more than listening. I can copy a 5 letter word after about 6 replays. The better resource I’ve been
+using is &lt;a href=&quot;https://lcwo.net/&quot;&gt;lcwo.net&lt;/a&gt;, which incorporates both Farnsworth timing and Koch method
+lessons. Still, it’s slow going. I’ve put in a couple of hours and I’m on lesson 3, trying to
+differentiate random groupings of K, M, U and R. Doesn’t seem to be much to do but continue grinding
+and hope it starts to click.&lt;/p&gt;</content><author><name></name></author><summary type="html">Lacking an HF radio, there’s not a lot I can do about learning to operate on HF. There’s a certain amount of theoretical knowledge and equipment research to be done, and demonstrations via YouTube definitely help, but I’m one who learns best by doing.</summary></entry><entry><title type="html">Researching HF</title><link href="https://k0swe.radio/2019/09/30/hf.html" rel="alternate" type="text/html" title="Researching HF" /><published>2019-09-30T00:00:00+00:00</published><updated>2019-09-30T00:00:00+00:00</updated><id>https://k0swe.radio/2019/09/30/hf</id><content type="html" xml:base="https://k0swe.radio/2019/09/30/hf.html">&lt;p&gt;I haven’t been on the air much lately because I’ve been doing more research than operations. I’ve
+been looking into a mobile radio to supplement my HTs and give me a little more power and reach, and
+I’m very attracted to a multi-band radio that includes HF. That’s taken me down an incredible rabbit
+hole of what all is possible outside of VHF/UHF.&lt;/p&gt;
+
+&lt;h2 id=&quot;transceiver&quot;&gt;Transceiver&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://1.bp.blogspot.com/-Ottis0T_X0E/XZ4tO_vk0vI/AAAAAAABqeI/CIDEz5CspUoIdYXQvkjniKZABtpuFmzlQCLcBGAsYHQ/s320/icom_ic-7100.jpg&quot; alt=&quot;Icom IC-7100&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The sheer amount of gear needed to get into HF is a little staggering. The transceivers themselves
+are, of course, pricey. Then one needs mobile antennas suited for the desired bands; mobile options
+range from basic “hamsticks,” a set of whip antennas which need to be swapped out when switching
+bands, all the way up to a motorized “screwdriver” antenna with its own hydraulic lift.&lt;/p&gt;
+
+&lt;p&gt;After that, you might need an antenna tuner (I’ve heard conflicting opinions about this), and at
+least an SWR meter if not a full antenna analyser to tell whether a tuner is needed. At least in a
+mobile setting, I’d actually rather swap out hamsticks than keep a tuner in the car which needs to
+be fiddled with in addition to the radio.&lt;/p&gt;
+
+&lt;p&gt;At this point I’m looking into either an Icom IC-7100 or a Yaesu FT-857D, but I don’t have any firm
+timelines on actually acquiring such. I’ll start with adding the necessary power wiring to my car
+(which is &lt;a href=&quot;http://www.k0bg.com/wiring.html&quot;&gt;surprisingly&lt;/a&gt;
+&lt;a href=&quot;https://hamradioschool.com/going-mobile-install-a-station-in-your-vehicle-part-1/&quot;&gt;intricate&lt;/a&gt; in
+itself) and go from there.&lt;/p&gt;
+
+&lt;h2 id=&quot;digital-modes&quot;&gt;Digital Modes&lt;/h2&gt;
+
+&lt;p&gt;On VHF, I’ve been enjoying using AX.25 for Winlink and BBS, so I’ve taken a look into HF digital
+modes. Dave Casler KE0OG has a &lt;a href=&quot;https://youtu.be/zHXScGrsw-A&quot;&gt;great video overview&lt;/a&gt; of the field,
+and PSK-31 and FT8 both sound interesting.&lt;/p&gt;
+
+&lt;p&gt;The demos I’ve seen of FT8 with WSJT-X make QSOs look almost too easy, and the fact that there’s no
+free form, conversational payload doesn’t tickle my EmComm fancy. It doesn’t look like you could
+call in the cavalry with that combination, nor could you make a personal connection with someone
+halfway across the globe. However, it does look like a good gateway into contesting.&lt;/p&gt;
+
+&lt;h2 id=&quot;cw&quot;&gt;CW&lt;/h2&gt;
+
+&lt;p&gt;By the time I decided to take my license exams, Morse code was no longer a requirement, but now I’m
+taking my first steps. One of the best videos I found to
+describe &lt;a href=&quot;https://youtu.be/mbp-d-u4aLc&quot;&gt;initially learning Morse code&lt;/a&gt; is by Richard
+Carpenter &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;AA4OO&lt;/code&gt;. One of the most helpful surprises was learning about the Farnsworth method:
+rather than trying to count dits and dahs ever faster, instead learning the “shape of the sound” for
+each letter at full speed, but adding more delay between characters for comprehension.&lt;/p&gt;
+
+&lt;p&gt;Of course, this means at least a little more gear. The thought alone of using a straight key is
+flaring up my tendinitis, so I intend to learn sending on probably an iambic dual-paddle key, or
+possibly a single-lever electronic key. Beyond that, apparently most radios come with the auto-keyer
+circuits built in, but I think it’d be useful to have a discrete electronic keyer for practice if
+nothing else, and there’s an open-source
+&lt;a href=&quot;https://blog.radioartisan.com/arduino-cw-keyer/&quot;&gt;Arduino project&lt;/a&gt; to build one.&lt;/p&gt;
+
+&lt;p&gt;At some point I’ll probably learn to do Morse from computer keyboard as well, but I should learn how
+to do it the “hard” way first.&lt;/p&gt;</content><author><name></name></author><summary type="html">I haven’t been on the air much lately because I’ve been doing more research than operations. I’ve been looking into a mobile radio to supplement my HTs and give me a little more power and reach, and I’m very attracted to a multi-band radio that includes HF. That’s taken me down an incredible rabbit hole of what all is possible outside of VHF/UHF.</summary></entry><entry><title type="html">Winlink on Windows</title><link href="https://k0swe.radio/2019/09/16/winlink.html" rel="alternate" type="text/html" title="Winlink on Windows" /><published>2019-09-16T00:00:00+00:00</published><updated>2019-09-16T00:00:00+00:00</updated><id>https://k0swe.radio/2019/09/16/winlink</id><content type="html" xml:base="https://k0swe.radio/2019/09/16/winlink.html">&lt;p&gt;Winlink of course started out being a Microsoft Windows-based product, and Winlink 2000 still seems
+to be the most popular client software out there. I figured it was time to at least make sure I
+could use this more conventional configuration.&lt;/p&gt;
+
+&lt;p&gt;The most conventional setup I know of is using a radio with a built-in TNC like a Kenwood TM-D710,
+but I don’t have anything like that. I was able to get these two configurations working with
+Windows:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;img src=&quot;https://1.bp.blogspot.com/-gkRS4AWCZ8c/XYBU1FYKIHI/AAAAAAABp8g/WdFS1R8xjPcrwrhtgQLb2I3jil8cUrqbwCLcBGAsYHQ/s320/IMG_20190916_161424.jpg&quot; alt=&quot;Winlink 2000 via Dire Wolf and SignaLink USB&quot; /&gt;&lt;/p&gt;
+
+  &lt;p&gt;Winlink 2000 via Dire Wolf and SignaLink USB&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;img src=&quot;https://1.bp.blogspot.com/-IYgAi4Xh8Xg/XYBU_n2EbXI/AAAAAAABp8o/o9R4ZXHVBSwYITckrz_LnJz1ndVSyVtVQCLcBGAsYHQ/s320/IMG_20190916_162148.jpg&quot; alt=&quot;PiPat via Chrome&quot; /&gt;&lt;/p&gt;
+
+  &lt;p&gt;PiPat via Chrome&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I’m still going to avoid Windows when possible, but it’s good to know I’m not completely inept with
+it.&lt;/p&gt;</content><author><name></name></author><summary type="html">Winlink of course started out being a Microsoft Windows-based product, and Winlink 2000 still seems to be the most popular client software out there. I figured it was time to at least make sure I could use this more conventional configuration.</summary></entry><entry><title type="html">Raspberry Pi Time</title><link href="https://k0swe.radio/2019/09/01/raspberry-pi-time.html" rel="alternate" type="text/html" title="Raspberry Pi Time" /><published>2019-09-01T00:00:00+00:00</published><updated>2019-09-01T00:00:00+00:00</updated><id>https://k0swe.radio/2019/09/01/raspberry-pi-time</id><content type="html" xml:base="https://k0swe.radio/2019/09/01/raspberry-pi-time.html">&lt;p&gt;&lt;img src=&quot;https://1.bp.blogspot.com/-m2wpfJ6fXwg/XXRZU4xTomI/AAAAAAABp38/Giappm1VQe8634gvcHGFP0PBrTGgXnhhgCLcBGAs/s1600/clock12.gif&quot; alt=&quot;Clock showing 12:00&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;One thing that bugs me when working with Raspberry Pis is that they don’t have a real-time clock (
+RTC), so when you remove power, the system clock stops. This isn’t a problem when you’re
+internet-connected, because &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ntpd&lt;/code&gt; will just go out to the internet and fetch the current time.
+However, when working in the field, the lack of an RTC causes Winlink emails and application logs to
+have the wrong time stamps, which is annoying at best.&lt;/p&gt;
+
+&lt;p&gt;I did a little research into using my GPS module to update the system clock. Apparently that
+is 
+&lt;a href=&quot;https://gpsd.gitlab.io/gpsd/gpsd-time-service-howto.html#_feeding_ntpd_from_gpsd&quot;&gt;supported by &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ntpd&lt;/code&gt;&lt;/a&gt;,
+but the documentation on it assumed a much deeper knowledge of NTP than I have, and it’s not clear
+it even works in a non-internet-connected situation. It also uses a protocol called &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;1PPS&lt;/code&gt;, which
+has to be supported by the GPS hardware as well as the kernel. That’s too much work for me to track
+down right now.&lt;/p&gt;
+
+&lt;p&gt;But another option presented itself: Adafruit sells
+&lt;a href=&quot;https://www.adafruit.com/product/4282&quot;&gt;add-on RTC modules&lt;/a&gt; which use the Pi’s I2C bus. I picked one
+up, and it didn’t take too much fiddling to get it working. Hooray for accurate time in the field!&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Raspberry Pi and Dire Wolf</title><link href="https://k0swe.radio/2019/08/18/raspberry-pi-direwolf.html" rel="alternate" type="text/html" title="Raspberry Pi and Dire Wolf" /><published>2019-08-18T00:00:00+00:00</published><updated>2019-08-18T00:00:00+00:00</updated><id>https://k0swe.radio/2019/08/18/raspberry-pi-direwolf</id><content type="html" xml:base="https://k0swe.radio/2019/08/18/raspberry-pi-direwolf.html">&lt;p&gt;&lt;img src=&quot;https://1.bp.blogspot.com/-6jOsYnLkZFw/XXQg1L8wzLI/AAAAAAABp3Y/69zVzjRIcvIIkzCrohLp948roUx4akR_QCLcBGAs/s320/IMG_20190818_195256.jpg&quot; alt=&quot;Raspberry Pi and SignaLink USB in a car&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;After getting
+&lt;a href=&quot;https://docs.google.com/document/d/1dJY5iXwyYGQgYm9Cp68SarbZO_Nobx-BP2fhIsRSx08/preview&quot;&gt;PiPat&lt;/a&gt;
+to work, I was curious to get something running with more “conventional” hardware. I’d heard a lot
+about &lt;a href=&quot;https://github.com/wb2osz/direwolf&quot;&gt;Dire Wolf&lt;/a&gt;, so I picked up a
+&lt;a href=&quot;http://www.tigertronics.com/slusbmain.htm&quot;&gt;Signalink USB&lt;/a&gt; sound card/interface device and set about
+using that with a Raspberry Pi 3 B+ and &lt;a href=&quot;https://github.com/la5nta/pat&quot;&gt;Pat&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I got it working relatively well. You can see in the photo, the TNC-Pi is still attached to the
+Raspberry Pi, but it’s not being used for this configuration. I documented my Dire Wolf setup as an
+appendix in the
+&lt;a href=&quot;https://docs.google.com/document/d/1dJY5iXwyYGQgYm9Cp68SarbZO_Nobx-BP2fhIsRSx08/preview#heading=h.6y5tpvy10jdg&quot;&gt;PiPat&lt;/a&gt;
+documentation.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Getting started with RTL-SDR</title><link href="https://k0swe.radio/2019/08/11/rtlsdr.html" rel="alternate" type="text/html" title="Getting started with RTL-SDR" /><published>2019-08-11T00:00:00+00:00</published><updated>2019-08-11T00:00:00+00:00</updated><id>https://k0swe.radio/2019/08/11/rtlsdr</id><content type="html" xml:base="https://k0swe.radio/2019/08/11/rtlsdr.html">&lt;p&gt;&lt;img src=&quot;https://1.bp.blogspot.com/-aVB1pJTOUI4/XXQtNpAGbbI/AAAAAAABp3k/Ij-X4r6ebCsKJmLxDb6R-w3rCpmVWuHAwCLcBGAs/s320/Gqrx.png&quot; alt=&quot;gqrx window on 97.3 FM&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I’m intrigued by software-defined radios, which are the cutting edge in radio technology and have a
 much wider operating range than their discrete component cousins. When I saw that one popular model
@@ -26,7 +249,7 @@ and setting up the Pi in Wi-Fi AP mode. There are only a couple of Winlink RMSs 
 and none that I can reach from my house on my current equipment, so I’ve been driving to a nearby
 hill with good line-of-sight. I can power the Pi with a USB battery, connect my phone or laptop to
 the Wi-Fi AP, and go to town with the Pat web application! I call it
-&lt;a href=&quot;https://www.k0swe.radio/pipat&quot;&gt;PiPat&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">TNC-Pi</title><link href="https://k0swe.radio/2019/06/15/tnc-pi.html" rel="alternate" type="text/html" title="TNC-Pi" /><published>2019-06-15T00:00:00+00:00</published><updated>2019-06-15T00:00:00+00:00</updated><id>https://k0swe.radio/2019/06/15/tnc-pi</id><content type="html" xml:base="https://k0swe.radio/2019/06/15/tnc-pi.html">&lt;p&gt;&lt;img src=&quot;https://1.bp.blogspot.com/-muhcLR6ATy0/XXQeB67lbtI/AAAAAAABp28/IOIPnN556hwHIqxjDgxO2o7Q-RZKhclmwCLcBGAs/s320/IMG_20190615_134739%2B%25281%2529.jpg&quot; alt=&quot;TNC-Pi set up on a desktop&quot; /&gt;&lt;/p&gt;
+&lt;a href=&quot;https://docs.google.com/document/d/1dJY5iXwyYGQgYm9Cp68SarbZO_Nobx-BP2fhIsRSx08/preview&quot;&gt;PiPat&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">TNC-Pi</title><link href="https://k0swe.radio/2019/06/15/tnc-pi.html" rel="alternate" type="text/html" title="TNC-Pi" /><published>2019-06-15T00:00:00+00:00</published><updated>2019-06-15T00:00:00+00:00</updated><id>https://k0swe.radio/2019/06/15/tnc-pi</id><content type="html" xml:base="https://k0swe.radio/2019/06/15/tnc-pi.html">&lt;p&gt;&lt;img src=&quot;https://1.bp.blogspot.com/-muhcLR6ATy0/XXQeB67lbtI/AAAAAAABp28/IOIPnN556hwHIqxjDgxO2o7Q-RZKhclmwCLcBGAs/s320/IMG_20190615_134739%2B%25281%2529.jpg&quot; alt=&quot;TNC-Pi set up on a desktop&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I purchased a &lt;a href=&quot;https://tnc-x.com/TNCPi.htm&quot;&gt;TNC-Pi 2&lt;/a&gt; from Coastal Chipworks (John Hansen, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;W2FS&lt;/code&gt;).
 It took longer than I’d like to admit to assemble, but I did get it working. So far I’ve gotten
@@ -41,43 +264,4 @@ that UI is showing its age. I’d also like a headless IGate option, and
 sounds like a solid option.&lt;/p&gt;
 
 &lt;p&gt;I’d still like to play around with Winlink and PiGate, and see that the TNC’s transmit is working
-along with receive.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Dirty 30</title><link href="https://k0swe.radio/2019/06/01/dirty30.html" rel="alternate" type="text/html" title="Dirty 30" /><published>2019-06-01T00:00:00+00:00</published><updated>2019-06-01T00:00:00+00:00</updated><id>https://k0swe.radio/2019/06/01/dirty30</id><content type="html" xml:base="https://k0swe.radio/2019/06/01/dirty30.html">&lt;p&gt;&lt;img src=&quot;https://1.bp.blogspot.com/-aDcFNfTcZcs/XXQdNwNgbzI/AAAAAAABp2w/rOlHaLaLuCUTgByACtZ_z4wIcALb1EmlgCLcBGAs/s320/IMG_20190601_120214.jpg&quot; alt=&quot;Shielding a laptop from the rain&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;I joined about 40 hams from Colorado AuxComm, several ARES districts and the Rocky Mountain Ham
-Radio group to provide race communications for the Dirty 30, a 30 mile/50 km ultra trail run through
-Golden Gate Canyon State Park. Our mission is to make sure that every runner that steps on the
-mountainous, dispersed course also steps off at the end of the day, and by all accounts, 2019 was a
-very good year for the comms team.&lt;/p&gt;
-
-&lt;p&gt;My aid station (#3, Horseshoe Trailhead) started the day with no RFID mat to automatically read
-bibs, so I spent the morning manually entering bib numbers into my laptop, connected via Wi-Fi and
-microwave back to the comm trailer running the centralized race web server.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Vanity Callsign Came In</title><link href="https://k0swe.radio/2019/05/12/vanity.html" rel="alternate" type="text/html" title="Vanity Callsign Came In" /><published>2019-05-12T00:00:00+00:00</published><updated>2019-05-12T00:00:00+00:00</updated><id>https://k0swe.radio/2019/05/12/vanity</id><content type="html" xml:base="https://k0swe.radio/2019/05/12/vanity.html">&lt;p&gt;&lt;img src=&quot;https://media.gq.com/photos/599edbab065b7f266534b9b1/master/w_1600%2Cc_limit/How-To-Be-Vain-Art-01.jpg&quot; alt=&quot;How To Be Vain A Modern Man's Grooming Guide&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;My amateur callsign is now &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;K0SWE&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;Many people use their initials, but combinations of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;K0&lt;/code&gt; and my initials end up with rather
-unfortunate connotations. Instead, I chose something with my job title, “software engineer,” which
-at my workplace is abbreviated as SWE.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">TYT MD-380</title><link href="https://k0swe.radio/2019/04/26/tyt.html" rel="alternate" type="text/html" title="TYT MD-380" /><published>2019-04-26T00:00:00+00:00</published><updated>2019-04-26T00:00:00+00:00</updated><id>https://k0swe.radio/2019/04/26/tyt</id><content type="html" xml:base="https://k0swe.radio/2019/04/26/tyt.html">&lt;p&gt;&lt;img src=&quot;https://cdn.shopify.com/s/files/1/0011/7220/9721/products/28-020-389_01_13e03b44-1144-4b17-814e-b8044a9026cd.JPG?v=1550113464&quot; alt=&quot;TYT MD-380&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;While working analog FM, I’ve heard several folks mention digital modes. There are a couple of
-competing standards, but it sounds like locally in the Denver area, DMR is the most popular. In
-light of that, I picked up a TYT MD-380 dual-band DMR handheld. It’s certainly nice to have
-something more sophisticated than the Baofeng I’ve been using.&lt;/p&gt;
-
-&lt;p&gt;Luckily, it uses the same Kenwood K1 style plug, so headsets and hand mics will be compatible
-between them.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Got My Ticket</title><link href="https://k0swe.radio/2019/04/16/ticket.html" rel="alternate" type="text/html" title="Got My Ticket" /><published>2019-04-16T00:00:00+00:00</published><updated>2019-04-16T00:00:00+00:00</updated><id>https://k0swe.radio/2019/04/16/ticket</id><content type="html" xml:base="https://k0swe.radio/2019/04/16/ticket.html">&lt;p&gt;&lt;img src=&quot;/assets/golden_ticket.jpg&quot; alt=&quot;Golden ticket&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;My amateur radio license has been assigned! For now, I’m KE0VJM. I’ve been listening to the bands a
-bit on a Baofeng UV-5R. I’ve heard some negative reviews about their effects on the ham bands, so I
-probably won’t stick with it for long, but at $20 you can’t beat the price!&lt;/p&gt;
-
-&lt;p&gt;Since I passed my general-class exam, I’m eligible for a shorter vanity callsign, so I might apply
-for that soon.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Took my Test</title><link href="https://k0swe.radio/2019/04/06/test.html" rel="alternate" type="text/html" title="Took my Test" /><published>2019-04-06T00:00:00+00:00</published><updated>2019-04-06T00:00:00+00:00</updated><id>https://k0swe.radio/2019/04/06/test</id><content type="html" xml:base="https://k0swe.radio/2019/04/06/test.html">&lt;p&gt;&lt;img src=&quot;/assets/bubble_test.jpg&quot; alt=&quot;Multiple choice test&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;After a couple of weeks of studying for the amateur radio technician-level exam and cramming
-last-minute for the general-level, I took my test today at the annual Longmont Amateur Radio Club
-LARCFest.&lt;/p&gt;
-
-&lt;p&gt;I passed Elements 2 and 3, which qualifies me for an amateur radio General license! I have to wait
-for my paperwork to be processed and a callsign assigned before I can operate, but I’m still
-excited!&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry></feed>
+along with receive.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry></feed>
