@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Made my first custom PCB | K0SWE Blog</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="Made my first custom PCB" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Events and projects for amateur radio operator K0SWE, a.k.a. Chris." />
+<meta property="og:description" content="Events and projects for amateur radio operator K0SWE, a.k.a. Chris." />
+<link rel="canonical" href="https://k0swe.radio/2020/05/02/pcb-design.html" />
+<meta property="og:url" content="https://k0swe.radio/2020/05/02/pcb-design.html" />
+<meta property="og:site_name" content="K0SWE Blog" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-05-02T00:00:00+00:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Made my first custom PCB" />
+<script type="application/ld+json">
+{"description":"Events and projects for amateur radio operator K0SWE, a.k.a. Chris.","url":"https://k0swe.radio/2020/05/02/pcb-design.html","@type":"BlogPosting","headline":"Made my first custom PCB","dateModified":"2020-05-02T00:00:00+00:00","datePublished":"2020-05-02T00:00:00+00:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://k0swe.radio/2020/05/02/pcb-design.html"},"@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="https://k0swe.radio/feed.xml" title="K0SWE Blog" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">K0SWE Blog</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/about">About</a><a class="page-link" href="/army">Army</a><a class="page-link" href="/links">Links</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Made my first custom PCB</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2020-05-02T00:00:00+00:00" itemprop="datePublished">May 2, 2020
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p><img src="https://1.bp.blogspot.com/-zlQkC2VI79E/Xq2MmNnx6MI/AAAAAAABu5E/UI2_9SUXesEKxrwkl8xMcLZJldQTPaMJACLcBGAsYHQ/s320/K3NG-keyer-K0SWE-v2.png" alt="Custom printed circuit board" /></p>
+
+<p>I’ve been interested in hobby electronics longer than amateur radio. I picked up an Arduino
+Duemilanove in about 2010 and enjoyed messing around with LEDs, motors and servos. I even designed
+(but didn’t complete) a “Weasley Clock” that would take me and my wife’s locations from Google
+Latitude (when that was still a thing), translate it into one of about a dozen discrete locations
+like “home,” “school” or “work,” and turn stepper motors to display those locations on the hands of
+a clock. I had the electronics and the software, but never really figured out the mechanical aspects
+of attaching the steppers to my clock’s hands.</p>
+
+<p>Well, fast forward. About 6 months ago I was
+<a href="https://k0swe.radio/2019/10/10/cw">messing around</a> with the
+<a href="https://github.com/k3ng/k3ng_cw_keyer/wiki/210-Build:-Schematic">K3NG Morse keyer design</a>. I built
+a basic one on a breadboard, but decided at that time to purchase a
+<a href="https://hamprojects.info/mortty/">Mortty</a> kit for its size. I still like the Mortty and if I end up
+doing CW work in the field I’ll probably use it for that. However, I’ve recently been back to
+learning Morse code, and moving around the Mortty box, a separate code practice oscillator and the
+heavy Bencher paddles has been awkward. I wanted to revisit more fully featured variants of the K3NG
+design that include built-in sidetone, and it’d be fun to have one that would function as an HID
+“keyboard” input for a computer.</p>
+
+<p>I rebuilt the breadboard and started thinking about building it on a proto-shield, but figured there
+was enough complexity to lay it out beforehand in CAD. I’d played
+with <a href="https://fritzing.org/">Frtizing</a>
+before, mainly for documenting breadboard projects, but that was being cantankerous with the audio
+jacks I was trying to use. I decided to switch to <a href="https://www.kicad-pcb.org/">KiCad</a>, and I’m very
+glad I did! It’s certainly got a learning curve and some quirks, but after watching a handful of
+YouTube videos (like <a href="https://www.youtube.com/watch?v=PlDOnSHkX2c">overall workflow</a>,
+<a href="https://www.youtube.com/watch?v=A4_wqnzKZq4&amp;t=650s">using Arduino template</a>) and some other
+references, I was able to start with an Arduino shield template, bang together a logical schematic,
+do footprint mappings, and lay out the PCB in the course of a long evening. And of course, once it’s
+in CAD, you <em>might as well</em> send it off to a fabricator instead of doing in on protoboard, right?
+This size Arduino shield was about $25 for 3 boards at OSH Park, which definitely compensates for
+hours of cursing at protoboard and looks much nicer.</p>
+
+<p>I’m still planning to use an enclosure with a bunch of panel-mount components rather than using
+PCB-mounted components. I have 10 panel-mount components, so I’ll have to get good at crimping
+Dupont header connectors. Now that I have this feather in my cap, maybe I can look at PCB-mount
+components and slide-in extruded enclosures in the future.</p>
+
+  </div><a class="u-url" href="/2020/05/02/pcb-design.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">K0SWE Blog</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">K0SWE Blog</li><li><a class="u-email" href="mailto:k0swe@arrl.net">k0swe@arrl.net</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://github.com/xylo04"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">xylo04</span></a></li></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>Events and projects for amateur radio operator K0SWE, a.k.a. Chris.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

@@ -1,239 +1,282 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://k0swe.radio/feed.xml" rel="self" type="application/atom+xml" /><link href="https://k0swe.radio/" rel="alternate" type="text/html" /><updated>2021-08-07T21:18:47+00:00</updated><id>https://k0swe.radio/feed.xml</id><title type="html">K0SWE Blog</title><subtitle>Events and projects for amateur radio operator K0SWE, a.k.a. Chris.</subtitle><entry><title type="html">Alan’s Silent Key Collection</title><link href="https://k0swe.radio/2020/02/16/silent-key.html" rel="alternate" type="text/html" title="Alan’s Silent Key Collection" /><published>2020-02-16T00:00:00+00:00</published><updated>2020-02-16T00:00:00+00:00</updated><id>https://k0swe.radio/2020/02/16/silent-key</id><content type="html" xml:base="https://k0swe.radio/2020/02/16/silent-key.html">&lt;p&gt;&lt;img src=&quot;https://1.bp.blogspot.com/-PBQCrBNjW4k/XlqUbQLXuMI/AAAAAAABt00/B1SKc4F8ycMDeEHLDwa3MMtqvGLUTBbawCKgBGAsYHg/s320/IMG_20200210_115422.jpg&quot; alt=&quot;Radio equipment on a kitchen table&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://k0swe.radio/feed.xml" rel="self" type="application/atom+xml" /><link href="https://k0swe.radio/" rel="alternate" type="text/html" /><updated>2021-08-08T01:42:17+00:00</updated><id>https://k0swe.radio/feed.xml</id><title type="html">K0SWE Blog</title><subtitle>Events and projects for amateur radio operator K0SWE, a.k.a. Chris.</subtitle><entry><title type="html">Dirty 30 testing</title><link href="https://k0swe.radio/2020/05/30/lora.html" rel="alternate" type="text/html" title="Dirty 30 testing" /><published>2020-05-30T00:00:00+00:00</published><updated>2020-05-30T00:00:00+00:00</updated><id>https://k0swe.radio/2020/05/30/lora</id><content type="html" xml:base="https://k0swe.radio/2020/05/30/lora.html">&lt;p&gt;&lt;img src=&quot;https://1.bp.blogspot.com/-VT6KBUPj5_Q/XtZz37eE6VI/AAAAAAABvlo/hgmsz1SFzzsNDdyJ7rmX0yoavmSU7r-KACK4BGAsYHg/s1600/IMG_20200530_095536.jpg&quot; alt=&quot;Custom LoRa remote control relays&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;This week I had the responsibility of managing a Silent Key collection for the first time. Most hams
-will know that SKs are radio amateurs who have passed away. My wife’s uncle Alan passed away in 2017
-almost 3 years ago, but I learned over Thanksgiving that he had an amateur license (ex-&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;N0JAU&lt;/code&gt;), as
-did his father-in-law Dick (ex-&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;W7CRZ&lt;/code&gt;) who passed in 2006. Their family still had all of the radio
-equipment and didn’t really have a way to distribute it, and were looking to free up the space. I
-knew that there are hamfests every couple of months in the Denver area and offered to help sell it
-off. Alan’s widow offered that I should keep anything I found useful, which is a very gracious gift,
-and send back proceeds from only sales.&lt;/p&gt;
+&lt;p&gt;Today would have been the day of the annual Golden Gate Dirty 30, had COVID-19 not invaded our
+lives. The race didn’t happen, but a couple of us from RMHAM decided to head into Golden Gate Canyon
+State Park anyway to test out a new apparatus.&lt;/p&gt;
 
-&lt;p&gt;Over the weekend of Feb. 8th, I drove down to New Mexico where Alan and Dick’s family still lives.
-We loaded up several moving boxes of various transceivers, test equipment, and cables. We also took
-down a 25’ antenna, which was tricky with no guy system to leverage.&lt;/p&gt;
+&lt;p&gt;One of the problems we experienced in 2019 was a loss of power at City Lights Ridge, a central point
+in the temporary IP-over-microwave network that we set up every year. Rather than haul extra
+batteries up the hill, we were looking for a creative way to use power more efficiently, and a
+couple of folks came up with a solution. Using
+&lt;a href=&quot;https://www.adafruit.com/product/3079&quot;&gt;Adafruit Feather LoRa 433 MHz modules&lt;/a&gt; and
+&lt;a href=&quot;https://www.adafruit.com/product/2923&quot;&gt;latching relay FeatherWings&lt;/a&gt;, they built a remote power
+control system which would allow them to switch off the network gear when not in use. (I can take no
+credit for actually helping with development of the system.)&lt;/p&gt;
 
-&lt;p&gt;Over the next week, I went about sorting, cleaning, cataloging and pricing the gear. There was
-nothing cutting-edge between Dick and Alan’s stuff which was to be expected, but there were a few
-gems. Dick had two complete sets of the Kenwood TS-430S including matching tuners, power supplies
-and desk mics, as well as several 1960’s Heathkit assembled kits. Dick also had an Icom IC-718 which
-I plan to adopt as my first serious HF radio, and not one but two AEA packet modems which should aid
-my Winlink experimentation. Alan only held a Tech license and had several VHF mobile radios; I
-probably won’t use those for permanent mobile use because I prefer having at least dual-band
-capability, but they could be very useful for setting up something like a &lt;a href=&quot;http://tarpn.net/&quot;&gt;TARPN&lt;/a&gt;
-node. The collection also included many ham shack staples like dummy loads and RF cable adapters.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://1.bp.blogspot.com/-exCn_dKLGPo/XtZ0SafO3SI/AAAAAAABvl8/-vjqcVza9j8OVMt3GZGhTPq5lM9btoSPACK4BGAsYHg/s320/IMG_20200530_095542.jpg&quot; alt=&quot;Custom LoRa remote control&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://1.bp.blogspot.com/-cygkF-TZU18/XlqTkS49T-I/AAAAAAABt0o/axNvssXSwhUn3xtN830WBFXr4RHe5nr9ACKgBGAsYHg/s320/IMG_20200216_083728.jpg&quot; alt=&quot;Hamfest vendor table&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Our goal today was to test propagation and see if they would actually reach where we needed. I hiked
+up to City Lights Ridge with a relay module and a remote control; Ben &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;KC2VJW&lt;/code&gt; went up Windy Peak
+with the same, and Willem &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;AC0KQ&lt;/code&gt; started testing with a remote control from near the Tallman
+Ranch (which is Aid 1/4 during the race). It took a bit of fiddling with the relay module, but after
+resetting it, it did start switching. Willem then hiked down to the Nott Creek Trailhead
+(start/finish) and Red Barn. Unfortunately, when I was fiddling with the reset button I apparently
+broke the antenna mount solder connections, and by the time Willem made it to start/finish we had a
+threatening rain cloud moving in, so we didn’t get a thorough test from Red Barn to City Lights.
+However, start/finish to Windy was working well, so that tells us that this LoRa system does have
+good propagation even through hilly terrain.&lt;/p&gt;
 
-&lt;p&gt;Being a vendor at a hamfest is very much like being a vendor at the craft sales that my wife and
-mother-in-law often do, so they were a lot of help in preparing. On the day of the sale, my
-mother-in-law offered to come help me. It was definitely welcome company! We didn’t move much
-equipment, but I got feedback that most of my prices were in line with current market values, and
-that a lot of it was fondly remembered by those who had used them. I heard a lot of people
-especially comment about the Kenwood TS-430S, “That’s a good radio! I got a lot of use out of one of
-those!”&lt;/p&gt;
+&lt;p&gt;If nothing else, it was good to get outside and play radio. Most (not all) folks on the trail were
+being respectful of social distancing and wearing masks, but the parking lots were quite crowded. I
+was glad we got an early start.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">K3NG keyer complete!</title><link href="https://k0swe.radio/2020/05/25/k3ng.html" rel="alternate" type="text/html" title="K3NG keyer complete!" /><published>2020-05-25T00:00:00+00:00</published><updated>2020-05-25T00:00:00+00:00</updated><id>https://k0swe.radio/2020/05/25/k3ng</id><content type="html" xml:base="https://k0swe.radio/2020/05/25/k3ng.html">&lt;p&gt;&lt;img src=&quot;https://1.bp.blogspot.com/-fzorERod85Q/XtZqNLRbd4I/AAAAAAABvlU/mm7tlJkDliIF2wb6FU9KzuTroprkHvkngCLcBGAsYHQ/s320/IMG_20200525_235320.jpg&quot; alt=&quot;Finished K3NG keyer project&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Now that the sale’s over, I just have to figure out what to do with the rest of it. I don’t plan to
-store it all forever, so I’ll need to find homes for the things I’m not keeping.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">PiPat presentation</title><link href="https://k0swe.radio/2020/02/15/pipat-preso.html" rel="alternate" type="text/html" title="PiPat presentation" /><published>2020-02-15T00:00:00+00:00</published><updated>2020-02-15T00:00:00+00:00</updated><id>https://k0swe.radio/2020/02/15/pipat-preso</id><content type="html" xml:base="https://k0swe.radio/2020/02/15/pipat-preso.html">&lt;p&gt;&lt;img src=&quot;https://1.bp.blogspot.com/-wZo-I7wwHps/XkhuUxFSG4I/AAAAAAABtm4/qXtiMbar5gUk0Ze5wxnNHpI8n5E_Tky6ACLcBGAsYHQ/s320/IMG_20200118_123819.jpg&quot; alt=&quot;Raspberry Pi and TNC-Pi&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;After some &lt;a href=&quot;https://k0swe.radio/2020/05/02/pcb-design.html&quot;&gt;fussing&lt;/a&gt; and
+&lt;a href=&quot;https://k0swe.radio/2020/05/19/pcb-troubleshooting.html&quot;&gt;fiddling&lt;/a&gt;, my custom K3NG Morse keyer with
+an Arduino shield PCB is complete! As input, it can accept a straight key, paddles with a knob for
+speed control, or the Winkeyer computer interface; for output, it has a side-tone speaker with a
+headphone bypass and volume knob, and a separate transceiver output port.&lt;/p&gt;
 
-&lt;p&gt;Today was RMHAM-U Nerdfest, which is “A variety of half hour talks on nerdy topics by participants.”
-I gave a presentation on &lt;a href=&quot;https://www.k0swe.radio/pipat&quot;&gt;PiPat&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;It can be used as a code practice oscillator, an automatic keyer, or a Winkeyer interface. It’s
+somewhat redundant as an automatic keyer because most modern radios have that built-in, but it would
+still help in keeping both a straight key and paddles plugged in simultaneously.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://docs.google.com/presentation/d/1D1G5K7JEhATZmsF1oYu3MFntzarn0PokRvu2k5iqmH0/edit?usp=sharing&quot;&gt;Check out the slides!&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Visiting California</title><link href="https://k0swe.radio/2020/01/24/visiting-ca.html" rel="alternate" type="text/html" title="Visiting California" /><published>2020-01-24T00:00:00+00:00</published><updated>2020-01-24T00:00:00+00:00</updated><id>https://k0swe.radio/2020/01/24/visiting-ca</id><content type="html" xml:base="https://k0swe.radio/2020/01/24/visiting-ca.html">&lt;p&gt;&lt;img src=&quot;https://1.bp.blogspot.com/-mxcKAYXHSJA/XlrTLWJOCAI/AAAAAAABt1k/TvcIVQd1B40XH-G2aUTUWpDNPvR6WjZpgCKgBGAsYHg/s320/IMG_20200123_170739.jpg&quot; alt=&quot;View of a Sunnyvale highway&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;It’s not a super complex device, but it was a good opportunity to learn more complex circuits than
+just “microcontroller pin goes to component,” PCB design, and now I have a dedicated practice
+oscillator and Winkeyer interface. I’m happy!&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">PCB arrived, but…</title><link href="https://k0swe.radio/2020/05/19/pcb-troubleshooting.html" rel="alternate" type="text/html" title="PCB arrived, but…" /><published>2020-05-19T00:00:00+00:00</published><updated>2020-05-19T00:00:00+00:00</updated><id>https://k0swe.radio/2020/05/19/pcb-troubleshooting</id><content type="html" xml:base="https://k0swe.radio/2020/05/19/pcb-troubleshooting.html">&lt;p&gt;&lt;img src=&quot;https://1.bp.blogspot.com/-RZOVvqiJ5hg/XsP2YeQi_TI/AAAAAAABvYE/pvzIZE-myWQaGT6_UUHID-G22dysdVW1gCPcBGAYYCw/s320/IMG_20200518_162337.jpg&quot; alt=&quot;Unpopulated custom PCB on an Arduino&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;This week I had a work trip to the south Bay Area in California, and took an HT to try my hand at
-making some local repeater contacts there. I had a couple of nice rag-chews. I learned a lot more
-about using the Anytone D878 in VFO mode and with front-panel programming; I get spoiled around home
-having the luxury of pre-programming everything with software and transferring code-plugs.&lt;/p&gt;
+&lt;p&gt;The good news: my PCBs arrived! The bad news: they don’t work, at least not out of the box.&lt;/p&gt;
 
-&lt;p&gt;I also took a new ZUMspot hotspot, but didn’t have much opportunity to use it. At the office I had a
-great view of the local repeaters from a high floor and didn’t really need the hotspot; at the
-hotel, the Wi-Fi had a captive portal and I didn’t have a good way to connect it.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">JFK Foxhunt</title><link href="https://k0swe.radio/2020/01/15/jfk-foxhunt.html" rel="alternate" type="text/html" title="JFK Foxhunt" /><published>2020-01-15T00:00:00+00:00</published><updated>2020-01-15T00:00:00+00:00</updated><id>https://k0swe.radio/2020/01/15/jfk-foxhunt</id><content type="html" xml:base="https://k0swe.radio/2020/01/15/jfk-foxhunt.html">&lt;p&gt;&lt;img src=&quot;https://1.bp.blogspot.com/-SVPMs8silVU/XlrVHQjInAI/AAAAAAABt10/Rs9f6YqHrdggSJV1UZ94_pS4wosV7oKYwCKgBGAsYHg/s320/398A5092-84F2-45B7-80B8-6AC936EFCF4A.JPG&quot; alt=&quot;Cheyenne Sterner N0CKS and Heather Randall with ARDF foxhunt gear&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;I was super excited to get my
+&lt;a href=&quot;https://k0swe.radio/2020/05/02/pcb-design&quot;&gt;custom K3NG keyer boards&lt;/a&gt; in the
+mail! I spent some time soldering components last night, but found that it wasn’t working. My first
+clue was that there is no Morse code “HI” on the sidetone speaker, nor do the paddles do anything.
+The serial port Winkeyer seems to work, so the Arduino is functioning. Then I tried plugging the
+transceiver output into an external practice oscillator and found that it was always grounded. Huh.&lt;/p&gt;
 
-&lt;p&gt;Today I helped a team from RMHAM to introduce some students from JFK High School to amateur radio
-ahead of our potential ARISS contact. We did a quick lecture as an overview of amateur radio, then
-took the students out for radio direction finding, commonly known in the hobby as foxhunting. The
-foxhunt was meant to teach the kids about directional antennas and give them a hands-on activity.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://1.bp.blogspot.com/-dFC1vXyiH-o/XsP4NFrPH_I/AAAAAAABvYY/LOYBnpwSIbURwyQ1kBUnN5b9G9XQxjFwgCPcBGAYYCw/s320/IMG_20200518_221735.jpg&quot; alt=&quot;Spaghetti mess of wires&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;This was my first experience with foxhunting, and I really enjoyed it. However, I wasn’t very
-skilled at guiding my group of students. I’ll have to practice this later.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">ISS APRS via New Antennas</title><link href="https://k0swe.radio/2020/01/14/iss-aprs.html" rel="alternate" type="text/html" title="ISS APRS via New Antennas" /><published>2020-01-14T00:00:00+00:00</published><updated>2020-01-14T00:00:00+00:00</updated><id>https://k0swe.radio/2020/01/14/iss-aprs</id><content type="html" xml:base="https://k0swe.radio/2020/01/14/iss-aprs.html">&lt;p&gt;&lt;img src=&quot;https://1.bp.blogspot.com/-Z2HY3wgP9vo/Xh6bjzIx3fI/AAAAAAABs7Y/3vA7TN5BmVQ2IKU_u-0joMlW2GS18JpawCLcBGAsYHQ/s320/ARISS-APRS%2Bcontact.png&quot; alt=&quot;ARISS APRS website showing K0SWE&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;I think I found the culprit. Can you spot it?&lt;/p&gt;
 
-&lt;p&gt;I had a chance this weekend to install new antennas: an NMO mount for my truck (in addition to the
-car I did a few months ago) and a VHF/UHF J-pole in the attic. The NMO install went a little
-smoother in the truck than it did in the car, I suppose due to experience, but also because the
-larger cab and larger headliner meant I didn’t feel the need to take both B and C pillar trim panels
-off, just one side of the truck. The attic antenna went well enough, although my attic has a shorter
-peak than I remembered, only about 5 feet. The
-&lt;a href=&quot;http://www.arrowantennas.com/osj/j-pole.html&quot;&gt;Arrow OSJ 146/440&lt;/a&gt; I bought barely fit. However, it’s
-performing really well: hooked up to my new Kenwood TM-D710G, I’m getting APRS packets from up to
-110 miles away! I’m not even in that advantageous of a location. (I neglected to check if those were
-via digipeater, but regardless, I’m happy!)&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://1.bp.blogspot.com/-1qBz5eqmsdg/XsP2ezlN_RI/AAAAAAABvX8/JSdexK9tlYkOqmjHLQ8ecJSBNz07XVqGgCLcBGAsYHQ/s320/IMG_20200518_222441.jpg&quot; alt=&quot;Sparkfun transistor kit box&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;I tested out the new D710/attic antenna combo by trying to work the ISS APRS digipeater. It was a
-little challenging to figure out the different configuration options for PATH and such, but it was
-worth it. I was able to get packets through the ISS digipeater!&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://1.bp.blogspot.com/-a-HAZ-kL4Bg/XsP2iLMBsxI/AAAAAAABvYA/ydUswpjlQ5InseVjdH4ch5QBMb5na0H_wCLcBGAsYHQ/s320/IMG_20200518_222500.jpg&quot; alt=&quot;KiCad transistor footprint&quot; /&gt;&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;
-20200114051152 : RS0ISS]CQ,qAR,KC5ILO-12:]ARISS - International Space Station
-20200114050936 : &lt;b&gt;K0SWE-9]SYUTVQ,RS0ISS*,WIDE2-1,qAR,W0ARP-15&lt;/b&gt;:`q[El ]/]&quot;E^}Greetings from Denver CO, DM79=
-20200114050752 : RS0ISS]CQ,qAR,W0ARP-15:]ARISS - International Space Station
-20200114050752 : &lt;b&gt;K0SWE-9]SYUTVQ,RS0ISS*,WIDE2-1,qAR,AD7FC&lt;/b&gt;:`q[El ]/]&quot;E_}Greetings from Denver CO, DM79=
-20200114050551 : RS0ISS]CQ,qAR,N6DAN-1:]ARISS - International Space Station
-20200114050542 : N6UTC-9]SSURVR,RS0ISS*,qAR,N6DAN-1:`.'pl!bS\]=
-20200114050526 : N6UTC-9]SSURVR,RS0ISS*,qAR,N6DAN-1:`.'pl JS\]Resistance is Futile.=
-&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The KiCad footprint has the transistor pins in a different order than the transistors I have. The
+base, collector and emitter are out of order. Lesson learned: attention to detail, don’t trust
+KiCad’s footprints to be perfect for your parts.&lt;/p&gt;
 
-&lt;p&gt;I’m pleased as punch! &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;AD7FC&lt;/code&gt; is over in Yakima, Washington. There’s definitely room for improvement
-on the performance of this system for ISS APRS, maybe with the Arrow hand-held Yagi and actually
-tracking instead of relying on raw power and a vertical antenna. But not bad for a first attempt!&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">First Mobile Radio: Kenwood TM-D710G</title><link href="https://k0swe.radio/2020/01/11/kenwood-tmd710.html" rel="alternate" type="text/html" title="First Mobile Radio: Kenwood TM-D710G" /><published>2020-01-11T00:00:00+00:00</published><updated>2020-01-11T00:00:00+00:00</updated><id>https://k0swe.radio/2020/01/11/kenwood-tmd710</id><content type="html" xml:base="https://k0swe.radio/2020/01/11/kenwood-tmd710.html">&lt;p&gt;&lt;img src=&quot;https://www.kenwood.com/usa/com/amateur/tm-d710ga/images/product_image_c.jpg&quot; alt=&quot;Kenwood TM-D710G&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;In another mistake, I chose resistor footprints that were exactly as long as my components, but the
+resistor leads don’t bend that sharply and so the resistors don’t sit flat. Minor annoyance to fix
+next time.&lt;/p&gt;
 
-&lt;p&gt;I’ve been looking at mobile radios for a while, but the difficult thing about it is that there’s no
-radio that does everything. I’ve been looking at:&lt;/p&gt;
+&lt;p&gt;Since these are through-hole parts, I think I can desolder the incorrect transistors and finagle new
+transistors with longer legs into the as-designed holes. I looked briefly for different transistors
+that would match my board’s pin-out but didn’t immediately see them, and it would take time to order
+those. For prototyping’s sake, I want to work around this problem quickly and see if the board works
+otherwise.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Made my first custom PCB</title><link href="https://k0swe.radio/2020/05/02/pcb-design.html" rel="alternate" type="text/html" title="Made my first custom PCB" /><published>2020-05-02T00:00:00+00:00</published><updated>2020-05-02T00:00:00+00:00</updated><id>https://k0swe.radio/2020/05/02/pcb-design</id><content type="html" xml:base="https://k0swe.radio/2020/05/02/pcb-design.html">&lt;p&gt;&lt;img src=&quot;https://1.bp.blogspot.com/-zlQkC2VI79E/Xq2MmNnx6MI/AAAAAAABu5E/UI2_9SUXesEKxrwkl8xMcLZJldQTPaMJACLcBGAsYHQ/s320/K3NG-keyer-K0SWE-v2.png&quot; alt=&quot;Custom printed circuit board&quot; /&gt;&lt;/p&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;VHF/UHF radios that support digital voice modes like DMR, or&lt;/li&gt;
-  &lt;li&gt;VHF/UHF radios that include a TNC and APRS, or&lt;/li&gt;
-  &lt;li&gt;all-band radios that do HF in addition to VHF/UHF, or&lt;/li&gt;
-  &lt;li&gt;HF-only rigs.&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;I’ve been interested in hobby electronics longer than amateur radio. I picked up an Arduino
+Duemilanove in about 2010 and enjoyed messing around with LEDs, motors and servos. I even designed
+(but didn’t complete) a “Weasley Clock” that would take me and my wife’s locations from Google
+Latitude (when that was still a thing), translate it into one of about a dozen discrete locations
+like “home,” “school” or “work,” and turn stepper motors to display those locations on the hands of
+a clock. I had the electronics and the software, but never really figured out the mechanical aspects
+of attaching the steppers to my clock’s hands.&lt;/p&gt;
 
-&lt;p&gt;Choosing one means giving up on the other modes, or running multiple radios which multiplies cost
-and complexity. After much humming and hawing, I decided that packet is one of the things I’d most
-like to master (even though the prevalence of packet is supposedly much reduced from its heyday), so
-I chose what seems to be the most popular dual-bander with a TNC.&lt;/p&gt;
+&lt;p&gt;Well, fast forward. About 6 months ago I was
+&lt;a href=&quot;https://k0swe.radio/2019/10/10/cw&quot;&gt;messing around&lt;/a&gt; with the
+&lt;a href=&quot;https://github.com/k3ng/k3ng_cw_keyer/wiki/210-Build:-Schematic&quot;&gt;K3NG Morse keyer design&lt;/a&gt;. I built
+a basic one on a breadboard, but decided at that time to purchase a
+&lt;a href=&quot;https://hamprojects.info/mortty/&quot;&gt;Mortty&lt;/a&gt; kit for its size. I still like the Mortty and if I end up
+doing CW work in the field I’ll probably use it for that. However, I’ve recently been back to
+learning Morse code, and moving around the Mortty box, a separate code practice oscillator and the
+heavy Bencher paddles has been awkward. I wanted to revisit more fully featured variants of the K3NG
+design that include built-in sidetone, and it’d be fun to have one that would function as an HID
+“keyboard” input for a computer.&lt;/p&gt;
 
-&lt;p&gt;The Kenwood TM-D710G puts out 50W on the 2m and 70cm bands, which is an order of magnitude more
-power than the HTs I’ve been using. It has a well-integrated TNC which supports APRS (with built-in
-GPS for location), and also more general packet/AX.25 communications, even digipeater operation.&lt;/p&gt;
+&lt;p&gt;I rebuilt the breadboard and started thinking about building it on a proto-shield, but figured there
+was enough complexity to lay it out beforehand in CAD. I’d played
+with &lt;a href=&quot;https://fritzing.org/&quot;&gt;Frtizing&lt;/a&gt;
+before, mainly for documenting breadboard projects, but that was being cantankerous with the audio
+jacks I was trying to use. I decided to switch to &lt;a href=&quot;https://www.kicad-pcb.org/&quot;&gt;KiCad&lt;/a&gt;, and I’m very
+glad I did! It’s certainly got a learning curve and some quirks, but after watching a handful of
+YouTube videos (like &lt;a href=&quot;https://www.youtube.com/watch?v=PlDOnSHkX2c&quot;&gt;overall workflow&lt;/a&gt;,
+&lt;a href=&quot;https://www.youtube.com/watch?v=A4_wqnzKZq4&amp;amp;t=650s&quot;&gt;using Arduino template&lt;/a&gt;) and some other
+references, I was able to start with an Arduino shield template, bang together a logical schematic,
+do footprint mappings, and lay out the PCB in the course of a long evening. And of course, once it’s
+in CAD, you &lt;em&gt;might as well&lt;/em&gt; send it off to a fabricator instead of doing in on protoboard, right?
+This size Arduino shield was about $25 for 3 boards at OSH Park, which definitely compensates for
+hours of cursing at protoboard and looks much nicer.&lt;/p&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;img src=&quot;https://1.bp.blogspot.com/-GpPA6Dhp-pM/Xhn6l22h8KI/AAAAAAABsys/8q2EN8_EU_Qv5vNAg4-f2tP1C-MLTOEVQCLcBGAsYHQ/s400/crossbandswebfg1.gif&quot; alt=&quot;Illustration of cross-band repeating&quot; /&gt;
-Cross-band repeating, courtesy Ken Larson KJ6RZ&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;I’m still planning to use an enclosure with a bunch of panel-mount components rather than using
+PCB-mounted components. I have 10 panel-mount components, so I’ll have to get good at crimping
+Dupont header connectors. Now that I have this feather in my cap, maybe I can look at PCB-mount
+components and slide-in extruded enclosures in the future.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Passed my Extra exam!</title><link href="https://k0swe.radio/2020/04/26/extra.html" rel="alternate" type="text/html" title="Passed my Extra exam!" /><published>2020-04-26T00:00:00+00:00</published><updated>2020-04-26T00:00:00+00:00</updated><id>https://k0swe.radio/2020/04/26/extra</id><content type="html" xml:base="https://k0swe.radio/2020/04/26/extra.html">&lt;p&gt;&lt;img src=&quot;https://storage.needpix.com/rsynced_images/news-677409_1280.jpg&quot; alt=&quot;Newspaper with Extra&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Beyond that, it can do cross-band repeating, which is very similar to the SINCGARS retrans I used to
-do in the Army. Doing cross-band repeating can allow your vehicle to act as a high-power base
-station that can connect back to a permanent repeater on one end, and connect one or more low-power
-HTs on the other end, which can be very handy.&lt;/p&gt;
+&lt;p&gt;I’m very excited to announce that I passed the Element 4 exam to earn an Amateur Extra license! It
+took a bit of doing because most places in the US are still shut down due to COVID-19. However, I
+kept my ears open and found a completely remote session administered by
+&lt;a href=&quot;https://glaarg.org/&quot;&gt;GLAARG VEC&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;There are many good YouTube videos for learning different features. I very much appreciated intro
-videos from &lt;a href=&quot;https://www.youtube.com/channel/UCo6nMzKerap6RQqS1Va4sTQ&quot;&gt;Jim &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;KA6ETE&lt;/code&gt;&lt;/a&gt;. A
-&lt;a href=&quot;https://www.youtube.com/watch?v=lyv56yyi-u4&quot;&gt;couple&lt;/a&gt; of people have videos of working the ISS APRS
-digipeater, which would be interesting to try in conjunction with prepping for ARISS. There’s even a
-video of someone &lt;a href=&quot;https://www.youtube.com/watch?v=Oo-yigpYj4s&quot;&gt;using DTMF for remote control&lt;/a&gt;;
-that’s a bit beyond me at the moment, but it’s nice to know it’s there.&lt;/p&gt;
+&lt;p&gt;GLAARG has all of their remote exam sessions advertised through
+&lt;a href=&quot;https://hamstudy.org/&quot;&gt;HamStudy.org&lt;/a&gt;. A few days ago I registered there and received a PIN and some
+instructions right off the bat, with a couple more emails to follow. I tried to read and follow all
+the instructions as carefully as I could. In my case, the video conference would be done over Zoom.
+They had guidelines about choosing an uncluttered and quiet space, and making sure that nothing
+would distract or interrupt me during the exam. They also called for a clean desk, so I took my
+station apart to make sure there wouldn’t be a last-minute scramble.&lt;/p&gt;
 
-&lt;p&gt;All in all, this radio feels a lot more powerful and feature-rich than even my AnyTone AT-D878UV.
-I’m excited to explore this and see what it can do!&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">RMHAM Network Workshop</title><link href="https://k0swe.radio/2019/12/20/microwave-workshop.html" rel="alternate" type="text/html" title="RMHAM Network Workshop" /><published>2019-12-20T00:00:00+00:00</published><updated>2019-12-20T00:00:00+00:00</updated><id>https://k0swe.radio/2019/12/20/microwave-workshop</id><content type="html" xml:base="https://k0swe.radio/2019/12/20/microwave-workshop.html">&lt;p&gt;&lt;img src=&quot;https://2.bp.blogspot.com/-pEe11HXT6_0/XfzJsBRbwXI/AAAAAAABsTM/_S3LjM4P4R4pFL9nJ1XciEXzVYZ79MT2gCK4BGAYYCw/s320/IMG_20191214_142621.jpg&quot; alt=&quot;Workshop attendees in a conference room&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;This morning, I logged into Zoom about an hour before the exam. All the test takers, all ~40 of us,
+were told to log in around the same time in order to maximize the volunteer examiners’ time, even
+though only 2-3 of us could take the exam at once. Everyone not taking the exam waited around in the
+Zoom waiting room plus an extra chat room, listening as one of the leads occasionally updated us
+about the queue. From me logging in before the test to when it was my turn took about 3 hours.&lt;/p&gt;
 
-&lt;p&gt;Last weekend I was very lucky to get an in-depth look at
-&lt;a href=&quot;https://www.rmham.org/wordpress/amateur-microwave-network/&quot;&gt;RMHAM’s microwave network&lt;/a&gt; by being
-invited to a workshop on the subject. It’s an IP-over-microwave network spanning New Mexico to
-Wyoming and Pueblo to Grand Junction. It’s an extensive system that carries various amateur radio
-traffic; for example, it functions as part of the backbone for the
-&lt;a href=&quot;https://colcon.org/wp/&quot;&gt;Colorado Connection&lt;/a&gt; repeater network.&lt;/p&gt;
+&lt;p&gt;Once it was my turn, I was invited to the main Zoom chat, where my ID was pre-screened. After that,
+the host moved me to one of the breakout rooms which consisted of only myself and 5 proctors,
+presumably all VEs. I was asked to show my ID again and then turn the camera to show my desk and the
+view behind my monitor. After that, the VE took control of my computer screen and logged into the
+exam website on my behalf. Then all the proctors turned off their video and mics, leaving me to do
+the test. My face and screen were visible to the proctors the whole time. After I hit the submit
+button, the proctors turned their mics and cameras back on, and after the lead VE took control again
+and confirmed the results, my passing score was displayed immediately! The proctors all
+congratulated me, I saved a PDF copy of the test results in place of the usual CSCE, and that was
+it!&lt;/p&gt;
 
-&lt;p&gt;To complete the workshop I had to dust off a lot of networking knowledge I haven’t exercised in a
-long time, particularly OSPF. It’s all fun and games until a rogue static route is breaking routing
-everywhere!&lt;/p&gt;
+&lt;p&gt;As of today there are no more GLAARG sessions listed because the test protocol was still considered
+somewhat experimental, but they sound very positive and serious about moving forward. Now that they
+are satisfied with their methods of maintaining integrity, they can start streamlining the waiting
+room process, etc.&lt;/p&gt;
 
-&lt;p&gt;It was a very illuminating class, and hopefully I can start to repay the kindness of the
-facilitators, Willem Schreuder &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;AC0KQ&lt;/code&gt; and John Maxwell &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;W0VG&lt;/code&gt;, by giving back in some fashion. They
-have some custom software which manages their configuration and tooling, maybe I can beef that up.&lt;/p&gt;
+&lt;p&gt;If you’re looking in the near future to take an online ham license exam, I can highly recommend
+GLAARG’s sessions. Those sessions are listed through &lt;a href=&quot;https://hamstudy.org/&quot;&gt;HamStudy.org&lt;/a&gt;, and it’s
+worth pointing out that GLAARG is using ExamTools which is the same layout as the practice tests
+on &lt;a href=&quot;https://hamstudy.org/&quot;&gt;HamStudy.org&lt;/a&gt;. If you’re about to take a test that uses ExamTools, it’s
+worth running through practice tests there to get the feel of the real thing. One final thought: do
+run through practice exams, because there are plenty available. All the US amateur license exam
+questions and answers are published so all the apps have the same questions, and if you’re passing
+those practice tests with 90% or better consistently, you’ll know you’re ready. Don’t waste your VE
+team’s time if you don’t know whether you’re going to pass, especially while online tests are still
+in their infancy.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">KE0OG Answer!</title><link href="https://k0swe.radio/2020/04/24/ke0og.html" rel="alternate" type="text/html" title="KE0OG Answer!" /><published>2020-04-24T00:00:00+00:00</published><updated>2020-04-24T00:00:00+00:00</updated><id>https://k0swe.radio/2020/04/24/ke0og</id><content type="html" xml:base="https://k0swe.radio/2020/04/24/ke0og.html">&lt;p&gt;&lt;img src=&quot;https://1.bp.blogspot.com/-k6pC1oV0gyM/XqL7cvX7PJI/AAAAAAABu0A/QZXA9NHJqwYCRCPC-kXDMzRViw2i4qMTwCLcBGAsYHQ/s320/ke0og.PNG&quot; alt=&quot;Dave Casler KE0OG on YouTube&quot; /&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;but-why&quot;&gt;But Why?&lt;/h2&gt;
+&lt;p&gt;I’ve been following
+&lt;a href=&quot;https://www.youtube.com/channel/UCaBtYooQdmNzq63eID8RaLQ&quot;&gt;Dave Casler &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;KE0OG&lt;/code&gt;’s&lt;/a&gt; YouTube videos
+since I started ham radio. (Which was only a year ago, but still…) I really appreciate his pacing
+and style: many hams on YouTube have developed a more flashy, fast-talking flair, but sometimes they
+feel like click-bait and can get overwhelming to watch. With Dave, it feels like I’m sitting in the
+shack learning something from my Elmer.&lt;/p&gt;
 
-&lt;p&gt;We didn’t talk much in the workshop about the network’s purpose. Why not have the Colorado
-Connection and other clients backed by commercial internet? I guess the answer is that we want to be
-independent of the internet to mitigate ISP failures, but that’s increasingly rare. For me there’s a
-more foundational reason for the RMHAM network to exist: it keeps ham radio on ham radio.&lt;/p&gt;
+&lt;p&gt;On yesterday’s live-stream, Dave
+&lt;a href=&quot;https://www.youtube.com/watch?v=d1UXHGLYZZk&amp;amp;t=4103&quot;&gt;answered my question&lt;/a&gt; about FT8! I noticed that
+the radio transmits much more power if I use an FT8 slot around 2,000 Hz than if I use 300 Hz, and
+Dave pointed out that the normal SSB audio bandwidth only accepts audio frequencies between around
+400 to 2,500 Hz. He didn’t say this, but it made me realize that I can change the dial frequency to
+effectively access those lower and higher FT8 slots, and that I really only have a little over 2 kHz
+of useful transmit bandwidth. Good advice, thank you!&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Getting the hang of FT8</title><link href="https://k0swe.radio/2020/04/18/getting-the-hang-of-ft8.html" rel="alternate" type="text/html" title="Getting the hang of FT8" /><published>2020-04-18T00:00:00+00:00</published><updated>2020-04-18T00:00:00+00:00</updated><id>https://k0swe.radio/2020/04/18/getting-the-hang-of-ft8</id><content type="html" xml:base="https://k0swe.radio/2020/04/18/getting-the-hang-of-ft8.html">&lt;p&gt;&lt;img src=&quot;https://1.bp.blogspot.com/-CNJQPPbh_00/Xpu8C2NvchI/AAAAAAABuuw/7PMKH15ak-Mxm6YaxMWM7gsUakW1zAE_gCPcBGAsYHg/s320/IMG_20200418_201405.jpg&quot; alt=&quot;Radio and computer on a desk&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;I’ve heard of lots of hams using digital hotspots and the internet to connect to repeaters
-worldwide. Hotspots give users access to multiple digital modes and extend the reach of a humble HT
-beyond ~30 miles, so they’re great tools. But on some level it feels like cheating. What’s the
-difference between using a Zumspot to join a reflector vs using Discord to join a voice chat room,
-the fact that you’re going traveling 5 feet over ham frequencies? The advent of the cell phone, and
-especially the smartphone, has made the ability to communicate wirelessly to anyone worldwide a
-commodity; what makes ham radio still interesting is that &lt;em&gt;we can do it without commercial
-infrastructure&lt;/em&gt;. I won’t knock anyone who enjoys using a hotspot as a tool to practice the hobby,
-but showing a non-ham a hotspot is not going to convince them to get into the hobby. We need to tout
-why ham radio is different from a cell phone.&lt;/p&gt;
+&lt;p&gt;I’ve been working quite a bit of FT8 on HF in the past few weeks. Without too much effort, I’ve
+already collected about 170 QSOs (contacts) with 110 QSLs (confirmed by the other side). Among those
+QSLs, I’ve worked 35 states and 4 countries beyond the US, which is pretty incredible to me! My
+humble HF station is far from ideal, but it’s doing the job, at least operating FT8.&lt;/p&gt;
 
-&lt;p&gt;That’s what makes systems like the RMHAM network worthwhile. The fact that the Colorado Connection
-is independent of commercial infrastructure keeps it “real” ham radio in my mind. The fact that we
-get to conceive, install, tinker, keep it running and are not beholden to anyone’s decisions outside
-our community, the fact that hams have built it from the ground up, that’s what makes it
-special.&amp;lt;/div&amp;gt;&amp;lt;/div&amp;gt;&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Baby steps toward ARISS</title><link href="https://k0swe.radio/2019/12/04/baby-steps-toward-ariss.html" rel="alternate" type="text/html" title="Baby steps toward ARISS" /><published>2019-12-04T00:00:00+00:00</published><updated>2019-12-04T00:00:00+00:00</updated><id>https://k0swe.radio/2019/12/04/baby-steps-toward-ariss</id><content type="html" xml:base="https://k0swe.radio/2019/12/04/baby-steps-toward-ariss.html">&lt;p&gt;&lt;img src=&quot;https://3.bp.blogspot.com/-4-OrWVSThwQ/Xe22MQ7mlgI/AAAAAAABsEs/MA3n3Xo4QIQaRnoSuGvTmREwkHCk-OlfgCK4BGAYYCw/s320/IMG_20191129_104223.jpg&quot; alt=&quot;Arrow antenna and laptop on a car&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;I’m still operating the IC-718 and the EMCOMM II antenna with the IT-100 tuner, SignaLink and CI-V
+interfaces. I’ve added an MFJ-822 power/SWR meter, which is actually giving me much different power
+numbers than the radio and I’m glad to have it. I’ve learned a lot about what works and doesn’t work
+in this particular arrangement.&lt;/p&gt;
 
-&lt;p&gt;I helped Heather Randall from JFKHS and Bob Sterner &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;KB0BS&lt;/code&gt; from RMHAM to complete and submit a
-proposal to ARISS, so now it’s their hands. It should be 6 to 8 weeks before we hear back. Very
-exciting!&lt;/p&gt;
+&lt;p&gt;For instance, in the first week or so of operating, I had frequent CI-V resets when raising my
+transmit power above 20W. Turns out, the EMCOMM II (as with many end-fed wire antennas) uses the
+feedline’s coax as a counterpoise if there’s nothing else, which introduces RF into one’s shack and
+wreaks havoc on computer data wires. Adding an independent counterpoise wire helped a lot: on 20m
+and above I can use all 100W the radio generates, although I still have the same resetting problem
+on 40m and below if I use too much power. I suspect having the antenna 3 feet away from the radio
+(through the exterior wall) isn’t helping!&lt;/p&gt;
 
-&lt;p&gt;In the meantime, I tried my hand at receiving an AMSAT signal over the Thanksgiving weekend. Since I
-was attempting to receive only, I decided to pipe it through my RTL-SDR rather than an HT in order
-to get a visual of the Doppler shift, and had some success. Unfortunately, the particular time I
-tried happened to be when no voice birds were overhead, so the only thing I got were what I assume
-were telemetry signals, and I didn’t have the decoders installed. At least I got to practice
-tracking and adjusting for polarity with the new Arrow antenna.&lt;/p&gt;
+&lt;p&gt;All things considered, I’m impressed with the current setup. With a starter radio and “temporary”
+antenna, I’m approaching a Worked All States award. Still, there’s plenty to improve, like
+establishing a station ground and devising some other antenna situation. I’m currently getting a
+pretty constant S7 of noise, and I have to wonder if that’s what has foiled my couple of attempts at
+ARDOP Winlink. I’m sure I’ll figure that out soon enough.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">First FT8 contact!</title><link href="https://k0swe.radio/2020/04/02/ft8.html" rel="alternate" type="text/html" title="First FT8 contact!" /><published>2020-04-02T00:00:00+00:00</published><updated>2020-04-02T00:00:00+00:00</updated><id>https://k0swe.radio/2020/04/02/ft8</id><content type="html" xml:base="https://k0swe.radio/2020/04/02/ft8.html">&lt;p&gt;&lt;img src=&quot;https://1.bp.blogspot.com/-v6w8SohYcFU/Xoa4L3nqyMI/AAAAAAABuiI/MykznfqEQsInY-h2_FB9T0R13ldZgRGVwCLcBGAsYHQ/s320/ft8.png&quot; alt=&quot;WSJT-X display&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;I also met with Heather and Bob in person, and we’re planning an ARDF fox hunt with Heather’s
-students next week. I get the principles, but this will be my first time actually participating in a
-fox hunt. I’m looking forward to it!&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">AMSAT and ARISS</title><link href="https://k0swe.radio/2019/11/22/amsat-ariss.html" rel="alternate" type="text/html" title="AMSAT and ARISS" /><published>2019-11-22T00:00:00+00:00</published><updated>2019-11-22T00:00:00+00:00</updated><id>https://k0swe.radio/2019/11/22/amsat-ariss</id><content type="html" xml:base="https://k0swe.radio/2019/11/22/amsat-ariss.html">&lt;p&gt;&lt;img src=&quot;https://www.nasa.gov/sites/default/files/styles/full_width_feature/public/thumbnails/image/44911459904_375bc02163_k.jpg&quot; alt=&quot;International Space Station&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;After setting up my HF station over the weekend, I’ve been dying to try digital modes with it. I’d
+heard of FT-8 from several sources as being a relatively easy and fun mode to get into, so I ordered
+the necessary cable to go with my SignaLink USB and got working.&lt;/p&gt;
 
-&lt;p&gt;Last weekend I attended the &lt;a href=&quot;https://www.rmham.org/&quot;&gt;RMHAM-U&lt;/a&gt;
-lecture series and heard a talk by Doug Tabor &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;N6UA&lt;/code&gt; about working amateur satellites, or AMSAT. I
-had been exposed to the idea while studying for the exams, but hadn’t really given much serious
-thought to actually doing it. The talk was illuminating in terms of operating concepts and concrete
-operating procedures. It turns out, there’s a pretty low barrier to entry to get into AMSAT since
-it’s low power, line of site, and many satellites use UHF and VHF where even technician licensees
-can operate. Something as simple as an HT with a long whip antenna can suffice.&lt;/p&gt;
+&lt;p&gt;It was a little challenging to get everything set up. I already had a CI-V cable I used over the
+weekend, which can let the computer query and change the radio’s parameters like frequency, mode,
+filters and noise reduction. However, I also needed the second connection with the SignaLink to
+receive and send audio. That’s all a bit harder with Linux’s idiosyncrasies with regard to multiple
+audio sources and sinks. Add to that the minor headache of compiling WSJT-X from source before
+realizing it was available pre-compiled in the Ubuntu APT repo.&lt;/p&gt;
 
-&lt;p&gt;The tricky parts are pass prediction, antenna tracking and Doppler shift. Pass prediction is made
-vastly simpler by smartphone apps, but the satellites don’t always pass directly overhead, so some
-orienteering is required. Tracking, i.e. pointing the antenna, can be done by hand, but if you’re
-operating by yourself then the antenna always uses up one hand. Then there’s the Doppler shift: the
-satellite is operating on a particular frequency (an entire sub-band, actually), but it’s moving
-fast enough that one has to tune the receive and transmit frequencies slightly off of the desired
-frequency and continuously adjust throughout the pass of the satellite.&lt;/p&gt;
+&lt;p&gt;However, after much fiddling and tweaking, I was able to make my first HF digital mode contact over
+FT-8: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;K9IJ&lt;/code&gt; in Illinois, at a distance of 895 miles (1,441 km)! It took me a minute to realize there
+was more to an FT-8 QSO than one call/response exchange, and I’ll need to read up on what exactly we
+said to each other.&lt;/p&gt;
 
-&lt;p&gt;Did I mention that most passes are 15 minutes maximum? An operator has to be extremely efficient and
-precise to get contacts. There’s equipment and software to automate all of this, of course, if you
-have money to burn.&lt;/p&gt;
+&lt;p&gt;FT-8 has been somewhat controversial in the ham community since it came to prominence a few years
+ago. The information exchanged is extremely limited, basically just callsigns and signal strength
+reports, which annoys proponents of ham radio’s more extroverted facets like rag-chewing. I believe
+one of the things that keeps ham radio relevant is its emergency communication aspects, and I have
+to admit, FT-8 doesn’t really check that box. You’re not going to use FT-8 to call in the cavalry
+after a natural disaster. Still, it’s an interesting propagation experiment, and a nice
+low-commitment way of making QSOs. I understand there are even contests which allow FT-8. If I’m
+feeling more chatty, there are other, more conversational digital modes which I’m planning to
+explore, and there’s always voice and CW.&lt;/p&gt;
 
-&lt;p&gt;The talk turned out to be timely, because a few days later on the RMHAM mailing list, a call went
-out for volunteers to help a local high school (JFK in Denver) with an
-&lt;a href=&quot;https://www.ariss.org/&quot;&gt;ARISS&lt;/a&gt; contact proposal. How could I say no helping kids use ham radio to
-talk to astronauts in space? ARISS and NASA want to make darn sure that astronauts’ time is not
-wasted on technical difficulties, so they have more stringent equipment requirements than your usual
-AMSAT operator. However, I’m working with Bob Sterner &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;KB0BS&lt;/code&gt; who among many things has
-&lt;a href=&quot;https://www.nasa.gov/mission_pages/station/expeditions/expedition29/exp29_ham.html&quot;&gt;done a tele-bridge ARISS contact&lt;/a&gt;
-(&lt;a href=&quot;https://www.youtube.com/watch?v=qNflnuDlfhM&quot;&gt;video&lt;/a&gt;), worked AMSATs and has the proper equipment.
-I’ve offered to do as much of the paperwork as I can, and watch and learn the technical side. Even
-if we’re selected, the contact wouldn’t be for at least 8 months, but it’s still exciting!&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Toughbook</title><link href="https://k0swe.radio/2019/11/13/toughbook.html" rel="alternate" type="text/html" title="Toughbook" /><published>2019-11-13T00:00:00+00:00</published><updated>2019-11-13T00:00:00+00:00</updated><id>https://k0swe.radio/2019/11/13/toughbook</id><content type="html" xml:base="https://k0swe.radio/2019/11/13/toughbook.html">&lt;p&gt;&lt;img src=&quot;https://1.bp.blogspot.com/-yS9X6eRBrjk/XcyuJF4lNcI/AAAAAAABrms/tfHW6RNVQRMqwQiF-JVEiOBbHAG_hVQVwCLcBGAsYHQ/s320/IMG_20191113_182408.jpg&quot; alt=&quot;Panasonic Toughbook CF-19&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;That’s the thing: amateur radio modes might fade from the limelight, but I can’t think of any mode
+that’s been mainstream at some point and then been abandoned. We still use CW and AM and SSB and
+simplex FM and RTTY and SSTV and AX.25. Even when “better” things like IP-over-microwave come along,
+we haven’t given up on any of these things.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Playing with MikroTiks</title><link href="https://k0swe.radio/2020/03/31/mikrotik.html" rel="alternate" type="text/html" title="Playing with MikroTiks" /><published>2020-03-31T00:00:00+00:00</published><updated>2020-03-31T00:00:00+00:00</updated><id>https://k0swe.radio/2020/03/31/mikrotik</id><content type="html" xml:base="https://k0swe.radio/2020/03/31/mikrotik.html">&lt;p&gt;&lt;img src=&quot;https://1.bp.blogspot.com/-XnO9SpgXpjg/XoTR2C5WbJI/AAAAAAABufY/QsMXAiZ6XlIw8zHgoAXi2MhvvQzAK8zoQCKgBGAsYHg/s320/IMG_20200401_112827.jpg&quot; alt=&quot;MikroTik networking gear&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;It’s slowly become clear that my penchant for Chromebooks (cheap and simple to manage) will not get
-me far in amateur radio. After
-&lt;a href=&quot;https://www.reddit.com/r/amateurradio/comments/drmfhh/advice_for_a_hamfriendly_laptop/?utm_source=share&amp;amp;utm_medium=web2x&quot;&gt;asking the internet for recommendations&lt;/a&gt;
-and getting a lot great advice, I picked up a Panasonic Toughbook CF-19 MK5. It’s 8 year old
-hardware at this point, but:&lt;/p&gt;
+&lt;p&gt;In an effort to jog my memory from last December’s RMHAM networking workshop, I decided to set up a
+miniature lab of my own. I’m glad I did, because even a simple arrangement had me scratching my head
+for a while!&lt;/p&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;it sounds like most ham applications don’t require much in the way of CPU or memory,&lt;/li&gt;
-  &lt;li&gt;the IP65 water resistance and general indestructibility is a big plus, and&lt;/li&gt;
-  &lt;li&gt;they’re a bargain at ~$300.&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;I had two MikroTik LHGs, two hEX PoE lites, and two laptops, and the goal was to get those
+configured to ping from one side to the other and back via Part 97 frequencies with RMHAM’s
+conventions.&lt;/p&gt;
 
-&lt;p&gt;Compare that to a brand new “spill-resistant” Lenovo X1 Carbon at $1,500!&lt;/p&gt;
+&lt;p&gt;The initial setup went well enough. One wrinkle is that I run Linux on almost all of my computers,
+and run MikroTik’s Winbox client using a Wine compatibility layer. That’s fine, but I also use UFW
+as a firewall, which interferes with Winbox’s ability to scan for neighbors or connect by MAC
+address. I had to remember to turn off UFW while doing this experiment.&lt;/p&gt;
 
-&lt;p&gt;I’ve installed Xubuntu 19.10 on it, and the experience was pretty seamless. A couple of notes:&lt;/p&gt;
+&lt;p&gt;Also, I was trying to power the LHGs using the hEX routers and avoid even more cable spaghetti by
+using separate PoE injectors. This meant that I couldn’t plug directly into the LHGs; when I
+mis-configured them and needed to get back in by MAC, I had to add their port to the hEX router’s
+bridge temporarily. Seems like a sneaky kludge, but it worked.&lt;/p&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;The touchscreen works, although I can’t figure out how to calibrate it yet. As usual, I’m
-&lt;a href=&quot;https://askubuntu.com/q/1188624/129686&quot;&gt;asking the internet&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;The speaker didn’t work directly after install, but after playing around in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;alsamixer&lt;/code&gt; and
-raising all of the channel levels, I was able to get it working.&lt;/li&gt;
-  &lt;li&gt;The front buttons don’t work out of the box, but apparently there’s a driver running around called
-&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;panasonic-hbtn.zip&lt;/code&gt;. I’ll have to track that down.&lt;/li&gt;
-  &lt;li&gt;Mine didn’t come with a GPS module, but eBay has second-hand parts going for $35, so that’ll be a
-nice addition.&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html"></summary></entry></feed>
+&lt;p&gt;To get the MikroTik LHG radios to use the ham band, they have to be the “international” version.
+After that, you can use the “superchannel” selection to change the available frequencies and move to
+the ham band. RMHAM usually uses their club callsign &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;N0SZ&lt;/code&gt; as part of the 802.11 SSID so that every
+packet transmitted has station identification per Part 97, so I followed suit and used my own
+callsign.&lt;/p&gt;
+
+&lt;p&gt;At the last step I was still having trouble; my pings between the laptops were only getting halfway
+through the network. The radios could ping each other, but the routers weren’t working together.
+Finally, I took the radios out since they were bridging and therefore just a fancy ethernet cable,
+and plugged the routers directly together. The problem persisted, and I found that my static route
+gateways were set to forward by interface, not to their neighbor’s IP. Once I fixed that, the
+traffic started flowing, and kept flowing after reintroducing the radios.&lt;/p&gt;
+
+&lt;p&gt;I didn’t touch OSPF this time around, and I don’t know that two routers is enough to do a meaningful
+experiment, but I should refresh myself on that as well.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">First HF contact!</title><link href="https://k0swe.radio/2020/03/29/first-hf-qso.html" rel="alternate" type="text/html" title="First HF contact!" /><published>2020-03-29T00:00:00+00:00</published><updated>2020-03-29T00:00:00+00:00</updated><id>https://k0swe.radio/2020/03/29/first-hf-qso</id><content type="html" xml:base="https://k0swe.radio/2020/03/29/first-hf-qso.html">&lt;p&gt;&lt;img src=&quot;https://1.bp.blogspot.com/-e7H_uTwK9IM/XoTcCH760TI/AAAAAAABufo/_JozWp9qGegZwfspkYEKrRxif5LTmKCVACKgBGAsYHg/s320/IMG_20200325_183420.jpg&quot; alt=&quot;Chameleon EMCOMM II transformer&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Being stuck at home during the COVID-19 pandemic, I finally had occasion to set up an HF antenna. I
+picked up a relatively inexpensive and flexible Chameleon EMCOMM II. My “shack” is a 2nd story guest
+bedroom/home office, so I set up the transformer directly outside the window and ran the wire out to
+the backyard in a top-fed sloper configuration. I set that up with the Icom IC-718 I got from Dick
+and Alan’s SK collection, and the LDG IT-100 tuner I picked up.&lt;/p&gt;
+
+&lt;p&gt;This weekend happened to be a &lt;a href=&quot;https://www.cqwpx.com/&quot;&gt;CQ WPX&lt;/a&gt; SSB contest. That meant that there
+was plenty of activity, but it was a little intimidating to jump in and attempt to make contacts. I
+finally overcame my mic fright and made my first HF QSO: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;KK9A&lt;/code&gt; in North Carolina, at a distance of
+1,377 miles (2,217 km). He heard me, I heard him; unfortunately, I don’t know if I made the contest
+exchange correctly, because he moved on quickly. Still, I’m happy that my HF station is working!&lt;/p&gt;
+
+&lt;p&gt;I tried several more QSOs during the contest, but wasn’t acknowledged by anyone else. My receive has
+a constant S7 of noise and I know my antenna positioning up close to the house is not ideal. Also,
+some coworkers mentioned that the solar inverters on my house and my neighbor’s are notoriously
+noisy, but might be mitigated. I’m sure there are more adjustments to make before I’ll be heard
+reliably.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry></feed>
