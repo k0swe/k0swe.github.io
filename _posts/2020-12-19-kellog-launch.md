@@ -4,6 +4,7 @@ title:  "Prepare for Countdown!"
 date:   2020-12-19
 ---
 > ![Rocket launch](https://lh3.googleusercontent.com/-XHv7vb7Rwgc/X94esnQ_4LI/AAAAAAAByKs/caJYnhBoNXwEWmOqj48IoZf9_Pa2pOZmgCLcBGAsYHQ/w320-h213/1024px-Amateur_Rocket_Launch_at_Big_Ass_Loading_Lifting_Suckers_%2528BALLS%2529_2017.jpg)
+> 
 > [Wikimedia](https://commons.wikimedia.org/wiki/File:Amateur_Rocket_Launch_at_Big_Ass_Loading_Lifting_Suckers_(BALLS)_2017.jpg)
 > CC BY-SA 4.0
 
@@ -26,7 +27,7 @@ version of the "app store."
 
 I've also been investing heavily in GitHub Actions automation to make sure that I can sustainably
 maintain the 8 (and growing) repositories that make up
-[KelLog's complete solution](https://github.com/k0swe/docs). I want to make sure that if and when I
+[KelLog's complete solution](https://k0swe.radio/docs/). I want to make sure that if and when I
 start getting bug reports and feature requests, I can focus on writing code and not on some
 laborious process for deploying or cutting releases.
 

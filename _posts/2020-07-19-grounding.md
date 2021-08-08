@@ -16,8 +16,10 @@ really operate anything below 40 meters due to CI-V resets, and even on 40m I ha
 to keep it reliable. Today's test on 20m was very discouraging. I used to be able to run 20m at 100W
 if I felt the need (usually used less), but today even at QRP, I was having no luck transmitting.
 
-> ![](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/HomeEarthRodAustralia1.jpg/548px-HomeEarthRodAustralia1.jpg)
-> A grounding rod (via Wikimedia)
+> ![Grounding rod](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/HomeEarthRodAustralia1.jpg/548px-HomeEarthRodAustralia1.jpg)
+> 
+> [Wikimedia](https://commons.wikimedia.org/wiki/File:HomeEarthRodAustralia1.jpg)
+> CC BY-SA 3.0
 
 My intuition is that I'm being bitten by the lack of a good station ground. I've gotten this far
 without needing it, but something about the new configuration is allowing more RF into the shack. I
