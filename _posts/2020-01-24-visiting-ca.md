@@ -3,7 +3,7 @@ layout: post
 title:  "Visiting California"
 date:   2020-01-24
 ---
-![View of a Sunnyvale highway](https://1.bp.blogspot.com/-mxcKAYXHSJA/XlrTLWJOCAI/AAAAAAABt1k/TvcIVQd1B40XH-G2aUTUWpDNPvR6WjZpgCKgBGAsYHg/s320/IMG_20200123_170739.jpg)
+![View of a Sunnyvale highway](/assets/2020-01-23-sunnyvale.jpg)
 
 This week I had a work trip to the south Bay Area in California, and took an HT to try my hand at
 making some local repeater contacts there. I had a couple of nice rag-chews. I learned a lot more

@@ -3,7 +3,7 @@ layout: post
 title:  "Getting the hang of FT8"
 date:   2020-04-18
 ---
-![Radio and computer on a desk](https://1.bp.blogspot.com/-CNJQPPbh_00/Xpu8C2NvchI/AAAAAAABuuw/7PMKH15ak-Mxm6YaxMWM7gsUakW1zAE_gCPcBGAsYHg/s320/IMG_20200418_201405.jpg)
+![Radio and computer on a desk](/assets/2020-04-18-ft8-station.jpg)
 
 I've been working quite a bit of FT8 on HF in the past few weeks. Without too much effort, I've
 already collected about 170 QSOs (contacts) with 110 QSLs (confirmed by the other side). Among those

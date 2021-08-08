@@ -3,7 +3,7 @@ layout: post
 title:  "PCB arrived, but..."
 date:   2020-05-19
 ---
-![Unpopulated custom PCB on an Arduino](https://1.bp.blogspot.com/-RZOVvqiJ5hg/XsP2YeQi_TI/AAAAAAABvYE/pvzIZE-myWQaGT6_UUHID-G22dysdVW1gCPcBGAYYCw/s320/IMG_20200518_162337.jpg)
+![Unpopulated custom PCB on an Arduino](/assets/2020-05-18-k3ng-unsoldered.jpg)
 
 The good news: my PCBs arrived! The bad news: they don't work, at least not out of the box.
 
@@ -14,13 +14,13 @@ clue was that there is no Morse code "HI" on the sidetone speaker, nor do the pa
 The serial port Winkeyer seems to work, so the Arduino is functioning. Then I tried plugging the
 transceiver output into an external practice oscillator and found that it was always grounded. Huh.
 
-![Spaghetti mess of wires](https://1.bp.blogspot.com/-dFC1vXyiH-o/XsP4NFrPH_I/AAAAAAABvYY/LOYBnpwSIbURwyQ1kBUnN5b9G9XQxjFwgCPcBGAYYCw/s320/IMG_20200518_221735.jpg)
+![Spaghetti mess of wires](/assets/2020-05-18-k3ng-surgery.jpg)
 
 I think I found the culprit. Can you spot it?
 
-![Sparkfun transistor kit box](https://1.bp.blogspot.com/-1qBz5eqmsdg/XsP2ezlN_RI/AAAAAAABvX8/JSdexK9tlYkOqmjHLQ8ecJSBNz07XVqGgCLcBGAsYHQ/s320/IMG_20200518_222441.jpg)
+![Sparkfun transistor kit box](/assets/2020-05-18-transistor-kit.jpg)
 
-![KiCad transistor footprint](https://1.bp.blogspot.com/-a-HAZ-kL4Bg/XsP2iLMBsxI/AAAAAAABvYA/ydUswpjlQ5InseVjdH4ch5QBMb5na0H_wCLcBGAsYHQ/s320/IMG_20200518_222500.jpg)
+![KiCad transistor footprint](/assets/2020-05-18-kicad-footprint.jpg)
 
 The KiCad footprint has the transistor pins in a different order than the transistors I have. The
 base, collector and emitter are out of order. Lesson learned: attention to detail, don't trust

@@ -3,7 +3,7 @@ layout: post
 title:  "HF attempted"
 date:   2020-03-08
 ---
-![HF station in a park](https://4.bp.blogspot.com/-e_ldOtQmwgo/XnPUPCRiOXI/AAAAAAABuJw/l_B_ax1SvW4QxMvEdvRPx9Q1e-SrxRtNgCK4BGAYYCw/s320/IMG_20200308_165217.jpg)
+![HF station in a park](/assets/2020-03-08-hf-station.jpg)
 
 I've spent the past couple of weeks engrossed in finding new homes for much of Alan and Richard's SK
 collection, but today I was able to get out and try to put some of the keepers into action.

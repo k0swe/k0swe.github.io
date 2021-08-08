@@ -3,7 +3,7 @@ layout: post
 title:  "Made my first custom PCB"
 date:   2020-05-02
 ---
-![Custom printed circuit board](https://1.bp.blogspot.com/-zlQkC2VI79E/Xq2MmNnx6MI/AAAAAAABu5E/UI2_9SUXesEKxrwkl8xMcLZJldQTPaMJACLcBGAsYHQ/s320/K3NG-keyer-K0SWE-v2.png)
+![Custom printed circuit board](/assets/2020-05-02-K3NG-keyer-K0SWE-v2.png)
 
 I've been interested in hobby electronics longer than amateur radio. I picked up an Arduino
 Duemilanove in about 2010 and enjoyed messing around with LEDs, motors and servos. I even designed

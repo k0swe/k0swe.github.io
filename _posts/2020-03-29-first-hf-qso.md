@@ -3,7 +3,7 @@ layout: post
 title:  "First HF contact!"
 date:   2020-03-29
 ---
-![Chameleon EMCOMM II transformer](https://1.bp.blogspot.com/-e7H_uTwK9IM/XoTcCH760TI/AAAAAAABufo/_JozWp9qGegZwfspkYEKrRxif5LTmKCVACKgBGAsYHg/s320/IMG_20200325_183420.jpg)
+![Chameleon EMCOMM II transformer](/assets/2020-03-25-cha-emcomm-2.jpg)
 
 Being stuck at home during the COVID-19 pandemic, I finally had occasion to set up an HF antenna. I
 picked up a relatively inexpensive and flexible Chameleon EMCOMM II. My "shack" is a 2nd story guest

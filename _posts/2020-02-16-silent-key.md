@@ -3,7 +3,7 @@ layout: post
 title:  "Alan's Silent Key Collection"
 date:   2020-02-16
 ---
-![Radio equipment on a kitchen table](https://1.bp.blogspot.com/-PBQCrBNjW4k/XlqUbQLXuMI/AAAAAAABt00/B1SKc4F8ycMDeEHLDwa3MMtqvGLUTBbawCKgBGAsYHg/s320/IMG_20200210_115422.jpg)
+![Radio equipment on a kitchen table](/assets/2020-02-10-sorting.jpg)
 
 This week I had the responsibility of managing a Silent Key collection for the first time. Most hams
 will know that SKs are radio amateurs who have passed away. My wife's uncle Alan passed away in 2017
@@ -28,7 +28,7 @@ probably won't use those for permanent mobile use because I prefer having at lea
 capability, but they could be very useful for setting up something like a [TARPN](http://tarpn.net/)
 node. The collection also included many ham shack staples like dummy loads and RF cable adapters.
 
-![Hamfest vendor table](https://1.bp.blogspot.com/-cygkF-TZU18/XlqTkS49T-I/AAAAAAABt0o/axNvssXSwhUn3xtN830WBFXr4RHe5nr9ACKgBGAsYHg/s320/IMG_20200216_083728.jpg)
+![Hamfest vendor table](/assets/2020-02-16-hamfest.jpg)
 
 Being a vendor at a hamfest is very much like being a vendor at the craft sales that my wife and
 mother-in-law often do, so they were a lot of help in preparing. On the day of the sale, my

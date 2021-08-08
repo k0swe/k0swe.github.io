@@ -3,7 +3,7 @@ layout: post
 title:  "JFK Foxhunt"
 date:   2020-01-15
 ---
-![Cheyenne Sterner N0CKS and Heather Randall with ARDF foxhunt gear](https://1.bp.blogspot.com/-SVPMs8silVU/XlrVHQjInAI/AAAAAAABt10/Rs9f6YqHrdggSJV1UZ94_pS4wosV7oKYwCKgBGAsYHg/s320/398A5092-84F2-45B7-80B8-6AC936EFCF4A.JPG)
+![Cheyenne Sterner N0CKS and Heather Randall with ARDF foxhunt gear](/assets/2020-01-15-jfk-foxhunt.JPG)
 
 Today I helped a team from RMHAM to introduce some students from JFK High School to amateur radio
 ahead of our potential ARISS contact. We did a quick lecture as an overview of amateur radio, then
