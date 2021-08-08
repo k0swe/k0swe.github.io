@@ -3,7 +3,7 @@ layout: post
 title:  "Looking forward to QRP"
 date:   2020-09-02
 ---
-![Lab599 Discovery TX-500 radio](https://www.hamradio.com/images_manuf/H0-017255A.jpg)
+![Lab599 Discovery TX-500 radio](/assets/tx-500-wet.jpg)
 
 Work is continuing on my new web-based logger program, but in the meantime I've gotten more serious
 about putting together a kit for [SOTA](https://www.sota.org.uk/) and [POTA](https://pota.us/)
@@ -21,7 +21,7 @@ speaker. And yeah, if I already owned an Elecraft or Xiegu QRP transceiver, it w
 justify getting this as a second QRP radio. But I really highly prize the water resistance, thermal
 considerations and the ruggedness of the case, so I'll give this a try.
 
-![Wiring diagram for SignaLink to TX-500](https://1.bp.blogspot.com/-fF4DuQjm6KU/X0_DiY40ixI/AAAAAAABwqQ/EZMl0QAWZgkyHK9m95uUxi6vC95UfRODACLcBGAsYHQ/w376-h196/SOTA_POTA%2BStation.jpg)
+![Wiring diagram for SignaLink to TX-500](/assets/tx-500-to-signalink-wiring.jpg)
 
 The package is supposed to come with most of the necessary cables to adapt the unconventional
 water-resistant GX-12 connectors to more standard connectors, like a 3.5mm jack for a CW

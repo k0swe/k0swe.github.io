@@ -3,7 +3,7 @@ layout: post
 title:  "Overcoming RF in the shack, the sneaky way"
 date:   2020-08-14
 ---
-![Ham radio connected to a Raspberry Pi computer](https://1.bp.blogspot.com/-F7qBed_m_NY/Xzbv2YXIbVI/AAAAAAABwfQ/VvA96kHPb-AyDWsKX9KBvZCS4k_oiF0NQCLcBGAsYHQ/w263-h263/IMG_20200811_083114.jpg)
+![Ham radio connected to a Raspberry Pi computer](/assets/2020-08-11-radio-and-rpi.jpg)
 
 Life has conspired to keep me from doing as much with ham radio lately, but I'm happy to report that
 I'm at least back on the air. In my last post I described my troubles with RF getting into the shack

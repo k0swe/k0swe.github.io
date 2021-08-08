@@ -3,7 +3,7 @@ layout: post
 title:  "Prepare for Countdown!"
 date:   2020-12-19
 ---
-> ![Rocket launch](https://lh3.googleusercontent.com/-XHv7vb7Rwgc/X94esnQ_4LI/AAAAAAAByKs/caJYnhBoNXwEWmOqj48IoZf9_Pa2pOZmgCLcBGAsYHQ/w320-h213/1024px-Amateur_Rocket_Launch_at_Big_Ass_Loading_Lifting_Suckers_%2528BALLS%2529_2017.jpg)
+> ![Rocket launch](/assets/Amateur_Rocket_Launch_at_Big_Ass_Loading_Lifting_Suckers_(BALLS)_2017.jpg)
 > 
 > [Wikimedia](https://commons.wikimedia.org/wiki/File:Amateur_Rocket_Launch_at_Big_Ass_Loading_Lifting_Suckers_(BALLS)_2017.jpg)
 > CC BY-SA 4.0
