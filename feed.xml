@@ -1,6 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://k0swe.radio/feed.xml" rel="self" type="application/atom+xml" /><link href="https://k0swe.radio/" rel="alternate" type="text/html" /><updated>2021-08-08T14:05:27+00:00</updated><id>https://k0swe.radio/feed.xml</id><title type="html">K0SWE Blog</title><subtitle>Events and projects for amateur radio operator K0SWE, a.k.a. Chris.</subtitle><entry><title type="html">Prepare for Countdown!</title><link href="https://k0swe.radio/2020/12/19/kellog-launch.html" rel="alternate" type="text/html" title="Prepare for Countdown!" /><published>2020-12-19T00:00:00+00:00</published><updated>2020-12-19T00:00:00+00:00</updated><id>https://k0swe.radio/2020/12/19/kellog-launch</id><content type="html" xml:base="https://k0swe.radio/2020/12/19/kellog-launch.html">&lt;blockquote&gt;
-  &lt;p&gt;&lt;img src=&quot;https://lh3.googleusercontent.com/-XHv7vb7Rwgc/X94esnQ_4LI/AAAAAAAByKs/caJYnhBoNXwEWmOqj48IoZf9_Pa2pOZmgCLcBGAsYHQ/w320-h213/1024px-Amateur_Rocket_Launch_at_Big_Ass_Loading_Lifting_Suckers_%2528BALLS%2529_2017.jpg&quot; alt=&quot;Rocket launch&quot; /&gt;
-&lt;a href=&quot;https://commons.wikimedia.org/wiki/File:Amateur_Rocket_Launch_at_Big_Ass_Loading_Lifting_Suckers_(BALLS)_2017.jpg&quot;&gt;Wikimedia&lt;/a&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://k0swe.radio/feed.xml" rel="self" type="application/atom+xml" /><link href="https://k0swe.radio/" rel="alternate" type="text/html" /><updated>2021-08-08T14:10:56+00:00</updated><id>https://k0swe.radio/feed.xml</id><title type="html">K0SWE Blog</title><subtitle>Events and projects for amateur radio operator K0SWE, a.k.a. Chris.</subtitle><entry><title type="html">Prepare for Countdown!</title><link href="https://k0swe.radio/2020/12/19/kellog-launch.html" rel="alternate" type="text/html" title="Prepare for Countdown!" /><published>2020-12-19T00:00:00+00:00</published><updated>2020-12-19T00:00:00+00:00</updated><id>https://k0swe.radio/2020/12/19/kellog-launch</id><content type="html" xml:base="https://k0swe.radio/2020/12/19/kellog-launch.html">&lt;blockquote&gt;
+  &lt;p&gt;&lt;img src=&quot;https://lh3.googleusercontent.com/-XHv7vb7Rwgc/X94esnQ_4LI/AAAAAAAByKs/caJYnhBoNXwEWmOqj48IoZf9_Pa2pOZmgCLcBGAsYHQ/w320-h213/1024px-Amateur_Rocket_Launch_at_Big_Ass_Loading_Lifting_Suckers_%2528BALLS%2529_2017.jpg&quot; alt=&quot;Rocket launch&quot; /&gt;&lt;/p&gt;
+
+  &lt;p&gt;&lt;a href=&quot;https://commons.wikimedia.org/wiki/File:Amateur_Rocket_Launch_at_Big_Ass_Loading_Lifting_Suckers_(BALLS)_2017.jpg&quot;&gt;Wikimedia&lt;/a&gt;
 CC BY-SA 4.0&lt;/p&gt;
 &lt;/blockquote&gt;
 
@@ -23,7 +24,7 @@ version of the “app store.”&lt;/p&gt;
 
 &lt;p&gt;I’ve also been investing heavily in GitHub Actions automation to make sure that I can sustainably
 maintain the 8 (and growing) repositories that make up
-&lt;a href=&quot;https://github.com/k0swe/docs&quot;&gt;KelLog’s complete solution&lt;/a&gt;. I want to make sure that if and when I
+&lt;a href=&quot;https://k0swe.radio/docs/&quot;&gt;KelLog’s complete solution&lt;/a&gt;. I want to make sure that if and when I
 start getting bug reports and feature requests, I can focus on writing code and not on some
 laborious process for deploying or cutting releases.&lt;/p&gt;
 
@@ -168,8 +169,10 @@ to keep it reliable. Today’s test on 20m was very discouraging. I used to be a
 if I felt the need (usually used less), but today even at QRP, I was having no luck transmitting.&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;&lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/HomeEarthRodAustralia1.jpg/548px-HomeEarthRodAustralia1.jpg&quot; alt=&quot;&quot; /&gt;
-A grounding rod (via Wikimedia)&lt;/p&gt;
+  &lt;p&gt;&lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/HomeEarthRodAustralia1.jpg/548px-HomeEarthRodAustralia1.jpg&quot; alt=&quot;Grounding rod&quot; /&gt;&lt;/p&gt;
+
+  &lt;p&gt;&lt;a href=&quot;https://commons.wikimedia.org/wiki/File:HomeEarthRodAustralia1.jpg&quot;&gt;Wikimedia&lt;/a&gt;
+CC BY-SA 3.0&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;My intuition is that I’m being bitten by the lack of a good station ground. I’ve gotten this far
