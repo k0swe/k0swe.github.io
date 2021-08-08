@@ -47,7 +47,7 @@
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">
-    <p><img src="https://1.bp.blogspot.com/-m2wpfJ6fXwg/XXRZU4xTomI/AAAAAAABp38/Giappm1VQe8634gvcHGFP0PBrTGgXnhhgCLcBGAs/s1600/clock12.gif" alt="Clock showing 12:00" /></p>
+    <p><img src="/assets/clock12.gif" alt="Clock showing 12:00" /></p>
 
 <p>One thing that bugs me when working with Raspberry Pis is that they don’t have a real-time clock (
 RTC), so when you remove power, the system clock stops. This isn’t a problem when you’re
@@ -55,8 +55,7 @@ internet-connected, because <code class="language-plaintext highlighter-rouge">n
 However, when working in the field, the lack of an RTC causes Winlink emails and application logs to
 have the wrong time stamps, which is annoying at best.</p>
 
-<p>I did a little research into using my GPS module to update the system clock. Apparently that
-is 
+<p>I did a little research into using my GPS module to update the system clock. Apparently that is
 <a href="https://gpsd.gitlab.io/gpsd/gpsd-time-service-howto.html#_feeding_ntpd_from_gpsd">supported by <code class="language-plaintext highlighter-rouge">ntpd</code></a>,
 but the documentation on it assumed a much deeper knowledge of NTP than I have, and it’s not clear
 it even works in a non-internet-connected situation. It also uses a protocol called <code class="language-plaintext highlighter-rouge">1PPS</code>, which
