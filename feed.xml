@@ -1,300 +1,142 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://k0swe.radio/feed.xml" rel="self" type="application/atom+xml" /><link href="https://k0swe.radio/" rel="alternate" type="text/html" /><updated>2021-08-08T14:10:56+00:00</updated><id>https://k0swe.radio/feed.xml</id><title type="html">K0SWE Blog</title><subtitle>Events and projects for amateur radio operator K0SWE, a.k.a. Chris.</subtitle><entry><title type="html">Prepare for Countdown!</title><link href="https://k0swe.radio/2020/12/19/kellog-launch.html" rel="alternate" type="text/html" title="Prepare for Countdown!" /><published>2020-12-19T00:00:00+00:00</published><updated>2020-12-19T00:00:00+00:00</updated><id>https://k0swe.radio/2020/12/19/kellog-launch</id><content type="html" xml:base="https://k0swe.radio/2020/12/19/kellog-launch.html">&lt;blockquote&gt;
-  &lt;p&gt;&lt;img src=&quot;https://lh3.googleusercontent.com/-XHv7vb7Rwgc/X94esnQ_4LI/AAAAAAAByKs/caJYnhBoNXwEWmOqj48IoZf9_Pa2pOZmgCLcBGAsYHQ/w320-h213/1024px-Amateur_Rocket_Launch_at_Big_Ass_Loading_Lifting_Suckers_%2528BALLS%2529_2017.jpg&quot; alt=&quot;Rocket launch&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://k0swe.radio/feed.xml" rel="self" type="application/atom+xml" /><link href="https://k0swe.radio/" rel="alternate" type="text/html" /><updated>2021-08-08T14:54:35+00:00</updated><id>https://k0swe.radio/feed.xml</id><title type="html">K0SWE Blog</title><subtitle>Events and projects for amateur radio operator K0SWE, a.k.a. Chris.</subtitle><entry><title type="html">ARES Event: Arapahoe County Fair</title><link href="https://k0swe.radio/2021/07/26/arapahoe-county-fair.html" rel="alternate" type="text/html" title="ARES Event: Arapahoe County Fair" /><published>2021-07-26T00:00:00+00:00</published><updated>2021-07-26T00:00:00+00:00</updated><id>https://k0swe.radio/2021/07/26/arapahoe-county-fair</id><content type="html" xml:base="https://k0swe.radio/2021/07/26/arapahoe-county-fair.html">&lt;p&gt;For the past 4 days I was assisting &lt;a href=&quot;https://arapahoeares.org/&quot;&gt;Arapahoe County ARES&lt;/a&gt; with the
+&lt;a href=&quot;https://www.arapahoecountyfair.com/&quot;&gt;Arapahoe County Fair&lt;/a&gt;. I’m not sure what I was expecting, but
+this event turned out to be very challenging and gratifying!&lt;/p&gt;
 
-  &lt;p&gt;&lt;a href=&quot;https://commons.wikimedia.org/wiki/File:Amateur_Rocket_Launch_at_Big_Ass_Loading_Lifting_Suckers_(BALLS)_2017.jpg&quot;&gt;Wikimedia&lt;/a&gt;
-CC BY-SA 4.0&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&quot;https://1.bp.blogspot.com/-x-X4-8FwPxg/YQbOMIZd9GI/AAAAAAAB3jI/dRETzx6zgRYICSTLOe1Xg7Wr6eXqsyNBACPcBGAsYHg/s320/PXL_20210723_014648315.jpg&quot; alt=&quot;Ferris wheel and carnival rides&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;I’m continuing to focus most of my energy on getting KelLog into shape for a public launch. I’m
-already using KelLog for my daily logging needs, but there are plenty of sharp corners that need to
-be smoothed out before handing it to other people and expecting them to be successful and delighted.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://1.bp.blogspot.com/-aYwCRafAY10/YQbOYqWAJeI/AAAAAAAB3jM/wDEXJDawM7kSN-_5IZItbS2Lw8rYEEO1gCPcBGAsYHg/s320/PXL_20210724_190545040.jpg&quot; alt=&quot;Dock Dogs&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;For starters, there’s the question of packaging &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;kel-agent&lt;/code&gt;. This is the semi-magical program that
-allows web applications talk to installed amateur radio programs like WSJT-X. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Kel-agent&lt;/code&gt; needs to
-be installed, which means it’s not enough to have an executable that builds; it needs to be copied
-into a particular folder on the user’s machine and added to their command line &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;PATH&lt;/code&gt;. This has to
-be done separately for each operating system, so I’ve learned more than I ever wanted to know
-about &lt;a href=&quot;http://wixtoolset.org/&quot;&gt;WiX&lt;/a&gt; for Windows,
-&lt;a href=&quot;http://s.sudre.free.fr/Software/Packages/about.html&quot;&gt;Packages&lt;/a&gt; for Mac, and
-&lt;a href=&quot;https://github.com/Debian/dh-make-golang&quot;&gt;dh-make-golang&lt;/a&gt; for Debian. I also found a sponsor to
-help me submit &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;kel-agent&lt;/code&gt; and its dependencies to the Debian APT repo, so eventually, it will be
-available for users of &lt;a href=&quot;https://packages.debian.org/sid/kel-agent&quot;&gt;Debian&lt;/a&gt;,
-&lt;a href=&quot;https://packages.ubuntu.com/hirsute/kel-agent&quot;&gt;Ubuntu&lt;/a&gt; and derivatives to install through Linux’s
-version of the “app store.”&lt;/p&gt;
+&lt;p&gt;My role was to walk around the fair as part of a team of 2 or 3 and be extra eyes and ears for the
+sheriff’s office and the fair staff. During the course of each day, I ended up averaging about 10
+miles walking. We assisted with about 10 lost child incidents where we searched for children or
+parents; 3 or 4 medicals where we called the event EMTs out into the fair to help people; and asked
+for sheriff support on a couple of unruly customers. Good times!&lt;/p&gt;</content><author><name></name></author><summary type="html">For the past 4 days I was assisting Arapahoe County ARES with the Arapahoe County Fair. I’m not sure what I was expecting, but this event turned out to be very challenging and gratifying!</summary></entry><entry><title type="html">ARES In-Person Meeting</title><link href="https://k0swe.radio/2021/07/16/ares-f2f.html" rel="alternate" type="text/html" title="ARES In-Person Meeting" /><published>2021-07-16T00:00:00+00:00</published><updated>2021-07-16T00:00:00+00:00</updated><id>https://k0swe.radio/2021/07/16/ares-f2f</id><content type="html" xml:base="https://k0swe.radio/2021/07/16/ares-f2f.html">&lt;p&gt;The COVID-19 pandemic has of course kept us mostly at home and away from people for over a year now.
+But with wide-spread vaccinations, the grip of the pandemic is starting to loosen. Case in point:
+last night, &lt;a href=&quot;https://www.coaresr1d6.org/&quot;&gt;Colorado ARES R1D6&lt;/a&gt; was able to meet in-person for the
+first time since February 2020!&lt;/p&gt;
 
-&lt;p&gt;I’ve also been investing heavily in GitHub Actions automation to make sure that I can sustainably
-maintain the 8 (and growing) repositories that make up
-&lt;a href=&quot;https://k0swe.radio/docs/&quot;&gt;KelLog’s complete solution&lt;/a&gt;. I want to make sure that if and when I
-start getting bug reports and feature requests, I can focus on writing code and not on some
-laborious process for deploying or cutting releases.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://1.bp.blogspot.com/-NzDnm7_cRA0/YQbL2Bat_kI/AAAAAAAB3i8/U0Np51mejlY0PUVmmXZJNTb7xMTRaj6wACPcBGAsYHg/s320/PXL_20210716_014841717.jpg&quot; alt=&quot;R1D6 members training&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Beyond KelLog, I’ve been getting some requests to step up in two of my ham radio organizations.
-First, I’m joining the leadership team of &lt;a href=&quot;https://www.coaresr1d6.org/&quot;&gt;Colorado ARES R1D6&lt;/a&gt; as their
-Training Coordinator. In that role, I’ll be responsible for making sure we have a training plan that
-engages and illuminates the entire 45-person team from the newbies to the old hands.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://1.bp.blogspot.com/-yk4fuMUDVAE/YQbL2NgG1TI/AAAAAAAB3i8/iQX_i7GSQM8VoZD6ppuuAKp3zU0IuFSNACPcBGAsYHg/s320/PXL_20210716_011817916.jpg&quot; alt=&quot;R1D6 members training&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Second, I’m going to be helping the Rocky Mountain Ham group to launch an extension to their
-existing &lt;a href=&quot;https://www.rmham.org/rocky-mountain-ham-university/&quot;&gt;RMHAM University&lt;/a&gt;
-program, called RMHAM Tech Talks. These are intended to be shorter presentations lasting about an
-hour, and will take advantage of RMHAM’s new internet livestream studio.&lt;/p&gt;</content><author><name></name></author><summary type="html">Wikimedia CC BY-SA 4.0</summary></entry><entry><title type="html">KelLog is becoming useful!</title><link href="https://k0swe.radio/2020/11/03/kellog.html" rel="alternate" type="text/html" title="KelLog is becoming useful!" /><published>2020-11-03T00:00:00+00:00</published><updated>2020-11-03T00:00:00+00:00</updated><id>https://k0swe.radio/2020/11/03/kellog</id><content type="html" xml:base="https://k0swe.radio/2020/11/03/kellog.html">&lt;p&gt;&lt;img src=&quot;https://1.bp.blogspot.com/-fb2UqDETuAU/X6Fmso0jobI/AAAAAAABxjI/vrJGqIJYXEEp9qxL-fGEDdOPD2HlQz4JACLcBGAsYHQ/w640-h416/Screenshot%2Bfrom%2B2020-11-03%2B06-44-31.png&quot; alt=&quot;KelLog connected to WSJT-X&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;We worked on initiating &lt;a href=&quot;http://www.arrl.org/ares&quot;&gt;ARRL ARES&lt;/a&gt; Task Books. Most members of the unit
+have the training to complete Level 1 of the task book without effort, so we worked on some Level 2
+skills like front-panel programming a radio, and taking a field report on an ICS-213 with sufficient
+detail. It was a lot of fun to see folks in-person again!&lt;/p&gt;</content><author><name></name></author><summary type="html">The COVID-19 pandemic has of course kept us mostly at home and away from people for over a year now. But with wide-spread vaccinations, the grip of the pandemic is starting to loosen. Case in point: last night, Colorado ARES R1D6 was able to meet in-person for the first time since February 2020!</summary></entry><entry><title type="html">Winlink Forms in Pat!</title><link href="https://k0swe.radio/2021/07/10/pat-forms.html" rel="alternate" type="text/html" title="Winlink Forms in Pat!" /><published>2021-07-10T00:00:00+00:00</published><updated>2021-07-10T00:00:00+00:00</updated><id>https://k0swe.radio/2021/07/10/pat-forms</id><content type="html" xml:base="https://k0swe.radio/2021/07/10/pat-forms.html">&lt;p&gt;I’ve been switching my focus more to the software engineering side of the hobby. I’ve been getting
+more and more involved in &lt;a href=&quot;https://github.com/la5nta/pat&quot;&gt;Pat&lt;/a&gt; and have been particularly interested
+in the form templates features, which has been available as a beta feature for about a year now. I
+can’t take credit for most of the form templates code, most of that was written by Rainer
+Grosskopf &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;KI7RMJ&lt;/code&gt;, but I was able to nudge Pat’s founder, Martin Pedersen &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;LA5NTA&lt;/code&gt;, into creating a
+new release.&lt;/p&gt;
 
-&lt;p&gt;I’ve been busy coding on my new contact logging application, and I’m happy to say that it’s becoming
-useful enough to use it as my day-to-day logger. What’s more, my employer has released any copyright
-claims, so I can now open-source the whole thing! Check out the &lt;a href=&quot;https://forester.radio&quot;&gt;website&lt;/a&gt;
-and the &lt;a href=&quot;https://github.com/k0swe/kellog&quot;&gt;code&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://1.bp.blogspot.com/-ZTD3qZ8wOMo/YQbKjeRHGyI/AAAAAAAB3iw/uUqtci1rEZMXNeCk0ygHmYDua-SHhzY_ACLcBGAsYHQ/s320/Screenshot%2Bfrom%2B2021-08-01%2B10-23-11.png&quot; alt=&quot;Pat v0.11.0 changelog&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;The logger consists of a hosted website which syncs almost instantly between machines thanks to
-being backed by Firebase. That on its own might not be very interesting, but as I’ve
-&lt;a href=&quot;/2020/07/19/grounding.html&quot;&gt;hinted before&lt;/a&gt;, I built a small translator program that lets the
-website talk to WSJT-X and can be extended to other radio software. There are some web-based loggers
-that can talk to desktop radio software, but the ones I’ve seen have to be served from the same
-machine. I think I’ve built something novel: the first &lt;em&gt;hosted&lt;/em&gt; web logger that can talk to desktop
-radio software. And I’ve built it to be modular enough that folks can build on what I’ve started.&lt;/p&gt;
+&lt;p&gt;So far, most of the feedback is very positive! There are a couple of bugs to fix and necessary UX
+improvements to make, but at least it’s out there in the world!&lt;/p&gt;</content><author><name></name></author><summary type="html">I’ve been switching my focus more to the software engineering side of the hobby. I’ve been getting more and more involved in Pat and have been particularly interested in the form templates features, which has been available as a beta feature for about a year now. I can’t take credit for most of the form templates code, most of that was written by Rainer Grosskopf KI7RMJ, but I was able to nudge Pat’s founder, Martin Pedersen LA5NTA, into creating a new release.</summary></entry><entry><title type="html">Field Day</title><link href="https://k0swe.radio/2021/06/26/field-day.html" rel="alternate" type="text/html" title="Field Day" /><published>2021-06-26T00:00:00+00:00</published><updated>2021-06-26T00:00:00+00:00</updated><id>https://k0swe.radio/2021/06/26/field-day</id><content type="html" xml:base="https://k0swe.radio/2021/06/26/field-day.html">&lt;p&gt;I was able to get out for a little while today. I worked a little FT-8, and had planned to do some
+voice. I started to get a little rain, which I was prepared for. But then the rain picked up and I
+had to disassemble.&lt;/p&gt;
 
-&lt;p&gt;There are still plenty of missing features and rough edges to work out, but I’m very pleased that
-it’s at a point that it’s usable.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">ARES Simulated Emergency Test</title><link href="https://k0swe.radio/2020/10/04/ares-set.html" rel="alternate" type="text/html" title="ARES Simulated Emergency Test" /><published>2020-10-04T00:00:00+00:00</published><updated>2020-10-04T00:00:00+00:00</updated><id>https://k0swe.radio/2020/10/04/ares-set</id><content type="html" xml:base="https://k0swe.radio/2020/10/04/ares-set.html">&lt;p&gt;&lt;img src=&quot;https://1.bp.blogspot.com/-n6_XTRXdtSQ/X3pDmTco7iI/AAAAAAABxMg/0mANuw4yIZ81jgONYlLea76mCI7xaEyuACPcBGAsYHg/s320/PXL_20201003_143109321.jpg&quot; alt=&quot;Truck with antennas in the mountains&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://1.bp.blogspot.com/--f3V4oIw0zk/YQbHaCaa6jI/AAAAAAAB3iY/d5_2oSX0sCYXEeyjXQQel58qHA3HUkeogCPcBGAsYHg/s320/PXL_20210626_200857436.jpg&quot; alt=&quot;Field Day station at a picnic table&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;I’ve been a member of the &lt;a href=&quot;https://www.coaresr1d6.org/&quot;&gt;Colorado ARES Region 1 District 6&lt;/a&gt;
-team covering Jefferson, Gilpin and Clear Creek counties since January. However, with the pandemic
-happening, basically all of our regular served events and in-person training have been cancelled. I
-think a few folks have deployed to help with incidents, but there hasn’t been much for newbies to
-do.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://1.bp.blogspot.com/-HB3R5ej7ftY/YQbIDPn08MI/AAAAAAAB3ig/EWti31CfB8ABLbybqTDEIWcmVtuMje3UQCPcBGAsYHg/s320/PXL_20210626_193605288.jpg&quot; alt=&quot;Field Day station with solar panels&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;So I was thrilled yesterday to participate in my first ARES Simulated Emergency Test (SET) exercise.
-Our team activated all 3 county Emergency Operation Centers (Clear Creek EOC was virtual from
-someone’s house) as well as the City of Lakewood EOC! We had about 8 folks to staff those, and 15
-folks out in the field sending pre-arranged “injects” or scenarios. One of the goals was to give the
-EOC staff practice at handling and aggregating traffic, and another goal was to test connectivity
-from our territory in various places.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://1.bp.blogspot.com/-f6-veXXdJbE/YQbHaKE3DUI/AAAAAAAB3iY/f4m7LWaYmNkez7x9Ujq4P3QL_1J_Vbe6wCPcBGAsYHg/s320/PXL_20210626_201125053.jpg&quot; alt=&quot;Chris at Field Day Station with rain jacket&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">I was able to get out for a little while today. I worked a little FT-8, and had planned to do some voice. I started to get a little rain, which I was prepared for. But then the rain picked up and I had to disassemble.</summary></entry><entry><title type="html">Mountaineer is dead: long live Digirig Mobile</title><link href="https://k0swe.radio/2021/06/23/digirig.html" rel="alternate" type="text/html" title="Mountaineer is dead: long live Digirig Mobile" /><published>2021-06-23T00:00:00+00:00</published><updated>2021-06-23T00:00:00+00:00</updated><id>https://k0swe.radio/2021/06/23/digirig</id><content type="html" xml:base="https://k0swe.radio/2021/06/23/digirig.html">&lt;p&gt;After all that work on &lt;a href=&quot;https://github.com/k0swe/mountaineer&quot;&gt;Mountaineer&lt;/a&gt;, I recently found someone
+who was working on a similar project: &lt;a href=&quot;https://digirig.net/product/digirig-mobile/&quot;&gt;Digirig Mobile&lt;/a&gt;
+by Denis Grisak &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;K0TX&lt;/code&gt;. It’s pretty much identical in feature set, a quarter of the size, is
+similarly &lt;a href=&quot;https://github.com/softcomplex/digirig&quot;&gt;open source&lt;/a&gt; and was designed by an actual
+electrical engineer who knows what he is doing. After building cables to interface with the TX-500,
+it’s working perfectly!&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://1.bp.blogspot.com/-q1fdrSFhIZk/X3pDmT7HuZI/AAAAAAABxMg/CkzZ3K5ujvk2fXPLWpxKuSg6CuNhFwaZgCPcBGAsYHg/s320/PXL_20201003_143135511.jpg&quot; alt=&quot;Truck passenger seat with radios and a laptop&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://1.bp.blogspot.com/-I99x4_ZeQRg/YQbCTfiwtSI/AAAAAAAB3iA/o6fdzFXPuCIwEyZXXakYqK1AQeYoDEdSgCPcBGAsYHg/s320/PXL_20210622_154749176.jpg&quot; alt=&quot;QRP station with Digirig Mobile in grass&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;I was one of the field operators, and my assignment was up in Rollinsville, CO on the Peak to Peak
-Highway. It was a beautiful day for a mountain drive; the fall colors were in full bloom, and the
-air was cool and crisp, a nice change from the wildfire smoke we’ve been experiencing. My location
-was in a bit of a canyon and the exercise planners were worried it would be a challenging location
-to transmit out on UHF. However, a DMR handheld with a mag-mount antenna performed flawlessly and
-was able to get out of the canyon to the repeater just fine. I also attempted a VHF packet radio
-connection for Winlink, but the RMS was behind several mountains and just couldn’t get out. I wasn’t
-too surprised. Maybe next year I’ll have my QRP HF station ready and enough experience to bounce a
-Winlink message out of the mountains.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Hello again, H-250!</title><link href="https://k0swe.radio/2020/09/13/h250.html" rel="alternate" type="text/html" title="Hello again, H-250!" /><published>2020-09-13T00:00:00+00:00</published><updated>2020-09-13T00:00:00+00:00</updated><id>https://k0swe.radio/2020/09/13/h250</id><content type="html" xml:base="https://k0swe.radio/2020/09/13/h250.html">&lt;p&gt;I haven’t received my pre-ordered Lab599 Discovery TX-500 yet, but I’m still eagerly awaiting it.
-One of the reviews that helped me decide on it came from the
-&lt;a href=&quot;https://www.youtube.com/user/hoshnasi&quot;&gt;Ham Radio Crash Course&lt;/a&gt; YouTube channel. Josh &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;KI6NAZ&lt;/code&gt; got a
-preview unit on loan and did a couple of videos. I was inspired when I saw he had gotten an
-&lt;a href=&quot;https://youtu.be/CiDgjfGv7TY?t=585&quot;&gt;H-250 military handset with a GX-12 connector&lt;/a&gt; wired for the
-TX-500. I felt very nostalgic from using those during my time in the Army Signal Corps, so I decided
-to look into it.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://1.bp.blogspot.com/-i8f1P19JXx4/YQbCTXdSOJI/AAAAAAAB3iA/s0vIJPJE_esZnUuDThfRreoziGthznBrwCPcBGAsYHg/s320/PXL_20210623_153608628.MP.jpg&quot; alt=&quot;QRP station with Digirig Mobile at a picnic table&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://1.bp.blogspot.com/-nktPPBhaeLs/X17Y7SZywHI/AAAAAAABw5Y/kzODRhBHOGYGJcKCTmpIPD2SQcssWEP0wCPcBGAsYHg/s320/PXL_20200913_180250319.jpg&quot; alt=&quot;H-250 handset adapted to IC-718&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;I spoke with Denis over email and he gave me some ideas to improve Mountaineer. I’m grateful, but
+for now, I think I’m just going to stop development on Mountaineer and guide people towards Digirig.&lt;/p&gt;
 
-&lt;p&gt;There’s a chap who’s building an entire lineup of accessories for the TX-500,
-&lt;a href=&quot;https://www.w2eny.com/tx500/&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;W2ENY&lt;/code&gt;&lt;/a&gt;. I figure that’s probably where Josh got his. After looking
-at &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;W2ENY&lt;/code&gt;’s shop, I decided I ought to try and source the parts a little cheaper and try building
-them myself. I don’t mind paying for quality work, but finishing connectors and building cables
-feels like something I should be able to do. Besides, I already have to build a custom cable for the
-SignaLink, so I’m already exercising those skills.&lt;/p&gt;
+&lt;p&gt;In a way, I’m a little relieved. It was a lot of fun developing Mountaineer and building my hardware
+skills, but the thought of productionizing it, mass-producing, having to deal with logistics and
+payments and customer service… It’s all more than I really wanted to pursue. I’ll leave that to
+someone with a more entrepreneurial spirit!&lt;/p&gt;</content><author><name></name></author><summary type="html">After all that work on Mountaineer, I recently found someone who was working on a similar project: Digirig Mobile by Denis Grisak K0TX. It’s pretty much identical in feature set, a quarter of the size, is similarly open source and was designed by an actual electrical engineer who knows what he is doing. After building cables to interface with the TX-500, it’s working perfectly!</summary></entry><entry><title type="html">Dirty 30</title><link href="https://k0swe.radio/2021/06/13/dirty-30.html" rel="alternate" type="text/html" title="Dirty 30" /><published>2021-06-13T00:00:00+00:00</published><updated>2021-06-13T00:00:00+00:00</updated><id>https://k0swe.radio/2021/06/13/dirty-30</id><content type="html" xml:base="https://k0swe.radio/2021/06/13/dirty-30.html">&lt;p&gt;With the pandemic seemingly waning, the Golden Gate Dirty 30 was actually able to happen this year!
+Supporting this event two years ago was the first event I supported as a ham operator, and I was
+thrilled to get to participate again. This year I was officially part of the RMHAM Tech Team
+responsible for setting up and operating the IP-over-microwave network.&lt;/p&gt;
 
-&lt;p&gt;The H-250 with the original military U-229/U connector only runs about $25 on eBay. I could have cut
-off the original connector and replaced it with the GX-12 to fit the TX-500, but I decided instead
-to pursue making a family of adapter cables. I ordered several U-228/U male connectors, and now I
-can build adapter cables to connect a stock H-250 to many of my radios. Since I don’t have the
-TX-500 yet, I decided to build the first adapter cable for my Icom IC-718 with a GX-16 connector. So
-far in testing, it works great! The handset speaker is clearer than the radio’s front speaker, and
-speaking into the mic produces movement on the dummy load power meter. I still need to try it in an
-actual QSO; frankly I don’t have much experience yet with HF voice, but this should inspire me to
-try it some more.&lt;/p&gt;
+&lt;p&gt;I volunteered to be stationed up on City Lights Ridge. It’s not a place that the team had stationed
+somebody before since it mostly runs itself. However, that site is the linchpin of our operations,
+and there had been problems there in the past requiring team members to sprint up the steep trail,
+sometimes with heavy additional lead-acid batteries.&lt;/p&gt;
 
-&lt;p&gt;My next step is to build adapter cables for other radios. I have one planned for the TX-500 of
-course, but I figure doing one with the K-1 plug would be fun; that would fit my Anytone D878UV,
-Baofeng UV-5R and others. I have this image now of my army pack with one of those foldable tactical
-blade antennas that look like the AS-3683A/PRC, that and the H-250 sticking out, and it would look
-just like when I was out on an FTX with a SINCGARS manpack. Ah, good times.&lt;/p&gt;</content><author><name></name></author><summary type="html">I haven’t received my pre-ordered Lab599 Discovery TX-500 yet, but I’m still eagerly awaiting it. One of the reviews that helped me decide on it came from the Ham Radio Crash Course YouTube channel. Josh KI6NAZ got a preview unit on loan and did a couple of videos. I was inspired when I saw he had gotten an H-250 military handset with a GX-12 connector wired for the TX-500. I felt very nostalgic from using those during my time in the Army Signal Corps, so I decided to look into it.</summary></entry><entry><title type="html">Looking forward to QRP</title><link href="https://k0swe.radio/2020/09/02/looking-to-qrp.html" rel="alternate" type="text/html" title="Looking forward to QRP" /><published>2020-09-02T00:00:00+00:00</published><updated>2020-09-02T00:00:00+00:00</updated><id>https://k0swe.radio/2020/09/02/looking-to-qrp</id><content type="html" xml:base="https://k0swe.radio/2020/09/02/looking-to-qrp.html">&lt;p&gt;&lt;img src=&quot;https://www.hamradio.com/images_manuf/H0-017255A.jpg&quot; alt=&quot;Lab599 Discovery TX-500 radio&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://1.bp.blogspot.com/-BNArf2gCr8M/YQbFi9oyVPI/AAAAAAAB3iM/t_7pdQCZ5M8r3dUfKj4aY0NAhhkNwSKLgCPcBGAsYHg/s320/PXL_20210611_193929291._exported_99_1623550275998.jpg&quot; alt=&quot;City Lights Ridge mast with microwave gear&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Work is continuing on my new web-based logger program, but in the meantime I’ve gotten more serious
-about putting together a kit for &lt;a href=&quot;https://www.sota.org.uk/&quot;&gt;SOTA&lt;/a&gt; and &lt;a href=&quot;https://pota.us/&quot;&gt;POTA&lt;/a&gt;
-activations. SOTA combines ham radio with hiking, so everything needs to be rugged, small and
-lightweight. Low-power QRP gear is popular in this arena, and I’m excited to have placed a pre-order
-for my first QRP transceiver: the &lt;a href=&quot;https://lab599.com/&quot;&gt;Lab599&lt;/a&gt; Discovery TX-500.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://1.bp.blogspot.com/-bIknRQinoCw/YQbFi2uCJSI/AAAAAAAB3iM/V6Q2RNxZkLAbz7xzoPU5nCy9Cdz52SmBwCPcBGAsYHg/s320/PXL_20210612_122714687.jpg&quot; alt=&quot;Looking from CLR down at Forgotten Valley, Aid 1/4&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Some things that exited me about the TX-500 are its SDR architecture, large panadapter display
-(something my IC-718 at home doesn’t even have) and extremely durable and water resistant machined
-aluminum case. Reviews from folks like Josh &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;KI6NAZ&lt;/code&gt; and Julian &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;OH8STN&lt;/code&gt; were very informative about
-its capabilities and limitations.&lt;/p&gt;
+&lt;p&gt;I opted to sleep up on top of City Lights Ridge rather than attempt the difficult hike at 04:30 in
+the morning. It was a beautiful 36 hours to be up there, and mostly uneventful. At the end of the
+event, one of the organizers told me it was a great mental relief having someone up there to assist
+if needed. Good times!&lt;/p&gt;</content><author><name></name></author><summary type="html">With the pandemic seemingly waning, the Golden Gate Dirty 30 was actually able to happen this year! Supporting this event two years ago was the first event I supported as a ham operator, and I was thrilled to get to participate again. This year I was officially part of the RMHAM Tech Team responsible for setting up and operating the IP-over-microwave network.</summary></entry><entry><title type="html">Mountaineer actually works!</title><link href="https://k0swe.radio/2021/06/04/mountaineer-works.html" rel="alternate" type="text/html" title="Mountaineer actually works!" /><published>2021-06-04T00:00:00+00:00</published><updated>2021-06-04T00:00:00+00:00</updated><id>https://k0swe.radio/2021/06/04/mountaineer-works</id><content type="html" xml:base="https://k0swe.radio/2021/06/04/mountaineer-works.html">&lt;p&gt;I got my latest batch of &lt;a href=&quot;https://github.com/k0swe/mountaineer&quot;&gt;Mountaineer&lt;/a&gt; boards yesterday and
+built one of them. It actually works! Woohoo!&lt;/p&gt;
 
-&lt;p&gt;Some have criticized the TX-500 for missing features like a built-in battery, tuner and in-body
-speaker. And yeah, if I already owned an Elecraft or Xiegu QRP transceiver, it would be hard to
-justify getting this as a second QRP radio. But I really highly prize the water resistance, thermal
-considerations and the ruggedness of the case, so I’ll give this a try.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://1.bp.blogspot.com/-VfL97N09OVc/YQbAPWPEZsI/AAAAAAAB3h0/IvbUfpwd2Nk0ADWac1Zud1bCzJsWC8p2ACPcBGAsYHg/s320/PXL_20210603_163202077.jpg&quot; alt=&quot;QRP station including Mountaineer data interface&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">I got my latest batch of Mountaineer boards yesterday and built one of them. It actually works! Woohoo!</summary></entry><entry><title type="html">Mountaineer works! Sort of</title><link href="https://k0swe.radio/2021/05/26/mountaineer-progress.html" rel="alternate" type="text/html" title="Mountaineer works! Sort of" /><published>2021-05-26T00:00:00+00:00</published><updated>2021-05-26T00:00:00+00:00</updated><id>https://k0swe.radio/2021/05/26/mountaineer-progress</id><content type="html" xml:base="https://k0swe.radio/2021/05/26/mountaineer-progress.html">&lt;p&gt;&lt;img src=&quot;https://1.bp.blogspot.com/-vZv1Aw_HLk8/YQarSaAP4iI/AAAAAAAB3hY/nXJIFWxCmPY_74FXMbobaESXGcER9AB8wCPcBGAsYHg/s320/PXL_20210525_141004702.jpg&quot; alt=&quot;USB hub on breadboard&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://1.bp.blogspot.com/-fF4DuQjm6KU/X0_DiY40ixI/AAAAAAABwqQ/EZMl0QAWZgkyHK9m95uUxi6vC95UfRODACLcBGAsYHQ/w376-h196/SOTA_POTA%2BStation.jpg&quot; alt=&quot;Wiring diagram for SignaLink to TX-500&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;After reworking my radio interface board, I eagerly sent it off to JLCPCB for a small batch. I got
+them back on May 14th, but for the past two weeks or so they’ve been haunting me. When I plugged
+them into the computer, the USB hub would enumerate and show up in the operating system, but the
+serial and audio chips would not! It was infuriating! I had to go back to breadboard prototypes to
+figure out the issue.&lt;/p&gt;
 
-&lt;p&gt;The package is supposed to come with most of the necessary cables to adapt the unconventional
-water-resistant GX-12 connectors to more standard connectors, like a 3.5mm jack for a CW
-key/paddles, and an unterminated power cable. The one cable that doesn’t seem to come in the package
-is the audio cable for digital modes, so I’ve taken a little time to plan out how I’m going to build
-my own and order parts. The standard audio cable shown in the manual has two 3.5mm plugs for a sound
-card; I’m used to using the SignaLink USB, so I’m planning a cable for use with that.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Overcoming RF in the shack, the sneaky way</title><link href="https://k0swe.radio/2020/08/14/overcoming-rf.html" rel="alternate" type="text/html" title="Overcoming RF in the shack, the sneaky way" /><published>2020-08-14T00:00:00+00:00</published><updated>2020-08-14T00:00:00+00:00</updated><id>https://k0swe.radio/2020/08/14/overcoming-rf</id><content type="html" xml:base="https://k0swe.radio/2020/08/14/overcoming-rf.html">&lt;p&gt;&lt;img src=&quot;https://1.bp.blogspot.com/-F7qBed_m_NY/Xzbv2YXIbVI/AAAAAAABwfQ/VvA96kHPb-AyDWsKX9KBvZCS4k_oiF0NQCLcBGAsYHQ/w263-h263/IMG_20200811_083114.jpg&quot; alt=&quot;Ham radio connected to a Raspberry Pi computer&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;It turns out, a component swap I had made was my problem. I had built my separated USB hub prototype
+with a TI TPS2044D power management chip, but then decided on the full radio interface I
+could get away with the smaller and cheaper TPS2041. Unfortunately, I assumed that I could just
+connect it to one of the hub’s overcurrent/enable pairs. After much banging my head against the
+table, I’ve found that all the overcurrent pins and enable pins need to be tied together. Rookie
+mistake!&lt;/p&gt;
 
-&lt;p&gt;Life has conspired to keep me from doing as much with ham radio lately, but I’m happy to report that
-I’m at least back on the air. In my last post I described my troubles with RF getting into the shack
-which resets my radio-computer CI-V (CAT) control. I posited that finally setting up a first-class
-station ground would help, but alas, I haven’t gotten that far.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://1.bp.blogspot.com/-bLooF_mi4WY/YQasXtdEHyI/AAAAAAAB3ho/-CYL7KLxbDE8tBEBrNzWitu8cB7bhVxeQCPcBGAsYHg/s320/PXL_20210525_165745353.jpg&quot; alt=&quot;PCB project with ugly soldering&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;However, I did find a sneaky solution to my problem. The radio was connected to my desktop computer
-with USB extension cords which made the entire USB run about 10 ft. I made those runs shorter, not
-by moving anything particular, but by adding a Raspberry Pi single-board computer dedicated to
-running the radio. This keeps the USB cords a couple of feet long, and so far it has resolved the
-interference that was resetting my CAT control. I can run VNC remote desktop from my main computer
-for a similar experience to what I was doing before, but I also now have the option to use a laptop
-around the house, which is kind of liberating. The biggest downside of running WSJT-X or other modes
-from another room is that my Icom 718 doesn’t give me accurate power and SWR readings, so I have to
-do a little bit of guesstimation from experience with my station.&lt;/p&gt;
+&lt;p&gt;Testing that with some ugly soldering on the real PCB confirms it. I need a new batch of boards to
+fix this properly. But now I know!&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">On to the real thing</title><link href="https://k0swe.radio/2021/04/22/real-thing.html" rel="alternate" type="text/html" title="On to the real thing" /><published>2021-04-22T00:00:00+00:00</published><updated>2021-04-22T00:00:00+00:00</updated><id>https://k0swe.radio/2021/04/22/real-thing</id><content type="html" xml:base="https://k0swe.radio/2021/04/22/real-thing.html">&lt;p&gt;My work on splitting out individual prototypes of the USB hub, serial adapter and sound card has
+paid off! I have working prototypes of all three, and a lot more experience with what support
+components are necessary and which are just “nice to have.”&lt;/p&gt;
 
-&lt;p&gt;I initially set up a Raspberry Pi 3 B+ I had on hand, but decoding FT8 was slow. When decodes are
-showing up 5 seconds into a 15 second transmit period, it’s not effective to respond. Therefore, I
-upgraded to an RPi 4 for the first time. I used
-&lt;a href=&quot;https://github.com/km4ack/pi-build&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;KM4ACK&lt;/code&gt;’s Build-A-Pi&lt;/a&gt; script to set up my RPi software. There
-are a few things I’d tweak about it, but overall, it’s extremely nice to have so much ham software
-available and preconfigured.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">New station setup and grounding problems</title><link href="https://k0swe.radio/2020/07/19/grounding.html" rel="alternate" type="text/html" title="New station setup and grounding problems" /><published>2020-07-19T00:00:00+00:00</published><updated>2020-07-19T00:00:00+00:00</updated><id>https://k0swe.radio/2020/07/19/grounding</id><content type="html" xml:base="https://k0swe.radio/2020/07/19/grounding.html">&lt;p&gt;A couple of weeks back I rearranged my home office and shack. The new arrangement gets my HF station
-off of my desk and onto its own shelf, and it’s been sitting there receiving FT8 quite happily while
-I’ve been programming and testing a WSJT-X &lt;a href=&quot;https://github.com/xylo04/wsjtx-go&quot;&gt;UDP receiver&lt;/a&gt; for
-Golang. However, today was my first attempt at operating FT8, and unfortunately, something about the
-current arrangement is causing my CI-V control to reset every time I transmit.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://1.bp.blogspot.com/-E7E9fFXprVE/YQalRGiukzI/AAAAAAAB3go/B0AArRbzDFkKNHZeEhw1Qp2I37ECriXtwCLcBGAsYHQ/s320/PXL_20210419_025208393.jpg&quot; alt=&quot;Separated sound card and serial prototype boards&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Having CAT control reset on transmit is a killer problem for digital modes. With WSJT-X in
-particular, the software ends the transmission if CAT resets, so you’ve lost that entire transmit
-cycle. I had similar problems in the old desk location with certain bands; for example, I couldn’t
-really operate anything below 40 meters due to CI-V resets, and even on 40m I had to limit my power
-to keep it reliable. Today’s test on 20m was very discouraging. I used to be able to run 20m at 100W
-if I felt the need (usually used less), but today even at QRP, I was having no luck transmitting.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://1.bp.blogspot.com/-4Nt0GpzIfHs/YQalRb-TAzI/AAAAAAAB3gs/WiE9Oqrm9UUt36tAFzjJ2plPu7TXaSigQCLcBGAsYHQ/s320/PXL_20210419_024006904.jpg&quot; alt=&quot;Sound card and serial prototypes in use&quot; /&gt;&lt;/p&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/HomeEarthRodAustralia1.jpg/548px-HomeEarthRodAustralia1.jpg&quot; alt=&quot;Grounding rod&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Based on this new experience, I’ve started reworking my original design. I also tried out JLCPCB’s
+assembly service, and while they probably can’t build the whole thing (don’t have all the parts I
+need in stock), they can at least get all the teeny tiny 0603 resistors and capacitors.&lt;/p&gt;
 
-  &lt;p&gt;&lt;a href=&quot;https://commons.wikimedia.org/wiki/File:HomeEarthRodAustralia1.jpg&quot;&gt;Wikimedia&lt;/a&gt;
-CC BY-SA 3.0&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&quot;https://1.bp.blogspot.com/-hHZIIRJNDMw/YQamYqHhYuI/AAAAAAAB3hE/07bZ2Ba1fz8k7Ca-jrt47K1daCE4GRPswCLcBGAsYHQ/s320/PXL_20210421_164931552.jpg&quot; alt=&quot;JLCPCB design and physical board&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;My intuition is that I’m being bitten by the lack of a good station ground. I’ve gotten this far
-without needing it, but something about the new configuration is allowing more RF into the shack. I
-do have a radial wire on my end-fed long wire antenna, so there’s not a lot more I can do to
-optimize the antenna. I’ve been avoiding setting up a station ground because it’s not as simple as
-plugging something into a wall socket ground. It requires running a copper strap directly to a
-dedicated grounding rod, which among other things requires finding a way to route it through the
-exterior wall. I’m on the 2nd floor in the front of the house, so that’s easier said than done.
-However, it really is probably the next step in improving the station.&lt;/p&gt;
+&lt;p&gt;Onward!&lt;/p&gt;</content><author><name></name></author><summary type="html">My work on splitting out individual prototypes of the USB hub, serial adapter and sound card has paid off! I have working prototypes of all three, and a lot more experience with what support components are necessary and which are just “nice to have.”</summary></entry><entry><title type="html">Data Interface Thingy Progress, and Dirty 30 Build Day</title><link href="https://k0swe.radio/2021/04/11/data-interface.html" rel="alternate" type="text/html" title="Data Interface Thingy Progress, and Dirty 30 Build Day" /><published>2021-04-11T00:00:00+00:00</published><updated>2021-04-11T00:00:00+00:00</updated><id>https://k0swe.radio/2021/04/11/data-interface</id><content type="html" xml:base="https://k0swe.radio/2021/04/11/data-interface.html">&lt;p&gt;&lt;img src=&quot;https://1.bp.blogspot.com/-Fmywn1iZOWA/YHN5S0tFvvI/AAAAAAAB0Gk/rzj9YY1r-u4tpBkH4xADkCn59bzULUIMgCLcBGAsYHQ/s320/PXL_20210406_191819563.jpg&quot; alt=&quot;QFP microchip through a microscope&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;In other news, I’m continuing work on writing my own logging software. I’ve decided that I should
-pursue creating a hosted web application with offline support. Unique among the web loggers I’ve
-seen, I think I can achieve rig control and WSJT-X integration through an
-“agent” program sitting on the same computer as the radio interface. The web application can connect
-to the agent through a websocket, and the agent will translate between the webapp and
-WSJT-X, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;hamlib&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;flrig&lt;/code&gt; or whatever else needs to be on the local machine. I have a proof of
-concept for the websocket stuff, but there’s still a lot of work to be done on core functionality.
-The web app is in Angular with Typescript. While I probably won’t use ADIF as a raw internal format,
-I still need to be able to speak it for import and export, and I haven’t found any native Typescript
-implementations yet.&lt;/p&gt;</content><author><name></name></author><summary type="html">A couple of weeks back I rearranged my home office and shack. The new arrangement gets my HF station off of my desk and onto its own shelf, and it’s been sitting there receiving FT8 quite happily while I’ve been programming and testing a WSJT-X UDP receiver for Golang. However, today was my first attempt at operating FT8, and unfortunately, something about the current arrangement is causing my CI-V control to reset every time I transmit.</summary></entry><entry><title type="html">Field Day</title><link href="https://k0swe.radio/2020/06/28/field-day.html" rel="alternate" type="text/html" title="Field Day" /><published>2020-06-28T00:00:00+00:00</published><updated>2020-06-28T00:00:00+00:00</updated><id>https://k0swe.radio/2020/06/28/field-day</id><content type="html" xml:base="https://k0swe.radio/2020/06/28/field-day.html">&lt;p&gt;&lt;img src=&quot;https://1.bp.blogspot.com/-0a57GdfMqf4/Xv4Li0qjMRI/AAAAAAABv_I/8iI_biF5oucenEeYvudRI3ktqhrzs66PwCLcBGAsYHQ/s320/IMG_20200627_151447.jpg&quot; alt=&quot;Chris set up at a picnic table&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;I haven’t been on the air very much over the last month or so. I’ve been focused on continuing with
+my &lt;a href=&quot;https://github.com/k0swe/tx500-data-interface&quot;&gt;custom radio interface&lt;/a&gt; PCB project. It’s
+proceeding well and I gathered a lot of good advice, but I also realized that there are plenty of
+unknowns working with new integrated circuits. Do I pull this mode pin high or low? Does the power
+input need to be buffered with capacitors or can I get away without that?&lt;/p&gt;
 
-&lt;p&gt;I had my ham license during last year’s ARRL Field Day, but wasn’t really aware at the time what an
-important “holiday” it is to US hams and didn’t participate. This year, I fixed that mistake.&lt;/p&gt;
+&lt;p&gt;Because of all these unknowns, I decided to take one step back and try to create my own evaluation
+boards for each of the three major components: a USB hub, a USB sound card, and a USB to serial
+converter. That’s essentially what I already have with my consumer devices, but now I’ll try to
+build my own versions of these from application notes and validate each of them individually. That
+also relieves pressure to get it right the first time in the final form factor that I want; the
+evaluation boards are not going to be used in the field, so there’s no need to shrink them to fit in
+an enclosure, and I can expose whatever jumpers or test points that I feel are useful.&lt;/p&gt;
 
-&lt;p&gt;I had an invitation to join RMHAM at their annual mountain excursion, but family duties kept me
-close to home. Instead, I planned to head out to a local park and operate on battery for a few
-hours. I don’t really have a great portable kit yet, so I hauled out most of my QTH station. I
-replaced my usual mains power supply with a 360 Wh battery, and opted to keep my QTH antenna in
-place and instead use a Chameleon portable.&lt;/p&gt;
+&lt;p&gt;I had originally set out to do all of this ordering the boards and parts and assembling them myself.
+I was able to get some help learning to solder QFP chips which I figured would be the hardest part,
+but it turns out that the USB micro-B connectors I chose are even more challenging because they’re
+designed for reflow oven soldering, and I’m attempting to use an iron. Given my difficult time
+soldering, I’ve also been playing around with a PCB assembly service to assess whether that’s worth
+it. I’ll have quite a few prototypes lying around before I arrive at a finished product!&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://1.bp.blogspot.com/-Na9nn6lbZkc/Xv4LmMWVfAI/AAAAAAABv_M/n1K38FYDysw1GYVN0nATF2mLy-HqDE8bQCLcBGAsYHQ/s320/IMG_20200627_151939.jpg&quot; alt=&quot;HF station at the picnic table&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://1.bp.blogspot.com/-FzJYmMqkZuc/YHN5FRdHwZI/AAAAAAAB0Gc/63t8I2OtIrsGz6u8jokQiCs0gmT5VIhEwCPcBGAsYHg/s320/PXL_20210411_171611677.jpg&quot; alt=&quot;Microwave radios deployed in a parking lot&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;This year’s gear list:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Icom IC-718 (from &lt;a href=&quot;/2020/02/16/silent-key.html&quot;&gt;Alan’s SK collection&lt;/a&gt;)&lt;/li&gt;
-  &lt;li&gt;LDG IT-100 tuner&lt;/li&gt;
-  &lt;li&gt;MFJ 822 power/SWR meter&lt;/li&gt;
-  &lt;li&gt;Signalink USB sound card interface&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/2019/11/13/toughbook.html&quot;&gt;Panasonic CF-19 laptop&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Chameleon MPAS 2.0 with SS-17 vertical&lt;/li&gt;
-  &lt;li&gt;Bioenno 30Ah LiFePO4 battery in a Powerwerx MEGAbox&lt;/li&gt;
-  &lt;li&gt;Powerwerx FSP-110W solar panels&lt;/li&gt;
-  &lt;li&gt;Powerwerx MPPT-150-14.6 charge controller&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://1.bp.blogspot.com/-IpWizP1sQXM/Xv4Lpf8yj1I/AAAAAAABv_Q/O1OfECFsyJMZDgCnp6mekM4QDlY_z3ZhACLcBGAsYHQ/s320/IMG_20200627_151456.jpg&quot; alt=&quot;Solar panels and antenna&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Amazingly, most of that gear fit into my trusty ol’ Spec Ops T.H.E. Pack Tactical, minus the battery
-and solar panels. It’s not a radio station I’d want to lug up a hill, but crossing the park wasn’t
-difficult. Setup went smoothly and I wasn’t missing any critical parts.&lt;/p&gt;
-
-&lt;p&gt;I made 32 contacts on 20m FT8 in about 2 hours, and had a teenage kid stop and talk for a few
-minutes. Overall, it was an extremely pleasant day to be outside and playing radio.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Building A Better Logger</title><link href="https://k0swe.radio/2020/06/20/logger.html" rel="alternate" type="text/html" title="Building A Better Logger" /><published>2020-06-20T00:00:00+00:00</published><updated>2020-06-20T00:00:00+00:00</updated><id>https://k0swe.radio/2020/06/20/logger</id><content type="html" xml:base="https://k0swe.radio/2020/06/20/logger.html">&lt;p&gt;&lt;img src=&quot;https://1.bp.blogspot.com/-pWdIhW7iQfg/Xv4EVpx7tFI/AAAAAAABv-s/7jHyGqmPl8oY8WauwiDmx46aTCf_Uc-PgCLcBGAsYHQ/s320/Screenshot%2Bfrom%2B2020-07-02%2B09-58-40.png&quot; alt=&quot;Prototype web logbook&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;I haven’t been on the air a ton over the past month. I’ve been a little fed up with my logging
-software and overall logging strategy. I run mainly Linux on my computers and do a lot of FT8 with
-WSJT-X. CQRLog has worked pretty well since it will accept log entries directly from WSJT-X thanks
-to UDP integration. However, I’m a programmer and very picky, and there are things in CQRLog that I
-just can’t stand. For instance, CQRLog will let you backfill a QSO’s name, city (QTH), state, etc.
-from the QRZ.com database for several records at once, but it basically assumes you want to backfill
-your entire log; I only want to fill in the last 5 QSOs that are missing that information and then
-stop. CQRLog also doesn’t have good merging. It will deduplicate, but it just deletes duplicates
-instead of trying to keep relevant information from matching records. That shortfall makes it
-painful to run CQRLog on multiple computers, for example a home desktop and a field laptop. To top
-it off, CQRLog looks terrible on a HiDPI monitor with scaling.&lt;/p&gt;
-
-&lt;p&gt;Also, I realized my log strategy was flawed. I was uploading my logs from CQRLog to Logbook of the
-World and then pulling LotW into my QRZ.com logbook, but eventually realized that LotW was dropping
-details like the sent and received RST and TX power. Now I have about 200 records in QRZ that are
-missing those fields. CQRLog has the details but can’t help with fixing them; QRZ.com logbook
-doesn’t support record merging.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://1.bp.blogspot.com/-L4lsGQ3hnwo/Xv4EzHXVw8I/AAAAAAABv-0/okuGQc9PKpA_Hpb3xRywNo5kqc6t4_E2gCLcBGAsYHQ/s320/Screenshot%2Bfrom%2B2020-07-02%2B10-01-02.png&quot; alt=&quot;Awards map&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Motivated by all of this, I’ve set out to write my own logging software to fit my
-personal needs. Right off the bat, I want to have better merging of ADIF files and be able to update
-records in my QRZ.com logbook. I also want to introduce interactive Google Maps for awards like
-Worked All States.&lt;/p&gt;
-
-&lt;p&gt;My initial effort has been a web application in Golang, very similar to Pat since I’ve been doing
-some development on that. It’s highlighted some of the difficulty of working with the ADIF format;
-I’m really missing my JSON and protobufs. There is a decent Golang ADIF parser written by GitHub
-user &lt;a href=&quot;http://github.com/tzneal/ham-go&quot;&gt;tzneal&lt;/a&gt;, but it’s still a far cry from more modern formats
-and generated clients.&lt;/p&gt;
-
-&lt;p&gt;I don’t know if I’ll ultimately keep this web app or rethink it. Sure, I have my award progress map
-and I’ll get to the point that I can fix my QRZ.com logs. But if I’m going to invest more time in
-this, I don’t really want to make a slightly better CQRLog or a slightly better QRZ.com logbook. The
-amateur radio logger space hardly needs another half-baked solution. My goal ought to be bringing
-together advantages from many logger applications and being significantly better than what exists
-today. But what does that mean, a desktop client that adds peer-to-peer syncing and QRZ.com updates?
-A cloud web application with offline capability that can support rig control and WSJT-X integration?
-I’m not sure what’s possible yet.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Dirty 30 testing</title><link href="https://k0swe.radio/2020/05/30/lora.html" rel="alternate" type="text/html" title="Dirty 30 testing" /><published>2020-05-30T00:00:00+00:00</published><updated>2020-05-30T00:00:00+00:00</updated><id>https://k0swe.radio/2020/05/30/lora</id><content type="html" xml:base="https://k0swe.radio/2020/05/30/lora.html">&lt;p&gt;&lt;img src=&quot;https://1.bp.blogspot.com/-VT6KBUPj5_Q/XtZz37eE6VI/AAAAAAABvlo/hgmsz1SFzzsNDdyJ7rmX0yoavmSU7r-KACK4BGAsYHg/s1600/IMG_20200530_095536.jpg&quot; alt=&quot;Custom LoRa remote control relays&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Today would have been the day of the annual Golden Gate Dirty 30, had COVID-19 not invaded our
-lives. The race didn’t happen, but a couple of us from RMHAM decided to head into Golden Gate Canyon
-State Park anyway to test out a new apparatus.&lt;/p&gt;
-
-&lt;p&gt;One of the problems we experienced in 2019 was a loss of power at City Lights Ridge, a central point
-in the temporary IP-over-microwave network that we set up every year. Rather than haul extra
-batteries up the hill, we were looking for a creative way to use power more efficiently, and a
-couple of folks came up with a solution. Using
-&lt;a href=&quot;https://www.adafruit.com/product/3079&quot;&gt;Adafruit Feather LoRa 433 MHz modules&lt;/a&gt; and
-&lt;a href=&quot;https://www.adafruit.com/product/2923&quot;&gt;latching relay FeatherWings&lt;/a&gt;, they built a remote power
-control system which would allow them to switch off the network gear when not in use. (I can take no
-credit for actually helping with development of the system.)&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://1.bp.blogspot.com/-exCn_dKLGPo/XtZ0SafO3SI/AAAAAAABvl8/-vjqcVza9j8OVMt3GZGhTPq5lM9btoSPACK4BGAsYHg/s320/IMG_20200530_095542.jpg&quot; alt=&quot;Custom LoRa remote control&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Our goal today was to test propagation and see if they would actually reach where we needed. I hiked
-up to City Lights Ridge with a relay module and a remote control; Ben &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;KC2VJW&lt;/code&gt; went up Windy Peak
-with the same, and Willem &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;AC0KQ&lt;/code&gt; started testing with a remote control from near the Tallman
-Ranch (which is Aid 1/4 during the race). It took a bit of fiddling with the relay module, but after
-resetting it, it did start switching. Willem then hiked down to the Nott Creek Trailhead
-(start/finish) and Red Barn. Unfortunately, when I was fiddling with the reset button I apparently
-broke the antenna mount solder connections, and by the time Willem made it to start/finish we had a
-threatening rain cloud moving in, so we didn’t get a thorough test from Red Barn to City Lights.
-However, start/finish to Windy was working well, so that tells us that this LoRa system does have
-good propagation even through hilly terrain.&lt;/p&gt;
-
-&lt;p&gt;If nothing else, it was good to get outside and play radio. Most (not all) folks on the trail were
-being respectful of social distancing and wearing masks, but the parking lots were quite crowded. I
-was glad we got an early start.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry></feed>
+&lt;p&gt;I took a break from all of that today to join with other members of RMHAM building out the portable
+microwave network to support the upcoming Golden Gate Dirty 30 race. It was great seeing folks in
+person again! Most of us were at least partially vaccinated against COVID and everyone was cautious
+about social distance, and we still got everything put back together. It’s been 2 years since some
+of that equipment was used, and there are some additions that the head honchos were eager to add, so
+it was definitely worth the time getting it set up.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry></feed>
