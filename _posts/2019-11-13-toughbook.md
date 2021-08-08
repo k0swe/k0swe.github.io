@@ -3,11 +3,11 @@ layout: post
 title:  "Toughbook"
 date:   2019-11-13
 ---
-![Panasonic Toughbook CF-19](https://1.bp.blogspot.com/-yS9X6eRBrjk/XcyuJF4lNcI/AAAAAAABrms/tfHW6RNVQRMqwQiF-JVEiOBbHAG_hVQVwCLcBGAsYHQ/s320/IMG_20191113_182408.jpg)
+![Panasonic Toughbook CF-19](/assets/2019-11-13-cf19.jpg)
 
 It's slowly become clear that my penchant for Chromebooks (cheap and simple to manage) will not get
 me far in amateur radio. After
-[asking the internet for recommendations](https://www.reddit.com/r/amateurradio/comments/drmfhh/advice_for_a_hamfriendly_laptop/?utm_source=share&amp;utm_medium=web2x)
+[asking the internet for recommendations](https://www.reddit.com/r/amateurradio/comments/drmfhh/advice_for_a_hamfriendly_laptop/)
 and getting a lot great advice, I picked up a Panasonic Toughbook CF-19 MK5. It's 8 year old
 hardware at this point, but:
 

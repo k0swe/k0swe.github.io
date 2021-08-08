@@ -3,7 +3,7 @@ layout: post
 title:  "Microwave IP Networks"
 date:   2019-10-29
 ---
-![MikroTik LHG](https://images-na.ssl-images-amazon.com/images/I/814Ie5r7SbL._AC_SL1500_.jpg)
+![MikroTik LHG](/assets/mikrotik-lhg.jpg)
 
 I've been curious ever since June to learn more about [RMHam](https://www.rmham.org/)'s microwave
 data network that they deployed up at the Dirty 30, so I started doing some research and asking

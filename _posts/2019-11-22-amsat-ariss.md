@@ -3,7 +3,7 @@ layout: post
 title:  "AMSAT and ARISS"
 date:   2019-11-22
 ---
-![International Space Station](https://www.nasa.gov/sites/default/files/styles/full_width_feature/public/thumbnails/image/44911459904_375bc02163_k.jpg)
+![International Space Station](/assets/iss.jpg)
 
 Last weekend I attended the [RMHAM-U](https://www.rmham.org/)
 lecture series and heard a talk by Doug Tabor `N6UA` about working amateur satellites, or AMSAT. I

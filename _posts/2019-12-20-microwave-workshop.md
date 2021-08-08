@@ -3,7 +3,7 @@ layout: post
 title: "RMHAM Network Workshop"
 date: 2019-12-20
 ---
-![Workshop attendees in a conference room](https://2.bp.blogspot.com/-pEe11HXT6_0/XfzJsBRbwXI/AAAAAAABsTM/_S3LjM4P4R4pFL9nJ1XciEXzVYZ79MT2gCK4BGAYYCw/s320/IMG_20191214_142621.jpg)
+![Workshop attendees in a conference room](/assets/2019-12-14-rmham-workshop.jpg)
 
 Last weekend I was very lucky to get an in-depth look at
 [RMHAM's microwave network](https://www.rmham.org/wordpress/amateur-microwave-network/) by being

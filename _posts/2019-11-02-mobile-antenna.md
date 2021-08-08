@@ -3,7 +3,7 @@ layout: post
 title:  "First Mobile Antenna Install"
 date:   2019-11-02
 ---
-![Car with antenna](https://1.bp.blogspot.com/-ktjumDLH5xY/Xb4XUbpJPeI/AAAAAAABrGg/E1NZcrxeVLULyRqYN7WCXNmlXon5ACNxQCLcBGAsYHQ/s320/IMG_20191102_125337.jpg)
+![Car with antenna](/assets/2019-11-02-fusion-antenna.jpg)
 
 I've been operating for a couple of months with a Diamond MR77, a UHF/VHF mag mount. It's been great
 as a temporary solution, but not ideal for sustained use because the coax cable must be routed

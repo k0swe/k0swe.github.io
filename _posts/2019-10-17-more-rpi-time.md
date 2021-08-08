@@ -3,7 +3,7 @@ layout: post
 title:  "More Raspberry Pi Time"
 date:   2019-10-17
 ---
-![GPS satellite](https://mk0spaceflightnoa02a.kinstacdn.com/wp-content/uploads/2014/12/GPS_IIF.jpg)
+![GPS satellite](/assets/gps-satellite.jpg)
 
 I've updated
 [PiPat](https://docs.google.com/document/d/1dJY5iXwyYGQgYm9Cp68SarbZO_Nobx-BP2fhIsRSx08/preview)
