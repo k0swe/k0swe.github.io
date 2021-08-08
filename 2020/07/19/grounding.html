@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>New station setup and grounding problems | K0SWE Blog</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="New station setup and grounding problems" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="A couple of weeks back I rearranged my home office and shack. The new arrangement gets my HF station off of my desk and onto its own shelf, and it’s been sitting there receiving FT8 quite happily while I’ve been programming and testing a WSJT-X UDP receiver for Golang. However, today was my first attempt at operating FT8, and unfortunately, something about the current arrangement is causing my CI-V control to reset every time I transmit." />
+<meta property="og:description" content="A couple of weeks back I rearranged my home office and shack. The new arrangement gets my HF station off of my desk and onto its own shelf, and it’s been sitting there receiving FT8 quite happily while I’ve been programming and testing a WSJT-X UDP receiver for Golang. However, today was my first attempt at operating FT8, and unfortunately, something about the current arrangement is causing my CI-V control to reset every time I transmit." />
+<link rel="canonical" href="https://k0swe.radio/2020/07/19/grounding.html" />
+<meta property="og:url" content="https://k0swe.radio/2020/07/19/grounding.html" />
+<meta property="og:site_name" content="K0SWE Blog" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-07-19T00:00:00+00:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="New station setup and grounding problems" />
+<script type="application/ld+json">
+{"description":"A couple of weeks back I rearranged my home office and shack. The new arrangement gets my HF station off of my desk and onto its own shelf, and it’s been sitting there receiving FT8 quite happily while I’ve been programming and testing a WSJT-X UDP receiver for Golang. However, today was my first attempt at operating FT8, and unfortunately, something about the current arrangement is causing my CI-V control to reset every time I transmit.","url":"https://k0swe.radio/2020/07/19/grounding.html","@type":"BlogPosting","headline":"New station setup and grounding problems","dateModified":"2020-07-19T00:00:00+00:00","datePublished":"2020-07-19T00:00:00+00:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://k0swe.radio/2020/07/19/grounding.html"},"@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="https://k0swe.radio/feed.xml" title="K0SWE Blog" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">K0SWE Blog</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/about">About</a><a class="page-link" href="/army">Army</a><a class="page-link" href="/links">Links</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">New station setup and grounding problems</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2020-07-19T00:00:00+00:00" itemprop="datePublished">Jul 19, 2020
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p>A couple of weeks back I rearranged my home office and shack. The new arrangement gets my HF station
+off of my desk and onto its own shelf, and it’s been sitting there receiving FT8 quite happily while
+I’ve been programming and testing a WSJT-X <a href="https://github.com/xylo04/wsjtx-go">UDP receiver</a> for
+Golang. However, today was my first attempt at operating FT8, and unfortunately, something about the
+current arrangement is causing my CI-V control to reset every time I transmit.</p>
+
+<p>Having CAT control reset on transmit is a killer problem for digital modes. With WSJT-X in
+particular, the software ends the transmission if CAT resets, so you’ve lost that entire transmit
+cycle. I had similar problems in the old desk location with certain bands; for example, I couldn’t
+really operate anything below 40 meters due to CI-V resets, and even on 40m I had to limit my power
+to keep it reliable. Today’s test on 20m was very discouraging. I used to be able to run 20m at 100W
+if I felt the need (usually used less), but today even at QRP, I was having no luck transmitting.</p>
+
+<blockquote>
+  <p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/HomeEarthRodAustralia1.jpg/548px-HomeEarthRodAustralia1.jpg" alt="" />
+A grounding rod (via Wikimedia)</p>
+</blockquote>
+
+<p>My intuition is that I’m being bitten by the lack of a good station ground. I’ve gotten this far
+without needing it, but something about the new configuration is allowing more RF into the shack. I
+do have a radial wire on my end-fed long wire antenna, so there’s not a lot more I can do to
+optimize the antenna. I’ve been avoiding setting up a station ground because it’s not as simple as
+plugging something into a wall socket ground. It requires running a copper strap directly to a
+dedicated grounding rod, which among other things requires finding a way to route it through the
+exterior wall. I’m on the 2nd floor in the front of the house, so that’s easier said than done.
+However, it really is probably the next step in improving the station.</p>
+
+<p>In other news, I’m continuing work on writing my own logging software. I’ve decided that I should
+pursue creating a hosted web application with offline support. Unique among the web loggers I’ve
+seen, I think I can achieve rig control and WSJT-X integration through an
+“agent” program sitting on the same computer as the radio interface. The web application can connect
+to the agent through a websocket, and the agent will translate between the webapp and
+WSJT-X, <code class="language-plaintext highlighter-rouge">hamlib</code>, <code class="language-plaintext highlighter-rouge">flrig</code> or whatever else needs to be on the local machine. I have a proof of
+concept for the websocket stuff, but there’s still a lot of work to be done on core functionality.
+The web app is in Angular with Typescript. While I probably won’t use ADIF as a raw internal format,
+I still need to be able to speak it for import and export, and I haven’t found any native Typescript
+implementations yet.</p>
+
+  </div><a class="u-url" href="/2020/07/19/grounding.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">K0SWE Blog</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">K0SWE Blog</li><li><a class="u-email" href="mailto:k0swe@arrl.net">k0swe@arrl.net</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://github.com/xylo04"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">xylo04</span></a></li></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>Events and projects for amateur radio operator K0SWE, a.k.a. Chris.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
