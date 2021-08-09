@@ -3,7 +3,7 @@ layout: post
 title:  "PCB Project: CAT+Audio interface"
 date:   2021-03-15
 ---
-![Data interface PCB design](https://1.bp.blogspot.com/-AuZUkKpMsbw/YFAAfjaLP6I/AAAAAAABz0o/3JvfCw_CwmY5kLf09iWNiaADwEG83iX0gCLcBGAsYHQ/s320/tx500-data-interface.png)
+![Data interface PCB design](/assets/2021-03-15-tx500-data-interface.png)
 
 I've taken a short break from responsible ham radio activities (like continuing on
 [Forester](https://forester.radio/)) to pursue another hardware project.

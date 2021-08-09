@@ -3,7 +3,7 @@ layout: post
 title:  "Winter Field Day"
 date:   2021-01-31
 ---
-![Winter Field Day station at a picnic table](https://1.bp.blogspot.com/-1ip-Uh7qE78/YEKwH50r9CI/AAAAAAABzjo/uzTYP-OJHlQQ-4J71qloguMAxJ2rVgWKwCLcBGAsYHQ/s320/PXL_20210130_225631851.jpg)
+![Winter Field Day station at a picnic table](/assets/2021-01-30-winter-field-day.jpg)
 
 Yesterday was quite a hoot; first I participated in an ARES exercise, then in my first Winter Field
 Day!

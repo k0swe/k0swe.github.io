@@ -3,7 +3,7 @@ layout: post
 title:  "Data Interface Thingy Progress, and Dirty 30 Build Day"
 date:   2021-04-11
 ---
-![QFP microchip through a microscope](https://1.bp.blogspot.com/-Fmywn1iZOWA/YHN5S0tFvvI/AAAAAAAB0Gk/rzj9YY1r-u4tpBkH4xADkCn59bzULUIMgCLcBGAsYHQ/s320/PXL_20210406_191819563.jpg)
+![QFP microchip through a microscope](/assets/2021-04-06-qfp.jpg)
 
 I haven't been on the air very much over the last month or so. I've been focused on continuing with
 my [custom radio interface](https://github.com/k0swe/tx500-data-interface) PCB project. It's
@@ -26,7 +26,7 @@ designed for reflow oven soldering, and I'm attempting to use an iron. Given my 
 soldering, I've also been playing around with a PCB assembly service to assess whether that's worth
 it. I'll have quite a few prototypes lying around before I arrive at a finished product!
 
-![Microwave radios deployed in a parking lot](https://1.bp.blogspot.com/-FzJYmMqkZuc/YHN5FRdHwZI/AAAAAAAB0Gc/63t8I2OtIrsGz6u8jokQiCs0gmT5VIhEwCPcBGAsYHg/s320/PXL_20210411_171611677.jpg)
+![Microwave radios deployed in a parking lot](/assets/2021-04-11-dirty-30-prep.jpg)
 
 I took a break from all of that today to join with other members of RMHAM building out the portable
 microwave network to support the upcoming Golden Gate Dirty 30 race. It was great seeing folks in
