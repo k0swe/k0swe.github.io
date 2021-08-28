@@ -5,9 +5,13 @@ description: >-
 baseurl: ""
 url: "https://k0swe.radio"
 github_username:  xylo04
+paginate: 8
 
 # Build settings
 theme: minima
+
+plugins:
+  - jekyll-paginate
 
 # Exclude from processing.
 # The following items will not be processed, by default.
