@@ -30,6 +30,7 @@ exclude:
   - Gemfile.lock
   - gemfiles/
   - node_modules/
+  - resize-images.sh
   - vendor/bundle/
   - vendor/cache/
   - vendor/gems/
