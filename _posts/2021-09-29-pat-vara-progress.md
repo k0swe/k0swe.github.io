@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  ""
+title:  "Progress on Pat+VARA"
 date:   2021-09-28
 ---
 ![Two stations running VARA FM](/assets/2021-09-24-vara-fm.jpg)
