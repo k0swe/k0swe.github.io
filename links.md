@@ -39,12 +39,27 @@ find them useful as well!
 
 ## Digital Modes/Networks
 
-* [Winlink](https://www.winlink.org/) - radio email service, used heavily in EmComm
-  * [Pat](https://getpat.io/) alternative client
+### Voice
+
 * DMR
   * [RadioID.net](https://radioid.net/) to get a DMR ID
   * [Brandmeister](https://brandmeister.network/)
-* [EchoLink](https://secure.echolink.org/)
+  * [EchoLink](https://secure.echolink.org/)
+* Digital multi-mode low-power hotspots
+  * Most use the [Multi-Mode Digital Voice Modem (MMDVM)](https://github.com/g4klx/MMDVM) firmware
+  * HRO [Zumspot](https://www.hamradio.com/detail.cfm?pid=H0-016490) - Raspberry Pi based, and
+    runs [Pi-Star](https://www.pistar.uk/)
+  * Shark RF [openSPOT2](https://www.sharkrf.com/products/openspot2/) - standalone device
+  * Concise
+    [comparison](http://arrl-ohio.org/digital/Amateur%20Radio%20Digital%20Hotspot%20Comparison.pdf)
+    by ARRL Ohio of many hotspots, dated 2016-11, but doesn't include Zumspot
+  * Another [comparison](https://amateurradionotes.com/hotspots.htm#thehotspots) by KE0FHS with more
+    products covered
+
+### Data
+
+* [Winlink](https://www.winlink.org/) - radio email service, used heavily in EmComm
+  * [Pat](https://getpat.io/) alternative client
 * AX.25
   * [APRS](http://www.aprs.org/)
     * [APRS.fi](https://aprs.fi/) and [findu.com](http://www.findu.com/) for viewing APRS-IS data
@@ -57,16 +72,10 @@ find them useful as well!
   * PiPat, another Winlink over Wifi system
   * [TNC-Pi](https://tnc-x.com/) - a TNC running on a Raspberry Pi
   * [Mobilinkd](http://www.mobilinkd.com/) - a portable TNC with Bluetooth
-* Digital multi-mode low-power hotspots
-  * Most use the [Multi-Mode Digital Voice Modem (MMDVM)](https://github.com/g4klx/MMDVM) firmware
-  * HRO [Zumspot](https://www.hamradio.com/detail.cfm?pid=H0-016490) - Raspberry Pi based, and
-    runs [Pi-Star](https://www.pistar.uk/)
-  * Shark RF [openSPOT2](https://www.sharkrf.com/products/openspot2/) - standalone device
-  * Concise
-    [comparison](http://arrl-ohio.org/digital/Amateur%20Radio%20Digital%20Hotspot%20Comparison.pdf)
-    by ARRL Ohio of many hotspots, dated 2016-11, but doesn't include Zumspot
-  * Another [comparison](https://amateurradionotes.com/hotspots.htm#thehotspots) by KE0FHS with more
-    products covered
+* [VARA](https://rosmodem.wordpress.com/) - primarily for Winlink but also has an IM client
+  * [vARIM](https://www.whitemesa.net/varim/varim.html)
+* [WSJT-X](https://physics.princeton.edu/pulsar/k1jt/wsjtx.html) - I've worked a lot of FT8
+* [JS8Call](http://js8call.com/) - instant messaging using modified FT8
 
 ## Radio-specifics
 
