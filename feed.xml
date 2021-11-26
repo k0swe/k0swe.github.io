@@ -1,4 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://k0swe.radio/feed.xml" rel="self" type="application/atom+xml" /><link href="https://k0swe.radio/" rel="alternate" type="text/html" /><updated>2021-11-24T22:51:10+00:00</updated><id>https://k0swe.radio/feed.xml</id><title type="html">K0SWE Blog</title><subtitle>Events and projects for amateur radio operator K0SWE, a.k.a. Chris.</subtitle><entry><title type="html">Progress on Pat+VARA</title><link href="https://k0swe.radio/2021/09/28/pat-vara-progress.html" rel="alternate" type="text/html" title="Progress on Pat+VARA" /><published>2021-09-28T00:00:00+00:00</published><updated>2021-09-28T00:00:00+00:00</updated><id>https://k0swe.radio/2021/09/28/pat-vara-progress</id><content type="html" xml:base="https://k0swe.radio/2021/09/28/pat-vara-progress.html">&lt;p&gt;&lt;img src=&quot;/assets/2021-09-24-vara-fm.jpg&quot; alt=&quot;Two stations running VARA FM&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://k0swe.radio/feed.xml" rel="self" type="application/atom+xml" /><link href="https://k0swe.radio/" rel="alternate" type="text/html" /><updated>2021-11-26T03:04:45+00:00</updated><id>https://k0swe.radio/feed.xml</id><title type="html">K0SWE Blog</title><subtitle>Events and projects for amateur radio operator K0SWE, a.k.a. Chris.</subtitle><entry><title type="html">BPQ for Dummies</title><link href="https://k0swe.radio/2021/10/09/bpq.html" rel="alternate" type="text/html" title="BPQ for Dummies" /><published>2021-10-09T00:00:00+00:00</published><updated>2021-10-09T00:00:00+00:00</updated><id>https://k0swe.radio/2021/10/09/bpq</id><content type="html" xml:base="https://k0swe.radio/2021/10/09/bpq.html">&lt;p&gt;&lt;img src=&quot;/assets/BPQ_and_VARA.jpg&quot; alt=&quot;Screenshot of LinBPQ and VARA FM&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I’ve taken the plunge and started learning
+&lt;a href=&quot;https://www.cantab.net/users/john.wiseman/Documents/BPQ32.html&quot;&gt;BPQ&lt;/a&gt; in earnest. It’s a hefty
+program, and it’s clear that it has grown organically over many years. Which is to say, it’s
+cantankerous to work with, but it does get the job done. I asked one of my Elmers, Willem AC0KQ,
+about how to mentally model it, and he basically laughed and told me that it’s fruitless to try and
+build a mental model. Just copy other people’s configuration files and modify them to your needs.
+Well, so be it.&lt;/p&gt;
+
+&lt;p&gt;Willem does have a &lt;a href=&quot;https://prinmath.com/ham/&quot;&gt;script&lt;/a&gt; called &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;bpq-config&lt;/code&gt; that is basically an
+installer and setup wizard for LinBPQ. It assumes you’re using a Raspberry Pi and I’m not, but it
+did get me a base to work from. Getting a working config means I finally have a working AX.25 and
+VARA FM Winlink RMS to test Pat against!&lt;/p&gt;
+
+&lt;p&gt;Unfortunately, that’s not the end of my problems for testing Pat+VARA. I’ve been using the radio
+interface I recently found and love so much, the Digirig Mobile, for one side of my connection.
+However, while it worked just fine for me on FT8, I’ve had some issues trying to get it to work for
+AX.25 and VARA FM. I think it’s “going deaf” briefly when switching from TX back to RX, just long
+enough to miss the reply in AX.25 and VARA FM. Maybe FT8’s turnaround time is just more forgiving? I
+need to do more investigation.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Progress on Pat+VARA</title><link href="https://k0swe.radio/2021/09/28/pat-vara-progress.html" rel="alternate" type="text/html" title="Progress on Pat+VARA" /><published>2021-09-28T00:00:00+00:00</published><updated>2021-09-28T00:00:00+00:00</updated><id>https://k0swe.radio/2021/09/28/pat-vara-progress</id><content type="html" xml:base="https://k0swe.radio/2021/09/28/pat-vara-progress.html">&lt;p&gt;&lt;img src=&quot;/assets/2021-09-24-vara-fm.jpg&quot; alt=&quot;Two stations running VARA FM&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I’ve spent a lot of time developing on &lt;a href=&quot;https://getpat.io/&quot;&gt;Pat&lt;/a&gt; this month. For a long time, adding
 support for the &lt;a href=&quot;https://www.winlink.org/tags/vara&quot;&gt;VARA&lt;/a&gt; transport has been a major requested
@@ -113,22 +133,4 @@ event, one of the organizers told me it was a great mental relief having someone
 if needed. Good times!&lt;/p&gt;</content><author><name></name></author><summary type="html">With the pandemic seemingly waning, the Golden Gate Dirty 30 was actually able to happen this year! Supporting this event two years ago was the first event I supported as a ham operator, and I was thrilled to get to participate again. This year I was officially part of the RMHAM Tech Team responsible for setting up and operating the IP-over-microwave network.</summary></entry><entry><title type="html">Mountaineer actually works!</title><link href="https://k0swe.radio/2021/06/04/mountaineer-works.html" rel="alternate" type="text/html" title="Mountaineer actually works!" /><published>2021-06-04T00:00:00+00:00</published><updated>2021-06-04T00:00:00+00:00</updated><id>https://k0swe.radio/2021/06/04/mountaineer-works</id><content type="html" xml:base="https://k0swe.radio/2021/06/04/mountaineer-works.html">&lt;p&gt;I got my latest batch of &lt;a href=&quot;https://github.com/k0swe/mountaineer&quot;&gt;Mountaineer&lt;/a&gt; boards yesterday and
 built one of them. It actually works! Woohoo!&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/2021-06-03-mountaineer.jpg&quot; alt=&quot;QRP station including Mountaineer data interface&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">I got my latest batch of Mountaineer boards yesterday and built one of them. It actually works! Woohoo!</summary></entry><entry><title type="html">Mountaineer works! Sort of</title><link href="https://k0swe.radio/2021/05/26/mountaineer-progress.html" rel="alternate" type="text/html" title="Mountaineer works! Sort of" /><published>2021-05-26T00:00:00+00:00</published><updated>2021-05-26T00:00:00+00:00</updated><id>https://k0swe.radio/2021/05/26/mountaineer-progress</id><content type="html" xml:base="https://k0swe.radio/2021/05/26/mountaineer-progress.html">&lt;p&gt;&lt;img src=&quot;/assets/2021-05-25-usb-hub.jpg&quot; alt=&quot;USB hub on breadboard&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;After reworking my radio interface board, I eagerly sent it off to JLCPCB for a small batch. I got
-them back on May 14th, but for the past two weeks or so they’ve been haunting me. When I plugged
-them into the computer, the USB hub would enumerate and show up in the operating system, but the
-serial and audio chips would not! It was infuriating! I had to go back to breadboard prototypes to
-figure out the issue.&lt;/p&gt;
-
-&lt;p&gt;It turns out, a component swap I had made was my problem. I had built my separated USB hub prototype
-with a TI TPS2044D power management chip, but then decided on the full radio interface I
-could get away with the smaller and cheaper TPS2041. Unfortunately, I assumed that I could just
-connect it to one of the hub’s overcurrent/enable pairs. After much banging my head against the
-table, I’ve found that all the overcurrent pins and enable pins need to be tied together. Rookie
-mistake!&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/2021-05-25-ugly-mountaineer.jpg&quot; alt=&quot;PCB project with ugly soldering&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Testing that with some ugly soldering on the real PCB confirms it. I need a new batch of boards to
-fix this properly. But now I know!&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry></feed>
+&lt;p&gt;&lt;img src=&quot;/assets/2021-06-03-mountaineer.jpg&quot; alt=&quot;QRP station including Mountaineer data interface&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">I got my latest batch of Mountaineer boards yesterday and built one of them. It actually works! Woohoo!</summary></entry></feed>
