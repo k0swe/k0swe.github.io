@@ -14,6 +14,10 @@ _site: install
 serve: install
 	bundler exec jekyll serve
 
+.PHONY: update
+update: install
+	bundler update
+
 .PHONY: clean
 clean:
 	rm -rf _site
