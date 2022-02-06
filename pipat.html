@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>PiPat | K0SWE Blog</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="PiPat" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Events and projects for amateur radio operator K0SWE, a.k.a. Chris." />
+<meta property="og:description" content="Events and projects for amateur radio operator K0SWE, a.k.a. Chris." />
+<link rel="canonical" href="https://k0swe.radio/pipat" />
+<meta property="og:url" content="https://k0swe.radio/pipat" />
+<meta property="og:site_name" content="K0SWE Blog" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="PiPat" />
+<script type="application/ld+json">
+{"description":"Events and projects for amateur radio operator K0SWE, a.k.a. Chris.","url":"https://k0swe.radio/pipat","@type":"WebPage","headline":"PiPat","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="https://k0swe.radio/feed.xml" title="K0SWE Blog" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">K0SWE Blog</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/about">About</a><a class="page-link" href="/army">Army</a><a class="page-link" href="/links">Links</a><a class="page-link" href="/pipat">PiPat</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">PiPat</h1>
+  </header>
+
+  <div class="post-content">
+    <p>A reference design to set up a Raspberry Pi and TNC-Pi as a stand-alone, multi-user Winlink client
+with Pat.</p>
+
+<p>Updated 2020-10-18</p>
+
+<h1 id="overview">Overview</h1>
+
+<p>Use a Raspberry Pi with a <a href="https://tnc-x.com/TNCPi.htm">TNC-Pi2</a> as a
+<a href="https://en.wikipedia.org/wiki/Winlink">Winlink</a> client. When used in the field, the Raspberry Pi
+sets up a WiFi access point and hosts the <a href="http://getpat.io/">Pat</a> HTTP Winlink client. Any laptop
+or smartphone can connect with WiFi and a web browser, and send and receive Winlink email.</p>
+
+<p>This reference design is meant to be as simple and straightforward as possible to assemble and
+configure; as such, it does not use the full flexibility of any of the components. Use this as a
+starting point, then extend based on your own interests or requirements.</p>
+
+<p>Many thanks to Martin Hebnes Pedersen LA5NTA for creating and maintaining
+<a href="https://github.com/la5nta/pat">Pat</a>!</p>
+
+<p>PiPat is inspired by <a href="http://www.pigate.net/">PiGate</a> by Mark Griffith KD0QYN.</p>
+
+<p>Also check out videos from Jason Oleham KM4ACK about building basically the same thing. He has tons
+of videos incorporating Raspberry Pi and ham radio, and has built up scripts for many tasks
+including those outlined here.</p>
+
+<h1 id="need-help">Need help?</h1>
+
+<p>Use the <a href="https://groups.google.com/forum/?#!forum/pat-users">Pat users mailing list</a>; I’m on there,
+and if I can’t answer immediately, you’ll have more eyes on your question.</p>
+
+<h1 id="equipment">Equipment</h1>
+
+<ul>
+  <li>Raspberry Pi, I suspect any hardware version with either built-in WiFi or an AP-capable dongle
+(I use a <a href="https://www.sparkfun.com/products/14643">Raspberry Pi 3 B+</a>)</li>
+  <li>Latest Raspbian OS with updates installed (I use Buster)</li>
+  <li><a href="https://tnc-x.com/TNCPi.htm">Coastal ChipWorks TNC-Pi 2</a> and interface cable (I bought the kit
+and built my own cable)
+    <ul>
+      <li>Coastal Chipworks is no longer operating, and the TNC-Pi 2 is hard to find, but MFJ has a
+clone called the <a href="https://mfjenterprises.com/products/mfj-1270pi-pitnc-board">MFJ-1270PI</a>.
+At roughly double the price of the old TNC-Pi 2 kit, I’m not sure I’d recommend it.</li>
+      <li>There are plenty of other good options for TNCs that work with libax25:
+        <ul>
+          <li><a href="https://store.mobilinkd.com/products/mobilinkd-tnc3">Mobilinkd TNC3</a></li>
+          <li><a href="http://www.tigertronics.com/slusbmain.htm">Signalink USB</a> and
+<a href="https://github.com/wb2osz/direwolf">Direwolf</a></li>
+          <li><a href="http://tarpn.net/t/nino-tnc/nino-tnc.html">TARPN NinoTNC</a></li>
+          <li>Traditional TNCs like Kantronics, SCS, AEA</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Any VHF/UHF amateur radio, from a Baofeng UV-5R on up (I mainly use an Anytone AT-D878UV)</li>
+  <li>Power in the field (I use an Aukey Power Bank USB battery)</li>
+</ul>
+
+<p>Optional:</p>
+<ul>
+  <li>USB GPS module for position reports and time (I bought a
+<a href="https://www.amazon.com/dp/B008200LHW/">GlobalSat BU-353-S4</a>)</li>
+  <li>Add-on RTC module for time (I bought <a href="https://www.adafruit.com/product/4282">this one</a>)</li>
+  <li>A case for the Pi &amp; TNC (I 3D-printed <a href="https://www.thingiverse.com/thing:763710">this one</a>)</li>
+</ul>
+
+<h1 id="configuration">Configuration</h1>
+
+<p>Assumes starting from a fresh and updated Raspbian image. At the time of writing, this is Raspbian
+Buster. Raspbian currently comes in 3 sizes: “desktop and recommended software”, “desktop” and
+“lite”; the mid-tier desktop-only image is sufficient.</p>
+
+<p>Open a terminal window and issue the command:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo apt update &amp;&amp; sudo apt -y full-upgrade
+</code></pre></div></div>
+
+<p>You should also change the pi user’s password from raspberry to something else:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>passwd
+</code></pre></div></div>
+
+<h1 id="enable-serial0-for-tnc-pi">Enable serial0 for TNC-Pi</h1>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo raspi-config
+</code></pre></div></div>
+
+<p>Network</p>
+<ul>
+  <li>Change hostname (if desired, for identifying the Pi on your home network)</li>
+</ul>
+
+<p>Interfaces</p>
+<ul>
+  <li>serial console: disable (we don’t want system logs going to the TNC-Pi)</li>
+  <li>serial port: enable (we want to talk to the TNC-Pi through the GPIO pins)</li>
+  <li>I2C: enable (for optional RTC)</li>
+  <li>SSH: enable (for remote debugging)</li>
+</ul>
+
+<p>Localization</p>
+<ul>
+  <li>set time zone</li>
+</ul>
+
+<h1 id="set-up-pi-as-an-access-point">Set up Pi as an Access Point</h1>
+
+<p>For now, I’m using the <code class="language-plaintext highlighter-rouge">wpa_supplicant</code> feature of first attempting to connect to a known network,
+then falling back to creating an access point. I’d prefer to have more control with a physical
+toggle switch, but that’s more work.</p>
+
+<p>I’ve had good luck using this script: https://github.com/0unknwn/auto-hotspot.</p>
+
+<p>Contents of <code class="language-plaintext highlighter-rouge">/etc/wpa_supplicant/wpa_supplicant-wlan0.conf</code>:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>country=US
+ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
+update_config=1
+ap_scan=1
+
+network={
+    priority=10
+    ssid="MyHomeNet"
+    psk="MyHomePassword"
+    key_mgmt=WPA-PSK
+}
+
+network={                                                                        
+    ssid="PiPat"
+    mode=2                                                                       
+    key_mgmt=WPA-PSK                                                             
+    psk="HelloWinlink"
+    frequency=2462                                                               
+}
+</code></pre></div></div>
+
+<p>Then run:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git clone https://github.com/0unknwn/auto-hotspot.git
+cd auto-hotspot
+chmod +x auto-hotspot install.sh
+sudo ./install.sh
+sudo reboot
+</code></pre></div></div>
+
+<p>If you look closely in the
+<a href="https://github.com/0unknwn/auto-hotspot/blob/master/install.sh">auto-hotspot script</a>, you can see
+the Pi will have an IP address of 192.168.4.1 when it’s in AP mode. If desired, that can be modified
+in the <code class="language-plaintext highlighter-rouge">/etc/systemd/network/12-wlan0-AP.network</code> file.</p>
+
+<h1 id="install-and-configure-ax25service">Install and configure ax25.service</h1>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo apt install ax25-tools ax25-apps
+</code></pre></div></div>
+
+<p>Contents of <code class="language-plaintext highlighter-rouge">/etc/ax25/axports</code>:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># name  callsign    speed   paclen  window  description
+tncpi   K0SWE-1     19200   255     2       TNC-PI
+</code></pre></div></div>
+
+<p>Above, 19200 is the baud rate of <code class="language-plaintext highlighter-rouge">/dev/serial0</code> between the Pi and TNC-Pi. Below, 1200 is the baud
+rate between the TNC-Pi and the RF transceiver, and must match the remote Winlink RMS.</p>
+
+<p>Contents of <code class="language-plaintext highlighter-rouge">/etc/default/ax25</code>:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># Configuration for AX.25 systemd unit file from Pat.
+
+# The axport from /etc/ax25/axports to bring up.
+AXPORT=tncpi
+
+# The AX.25 baudrate the TNC is configured for.
+# Make sure this matches the HBAUD setting of your TNC.
+HBAUD=1200
+
+# The TNC serial path.
+DEV=/dev/serial0
+</code></pre></div></div>
+
+<h1 id="install-and-configure-pat">Install and configure Pat</h1>
+
+<p>Follow directions at https://getpat.io. Download from https://github.com/la5nta/pat/releases. Need
+the “armhf” version.</p>
+
+<p>Below is a summary of <a href="https://github.com/la5nta/pat/wiki/The-command-line-interface">quickstart</a>
+and <a href="https://github.com/la5nta/pat/wiki/AX25-Linux">AX.25</a> wiki pages:</p>
+
+<p>Start ax25 service at boot</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo /usr/share/pat/ax25/install-systemd-ax25-unit.bash
+sudo systemctl enable ax25
+sudo systemctl start ax25
+</code></pre></div></div>
+
+<p>Run pat configure (equivalent to <code class="language-plaintext highlighter-rouge">$EDITOR ~/.wl2k/config.json</code>), then set these values:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{
+  "mycall": "K0SWE",
+  "secure_login_password": "YOUR_WINLINK_PASSWORD",
+  "locator": "DM79lv",
+  "http_addr": "0.0.0.0:8080",  ← Allow web from any host, not just local
+  "ax25": {
+    "port": "tncpi", ← must match /etc/ax25/axports
+    "rig": "", ← have to manually tune your radio
+  },
+  ...
+}
+</code></pre></div></div>
+
+<p>Then start Pat HTTP and enable on boot:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo systemctl start pat@pi
+sudo systemctl enable pat@pi
+</code></pre></div></div>
+
+<h1 id="optional-gps-position-reports">(Optional) GPS Position reports</h1>
+
+<p>Pat can send position reports. This can be fed by browser-based geolocation APIs, but that’s
+considered a “powerful feature” and is
+<a href="https://www.chromium.org/Home/chromium-security/deprecating-powerful-features-on-insecure-origins">disabled for insecure origins</a>,
+so it’s hard to get running with Pat over Wifi. Instead, a GPS module can feed location directly to
+the Pi.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo apt install gpsd gpsd-clients
+</code></pre></div></div>
+
+<p>I noticed that gpsd was not picking up
+<a href="https://www.amazon.com/dp/B008200LHW/">my particular USB GPS unit</a> when plugged in. I tracked it
+down to a udev rule in <code class="language-plaintext highlighter-rouge">/lib/udev/rules.d/60-gpsd.rules</code>:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># Prolific Technology, Inc. PL2303 Serial Port [linux module: pl2303]
+# rule disabled in Debian as it matches too many other devices
+#ATTRS{idVendor}=="067b", ATTRS{idProduct}=="2303", SYMLINK+="gps%n", TAG+="systemd", ENV{SYSTEMD_WANTS}="gpsdctl@%k.service"
+</code></pre></div></div>
+
+<p>After uncommenting the <code class="language-plaintext highlighter-rouge">ATTRS</code> line, hot-plugging the USB GPS unit works as expected.</p>
+
+<p>Test <code class="language-plaintext highlighter-rouge">gpsd</code> with <code class="language-plaintext highlighter-rouge">cgps</code> or <code class="language-plaintext highlighter-rouge">gpsmon</code>.</p>
+
+<p>After that, creating a position report in Pat can be done from CLI. It can also be enabled in the
+Pat web interface with another change in pat configure:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  "GPSd": {
+    "enable_http": true, ← change this to enable GPS reports in Pat web
+    "use_server_time": false,
+    "addr": "localhost:2947"
+  },
+</code></pre></div></div>
+
+<h1 id="optional-accurate-time">(Optional) Accurate Time</h1>
+
+<p>The Raspberry Pi does not come with an onboard Real-Time Clock (RTC) with a battery power supply the
+way most desktop and laptop computers do. This means the system clock will stop when power is
+disconnected, making timestamps of emails and log messages inaccurate.</p>
+
+<p>In an internet-connected context, an NTP client can be used to fetch time from an NTP server. <del>A
+program called <code class="language-plaintext highlighter-rouge">ntpd</code> was the old standard</del>; now <code class="language-plaintext highlighter-rouge">systemd-timesyncd</code> (with <code class="language-plaintext highlighter-rouge">timedatectl</code>) is the
+lightweight, pre-installed replacement, and <code class="language-plaintext highlighter-rouge">chrony</code> is the full-featured replacement. Any guides
+referencing <code class="language-plaintext highlighter-rouge">ntpd</code> should be avoided. See
+<a href="https://wiki.archlinux.org/index.php/systemd-timesyncd">this</a> for more details.</p>
+
+<p>For field-deployed situations without internet, a couple of solutions for accurate time are
+possible.</p>
+
+<h2 id="get-time-from-gps">Get Time from GPS</h2>
+
+<p>In addition to location, GPS provides accurate time which can be used to set the system clock. If
+you’re already using GPS, it’s a great option. See
+<a href="https://photobyte.org/raspberry-pi-stretch-gps-dongle-as-a-time-source-with-chrony-timedatectl/">this guide from Mike Richards G4WNC</a>.
+In summary:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo apt -y install gpsd gpsd-clients python-gps chrony
+</code></pre></div></div>
+
+<p>Contents of <code class="language-plaintext highlighter-rouge">/etc/default/gpsd</code>:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>START_DAEMON="true"
+USBAUTO="true"
+DEVICES=""       ← G4WNC recommends specifying this, but I leave mine dynamic
+GPSD_OPTIONS="-n"
+</code></pre></div></div>
+
+<p>Add to end of <code class="language-plaintext highlighter-rouge">/etc/chrony/chrony.conf</code>:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># Use NMEA data from gpsd shared memory
+refclock SHM 0 offset 0.5 delay 0.2 refid NMEA
+</code></pre></div></div>
+
+<p>Reboot, then check if it’s working:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># Is GPS getting good data?
+cgps
+# or
+gpsmon
+# Is chrony getting input from GPS? Will say so even when internet-connected
+chronyc sources -v
+</code></pre></div></div>
+
+<p>That setup uses NMEA data which has &lt;1 second precision and is good enough for my purposes. There’s
+also a PPS protocol which is extremely accurate but not supported by all GPS modules and needs Linux
+kernel support, which is just too much work.</p>
+
+<h2 id="add-on-rtc-module">Add-on RTC module</h2>
+
+<p>Add an RTC module with battery: <a href="https://www.adafruit.com/product/3386">cheap</a> or
+<a href="https://www.adafruit.com/product/4282">precise</a> options from Adafruit, or
+<a href="https://www.amazon.com/dp/B01N1LZSK3">precise, cheap but dodgy</a> from China. These use the I2C bus
+and need some setup as described here.</p>
+
+<p>If you didn’t already:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo raspi-config
+# enable I2C interface &amp; set time zone
+</code></pre></div></div>
+
+<p>Add <em>one</em> of these lines at the end of <code class="language-plaintext highlighter-rouge">/boot/config.txt</code>, depending on which RTC chip you’re using:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>dtoverlay=i2c-rtc,ds3231
+dtoverlay=i2c-rtc,ds1307
+dtoverlay=i2c-rtc,pcf8523
+</code></pre></div></div>
+
+<p>Then:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo reboot
+
+sudo apt-get -y remove fake-hwclock
+sudo update-rc.d -f fake-hwclock remove
+sudo systemctl disable fake-hwclock
+</code></pre></div></div>
+
+<p>In file <code class="language-plaintext highlighter-rouge">/lib/udev/hwclock-set</code>, comment out lines:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#if [ -e /run/systemd/system ] ; then
+# exit 0
+#fi
+
+#/sbin/hwclock --rtc=$dev --systz --badyear
+
+#/sbin/hwclock --rtc=$dev --systz
+</code></pre></div></div>
+
+<p>Make sure clock is updated, then write to RTC:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># Sync time using the internet
+sudo timedatectl
+# or
+sudo chronyc -a makestep
+
+# Save the time to the RTC
+sudo hwclock -w
+</code></pre></div></div>
+
+<p>Now when the system boots, the Pi should read from the RTC to set system time.</p>
+
+<h1 id="using-pipat">Using PiPat</h1>
+
+<p>In the field, the Pi will start a WiFi access point named <code class="language-plaintext highlighter-rouge">PiPat</code> with password <code class="language-plaintext highlighter-rouge">HelloWinlink</code>.
+Connect your laptop or phone to that network, then point your web browser at
+http://192.168.4.1:8080. The Pat web application should be served up!</p>
+
+<p>When transmitting and receiving, note that your radio should be set to leave the <em>squelch open/off</em>!</p>
+
+<h1 id="future-ideas-for-pipat">Future ideas for PiPat</h1>
+
+<ul>
+  <li>Consider scripting this document and producing daily images by forking
+https://github.com/RPi-Distro/pi-gen/ or something.</li>
+  <li>Physical toggle switch for setting WiFi to Home vs Field, and
+<a href="https://core-electronics.com.au/tutorials/how-to-make-a-safe-shutdown-button-for-raspberry-pi.html">physical button for safe shutdown</a></li>
+  <li>It’s illegal to encrypt the ham radio side, but the web frontend on WiFi could use TLS and
+authentication. Easiest way is to
+<a href="https://github.com/la5nta/pat/issues/159">use a reverse proxy</a> in front of Pat.</li>
+</ul>
+
+<h1 id="appendix">Appendix</h1>
+
+<h2 id="dire-wolf">Dire Wolf</h2>
+
+<p>I tried this basic setup with <a href="https://github.com/wb2osz/direwolf">Dire Wolf</a> 1.5, and got it
+working reasonably well. This variation doesn’t use the TNC-Pi, but does need either a sound card
+radio interface like a <a href="http://www.tigertronics.com/slusbmain.htm">SignaLink USB</a> (the way I
+tested), or a cheap USB sound card and a
+<a href="https://www.marcelpost.com/wiki/index.php/GPIO_pin_on_the_RPi_to_trigger_PTT">GPIO PTT circuit</a>.
+I’m not going to automate it with <code class="language-plaintext highlighter-rouge">systemd</code>, but it does work.</p>
+
+<p>Contents of <code class="language-plaintext highlighter-rouge">/etc/ax25/axports</code>:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># name  callsign        speed   paclen    window  description
+dwlf    K0SWE-1         0       255       2       Direwolf/Signalink
+</code></pre></div></div>
+
+<p>Contents of <code class="language-plaintext highlighter-rouge">~/.wl2k/config.json</code>:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>"ax25": {
+    "port": "dwlf",
+    ...
+}
+</code></pre></div></div>
+
+<p>Direwolf config, figure out which sound card number:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>arecord -l
+aplay -l
+</code></pre></div></div>
+
+<p>Then, contents of <code class="language-plaintext highlighter-rouge">~/direwolf.conf</code>:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ADEVICE  plughw:1,0
+</code></pre></div></div>
+
+<p>To start:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>direwolf -t 0 -p &gt; direwolf.log 2&gt;&amp;1 &amp;
+# note that /dev/pts/1 can change, have to watch direwolf logs to verify
+sudo kissattach /dev/pts/1 dwlf
+# workaround for "Invalid transmit channel 8 from KISS client app"
+sudo kissparms -c 1 -p dwlf
+
+pat http
+</code></pre></div></div>
+
+<p>If you see “Invalid transmit channel 8 from KISS client app” in Direwolf logs, see
+https://github.com/wb2osz/direwolf/issues/42.</p>
+
+  </div>
+
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">K0SWE Blog</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">K0SWE Blog</li><li><a class="u-email" href="mailto:k0swe@arrl.net">k0swe@arrl.net</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://github.com/xylo04"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">xylo04</span></a></li></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>Events and projects for amateur radio operator K0SWE, a.k.a. Chris.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
