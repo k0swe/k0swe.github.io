@@ -8,7 +8,7 @@ with Pat.
 
 Updated 2020-10-18
 
-# Overview
+## Overview
 
 Use a Raspberry Pi with a [TNC-Pi2](https://tnc-x.com/TNCPi.htm) as a
 [Winlink](https://en.wikipedia.org/wiki/Winlink) client. When used in the field, the Raspberry Pi
@@ -28,12 +28,12 @@ Also check out videos from Jason Oleham KM4ACK about building basically the same
 of videos incorporating Raspberry Pi and ham radio, and has built up scripts for many tasks
 including those outlined here.
 
-# Need help?
+## Need help?
 
 Use the [Pat users mailing list](https://groups.google.com/forum/?#!forum/pat-users); I'm on there,
 and if I can't answer immediately, you'll have more eyes on your question.
 
-# Equipment
+## Equipment
 
 *   Raspberry Pi, I suspect any hardware version with either built-in WiFi or an AP-capable dongle
     (I use a [Raspberry Pi 3 B+](https://www.sparkfun.com/products/14643))
@@ -58,7 +58,7 @@ Optional:
 *   Add-on RTC module for time (I bought [this one](https://www.adafruit.com/product/4282))
 *   A case for the Pi & TNC (I 3D-printed [this one](https://www.thingiverse.com/thing:763710))
 
-# Configuration
+## Configuration
 
 Assumes starting from a fresh and updated Raspbian image. At the time of writing, this is Raspbian
 Buster. Raspbian currently comes in 3 sizes: "desktop and recommended software", "desktop" and
@@ -76,7 +76,7 @@ You should also change the pi user’s password from raspberry to something else
 passwd
 ```
 
-# Enable serial0 for TNC-Pi
+## Enable serial0 for TNC-Pi
 
 ```
 sudo raspi-config
@@ -94,7 +94,7 @@ Interfaces
 Localization
 *   set time zone
 
-# Set up Pi as an Access Point
+## Set up Pi as an Access Point
 
 For now, I’m using the `wpa_supplicant` feature of first attempting to connect to a known network,
 then falling back to creating an access point. I’d prefer to have more control with a physical
@@ -117,12 +117,12 @@ network={
     key_mgmt=WPA-PSK
 }
 
-network={                                                                        
+network={
     ssid="PiPat"
-    mode=2                                                                       
-    key_mgmt=WPA-PSK                                                             
+    mode=2
+    key_mgmt=WPA-PSK
     psk="HelloWinlink"
-    frequency=2462                                                               
+    frequency=2462
 }
 ```
 
@@ -141,7 +141,7 @@ If you look closely in the
 the Pi will have an IP address of 192.168.4.1 when it’s in AP mode. If desired, that can be modified
 in the `/etc/systemd/network/12-wlan0-AP.network` file.
 
-# Install and configure ax25.service
+## Install and configure ax25.service
 
 ```
 sudo apt install ax25-tools ax25-apps
@@ -172,7 +172,7 @@ HBAUD=1200
 DEV=/dev/serial0
 ```
 
-# Install and configure Pat
+## Install and configure Pat
 
 Follow directions at https://getpat.io. Download from https://github.com/la5nta/pat/releases. Need
 the “armhf” version.
@@ -211,7 +211,7 @@ sudo systemctl start pat@pi
 sudo systemctl enable pat@pi
 ```
 
-# (Optional) GPS Position reports
+## (Optional) GPS Position reports
 
 Pat can send position reports. This can be fed by browser-based geolocation APIs, but that’s
 considered a “powerful feature” and is
@@ -248,7 +248,7 @@ Pat web interface with another change in pat configure:
   },
 ```
 
-# (Optional) Accurate Time
+## (Optional) Accurate Time
 
 The Raspberry Pi does not come with an onboard Real-Time Clock (RTC) with a battery power supply the
 way most desktop and laptop computers do. This means the system clock will stop when power is
@@ -263,7 +263,7 @@ referencing `ntpd` should be avoided. See
 For field-deployed situations without internet, a couple of solutions for accurate time are
 possible.
 
-## Get Time from GPS
+### Get Time from GPS
 
 In addition to location, GPS provides accurate time which can be used to set the system clock. If
 you’re already using GPS, it’s a great option. See
@@ -305,7 +305,7 @@ That setup uses NMEA data which has <1 second precision and is good enough for m
 also a PPS protocol which is extremely accurate but not supported by all GPS modules and needs Linux
 kernel support, which is just too much work.
 
-## Add-on RTC module
+### Add-on RTC module
 
 Add an RTC module with battery: [cheap](https://www.adafruit.com/product/3386) or
 [precise](https://www.adafruit.com/product/4282) options from Adafruit, or
@@ -363,7 +363,7 @@ sudo hwclock -w
 
 Now when the system boots, the Pi should read from the RTC to set system time.
 
-# Using PiPat
+## Using PiPat
 
 In the field, the Pi will start a WiFi access point named `PiPat` with password `HelloWinlink`.
 Connect your laptop or phone to that network, then point your web browser at
@@ -371,7 +371,7 @@ http://192.168.4.1:8080. The Pat web application should be served up!
 
 When transmitting and receiving, note that your radio should be set to leave the *squelch open/off*!
 
-# Future ideas for PiPat
+## Future ideas for PiPat
 
 *   Consider scripting this document and producing daily images by forking
     https://github.com/RPi-Distro/pi-gen/ or something.
@@ -381,9 +381,9 @@ When transmitting and receiving, note that your radio should be set to leave the
     authentication. Easiest way is to
     [use a reverse proxy](https://github.com/la5nta/pat/issues/159) in front of Pat.
 
-# Appendix
+## Appendix
 
-## Dire Wolf
+### Dire Wolf
 
 I tried this basic setup with [Dire Wolf](https://github.com/wb2osz/direwolf) 1.5, and got it
 working reasonably well. This variation doesn’t use the TNC-Pi, but does need either a sound card
