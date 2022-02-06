@@ -47,7 +47,7 @@ with Pat.</p>
 
 <p>Updated 2020-10-18</p>
 
-<h1 id="overview">Overview</h1>
+<h2 id="overview">Overview</h2>
 
 <p>Use a Raspberry Pi with a <a href="https://tnc-x.com/TNCPi.htm">TNC-Pi2</a> as a
 <a href="https://en.wikipedia.org/wiki/Winlink">Winlink</a> client. When used in the field, the Raspberry Pi
@@ -67,12 +67,12 @@ starting point, then extend based on your own interests or requirements.</p>
 of videos incorporating Raspberry Pi and ham radio, and has built up scripts for many tasks
 including those outlined here.</p>
 
-<h1 id="need-help">Need help?</h1>
+<h2 id="need-help">Need help?</h2>
 
 <p>Use the <a href="https://groups.google.com/forum/?#!forum/pat-users">Pat users mailing list</a>; I’m on there,
 and if I can’t answer immediately, you’ll have more eyes on your question.</p>
 
-<h1 id="equipment">Equipment</h1>
+<h2 id="equipment">Equipment</h2>
 
 <ul>
   <li>Raspberry Pi, I suspect any hardware version with either built-in WiFi or an AP-capable dongle
@@ -107,7 +107,7 @@ At roughly double the price of the old TNC-Pi 2 kit, I’m not sure I’d recomm
   <li>A case for the Pi &amp; TNC (I 3D-printed <a href="https://www.thingiverse.com/thing:763710">this one</a>)</li>
 </ul>
 
-<h1 id="configuration">Configuration</h1>
+<h2 id="configuration">Configuration</h2>
 
 <p>Assumes starting from a fresh and updated Raspbian image. At the time of writing, this is Raspbian
 Buster. Raspbian currently comes in 3 sizes: “desktop and recommended software”, “desktop” and
@@ -123,7 +123,7 @@ Buster. Raspbian currently comes in 3 sizes: “desktop and recommended software
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>passwd
 </code></pre></div></div>
 
-<h1 id="enable-serial0-for-tnc-pi">Enable serial0 for TNC-Pi</h1>
+<h2 id="enable-serial0-for-tnc-pi">Enable serial0 for TNC-Pi</h2>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo raspi-config
 </code></pre></div></div>
@@ -146,7 +146,7 @@ Buster. Raspbian currently comes in 3 sizes: “desktop and recommended software
   <li>set time zone</li>
 </ul>
 
-<h1 id="set-up-pi-as-an-access-point">Set up Pi as an Access Point</h1>
+<h2 id="set-up-pi-as-an-access-point">Set up Pi as an Access Point</h2>
 
 <p>For now, I’m using the <code class="language-plaintext highlighter-rouge">wpa_supplicant</code> feature of first attempting to connect to a known network,
 then falling back to creating an access point. I’d prefer to have more control with a physical
@@ -168,12 +168,12 @@ network={
     key_mgmt=WPA-PSK
 }
 
-network={                                                                        
+network={
     ssid="PiPat"
-    mode=2                                                                       
-    key_mgmt=WPA-PSK                                                             
+    mode=2
+    key_mgmt=WPA-PSK
     psk="HelloWinlink"
-    frequency=2462                                                               
+    frequency=2462
 }
 </code></pre></div></div>
 
@@ -191,7 +191,7 @@ sudo reboot
 the Pi will have an IP address of 192.168.4.1 when it’s in AP mode. If desired, that can be modified
 in the <code class="language-plaintext highlighter-rouge">/etc/systemd/network/12-wlan0-AP.network</code> file.</p>
 
-<h1 id="install-and-configure-ax25service">Install and configure ax25.service</h1>
+<h2 id="install-and-configure-ax25service">Install and configure ax25.service</h2>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo apt install ax25-tools ax25-apps
 </code></pre></div></div>
@@ -219,7 +219,7 @@ HBAUD=1200
 DEV=/dev/serial0
 </code></pre></div></div>
 
-<h1 id="install-and-configure-pat">Install and configure Pat</h1>
+<h2 id="install-and-configure-pat">Install and configure Pat</h2>
 
 <p>Follow directions at https://getpat.io. Download from https://github.com/la5nta/pat/releases. Need
 the “armhf” version.</p>
@@ -255,7 +255,7 @@ sudo systemctl start ax25
 sudo systemctl enable pat@pi
 </code></pre></div></div>
 
-<h1 id="optional-gps-position-reports">(Optional) GPS Position reports</h1>
+<h2 id="optional-gps-position-reports">(Optional) GPS Position reports</h2>
 
 <p>Pat can send position reports. This can be fed by browser-based geolocation APIs, but that’s
 considered a “powerful feature” and is
@@ -289,7 +289,7 @@ Pat web interface with another change in pat configure:</p>
   },
 </code></pre></div></div>
 
-<h1 id="optional-accurate-time">(Optional) Accurate Time</h1>
+<h2 id="optional-accurate-time">(Optional) Accurate Time</h2>
 
 <p>The Raspberry Pi does not come with an onboard Real-Time Clock (RTC) with a battery power supply the
 way most desktop and laptop computers do. This means the system clock will stop when power is
@@ -304,7 +304,7 @@ referencing <code class="language-plaintext highlighter-rouge">ntpd</code> shoul
 <p>For field-deployed situations without internet, a couple of solutions for accurate time are
 possible.</p>
 
-<h2 id="get-time-from-gps">Get Time from GPS</h2>
+<h3 id="get-time-from-gps">Get Time from GPS</h3>
 
 <p>In addition to location, GPS provides accurate time which can be used to set the system clock. If
 you’re already using GPS, it’s a great option. See
@@ -342,7 +342,7 @@ chronyc sources -v
 also a PPS protocol which is extremely accurate but not supported by all GPS modules and needs Linux
 kernel support, which is just too much work.</p>
 
-<h2 id="add-on-rtc-module">Add-on RTC module</h2>
+<h3 id="add-on-rtc-module">Add-on RTC module</h3>
 
 <p>Add an RTC module with battery: <a href="https://www.adafruit.com/product/3386">cheap</a> or
 <a href="https://www.adafruit.com/product/4282">precise</a> options from Adafruit, or
@@ -395,7 +395,7 @@ sudo hwclock -w
 
 <p>Now when the system boots, the Pi should read from the RTC to set system time.</p>
 
-<h1 id="using-pipat">Using PiPat</h1>
+<h2 id="using-pipat">Using PiPat</h2>
 
 <p>In the field, the Pi will start a WiFi access point named <code class="language-plaintext highlighter-rouge">PiPat</code> with password <code class="language-plaintext highlighter-rouge">HelloWinlink</code>.
 Connect your laptop or phone to that network, then point your web browser at
@@ -403,7 +403,7 @@ http://192.168.4.1:8080. The Pat web application should be served up!</p>
 
 <p>When transmitting and receiving, note that your radio should be set to leave the <em>squelch open/off</em>!</p>
 
-<h1 id="future-ideas-for-pipat">Future ideas for PiPat</h1>
+<h2 id="future-ideas-for-pipat">Future ideas for PiPat</h2>
 
 <ul>
   <li>Consider scripting this document and producing daily images by forking
@@ -415,9 +415,9 @@ authentication. Easiest way is to
 <a href="https://github.com/la5nta/pat/issues/159">use a reverse proxy</a> in front of Pat.</li>
 </ul>
 
-<h1 id="appendix">Appendix</h1>
+<h2 id="appendix">Appendix</h2>
 
-<h2 id="dire-wolf">Dire Wolf</h2>
+<h3 id="dire-wolf">Dire Wolf</h3>
 
 <p>I tried this basic setup with <a href="https://github.com/wb2osz/direwolf">Dire Wolf</a> 1.5, and got it
 working reasonably well. This variation doesn’t use the TNC-Pi, but does need either a sound card
