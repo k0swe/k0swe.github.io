@@ -1,4 +1,19 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://k0swe.radio/feed.xml" rel="self" type="application/atom+xml" /><link href="https://k0swe.radio/" rel="alternate" type="text/html" /><updated>2022-02-08T04:10:11+00:00</updated><id>https://k0swe.radio/feed.xml</id><title type="html">K0SWE Blog</title><subtitle>Events and projects for amateur radio operator K0SWE, a.k.a. Chris.</subtitle><entry><title type="html">Cloud WSJT-X</title><link href="https://k0swe.radio/2021/11/23/cloud-wsjtx.html" rel="alternate" type="text/html" title="Cloud WSJT-X" /><published>2021-11-23T00:00:00+00:00</published><updated>2021-11-23T00:00:00+00:00</updated><id>https://k0swe.radio/2021/11/23/cloud-wsjtx</id><content type="html" xml:base="https://k0swe.radio/2021/11/23/cloud-wsjtx.html">&lt;p&gt;&lt;img src=&quot;/assets/2021-11-23-CloudWsjtx.png&quot; alt=&quot;Screenshot of CloudWsjtx&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://k0swe.radio/feed.xml" rel="self" type="application/atom+xml" /><link href="https://k0swe.radio/" rel="alternate" type="text/html" /><updated>2022-02-08T04:28:51+00:00</updated><id>https://k0swe.radio/feed.xml</id><title type="html">K0SWE Blog</title><subtitle>Events and projects for amateur radio operator K0SWE, a.k.a. Chris.</subtitle><entry><title type="html">Pat Forms Updates</title><link href="https://k0swe.radio/2021/12/06/pat-form-updates.html" rel="alternate" type="text/html" title="Pat Forms Updates" /><published>2021-12-06T00:00:00+00:00</published><updated>2021-12-06T00:00:00+00:00</updated><id>https://k0swe.radio/2021/12/06/pat-form-updates</id><content type="html" xml:base="https://k0swe.radio/2021/12/06/pat-form-updates.html">&lt;p&gt;&lt;img src=&quot;/assets/update.png&quot; alt=&quot;Update&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Pat officially launched &lt;a href=&quot;https://k0swe.radio/2021/07/10/pat-forms.html&quot;&gt;form templates&lt;/a&gt; back in
+July, and the reviews since then have been pretty positive! However, there’s definitely room for
+improvement, particularly in the process for downloading updated versions of the form templates. To
+find out about new versions, Pat has to scrape the Winlink website on a sort of blog post page.
+Scraping is notoriously brittle because as soon as someone changes the way the blog page HTML looks,
+there’s a high chance of breaking the scraper logic. Sure, we could release a new version of Pat to
+fix the problem, but that will require a lot of scrambling on the part of us, the Pat developers,
+followed by every user having to download that new version of Pat. What a mess that would be.&lt;/p&gt;
+
+&lt;p&gt;Instead, &lt;a href=&quot;https://github.com/martinhpedersen&quot;&gt;Martin&lt;/a&gt; (Pat’s founder) had the idea to separate the
+scraping logic into an &lt;a href=&quot;https://github.com/la5nta/pat-api&quot;&gt;online service/API&lt;/a&gt; and take the scraper
+out of the main Pat code. That way, if the Winlink blog page ever changes, we can change the online
+bit. Pat clients that touch our API project don’t have to be aware of the change, and everything
+keeps working. Nice!&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Cloud WSJT-X</title><link href="https://k0swe.radio/2021/11/23/cloud-wsjtx.html" rel="alternate" type="text/html" title="Cloud WSJT-X" /><published>2021-11-23T00:00:00+00:00</published><updated>2021-11-23T00:00:00+00:00</updated><id>https://k0swe.radio/2021/11/23/cloud-wsjtx</id><content type="html" xml:base="https://k0swe.radio/2021/11/23/cloud-wsjtx.html">&lt;p&gt;&lt;img src=&quot;/assets/2021-11-23-CloudWsjtx.png&quot; alt=&quot;Screenshot of CloudWsjtx&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;A couple of weeks ago, I was approached by Pearce N2LW with an interesting project idea. I don’t
 want to spoil the entire idea, but the basic premise is to be able to “play” WSJT-X from anywhere.
@@ -143,21 +158,4 @@ had to disassemble.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/2021-06-26-field-day-solar.jpg&quot; alt=&quot;Field Day station with solar panels&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/2021-06-26-field-day-portrait.jpg&quot; alt=&quot;Chris at Field Day Station with rain jacket&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">I was able to get out for a little while today. I worked a little FT-8, and had planned to do some voice. I started to get a little rain, which I was prepared for. But then the rain picked up and I had to disassemble.</summary></entry><entry><title type="html">Mountaineer is dead: long live Digirig Mobile</title><link href="https://k0swe.radio/2021/06/23/digirig.html" rel="alternate" type="text/html" title="Mountaineer is dead: long live Digirig Mobile" /><published>2021-06-23T00:00:00+00:00</published><updated>2021-06-23T00:00:00+00:00</updated><id>https://k0swe.radio/2021/06/23/digirig</id><content type="html" xml:base="https://k0swe.radio/2021/06/23/digirig.html">&lt;p&gt;After all that work on &lt;a href=&quot;https://github.com/k0swe/mountaineer&quot;&gt;Mountaineer&lt;/a&gt;, I recently found someone
-who was working on a similar project: &lt;a href=&quot;https://digirig.net/product/digirig-mobile/&quot;&gt;Digirig Mobile&lt;/a&gt;
-by Denis Grisak &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;K0TX&lt;/code&gt;. It’s pretty much identical in feature set, a quarter of the size, is
-similarly &lt;a href=&quot;https://github.com/softcomplex/digirig&quot;&gt;open source&lt;/a&gt; and was designed by an actual
-electrical engineer who knows what he is doing. After building cables to interface with the TX-500,
-it’s working perfectly!&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/2021-06-22-digirig.jpg&quot; alt=&quot;QRP station with Digirig Mobile in grass&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/2021-06-23-digirig.jpg&quot; alt=&quot;QRP station with Digirig Mobile at a picnic table&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;I spoke with Denis over email and he gave me some ideas to improve Mountaineer. I’m grateful, but
-for now, I think I’m just going to stop development on Mountaineer and guide people towards Digirig.&lt;/p&gt;
-
-&lt;p&gt;In a way, I’m a little relieved. It was a lot of fun developing Mountaineer and building my hardware
-skills, but the thought of productionizing it, mass-producing, having to deal with logistics and
-payments and customer service… It’s all more than I really wanted to pursue. I’ll leave that to
-someone with a more entrepreneurial spirit!&lt;/p&gt;</content><author><name></name></author><summary type="html">After all that work on Mountaineer, I recently found someone who was working on a similar project: Digirig Mobile by Denis Grisak K0TX. It’s pretty much identical in feature set, a quarter of the size, is similarly open source and was designed by an actual electrical engineer who knows what he is doing. After building cables to interface with the TX-500, it’s working perfectly!</summary></entry></feed>
+&lt;p&gt;&lt;img src=&quot;/assets/2021-06-26-field-day-portrait.jpg&quot; alt=&quot;Chris at Field Day Station with rain jacket&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">I was able to get out for a little while today. I worked a little FT-8, and had planned to do some voice. I started to get a little rain, which I was prepared for. But then the rain picked up and I had to disassemble.</summary></entry></feed>
