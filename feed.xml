@@ -1,4 +1,26 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://k0swe.radio/feed.xml" rel="self" type="application/atom+xml" /><link href="https://k0swe.radio/" rel="alternate" type="text/html" /><updated>2022-02-06T07:04:38+00:00</updated><id>https://k0swe.radio/feed.xml</id><title type="html">K0SWE Blog</title><subtitle>Events and projects for amateur radio operator K0SWE, a.k.a. Chris.</subtitle><entry><title type="html">BPQ for Dummies</title><link href="https://k0swe.radio/2021/10/09/bpq.html" rel="alternate" type="text/html" title="BPQ for Dummies" /><published>2021-10-09T00:00:00+00:00</published><updated>2021-10-09T00:00:00+00:00</updated><id>https://k0swe.radio/2021/10/09/bpq</id><content type="html" xml:base="https://k0swe.radio/2021/10/09/bpq.html">&lt;p&gt;&lt;img src=&quot;/assets/BPQ_and_VARA.png&quot; alt=&quot;Screenshot of LinBPQ and VARA FM&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://k0swe.radio/feed.xml" rel="self" type="application/atom+xml" /><link href="https://k0swe.radio/" rel="alternate" type="text/html" /><updated>2022-02-08T02:11:55+00:00</updated><id>https://k0swe.radio/feed.xml</id><title type="html">K0SWE Blog</title><subtitle>Events and projects for amateur radio operator K0SWE, a.k.a. Chris.</subtitle><entry><title type="html">Fun with PulseAudio</title><link href="https://k0swe.radio/2021/10/15/pulseaudio.html" rel="alternate" type="text/html" title="Fun with PulseAudio" /><published>2021-10-15T00:00:00+00:00</published><updated>2021-10-15T00:00:00+00:00</updated><id>https://k0swe.radio/2021/10/15/pulseaudio</id><content type="html" xml:base="https://k0swe.radio/2021/10/15/pulseaudio.html">&lt;p&gt;&lt;img src=&quot;/assets/2021-10-15-digirig-vs-signalink.png&quot; alt=&quot;Screenshot of VARA FM in Audacity&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I’ve taken a slight diversion from integrating Pat with VARA because I need a reliable test bed.
+Learning BPQ helped with the software side, but I’ve been having enough reliability problems to
+start suspecting the hardware. I’ve been trying to use a
+&lt;a href=&quot;https://digirig.net/product/digirig-mobile/&quot;&gt;Digirig Mobile&lt;/a&gt; for at least one of the Winlink
+stations, either the client or the server, but have consistently had problems trying to use it for
+VARA FM. It’s been great for my QRP HF station and FT8/JS8, but for whatever reason, it’s not doing
+well with VHF protocols, either AX25 or VARA FM. I really felt compelled to investigate further.&lt;/p&gt;
+
+&lt;p&gt;After some fussing, I found a
+&lt;a href=&quot;https://lists.freedesktop.org/archives/pulseaudio-discuss/2021-October/032167.html&quot;&gt;way to set up&lt;/a&gt;
+Linux PulseAudio so I could hear exactly what the soundcard interface was sending to the software
+modem program, and what the modem was producing. That resulted in the image above. The top window
+shows a VARA FM ping exchange with the Digirig Mobile while the bottom shows a SignaLink USB. Within
+each window, the top track is the received audio from the radio, and the bottom track is the audio
+transmitted out to the radio. The white highlighted portions are the pause between TX and RX.
+Notice, the pause on the Digirig is about 2 seconds, where the pause on the SignaLink is about half
+a second. The ping response visible on the SignaLink’s RX track is completely in the deaf section of
+the Digirig’s RX track.&lt;/p&gt;
+
+&lt;p&gt;I’m not giving up on the Digirig yet and I’m working with the designer, Denis K0TX, to understand
+what’s happening. In the meantime, my VARA FM adventures will need to use the SignaLink.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">BPQ for Dummies</title><link href="https://k0swe.radio/2021/10/09/bpq.html" rel="alternate" type="text/html" title="BPQ for Dummies" /><published>2021-10-09T00:00:00+00:00</published><updated>2021-10-09T00:00:00+00:00</updated><id>https://k0swe.radio/2021/10/09/bpq</id><content type="html" xml:base="https://k0swe.radio/2021/10/09/bpq.html">&lt;p&gt;&lt;img src=&quot;/assets/BPQ_and_VARA.png&quot; alt=&quot;Screenshot of LinBPQ and VARA FM&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I’ve taken the plunge and started learning
 &lt;a href=&quot;https://www.cantab.net/users/john.wiseman/Documents/BPQ32.html&quot;&gt;BPQ&lt;/a&gt; in earnest. It’s a hefty
@@ -142,7 +164,4 @@ sometimes with heavy additional lead-acid batteries.&lt;/p&gt;
 &lt;p&gt;I opted to sleep up on top of City Lights Ridge rather than attempt the difficult hike at 04:30 in
 the morning. It was a beautiful 36 hours to be up there, and mostly uneventful. At the end of the
 event, one of the organizers told me it was a great mental relief having someone up there to assist
-if needed. Good times!&lt;/p&gt;</content><author><name></name></author><summary type="html">With the pandemic seemingly waning, the Golden Gate Dirty 30 was actually able to happen this year! Supporting this event two years ago was the first event I supported as a ham operator, and I was thrilled to get to participate again. This year I was officially part of the RMHAM Tech Team responsible for setting up and operating the IP-over-microwave network.</summary></entry><entry><title type="html">Mountaineer actually works!</title><link href="https://k0swe.radio/2021/06/04/mountaineer-works.html" rel="alternate" type="text/html" title="Mountaineer actually works!" /><published>2021-06-04T00:00:00+00:00</published><updated>2021-06-04T00:00:00+00:00</updated><id>https://k0swe.radio/2021/06/04/mountaineer-works</id><content type="html" xml:base="https://k0swe.radio/2021/06/04/mountaineer-works.html">&lt;p&gt;I got my latest batch of &lt;a href=&quot;https://github.com/k0swe/mountaineer&quot;&gt;Mountaineer&lt;/a&gt; boards yesterday and
-built one of them. It actually works! Woohoo!&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/2021-06-03-mountaineer.jpg&quot; alt=&quot;QRP station including Mountaineer data interface&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">I got my latest batch of Mountaineer boards yesterday and built one of them. It actually works! Woohoo!</summary></entry></feed>
+if needed. Good times!&lt;/p&gt;</content><author><name></name></author><summary type="html">With the pandemic seemingly waning, the Golden Gate Dirty 30 was actually able to happen this year! Supporting this event two years ago was the first event I supported as a ham operator, and I was thrilled to get to participate again. This year I was officially part of the RMHAM Tech Team responsible for setting up and operating the IP-over-microwave network.</summary></entry></feed>
