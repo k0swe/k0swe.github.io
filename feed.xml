@@ -1,4 +1,30 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://k0swe.radio/feed.xml" rel="self" type="application/atom+xml" /><link href="https://k0swe.radio/" rel="alternate" type="text/html" /><updated>2022-02-08T04:28:51+00:00</updated><id>https://k0swe.radio/feed.xml</id><title type="html">K0SWE Blog</title><subtitle>Events and projects for amateur radio operator K0SWE, a.k.a. Chris.</subtitle><entry><title type="html">Pat Forms Updates</title><link href="https://k0swe.radio/2021/12/06/pat-form-updates.html" rel="alternate" type="text/html" title="Pat Forms Updates" /><published>2021-12-06T00:00:00+00:00</published><updated>2021-12-06T00:00:00+00:00</updated><id>https://k0swe.radio/2021/12/06/pat-form-updates</id><content type="html" xml:base="https://k0swe.radio/2021/12/06/pat-form-updates.html">&lt;p&gt;&lt;img src=&quot;/assets/update.png&quot; alt=&quot;Update&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://k0swe.radio/feed.xml" rel="self" type="application/atom+xml" /><link href="https://k0swe.radio/" rel="alternate" type="text/html" /><updated>2022-02-08T05:30:11+00:00</updated><id>https://k0swe.radio/feed.xml</id><title type="html">K0SWE Blog</title><subtitle>Events and projects for amateur radio operator K0SWE, a.k.a. Chris.</subtitle><entry><title type="html">Winlink in a Box</title><link href="https://k0swe.radio/2022/01/17/winlink-box.html" rel="alternate" type="text/html" title="Winlink in a Box" /><published>2022-01-17T00:00:00+00:00</published><updated>2022-01-17T00:00:00+00:00</updated><id>https://k0swe.radio/2022/01/17/winlink-box</id><content type="html" xml:base="https://k0swe.radio/2022/01/17/winlink-box.html">&lt;p&gt;&lt;img src=&quot;/assets/2022-01-15-ARES-pod.jpg&quot; alt=&quot;ARES Pod&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Saturday was the &lt;a href=&quot;http://ncarc.net/&quot;&gt;NCARC&lt;/a&gt; Winter Hamfest up in Loveland, Colorado, and the first
+in-person hamfest locally in a good long while. Even with masking and whatnot, it was wonderful to
+be back in person to see folks. I spent most of my time at talks. I got a proper introduction to
+amateur television from Jim KH6HTV, and that looks like something I’ll have to play with soon! I
+also really enjoyed an EmComm talk from Jim AD0ZM, and was particularly interested in the
+communications pod he had on display. Sure, I’ve seen pods like it before, but I was reminded that
+one of the really nice points about them is that it simplifies setup onsite.&lt;/p&gt;
+
+&lt;p&gt;Seeing Jim’s EmComm talk got me back in the thought process of working on Pat integration with VARA.
+Pat is sorely lacking VARA support which limits its utility to EmComm folks, and the project has
+been languishing. Seeing the pod got me thinking about the reasons I’ve been dragging my feet with
+the VARA integration. One of my biggest excuses (for excuse it is) is that setting up both the RMS
+station to test against as well as the client station is a lot of toil. It’s not that hard, but it
+takes a lot of connecting wires, booting programs and tuning gain levels before I can even start
+making any headway. And because I don’t have a lot of space, I inevitably have to take the whole
+thing apart within a day or two.&lt;/p&gt;
+
+&lt;p&gt;So my next (hopefully quick) project to springboard me back into Pat+VARA is going to be &lt;strong&gt;Winlink
+in a Box&lt;/strong&gt;. I want to take an HT, a soundcard interface and a Raspberry Pi and semi-permanently fix
+them in an ammo can. The can should have a power plug on one end, an antenna port on the other, and
+it should just work when I power it on. Seal it up so I don’t have to touch the gain knobs, set all
+of the software programs to start on boot, and go from zero to working Winlink RMS on VHF VARA FM
+within about 60 seconds. All of my work on &lt;a href=&quot;https://k0swe.radio/pipat&quot;&gt;PiPat&lt;/a&gt; a few years ago will
+help, although I’ll no longer be relying on the TNC-Pi. The TNC-Pi only works for AX.25, and for my
+purpose I need VARA FM.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Pat Forms Updates</title><link href="https://k0swe.radio/2021/12/06/pat-form-updates.html" rel="alternate" type="text/html" title="Pat Forms Updates" /><published>2021-12-06T00:00:00+00:00</published><updated>2021-12-06T00:00:00+00:00</updated><id>https://k0swe.radio/2021/12/06/pat-form-updates</id><content type="html" xml:base="https://k0swe.radio/2021/12/06/pat-form-updates.html">&lt;p&gt;&lt;img src=&quot;/assets/update.png&quot; alt=&quot;Update&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Pat officially launched &lt;a href=&quot;https://k0swe.radio/2021/07/10/pat-forms.html&quot;&gt;form templates&lt;/a&gt; back in
 July, and the reviews since then have been pretty positive! However, there’s definitely room for
@@ -138,24 +164,4 @@ new release.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/assets/2021-07-10-pat-changelog.png&quot; alt=&quot;Pat v0.11.0 changelog&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;So far, most of the feedback is very positive! There are a couple of bugs to fix and necessary UX
-improvements to make, but at least it’s out there in the world!&lt;/p&gt;</content><author><name></name></author><summary type="html">I’ve been switching my focus more to the software engineering side of the hobby. I’ve been getting more and more involved in Pat and have been particularly interested in the form templates features, which has been available as a beta feature for about a year now. I can’t take credit for most of the form templates code, most of that was written by Rainer Grosskopf KI7RMJ, but I was able to nudge Pat’s founder, Martin Pedersen LA5NTA, into creating a new release.</summary></entry><entry><title type="html">Field Day</title><link href="https://k0swe.radio/2021/06/26/field-day.html" rel="alternate" type="text/html" title="Field Day" /><published>2021-06-26T00:00:00+00:00</published><updated>2021-06-26T00:00:00+00:00</updated><id>https://k0swe.radio/2021/06/26/field-day</id><content type="html" xml:base="https://k0swe.radio/2021/06/26/field-day.html">&lt;p&gt;I was able to get out for a little while today. I worked a little FT-8, and had planned to do some
-voice. I started to get a little rain, which I was prepared for. But then the rain picked up and I
-had to disassemble.&lt;/p&gt;
-
-&lt;p&gt;The major station components this year consisted of:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Lab599 Discovery TX500 QRP HF transceiver&lt;/li&gt;
-  &lt;li&gt;Chameleon MPAS 2.0 antenna in SS-17 vertical configuration&lt;/li&gt;
-  &lt;li&gt;MFJ-9201 QRPocket manual antenna tuner&lt;/li&gt;
-  &lt;li&gt;Panasonic CF-19 rugged laptop&lt;/li&gt;
-  &lt;li&gt;K0TX Digirig Mobile v1.6 radio to computer interface&lt;/li&gt;
-  &lt;li&gt;Bioenno BLF-1230A battery in a Powerwerx MegaBox&lt;/li&gt;
-  &lt;li&gt;Powerwerx FSP-110W solar panels and MPPT-150-14.6 charge controller&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/2021-06-26-field-day-station.jpg&quot; alt=&quot;Field Day station at a picnic table&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/2021-06-26-field-day-solar.jpg&quot; alt=&quot;Field Day station with solar panels&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/2021-06-26-field-day-portrait.jpg&quot; alt=&quot;Chris at Field Day Station with rain jacket&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">I was able to get out for a little while today. I worked a little FT-8, and had planned to do some voice. I started to get a little rain, which I was prepared for. But then the rain picked up and I had to disassemble.</summary></entry></feed>
+improvements to make, but at least it’s out there in the world!&lt;/p&gt;</content><author><name></name></author><summary type="html">I’ve been switching my focus more to the software engineering side of the hobby. I’ve been getting more and more involved in Pat and have been particularly interested in the form templates features, which has been available as a beta feature for about a year now. I can’t take credit for most of the form templates code, most of that was written by Rainer Grosskopf KI7RMJ, but I was able to nudge Pat’s founder, Martin Pedersen LA5NTA, into creating a new release.</summary></entry></feed>
