@@ -1,4 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://k0swe.radio/feed.xml" rel="self" type="application/atom+xml" /><link href="https://k0swe.radio/" rel="alternate" type="text/html" /><updated>2022-02-08T02:11:55+00:00</updated><id>https://k0swe.radio/feed.xml</id><title type="html">K0SWE Blog</title><subtitle>Events and projects for amateur radio operator K0SWE, a.k.a. Chris.</subtitle><entry><title type="html">Fun with PulseAudio</title><link href="https://k0swe.radio/2021/10/15/pulseaudio.html" rel="alternate" type="text/html" title="Fun with PulseAudio" /><published>2021-10-15T00:00:00+00:00</published><updated>2021-10-15T00:00:00+00:00</updated><id>https://k0swe.radio/2021/10/15/pulseaudio</id><content type="html" xml:base="https://k0swe.radio/2021/10/15/pulseaudio.html">&lt;p&gt;&lt;img src=&quot;/assets/2021-10-15-digirig-vs-signalink.png&quot; alt=&quot;Screenshot of VARA FM in Audacity&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://k0swe.radio/feed.xml" rel="self" type="application/atom+xml" /><link href="https://k0swe.radio/" rel="alternate" type="text/html" /><updated>2022-02-08T04:10:11+00:00</updated><id>https://k0swe.radio/feed.xml</id><title type="html">K0SWE Blog</title><subtitle>Events and projects for amateur radio operator K0SWE, a.k.a. Chris.</subtitle><entry><title type="html">Cloud WSJT-X</title><link href="https://k0swe.radio/2021/11/23/cloud-wsjtx.html" rel="alternate" type="text/html" title="Cloud WSJT-X" /><published>2021-11-23T00:00:00+00:00</published><updated>2021-11-23T00:00:00+00:00</updated><id>https://k0swe.radio/2021/11/23/cloud-wsjtx</id><content type="html" xml:base="https://k0swe.radio/2021/11/23/cloud-wsjtx.html">&lt;p&gt;&lt;img src=&quot;/assets/2021-11-23-CloudWsjtx.png&quot; alt=&quot;Screenshot of CloudWsjtx&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;A couple of weeks ago, I was approached by Pearce N2LW with an interesting project idea. I don’t
+want to spoil the entire idea, but the basic premise is to be able to “play” WSJT-X from anywhere.
+With Forester and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;kel-agent&lt;/code&gt;, I have a good tech foundation to make that a reality, and Pearce’s
+background also lends itself to the project, so we’ve been working together.&lt;/p&gt;
+
+&lt;p&gt;The first phase of the project needs a basic WSJT-X GUI in a web app so we can see what all WSJT-X’s
+UDP interface can and cannot provide, which led to the screenshot above. It’s surprising useful for
+making FT-8 QSOs, but there are also some pretty wide gaps in functionality that make it hard to
+replicate the full WSJT-X experience. The biggest information gap is the band graph showing the
+waterfall of activity. Since that information isn’t available over the UDP interface, we’ll have a
+hard time showing the user where they can safely transmit without stepping on another station (or
+being stepped on). Still, it gives us a good base to work from.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Fun with PulseAudio</title><link href="https://k0swe.radio/2021/10/15/pulseaudio.html" rel="alternate" type="text/html" title="Fun with PulseAudio" /><published>2021-10-15T00:00:00+00:00</published><updated>2021-10-15T00:00:00+00:00</updated><id>https://k0swe.radio/2021/10/15/pulseaudio</id><content type="html" xml:base="https://k0swe.radio/2021/10/15/pulseaudio.html">&lt;p&gt;&lt;img src=&quot;/assets/2021-10-15-digirig-vs-signalink.png&quot; alt=&quot;Screenshot of VARA FM in Audacity&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I’ve taken a slight diversion from integrating Pat with VARA because I need a reliable test bed.
 Learning BPQ helped with the software side, but I’ve been having enough reliability problems to
@@ -147,21 +160,4 @@ for now, I think I’m just going to stop development on Mountaineer and guide p
 &lt;p&gt;In a way, I’m a little relieved. It was a lot of fun developing Mountaineer and building my hardware
 skills, but the thought of productionizing it, mass-producing, having to deal with logistics and
 payments and customer service… It’s all more than I really wanted to pursue. I’ll leave that to
-someone with a more entrepreneurial spirit!&lt;/p&gt;</content><author><name></name></author><summary type="html">After all that work on Mountaineer, I recently found someone who was working on a similar project: Digirig Mobile by Denis Grisak K0TX. It’s pretty much identical in feature set, a quarter of the size, is similarly open source and was designed by an actual electrical engineer who knows what he is doing. After building cables to interface with the TX-500, it’s working perfectly!</summary></entry><entry><title type="html">Dirty 30</title><link href="https://k0swe.radio/2021/06/13/dirty-30.html" rel="alternate" type="text/html" title="Dirty 30" /><published>2021-06-13T00:00:00+00:00</published><updated>2021-06-13T00:00:00+00:00</updated><id>https://k0swe.radio/2021/06/13/dirty-30</id><content type="html" xml:base="https://k0swe.radio/2021/06/13/dirty-30.html">&lt;p&gt;With the pandemic seemingly waning, the Golden Gate Dirty 30 was actually able to happen this year!
-Supporting this event two years ago was the first event I supported as a ham operator, and I was
-thrilled to get to participate again. This year I was officially part of the RMHAM Tech Team
-responsible for setting up and operating the IP-over-microwave network.&lt;/p&gt;
-
-&lt;p&gt;I volunteered to be stationed up on City Lights Ridge. It’s not a place that the team had stationed
-somebody before since it mostly runs itself. However, that site is the linchpin of our operations,
-and there had been problems there in the past requiring team members to sprint up the steep trail,
-sometimes with heavy additional lead-acid batteries.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/2021-06-11-clr.jpg&quot; alt=&quot;City Lights Ridge mast with microwave gear&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/2021-06-12-clr-to-forgotten-valley.jpg&quot; alt=&quot;Looking from CLR down at Forgotten Valley, Aid 1/4&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;I opted to sleep up on top of City Lights Ridge rather than attempt the difficult hike at 04:30 in
-the morning. It was a beautiful 36 hours to be up there, and mostly uneventful. At the end of the
-event, one of the organizers told me it was a great mental relief having someone up there to assist
-if needed. Good times!&lt;/p&gt;</content><author><name></name></author><summary type="html">With the pandemic seemingly waning, the Golden Gate Dirty 30 was actually able to happen this year! Supporting this event two years ago was the first event I supported as a ham operator, and I was thrilled to get to participate again. This year I was officially part of the RMHAM Tech Team responsible for setting up and operating the IP-over-microwave network.</summary></entry></feed>
+someone with a more entrepreneurial spirit!&lt;/p&gt;</content><author><name></name></author><summary type="html">After all that work on Mountaineer, I recently found someone who was working on a similar project: Digirig Mobile by Denis Grisak K0TX. It’s pretty much identical in feature set, a quarter of the size, is similarly open source and was designed by an actual electrical engineer who knows what he is doing. After building cables to interface with the TX-500, it’s working perfectly!</summary></entry></feed>
