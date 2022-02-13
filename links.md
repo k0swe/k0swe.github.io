@@ -8,11 +8,11 @@ find them useful as well!
 
 ## My Videos
 
-* [TM-D710 Crossband Repeater](https://youtu.be/VUwnm9mY9Sw)
-* [TM-D710 Feature Overview](https://youtu.be/jJfxv953r0I)
-* [Forester Lightning Talk](https://youtu.be/7Pn-sijfTJg)
-* [Programming Radios with CHIRP](https://youtu.be/RslvPYCLT-I)
-* [Winlink in a Box](https://youtu.be/yaV0UdKeh7Y&t=2236s)
+* [TM-D710 Crossband Repeater](https://youtu.be/VUwnm9mY9Sw) (15 minutes)
+* [TM-D710 Feature Overview](https://youtu.be/jJfxv953r0I) (1 hour 6 minutes)
+* [Forester Lightning Talk](https://youtu.be/7Pn-sijfTJg) (17 minutes)
+* [Programming Radios with CHIRP](https://youtu.be/RslvPYCLT-I) (1 hour 5 minutes)
+* [Winlink in a Box](https://youtu.be/yaV0UdKeh7Y&t=2236s) (18 minutes)
 
 ## Denver/Boulder area clubs
 
