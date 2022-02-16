@@ -9,3 +9,5 @@ date:   2022-02-11
 [present](https://docs.google.com/presentation/d/1UEEDvDSZwf8X8w8VF07k1LM9I49G5oY94te-oSxsug8/edit?usp=sharing)
 it tomorrow at [RMHAM University](https://www.rmham.org/rocky-mountain-ham-university/) Nerdfest.
 [Edit: here's the [video link](https://youtu.be/yaV0UdKeh7Y&t=2236s)!]
+
+![Winlink in a Box inside](/assets/2022-02-12-winlink-in-a-box-inside.jpg)
