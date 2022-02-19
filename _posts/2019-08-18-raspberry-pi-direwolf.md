@@ -1,8 +1,9 @@
 ---
 layout: post
-title:  "Raspberry Pi and Dire Wolf"
-date:   2019-08-18
+title: "Raspberry Pi and Dire Wolf"
+date: 2019-08-18
 ---
+
 ![Raspberry Pi and SignaLink USB in a car](/assets/2019-08-18-pi-signalink.jpg)
 
 After getting [PiPat](https://k0swe.radio/pipat) to work, I was curious to get something running

@@ -1,8 +1,9 @@
 ---
 layout: post
-title:  "Getting the hang of FT8"
-date:   2020-04-18
+title: "Getting the hang of FT8"
+date: 2020-04-18
 ---
+
 ![Radio and computer on a desk](/assets/2020-04-18-ft8-station.jpg)
 
 I've been working quite a bit of FT8 on HF in the past few weeks. Without too much effort, I've

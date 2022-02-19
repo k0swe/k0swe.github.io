@@ -3,6 +3,7 @@ layout: page
 title: PiPat
 permalink: /pipat
 ---
+
 A reference design to set up a Raspberry Pi and TNC-Pi as a stand-alone, multi-user Winlink client
 with Pat.
 
@@ -35,28 +36,29 @@ and if I can't answer immediately, you'll have more eyes on your question.
 
 ## Equipment
 
-*   Raspberry Pi, I suspect any hardware version with either built-in WiFi or an AP-capable dongle
-    (I use a [Raspberry Pi 3 B+](https://www.sparkfun.com/products/14643))
-*   Latest Raspbian OS with updates installed (I use Buster)
-*   [Coastal ChipWorks TNC-Pi 2](https://tnc-x.com/TNCPi.htm) and interface cable (I bought the kit
-    and built my own cable)
-    *   Coastal Chipworks is no longer operating, and the TNC-Pi 2 is hard to find, but MFJ has a
-        clone called the [MFJ-1270PI](https://mfjenterprises.com/products/mfj-1270pi-pitnc-board).
-        At roughly double the price of the old TNC-Pi 2 kit, I'm not sure I'd recommend it.
-    *   There are plenty of other good options for TNCs that work with libax25:
-        *   [Mobilinkd TNC3](https://store.mobilinkd.com/products/mobilinkd-tnc3)
-        *   [Signalink USB](http://www.tigertronics.com/slusbmain.htm) and
-            [Direwolf](https://github.com/wb2osz/direwolf)
-        *   [TARPN NinoTNC](http://tarpn.net/t/nino-tnc/nino-tnc.html)
-        *   Traditional TNCs like Kantronics, SCS, AEA
-*   Any VHF/UHF amateur radio, from a Baofeng UV-5R on up (I mainly use an Anytone AT-D878UV)
-*   Power in the field (I use an Aukey Power Bank USB battery)
+- Raspberry Pi, I suspect any hardware version with either built-in WiFi or an AP-capable dongle (I
+  use a [Raspberry Pi 3 B+](https://www.sparkfun.com/products/14643))
+- Latest Raspbian OS with updates installed (I use Buster)
+- [Coastal ChipWorks TNC-Pi 2](https://tnc-x.com/TNCPi.htm) and interface cable (I bought the kit
+  and built my own cable)
+  - Coastal Chipworks is no longer operating, and the TNC-Pi 2 is hard to find, but MFJ has a clone
+    called the [MFJ-1270PI](https://mfjenterprises.com/products/mfj-1270pi-pitnc-board). At roughly
+    double the price of the old TNC-Pi 2 kit, I'm not sure I'd recommend it.
+  - There are plenty of other good options for TNCs that work with libax25:
+    - [Mobilinkd TNC3](https://store.mobilinkd.com/products/mobilinkd-tnc3)
+    - [Signalink USB](http://www.tigertronics.com/slusbmain.htm) and
+      [Direwolf](https://github.com/wb2osz/direwolf)
+    - [TARPN NinoTNC](http://tarpn.net/t/nino-tnc/nino-tnc.html)
+    - Traditional TNCs like Kantronics, SCS, AEA
+- Any VHF/UHF amateur radio, from a Baofeng UV-5R on up (I mainly use an Anytone AT-D878UV)
+- Power in the field (I use an Aukey Power Bank USB battery)
 
 Optional:
-*   USB GPS module for position reports and time (I bought a
-    [GlobalSat BU-353-S4](https://www.amazon.com/dp/B008200LHW/))
-*   Add-on RTC module for time (I bought [this one](https://www.adafruit.com/product/4282))
-*   A case for the Pi & TNC (I 3D-printed [this one](https://www.thingiverse.com/thing:763710))
+
+- USB GPS module for position reports and time (I bought a
+  [GlobalSat BU-353-S4](https://www.amazon.com/dp/B008200LHW/))
+- Add-on RTC module for time (I bought [this one](https://www.adafruit.com/product/4282))
+- A case for the Pi & TNC (I 3D-printed [this one](https://www.thingiverse.com/thing:763710))
 
 ## Configuration
 
@@ -83,16 +85,19 @@ sudo raspi-config
 ```
 
 Network
-*   Change hostname (if desired, for identifying the Pi on your home network)
+
+- Change hostname (if desired, for identifying the Pi on your home network)
 
 Interfaces
-*   serial console: disable (we don’t want system logs going to the TNC-Pi)
-*   serial port: enable (we want to talk to the TNC-Pi through the GPIO pins)
-*   I2C: enable (for optional RTC)
-*   SSH: enable (for remote debugging)
+
+- serial console: disable (we don’t want system logs going to the TNC-Pi)
+- serial port: enable (we want to talk to the TNC-Pi through the GPIO pins)
+- I2C: enable (for optional RTC)
+- SSH: enable (for remote debugging)
 
 Localization
-*   set time zone
+
+- set time zone
 
 ## Set up Pi as an Access Point
 
@@ -158,6 +163,7 @@ Above, 19200 is the baud rate of `/dev/serial0` between the Pi and TNC-Pi. Below
 rate between the TNC-Pi and the RF transceiver, and must match the remote Winlink RMS.
 
 Contents of `/etc/default/ax25`:
+
 ```
 # Configuration for AX.25 systemd unit file from Pat.
 
@@ -319,7 +325,7 @@ sudo raspi-config
 # enable I2C interface & set time zone
 ```
 
-Add *one* of these lines at the end of `/boot/config.txt`, depending on which RTC chip you're using:
+Add _one_ of these lines at the end of `/boot/config.txt`, depending on which RTC chip you're using:
 
 ```
 dtoverlay=i2c-rtc,ds3231
@@ -369,17 +375,17 @@ In the field, the Pi will start a WiFi access point named `PiPat` with password 
 Connect your laptop or phone to that network, then point your web browser at
 http://192.168.4.1:8080. The Pat web application should be served up!
 
-When transmitting and receiving, note that your radio should be set to leave the *squelch open/off*!
+When transmitting and receiving, note that your radio should be set to leave the _squelch open/off_!
 
 ## Future ideas for PiPat
 
-*   Consider scripting this document and producing daily images by forking
-    https://github.com/RPi-Distro/pi-gen/ or something.
-*   Physical toggle switch for setting WiFi to Home vs Field, and
-    [physical button for safe shutdown](https://core-electronics.com.au/tutorials/how-to-make-a-safe-shutdown-button-for-raspberry-pi.html)
-*   It’s illegal to encrypt the ham radio side, but the web frontend on WiFi could use TLS and
-    authentication. Easiest way is to
-    [use a reverse proxy](https://github.com/la5nta/pat/issues/159) in front of Pat.
+- Consider scripting this document and producing daily images by forking
+  https://github.com/RPi-Distro/pi-gen/ or something.
+- Physical toggle switch for setting WiFi to Home vs Field, and
+  [physical button for safe shutdown](https://core-electronics.com.au/tutorials/how-to-make-a-safe-shutdown-button-for-raspberry-pi.html)
+- It’s illegal to encrypt the ham radio side, but the web frontend on WiFi could use TLS and
+  authentication. Easiest way is to [use a reverse proxy](https://github.com/la5nta/pat/issues/159)
+  in front of Pat.
 
 ## Appendix
 
@@ -400,6 +406,7 @@ dwlf    K0SWE-1         0       255       2       Direwolf/Signalink
 ```
 
 Contents of `~/.wl2k/config.json`:
+
 ```
 "ax25": {
     "port": "dwlf",

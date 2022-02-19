@@ -18,6 +18,10 @@ serve: install
 update: install
 	bundler update
 
+.PHONY: format
+format:
+		prettier --write .
+
 .PHONY: clean
 clean:
 	rm -rf _site

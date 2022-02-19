@@ -1,8 +1,9 @@
 ---
 layout: post
-title:  "More Raspberry Pi Time"
-date:   2019-10-17
+title: "More Raspberry Pi Time"
+date: 2019-10-17
 ---
+
 ![GPS satellite](/assets/gps-satellite.jpg)
 
 I've updated

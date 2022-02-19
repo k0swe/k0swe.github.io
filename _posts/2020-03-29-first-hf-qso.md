@@ -1,8 +1,9 @@
 ---
 layout: post
-title:  "First HF contact!"
-date:   2020-03-29
+title: "First HF contact!"
+date: 2020-03-29
 ---
+
 ![Chameleon EMCOMM II transformer](/assets/2020-03-25-cha-emcomm-2.jpg)
 
 Being stuck at home during the COVID-19 pandemic, I finally had occasion to set up an HF antenna. I

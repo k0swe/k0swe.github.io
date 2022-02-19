@@ -1,8 +1,9 @@
 ---
 layout: post
-title:  "Raspberry Pi Time"
-date:   2019-09-01
+title: "Raspberry Pi Time"
+date: 2019-09-01
 ---
+
 ![Clock showing 12:00](/assets/clock12.gif)
 
 One thing that bugs me when working with Raspberry Pis is that they don't have a real-time clock (

@@ -1,8 +1,9 @@
 ---
 layout: post
-title:  "ARES Event: Arapahoe County Fair"
-date:   2021-07-26
+title: "ARES Event: Arapahoe County Fair"
+date: 2021-07-26
 ---
+
 For the past 4 days I was assisting [Arapahoe County ARES](https://arapahoeares.org/) with the
 [Arapahoe County Fair](https://www.arapahoecountyfair.com/). I'm not sure what I was expecting, but
 this event turned out to be very challenging and gratifying!

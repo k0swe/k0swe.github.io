@@ -1,8 +1,9 @@
 ---
 layout: post
-title:  "Cloud WSJT-X"
-date:   2021-11-23
+title: "Cloud WSJT-X"
+date: 2021-11-23
 ---
+
 ![Screenshot of CloudWsjtx](/assets/2021-11-23-CloudWsjtx.png)
 
 A couple of weeks ago, I was approached by Pearce N2LW with an interesting project idea. I don't

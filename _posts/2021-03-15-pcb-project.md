@@ -1,8 +1,9 @@
 ---
 layout: post
-title:  "PCB Project: CAT+Audio interface"
-date:   2021-03-15
+title: "PCB Project: CAT+Audio interface"
+date: 2021-03-15
 ---
+
 ![Data interface PCB design](/assets/2021-03-15-tx500-data-interface.png)
 
 I've taken a short break from responsible ham radio activities (like continuing on

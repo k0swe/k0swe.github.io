@@ -1,8 +1,9 @@
 ---
 layout: post
-title:  "Pat Forms Updates"
-date:   2021-12-06
+title: "Pat Forms Updates"
+date: 2021-12-06
 ---
+
 ![Update](/assets/update.png)
 
 Pat officially launched [form templates](https://k0swe.radio/2021/07/10/pat-forms.html) back in

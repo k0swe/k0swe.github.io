@@ -1,17 +1,18 @@
 ---
 layout: post
-title:  "AMSAT and ARISS"
-date:   2019-11-22
+title: "AMSAT and ARISS"
+date: 2019-11-22
 ---
+
 ![International Space Station](/assets/iss.jpg)
 
-Last weekend I attended the [RMHAM-U](https://www.rmham.org/)
-lecture series and heard a talk by Doug Tabor `N6UA` about working amateur satellites, or AMSAT. I
-had been exposed to the idea while studying for the exams, but hadn't really given much serious
-thought to actually doing it. The talk was illuminating in terms of operating concepts and concrete
-operating procedures. It turns out, there's a pretty low barrier to entry to get into AMSAT since
-it's low power, line of site, and many satellites use UHF and VHF where even technician licensees
-can operate. Something as simple as an HT with a long whip antenna can suffice.
+Last weekend I attended the [RMHAM-U](https://www.rmham.org/) lecture series and heard a talk by
+Doug Tabor `N6UA` about working amateur satellites, or AMSAT. I had been exposed to the idea while
+studying for the exams, but hadn't really given much serious thought to actually doing it. The talk
+was illuminating in terms of operating concepts and concrete operating procedures. It turns out,
+there's a pretty low barrier to entry to get into AMSAT since it's low power, line of site, and many
+satellites use UHF and VHF where even technician licensees can operate. Something as simple as an HT
+with a long whip antenna can suffice.
 
 The tricky parts are pass prediction, antenna tracking and Doppler shift. Pass prediction is made
 vastly simpler by smartphone apps, but the satellites don't always pass directly overhead, so some

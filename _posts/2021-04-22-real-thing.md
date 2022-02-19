@@ -1,8 +1,9 @@
 ---
 layout: post
-title:  "On to the real thing"
-date:   2021-04-22
+title: "On to the real thing"
+date: 2021-04-22
 ---
+
 My work on splitting out individual prototypes of the USB hub, serial adapter and sound card has
 paid off! I have working prototypes of all three, and a lot more experience with what support
 components are necessary and which are just "nice to have."

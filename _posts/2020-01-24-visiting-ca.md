@@ -1,8 +1,9 @@
 ---
 layout: post
-title:  "Visiting California"
-date:   2020-01-24
+title: "Visiting California"
+date: 2020-01-24
 ---
+
 ![View of a Sunnyvale highway](/assets/2020-01-23-sunnyvale.jpg)
 
 This week I had a work trip to the south Bay Area in California, and took an HT to try my hand at

@@ -1,8 +1,9 @@
 ---
 layout: post
-title:  "First Mobile Antenna Install"
-date:   2019-11-02
+title: "First Mobile Antenna Install"
+date: 2019-11-02
 ---
+
 ![Car with antenna](/assets/2019-11-02-fusion-antenna.jpg)
 
 I've been operating for a couple of months with a Diamond MR77, a UHF/VHF mag mount. It's been great

@@ -1,8 +1,9 @@
 ---
 layout: post
-title:  "Winlink in a Box"
-date:   2022-01-17
+title: "Winlink in a Box"
+date: 2022-01-17
 ---
+
 ![ARES Pod](/assets/2022-01-15-ARES-pod.jpg)
 
 Saturday was the [NCARC](http://ncarc.net/) Winter Hamfest up in Loveland, Colorado, and the first

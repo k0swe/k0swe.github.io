@@ -1,8 +1,9 @@
 ---
 layout: post
-title:  "Data Interface Thingy Progress, and Dirty 30 Build Day"
-date:   2021-04-11
+title: "Data Interface Thingy Progress, and Dirty 30 Build Day"
+date: 2021-04-11
 ---
+
 ![QFP microchip through a microscope](/assets/2021-04-06-qfp.jpg)
 
 I haven't been on the air very much over the last month or so. I've been focused on continuing with

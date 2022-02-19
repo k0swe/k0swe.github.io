@@ -1,18 +1,18 @@
 ---
 layout: post
-title:  "PCB arrived, but..."
-date:   2020-05-19
+title: "PCB arrived, but..."
+date: 2020-05-19
 ---
+
 ![Unpopulated custom PCB on an Arduino](/assets/2020-05-18-k3ng-unsoldered.jpg)
 
 The good news: my PCBs arrived! The bad news: they don't work, at least not out of the box.
 
-I was super excited to get my
-[custom K3NG keyer boards](/2020/05/02/pcb-design.html) in the
-mail! I spent some time soldering components last night, but found that it wasn't working. My first
-clue was that there is no Morse code "HI" on the sidetone speaker, nor do the paddles do anything.
-The serial port Winkeyer seems to work, so the Arduino is functioning. Then I tried plugging the
-transceiver output into an external practice oscillator and found that it was always grounded. Huh.
+I was super excited to get my [custom K3NG keyer boards](/2020/05/02/pcb-design.html) in the mail! I
+spent some time soldering components last night, but found that it wasn't working. My first clue was
+that there is no Morse code "HI" on the sidetone speaker, nor do the paddles do anything. The serial
+port Winkeyer seems to work, so the Arduino is functioning. Then I tried plugging the transceiver
+output into an external practice oscillator and found that it was always grounded. Huh.
 
 ![Spaghetti mess of wires](/assets/2020-05-18-k3ng-surgery.jpg)
 

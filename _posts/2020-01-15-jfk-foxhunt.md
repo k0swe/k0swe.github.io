@@ -1,8 +1,9 @@
 ---
 layout: post
-title:  "JFK Foxhunt"
-date:   2020-01-15
+title: "JFK Foxhunt"
+date: 2020-01-15
 ---
+
 ![Cheyenne Sterner N0CKS and Heather Randall with ARDF foxhunt gear](/assets/2020-01-15-jfk-foxhunt.JPG)
 
 Today I helped a team from RMHAM to introduce some students from JFK High School to amateur radio

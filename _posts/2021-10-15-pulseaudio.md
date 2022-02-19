@@ -1,8 +1,9 @@
 ---
 layout: post
-title:  "Fun with PulseAudio"
-date:   2021-10-15
+title: "Fun with PulseAudio"
+date: 2021-10-15
 ---
+
 ![Screenshot of VARA FM in Audacity](/assets/2021-10-15-digirig-vs-signalink.png)
 
 I've taken a slight diversion from integrating Pat with VARA because I need a reliable test bed.

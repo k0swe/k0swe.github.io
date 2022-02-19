@@ -1,8 +1,9 @@
 ---
 layout: post
-title:  "Baby steps toward ARISS"
-date:   2019-12-04
+title: "Baby steps toward ARISS"
+date: 2019-12-04
 ---
+
 ![Arrow antenna and laptop on a car](/assets/2019-11-29-amsat-listening.jpg)
 
 I helped Heather Randall from JFKHS and Bob Sterner `KB0BS` from RMHAM to complete and submit a

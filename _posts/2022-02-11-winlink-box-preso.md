@@ -1,8 +1,9 @@
 ---
 layout: post
-title:  "Winlink in a Box Presentation"
-date:   2022-02-11
+title: "Winlink in a Box Presentation"
+date: 2022-02-11
 ---
+
 ![Winlink in a Box](/assets/2022-02-11-winlink-in-a-box.jpg)
 
 **Winlink in a Box** is complete, at least as a first iteration. And just in time; I'm going to

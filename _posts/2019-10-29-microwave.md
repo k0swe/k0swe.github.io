@@ -1,8 +1,9 @@
 ---
 layout: post
-title:  "Microwave IP Networks"
-date:   2019-10-29
+title: "Microwave IP Networks"
+date: 2019-10-29
 ---
+
 ![MikroTik LHG](/assets/mikrotik-lhg.jpg)
 
 I've been curious ever since June to learn more about [RMHam](https://www.rmham.org/)'s microwave
@@ -24,8 +25,8 @@ Apparently they haven't adopted AREDN because they've had some negative experien
 County ARES attempted to deploy a large AREDN system, but found that it didn't integrate well with
 non-AREDN systems, particularly RMHam's existing microwave IP network. It turns out some of the
 autoconfiguration magic of AREDN that allows any ham to get a node up and running quickly also
-interferes with being able to interoperate with other systems. Specifically, all AREDN nodes
-use [private network](https://en.wikipedia.org/wiki/Private_network) addresses, which means anyone
+interferes with being able to interoperate with other systems. Specifically, all AREDN nodes use
+[private network](https://en.wikipedia.org/wiki/Private_network) addresses, which means anyone
 outside of AREDN can't connect to services inside without having some sort of network address
 translation (NAT) in place. That could probably be overcome with something similar to UPnP, but
 Pueblo ARES also apparently found that the network was not reliable; I didn't ask further on that

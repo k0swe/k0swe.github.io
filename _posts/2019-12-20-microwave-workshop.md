@@ -3,6 +3,7 @@ layout: post
 title: "RMHAM Network Workshop"
 date: 2019-12-20
 ---
+
 ![Workshop attendees in a conference room](/assets/2019-12-14-rmham-workshop.jpg)
 
 Last weekend I was very lucky to get an in-depth look at
@@ -33,8 +34,8 @@ beyond ~30 miles, so they're great tools. But on some level it feels like cheati
 difference between using a Zumspot to join a reflector vs using Discord to join a voice chat room,
 the fact that you're going traveling 5 feet over ham frequencies? The advent of the cell phone, and
 especially the smartphone, has made the ability to communicate wirelessly to anyone worldwide a
-commodity; what makes ham radio still interesting is that *we can do it without commercial
-infrastructure*. I won't knock anyone who enjoys using a hotspot as a tool to practice the hobby,
+commodity; what makes ham radio still interesting is that _we can do it without commercial
+infrastructure_. I won't knock anyone who enjoys using a hotspot as a tool to practice the hobby,
 but showing a non-ham a hotspot is not going to convince them to get into the hobby. We need to tout
 why ham radio is different from a cell phone.
 

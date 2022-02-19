@@ -1,8 +1,9 @@
 ---
 layout: post
-title:  "Looking forward to QRP"
-date:   2020-09-02
+title: "Looking forward to QRP"
+date: 2020-09-02
 ---
+
 ![Lab599 Discovery TX-500 radio](/assets/tx-500-wet.jpg)
 
 Work is continuing on my new web-based logger program, but in the meantime I've gotten more serious

@@ -1,8 +1,9 @@
 ---
 layout: post
-title:  "HF attempted"
-date:   2020-03-08
+title: "HF attempted"
+date: 2020-03-08
 ---
+
 ![HF station in a park](/assets/2020-03-08-hf-station.jpg)
 
 I've spent the past couple of weeks engrossed in finding new homes for much of Alan and Richard's SK

@@ -1,8 +1,9 @@
 ---
 layout: post
-title:  "ARES Event: Golden Gran Fondo"
-date:   2021-08-31
+title: "ARES Event: Golden Gran Fondo"
+date: 2021-08-31
 ---
+
 On Sunday I participated with my own ARES team, [R1D6](https://www.coaresr1d6.org/), in covering one
 of our big annual events, the
 [Golden Gran Fondo](https://www.granfondonationalseries.com/gran-fondo-golden) bicycle race. It's an

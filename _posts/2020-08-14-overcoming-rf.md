@@ -1,8 +1,9 @@
 ---
 layout: post
-title:  "Overcoming RF in the shack, the sneaky way"
-date:   2020-08-14
+title: "Overcoming RF in the shack, the sneaky way"
+date: 2020-08-14
 ---
+
 ![Ham radio connected to a Raspberry Pi computer](/assets/2020-08-11-radio-and-rpi.jpg)
 
 Life has conspired to keep me from doing as much with ham radio lately, but I'm happy to report that
@@ -26,4 +27,3 @@ upgraded to an RPi 4 for the first time. I used
 [`KM4ACK`'s Build-A-Pi](https://github.com/km4ack/pi-build) script to set up my RPi software. There
 are a few things I'd tweak about it, but overall, it's extremely nice to have so much ham software
 available and preconfigured.
-

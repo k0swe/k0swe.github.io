@@ -4,7 +4,7 @@ description: >-
   Events and projects for amateur radio operator K0SWE, a.k.a. Chris.
 baseurl: ""
 url: "https://k0swe.radio"
-github_username:  xylo04
+github_username: xylo04
 paginate: 8
 
 # Build settings

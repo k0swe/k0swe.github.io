@@ -1,8 +1,9 @@
 ---
 layout: post
-title:  "Alan's Silent Key Collection"
-date:   2020-02-16
+title: "Alan's Silent Key Collection"
+date: 2020-02-16
 ---
+
 ![Radio equipment on a kitchen table](/assets/2020-02-10-sorting.jpg)
 
 This week I had the responsibility of managing a Silent Key collection for the first time. Most hams

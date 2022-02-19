@@ -1,8 +1,9 @@
 ---
 layout: post
-title:  "Progress on Pat+VARA"
-date:   2021-09-28
+title: "Progress on Pat+VARA"
+date: 2021-09-28
 ---
+
 ![Two stations running VARA FM](/assets/2021-09-24-vara-fm.jpg)
 
 I've spent a lot of time developing on [Pat](https://getpat.io/) this month. For a long time, adding

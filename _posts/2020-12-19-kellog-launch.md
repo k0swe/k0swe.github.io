@@ -1,11 +1,12 @@
 ---
 layout: post
-title:  "Prepare for Countdown!"
-date:   2020-12-19
+title: "Prepare for Countdown!"
+date: 2020-12-19
 ---
-> ![Rocket launch](/assets/Amateur_Rocket_Launch_at_Big_Ass_Loading_Lifting_Suckers_(BALLS)_2017.jpg)
-> 
-> [Wikimedia](https://commons.wikimedia.org/wiki/File:Amateur_Rocket_Launch_at_Big_Ass_Loading_Lifting_Suckers_(BALLS)_2017.jpg)
+
+> ![Rocket launch](</assets/Amateur_Rocket_Launch_at_Big_Ass_Loading_Lifting_Suckers_(BALLS)_2017.jpg>)
+>
+> [Wikimedia](<https://commons.wikimedia.org/wiki/File:Amateur_Rocket_Launch_at_Big_Ass_Loading_Lifting_Suckers_(BALLS)_2017.jpg>)
 > CC BY-SA 4.0
 
 I'm continuing to focus most of my energy on getting KelLog into shape for a public launch. I'm
@@ -16,8 +17,8 @@ For starters, there's the question of packaging `kel-agent`. This is the semi-ma
 allows web applications talk to installed amateur radio programs like WSJT-X. `Kel-agent` needs to
 be installed, which means it's not enough to have an executable that builds; it needs to be copied
 into a particular folder on the user's machine and added to their command line `PATH`. This has to
-be done separately for each operating system, so I've learned more than I ever wanted to know
-about [WiX](http://wixtoolset.org/) for Windows,
+be done separately for each operating system, so I've learned more than I ever wanted to know about
+[WiX](http://wixtoolset.org/) for Windows,
 [Packages](http://s.sudre.free.fr/Software/Packages/about.html) for Mac, and
 [dh-make-golang](https://github.com/Debian/dh-make-golang) for Debian. I also found a sponsor to
 help me submit `kel-agent` and its dependencies to the Debian APT repo, so eventually, it will be
@@ -37,6 +38,6 @@ Training Coordinator. In that role, I'll be responsible for making sure we have 
 engages and illuminates the entire 45-person team from the newbies to the old hands.
 
 Second, I'm going to be helping the Rocky Mountain Ham group to launch an extension to their
-existing [RMHAM University](https://www.rmham.org/rocky-mountain-ham-university/)
-program, called RMHAM Tech Talks. These are intended to be shorter presentations lasting about an
-hour, and will take advantage of RMHAM's new internet livestream studio.
+existing [RMHAM University](https://www.rmham.org/rocky-mountain-ham-university/) program, called
+RMHAM Tech Talks. These are intended to be shorter presentations lasting about an hour, and will
+take advantage of RMHAM's new internet livestream studio.
