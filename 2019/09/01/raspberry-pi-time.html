@@ -38,16 +38,18 @@
 <main class="page-content" aria-label="Content">
       <div class="wrapper">
         <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
-
   <header class="post-header">
     <h1 class="post-title p-name" itemprop="name headline">Raspberry Pi Time</h1>
-    <p class="post-meta"><time class="dt-published" datetime="2019-09-01T00:00:00+00:00" itemprop="datePublished">
+    <p class="post-meta"><time
+        class="dt-published"
+        datetime="2019-09-01T00:00:00+00:00"
+        itemprop="datePublished"
+      >
         Sep 1, 2019
       </time></p>
   </header>
 
-  <div class="post-content e-content" itemprop="articleBody">
-    <p><img src="/assets/clock12.gif" alt="Clock showing 12:00" /></p>
+  <div class="post-content e-content" itemprop="articleBody"><p><img src="/assets/clock12.gif" alt="Clock showing 12:00" /></p>
 
 <p>One thing that bugs me when working with Raspberry Pis is that they don’t have a real-time clock (
 RTC), so when you remove power, the system clock stops. This isn’t a problem when you’re
@@ -65,8 +67,7 @@ down right now.</p>
 <p>But another option presented itself: Adafruit sells
 <a href="https://www.adafruit.com/product/4282">add-on RTC modules</a> which use the Pi’s I2C bus. I picked one
 up, and it didn’t take too much fiddling to get it working. Hooray for accurate time in the field!</p>
-
-  </div>
+</div>
 
   <div class="post-nav">
     <p>

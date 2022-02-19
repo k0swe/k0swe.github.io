@@ -38,16 +38,18 @@
 <main class="page-content" aria-label="Content">
       <div class="wrapper">
         <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
-
   <header class="post-header">
     <h1 class="post-title p-name" itemprop="name headline">New station setup and grounding problems</h1>
-    <p class="post-meta"><time class="dt-published" datetime="2020-07-19T00:00:00+00:00" itemprop="datePublished">
+    <p class="post-meta"><time
+        class="dt-published"
+        datetime="2020-07-19T00:00:00+00:00"
+        itemprop="datePublished"
+      >
         Jul 19, 2020
       </time></p>
   </header>
 
-  <div class="post-content e-content" itemprop="articleBody">
-    <p>A couple of weeks back I rearranged my home office and shack. The new arrangement gets my HF station
+  <div class="post-content e-content" itemprop="articleBody"><p>A couple of weeks back I rearranged my home office and shack. The new arrangement gets my HF station
 off of my desk and onto its own shelf, and it’s been sitting there receiving FT8 quite happily while
 I’ve been programming and testing a WSJT-X <a href="https://github.com/xylo04/wsjtx-go">UDP receiver</a> for
 Golang. However, today was my first attempt at operating FT8, and unfortunately, something about the
@@ -63,8 +65,7 @@ if I felt the need (usually used less), but today even at QRP, I was having no l
 <blockquote>
   <p><img src="/assets/HomeEarthRodAustralia1.jpg" alt="Grounding rod" /></p>
 
-  <p><a href="https://commons.wikimedia.org/wiki/File:HomeEarthRodAustralia1.jpg">Wikimedia</a>
-CC BY-SA 3.0</p>
+  <p><a href="https://commons.wikimedia.org/wiki/File:HomeEarthRodAustralia1.jpg">Wikimedia</a> CC BY-SA 3.0</p>
 </blockquote>
 
 <p>My intuition is that I’m being bitten by the lack of a good station ground. I’ve gotten this far
@@ -78,16 +79,14 @@ However, it really is probably the next step in improving the station.</p>
 
 <p>In other news, I’m continuing work on writing my own logging software. I’ve decided that I should
 pursue creating a hosted web application with offline support. Unique among the web loggers I’ve
-seen, I think I can achieve rig control and WSJT-X integration through an
-“agent” program sitting on the same computer as the radio interface. The web application can connect
-to the agent through a websocket, and the agent will translate between the webapp and
-WSJT-X, <code class="language-plaintext highlighter-rouge">hamlib</code>, <code class="language-plaintext highlighter-rouge">flrig</code> or whatever else needs to be on the local machine. I have a proof of
-concept for the websocket stuff, but there’s still a lot of work to be done on core functionality.
-The web app is in Angular with Typescript. While I probably won’t use ADIF as a raw internal format,
-I still need to be able to speak it for import and export, and I haven’t found any native Typescript
-implementations yet.</p>
-
-  </div>
+seen, I think I can achieve rig control and WSJT-X integration through an “agent” program sitting on
+the same computer as the radio interface. The web application can connect to the agent through a
+websocket, and the agent will translate between the webapp and WSJT-X, <code class="language-plaintext highlighter-rouge">hamlib</code>, <code class="language-plaintext highlighter-rouge">flrig</code> or whatever
+else needs to be on the local machine. I have a proof of concept for the websocket stuff, but
+there’s still a lot of work to be done on core functionality. The web app is in Angular with
+Typescript. While I probably won’t use ADIF as a raw internal format, I still need to be able to
+speak it for import and export, and I haven’t found any native Typescript implementations yet.</p>
+</div>
 
   <div class="post-nav">
     <p>

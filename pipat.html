@@ -75,15 +75,15 @@ and if I can’t answer immediately, you’ll have more eyes on your question.</
 <h2 id="equipment">Equipment</h2>
 
 <ul>
-  <li>Raspberry Pi, I suspect any hardware version with either built-in WiFi or an AP-capable dongle
-(I use a <a href="https://www.sparkfun.com/products/14643">Raspberry Pi 3 B+</a>)</li>
+  <li>Raspberry Pi, I suspect any hardware version with either built-in WiFi or an AP-capable dongle (I
+use a <a href="https://www.sparkfun.com/products/14643">Raspberry Pi 3 B+</a>)</li>
   <li>Latest Raspbian OS with updates installed (I use Buster)</li>
   <li><a href="https://tnc-x.com/TNCPi.htm">Coastal ChipWorks TNC-Pi 2</a> and interface cable (I bought the kit
 and built my own cable)
     <ul>
-      <li>Coastal Chipworks is no longer operating, and the TNC-Pi 2 is hard to find, but MFJ has a
-clone called the <a href="https://mfjenterprises.com/products/mfj-1270pi-pitnc-board">MFJ-1270PI</a>.
-At roughly double the price of the old TNC-Pi 2 kit, I’m not sure I’d recommend it.</li>
+      <li>Coastal Chipworks is no longer operating, and the TNC-Pi 2 is hard to find, but MFJ has a clone
+called the <a href="https://mfjenterprises.com/products/mfj-1270pi-pitnc-board">MFJ-1270PI</a>. At roughly
+double the price of the old TNC-Pi 2 kit, I’m not sure I’d recommend it.</li>
       <li>There are plenty of other good options for TNCs that work with libax25:
         <ul>
           <li><a href="https://store.mobilinkd.com/products/mobilinkd-tnc3">Mobilinkd TNC3</a></li>
@@ -100,6 +100,7 @@ At roughly double the price of the old TNC-Pi 2 kit, I’m not sure I’d recomm
 </ul>
 
 <p>Optional:</p>
+
 <ul>
   <li>USB GPS module for position reports and time (I bought a
 <a href="https://www.amazon.com/dp/B008200LHW/">GlobalSat BU-353-S4</a>)</li>
@@ -129,11 +130,13 @@ Buster. Raspbian currently comes in 3 sizes: “desktop and recommended software
 </code></pre></div></div>
 
 <p>Network</p>
+
 <ul>
   <li>Change hostname (if desired, for identifying the Pi on your home network)</li>
 </ul>
 
 <p>Interfaces</p>
+
 <ul>
   <li>serial console: disable (we don’t want system logs going to the TNC-Pi)</li>
   <li>serial port: enable (we want to talk to the TNC-Pi through the GPIO pins)</li>
@@ -142,6 +145,7 @@ Buster. Raspbian currently comes in 3 sizes: “desktop and recommended software
 </ul>
 
 <p>Localization</p>
+
 <ul>
   <li>set time zone</li>
 </ul>
@@ -206,6 +210,7 @@ tncpi   K0SWE-1     19200   255     2       TNC-PI
 rate between the TNC-Pi and the RF transceiver, and must match the remote Winlink RMS.</p>
 
 <p>Contents of <code class="language-plaintext highlighter-rouge">/etc/default/ax25</code>:</p>
+
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># Configuration for AX.25 systemd unit file from Pat.
 
 # The axport from /etc/ax25/axports to bring up.
@@ -411,8 +416,8 @@ https://github.com/RPi-Distro/pi-gen/ or something.</li>
   <li>Physical toggle switch for setting WiFi to Home vs Field, and
 <a href="https://core-electronics.com.au/tutorials/how-to-make-a-safe-shutdown-button-for-raspberry-pi.html">physical button for safe shutdown</a></li>
   <li>It’s illegal to encrypt the ham radio side, but the web frontend on WiFi could use TLS and
-authentication. Easiest way is to
-<a href="https://github.com/la5nta/pat/issues/159">use a reverse proxy</a> in front of Pat.</li>
+authentication. Easiest way is to <a href="https://github.com/la5nta/pat/issues/159">use a reverse proxy</a>
+in front of Pat.</li>
 </ul>
 
 <h2 id="appendix">Appendix</h2>
@@ -433,6 +438,7 @@ dwlf    K0SWE-1         0       255       2       Direwolf/Signalink
 </code></pre></div></div>
 
 <p>Contents of <code class="language-plaintext highlighter-rouge">~/.wl2k/config.json</code>:</p>
+
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>"ax25": {
     "port": "dwlf",
     ...

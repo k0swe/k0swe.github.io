@@ -38,16 +38,18 @@
 <main class="page-content" aria-label="Content">
       <div class="wrapper">
         <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
-
   <header class="post-header">
     <h1 class="post-title p-name" itemprop="name headline">Microwave IP Networks</h1>
-    <p class="post-meta"><time class="dt-published" datetime="2019-10-29T00:00:00+00:00" itemprop="datePublished">
+    <p class="post-meta"><time
+        class="dt-published"
+        datetime="2019-10-29T00:00:00+00:00"
+        itemprop="datePublished"
+      >
         Oct 29, 2019
       </time></p>
   </header>
 
-  <div class="post-content e-content" itemprop="articleBody">
-    <p><img src="/assets/mikrotik-lhg.jpg" alt="MikroTik LHG" /></p>
+  <div class="post-content e-content" itemprop="articleBody"><p><img src="/assets/mikrotik-lhg.jpg" alt="MikroTik LHG" /></p>
 
 <p>I’ve been curious ever since June to learn more about <a href="https://www.rmham.org/">RMHam</a>’s microwave
 data network that they deployed up at the Dirty 30, so I started doing some research and asking
@@ -68,8 +70,8 @@ Apparently they haven’t adopted AREDN because they’ve had some negative expe
 County ARES attempted to deploy a large AREDN system, but found that it didn’t integrate well with
 non-AREDN systems, particularly RMHam’s existing microwave IP network. It turns out some of the
 autoconfiguration magic of AREDN that allows any ham to get a node up and running quickly also
-interferes with being able to interoperate with other systems. Specifically, all AREDN nodes
-use <a href="https://en.wikipedia.org/wiki/Private_network">private network</a> addresses, which means anyone
+interferes with being able to interoperate with other systems. Specifically, all AREDN nodes use
+<a href="https://en.wikipedia.org/wiki/Private_network">private network</a> addresses, which means anyone
 outside of AREDN can’t connect to services inside without having some sort of network address
 translation (NAT) in place. That could probably be overcome with something similar to UPnP, but
 Pueblo ARES also apparently found that the network was not reliable; I didn’t ask further on that
@@ -81,8 +83,7 @@ lets them interop with commercial ISPs and access the entire network directly. I
 about how RMHam conducts business. I’m not savvy enough at networking to say whether all of this is
 necessary. I like the idea of network autoconfiguration, but I’m enough of a computer power user to
 know that choosing “auto” isn’t always the best option.</p>
-
-  </div>
+</div>
 
   <div class="post-nav">
     <p>
