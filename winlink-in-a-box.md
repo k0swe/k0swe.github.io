@@ -29,6 +29,7 @@ go-kit Winlink node, either a server or client.
 | RG-316 jumper cable              | [Amazon](https://amazon.com/dp/B086JJBMW1)    | $11      |
 | 12V to 5V adapter                | [Amazon](https://amazon.com/dp/B08RBWX2GL)    | $10      |
 
-[vilros]:
-  https://vilros.com/products/vilros-raspberry-pi-4-compatible-heavy-duty-aluminum-alloy-case-with-pre-installed-and-ready-to-connect-fan
+<!-- prettier-ignore-start -->
+[vilros]: https://vilros.com/products/vilros-raspberry-pi-4-compatible-heavy-duty-aluminum-alloy-case-with-pre-installed-and-ready-to-connect-fan
 [tigertronics]: https://shop.tigertronics.com/SignaLink-USB-p-n-SLUSBHTW-SLUSBHTW.htm
+<!-- prettier-ignore-end -->
