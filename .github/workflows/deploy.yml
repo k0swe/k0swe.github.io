@@ -15,10 +15,10 @@ jobs:
           git config --global user.email github-actions@github.com
 
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           ref: public
           path: _site
