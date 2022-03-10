@@ -13,7 +13,7 @@ find them useful as well!
 - [TM-D710 Feature Overview](https://youtu.be/jJfxv953r0I) (1 hour 6 minutes)
 - [Forester Lightning Talk](https://youtu.be/7Pn-sijfTJg) (17 minutes)
 - [Programming Radios with CHIRP](https://youtu.be/RslvPYCLT-I) (1 hour 5 minutes)
-- [Winlink in a Box](https://youtu.be/yaV0UdKeh7Y&t=2236s) (18 minutes)
+- [Winlink in a Box](https://youtu.be/fSGivCXoU_0) (18 minutes)
 
 ## Denver/Boulder area clubs
 
