@@ -14,6 +14,7 @@ find them useful as well!
 - [Forester Lightning Talk](https://youtu.be/7Pn-sijfTJg) (17 minutes)
 - [Programming Radios with CHIRP](https://youtu.be/RslvPYCLT-I) (1 hour 5 minutes)
 - [Winlink in a Box](https://youtu.be/fSGivCXoU_0) (18 minutes)
+- [Winlink Protocols and Pat](https://youtu.be/oiqAAfBgPCo) (35 minutes)
 
 ## Denver/Boulder area clubs
 
