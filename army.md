@@ -29,9 +29,8 @@ On the radio side, this list is some of the specialized military equipment I use
 - [H250/U](http://www.prc68.com/I/H250.shtml) hand mic
   - Don't you dare try to use the H350 with SINCGARS! It looks the same and has the same plug but an
     incompatible pinout.
-  - Check out this
-    [PS Magazine feature](https://www.logsa.army.mil/psmag/archives/PS2007/651/651-44-45.pdf) on the
-    250/350 issue. PS Magazine was always entertaining.
+  - Check out this [PS Magazine feature](/assets/PS_Magazine_Issue_651_February_2007-Page_44-45.pdf)
+    on the 250/350 issue. PS Magazine was always entertaining.
 - LS-671/VRC loudspeaker
 - Retransmission operations with the "dog bone" cable CX-13298
   - One time at a field exercise, I drove an hour out of base to the retrans site, only to realize I
