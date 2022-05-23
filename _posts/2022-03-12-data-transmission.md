@@ -17,7 +17,7 @@ contributor to Pat, and it was great to sing its virtues to another crowd.
 
 Videos of all of the sessions have been posted to YouTube:
 
-*   [Gary Sutton WB5PJB - Basic Winlink](https://www.youtube.com/watch?v=RDUPjlm1LSs)
-*   [Chris Keller K0SWE - Winlink Protocols and Pat](https://www.youtube.com/watch?v=oiqAAfBgPCo)
-*   [John Maxwell W0VG - RMS Trimode](https://www.youtube.com/watch?v=iLtap7mNnyU)
-*   [Willem Schreuder AC0KQ - BPQ](https://www.youtube.com/watch?v=LCItApXlPPo)
+- [Gary Sutton WB5PJB - Basic Winlink](https://www.youtube.com/watch?v=RDUPjlm1LSs)
+- [Chris Keller K0SWE - Winlink Protocols and Pat](https://www.youtube.com/watch?v=oiqAAfBgPCo)
+- [John Maxwell W0VG - RMS Trimode](https://www.youtube.com/watch?v=iLtap7mNnyU)
+- [Willem Schreuder AC0KQ - BPQ](https://www.youtube.com/watch?v=LCItApXlPPo)
