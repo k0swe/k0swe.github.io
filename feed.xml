@@ -1,4 +1,22 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://k0swe.radio/feed.xml" rel="self" type="application/atom+xml" /><link href="https://k0swe.radio/" rel="alternate" type="text/html" /><updated>2022-05-19T03:55:49+00:00</updated><id>https://k0swe.radio/feed.xml</id><title type="html">K0SWE Blog</title><subtitle>Events and projects for amateur radio operator K0SWE, a.k.a. Chris.</subtitle><entry><title type="html">Winlink in a Box Presentation</title><link href="https://k0swe.radio/2022/02/11/winlink-box-preso.html" rel="alternate" type="text/html" title="Winlink in a Box Presentation" /><published>2022-02-11T00:00:00+00:00</published><updated>2022-02-11T00:00:00+00:00</updated><id>https://k0swe.radio/2022/02/11/winlink-box-preso</id><content type="html" xml:base="https://k0swe.radio/2022/02/11/winlink-box-preso.html">&lt;p&gt;&lt;img src=&quot;/assets/2022-02-11-winlink-in-a-box.jpg&quot; alt=&quot;Winlink in a Box&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://k0swe.radio/feed.xml" rel="self" type="application/atom+xml" /><link href="https://k0swe.radio/" rel="alternate" type="text/html" /><updated>2022-05-23T04:44:02+00:00</updated><id>https://k0swe.radio/feed.xml</id><title type="html">K0SWE Blog</title><subtitle>Events and projects for amateur radio operator K0SWE, a.k.a. Chris.</subtitle><entry><title type="html">Data Transmission via Radio</title><link href="https://k0swe.radio/2022/03/12/data-transmission.html" rel="alternate" type="text/html" title="Data Transmission via Radio" /><published>2022-03-12T00:00:00+00:00</published><updated>2022-03-12T00:00:00+00:00</updated><id>https://k0swe.radio/2022/03/12/data-transmission</id><content type="html" xml:base="https://k0swe.radio/2022/03/12/data-transmission.html">&lt;p&gt;Earlier today I was one of the presenters at another &lt;a href=&quot;https://www.rmham.org/&quot;&gt;RMHAM&lt;/a&gt; University
+session: Data Transmission via Radio. I joined John W0VG, Willem AC0KQ and Gary WB5PJB in talking
+about the Winlink email ecosystem from many different angles.&lt;/p&gt;
+
+&lt;p&gt;I was given the task of figuring out how to talk about protocols in an understandable way, and I
+hope I did the topic justice. I also had a chance to talk about my favorite little Winlink client,
+&lt;a href=&quot;https://getpat.io&quot;&gt;Pat&lt;/a&gt;. Of course, anyone who keeps up with my dealings knows that I’m a regular
+contributor to Pat, and it was great to sing its virtues to another crowd.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/queen-elizabeth-donald-trump.jpg&quot; alt=&quot;Donald Trump standing in front of Queen Elizabeth II&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Videos of all of the sessions have been posted to YouTube:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=RDUPjlm1LSs&quot;&gt;Gary Sutton WB5PJB - Basic Winlink&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=oiqAAfBgPCo&quot;&gt;Chris Keller K0SWE - Winlink Protocols and Pat&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=iLtap7mNnyU&quot;&gt;John Maxwell W0VG - RMS Trimode&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=LCItApXlPPo&quot;&gt;Willem Schreuder AC0KQ - BPQ&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">Earlier today I was one of the presenters at another RMHAM University session: Data Transmission via Radio. I joined John W0VG, Willem AC0KQ and Gary WB5PJB in talking about the Winlink email ecosystem from many different angles.</summary></entry><entry><title type="html">Winlink in a Box Presentation</title><link href="https://k0swe.radio/2022/02/11/winlink-box-preso.html" rel="alternate" type="text/html" title="Winlink in a Box Presentation" /><published>2022-02-11T00:00:00+00:00</published><updated>2022-02-11T00:00:00+00:00</updated><id>https://k0swe.radio/2022/02/11/winlink-box-preso</id><content type="html" xml:base="https://k0swe.radio/2022/02/11/winlink-box-preso.html">&lt;p&gt;&lt;img src=&quot;/assets/2022-02-11-winlink-in-a-box.jpg&quot; alt=&quot;Winlink in a Box&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Winlink in a Box&lt;/strong&gt; is complete, at least as a first iteration. And just in time; I’m going to
 &lt;a href=&quot;https://docs.google.com/presentation/d/1UEEDvDSZwf8X8w8VF07k1LM9I49G5oY94te-oSxsug8/edit?usp=sharing&quot;&gt;present&lt;/a&gt;
@@ -149,16 +167,4 @@ this event turned out to be very challenging and gratifying!&lt;/p&gt;
 sheriff’s office and the fair staff. During the course of each day, I ended up averaging about 10
 miles walking. We assisted with about 10 lost child incidents where we searched for children or
 parents; 3 or 4 medicals where we called the event EMTs out into the fair to help people; and asked
-for sheriff support on a couple of unruly customers. Good times!&lt;/p&gt;</content><author><name></name></author><summary type="html">For the past 4 days I was assisting Arapahoe County ARES with the Arapahoe County Fair. I’m not sure what I was expecting, but this event turned out to be very challenging and gratifying!</summary></entry><entry><title type="html">ARES In-Person Meeting</title><link href="https://k0swe.radio/2021/07/16/ares-f2f.html" rel="alternate" type="text/html" title="ARES In-Person Meeting" /><published>2021-07-16T00:00:00+00:00</published><updated>2021-07-16T00:00:00+00:00</updated><id>https://k0swe.radio/2021/07/16/ares-f2f</id><content type="html" xml:base="https://k0swe.radio/2021/07/16/ares-f2f.html">&lt;p&gt;The COVID-19 pandemic has of course kept us mostly at home and away from people for over a year now.
-But with wide-spread vaccinations, the grip of the pandemic is starting to loosen. Case in point:
-last night, &lt;a href=&quot;https://www.coaresr1d6.org/&quot;&gt;Colorado ARES R1D6&lt;/a&gt; was able to meet in-person for the
-first time since February 2020!&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/2021-07-16_011817.jpg&quot; alt=&quot;R1D6 members training&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/2021-07-16_014841.jpg&quot; alt=&quot;R1D6 members training&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;We worked on initiating &lt;a href=&quot;http://www.arrl.org/ares&quot;&gt;ARRL ARES&lt;/a&gt; Task Books. Most members of the unit
-have the training to complete Level 1 of the task book without effort, so we worked on some Level 2
-skills like front-panel programming a radio, and taking a field report on an ICS-213 with sufficient
-detail. It was a lot of fun to see folks in-person again!&lt;/p&gt;</content><author><name></name></author><summary type="html">The COVID-19 pandemic has of course kept us mostly at home and away from people for over a year now. But with wide-spread vaccinations, the grip of the pandemic is starting to loosen. Case in point: last night, Colorado ARES R1D6 was able to meet in-person for the first time since February 2020!</summary></entry></feed>
+for sheriff support on a couple of unruly customers. Good times!&lt;/p&gt;</content><author><name></name></author><summary type="html">For the past 4 days I was assisting Arapahoe County ARES with the Arapahoe County Fair. I’m not sure what I was expecting, but this event turned out to be very challenging and gratifying!</summary></entry></feed>
