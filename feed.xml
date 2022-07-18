@@ -1,4 +1,31 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="https://k0swe.radio/feed.xml" rel="self" type="application/atom+xml" /><link href="https://k0swe.radio/" rel="alternate" type="text/html" /><updated>2022-07-18T00:01:10+00:00</updated><id>https://k0swe.radio/feed.xml</id><title type="html">K0SWE Blog</title><subtitle>Events and projects for amateur radio operator K0SWE, a.k.a. Chris.</subtitle><entry><title type="html">Dirty 30 Build Day</title><link href="https://k0swe.radio/2022/05/15/dirty-30-build.html" rel="alternate" type="text/html" title="Dirty 30 Build Day" /><published>2022-05-15T00:00:00+00:00</published><updated>2022-05-15T00:00:00+00:00</updated><id>https://k0swe.radio/2022/05/15/dirty-30-build</id><content type="html" xml:base="https://k0swe.radio/2022/05/15/dirty-30-build.html">&lt;p&gt;&lt;a href=&quot;https://flyclipart.com/concept-map-diagram-network-icon-network-icon-png-83003&quot;&gt;&lt;img src=&quot;/assets/concept-map-diagram-network-icon-83003.png&quot; alt=&quot;Network Map&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="https://k0swe.radio/feed.xml" rel="self" type="application/atom+xml" /><link href="https://k0swe.radio/" rel="alternate" type="text/html" /><updated>2022-07-18T00:49:30+00:00</updated><id>https://k0swe.radio/feed.xml</id><title type="html">K0SWE Blog</title><subtitle>Events and projects for amateur radio operator K0SWE, a.k.a. Chris.</subtitle><entry><title type="html">Dirty 30</title><link href="https://k0swe.radio/2022/06/04/dirty30.html" rel="alternate" type="text/html" title="Dirty 30" /><published>2022-06-04T00:00:00+00:00</published><updated>2022-06-04T00:00:00+00:00</updated><id>https://k0swe.radio/2022/06/04/dirty30</id><content type="html" xml:base="https://k0swe.radio/2022/06/04/dirty30.html">&lt;p&gt;&lt;img src=&quot;/assets/2022-06-02-CLR.jpg&quot; alt=&quot;City Lights Ridge site&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Yesterday was the &lt;a href=&quot;https://dirty30.org/&quot;&gt;Golden Gate Dirty 30&lt;/a&gt; ultramarathon. It’s always an annual
+highlight for Colorado amateur radio emergency organizations because it takes many of our teams
+coming together to support this complex event. Hundreds of crazy runners (this year it was
+about 300) attempt the 30 mile/50 kilometer course through 7,000 feet/2,100 meters of elevation
+climb and descent in a mountainous park with very little cell phone coverage. The ham team’s job is
+to make sure every one of them comes down off the mountain before it gets dark.&lt;/p&gt;
+
+&lt;p&gt;On Thursday, the &lt;a href=&quot;https://www.rmham.org/&quot;&gt;Rocky Mountain Ham&lt;/a&gt; tech team was on-site early setting up
+our IP-over-microwave network. We use the network to connect the 4 aid stations and one mountaintop
+checkpoint to the command center at the start/finish line. Each of these sites has RFID readers that
+can read the runners’ bibs and check them in as they run past. We also need one more site that the
+runners never see: a central point that can see most of the others by line-of-sight which gets set
+up on City Lights Ridge.&lt;/p&gt;
+
+&lt;p&gt;This was the second year that City Lights Ridge was my responsibility. About six of us hiked
+equipment up to the site and got it all set up and aligned with the other sites. After that, it was
+my job to monitor the network and make sure everything stayed running through the race Friday.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2022-06-02-cping.jpg&quot; alt=&quot;cping&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;For monitoring the network, I made use of &lt;a href=&quot;https://prinmath.com/ham/cping.zip&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cping&lt;/code&gt;&lt;/a&gt; written by
+one of my mentors, Willem &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;AC0KQ&lt;/code&gt;. It’s a command-line utility that will simply ping a number of
+configured IP addresses every so often (default 2 seconds) and display the latency over time as
+different colored characters. It’s simple and effective at looking for problems on a medium-size
+network like this. Since our network runs almost all MikroTik networking gear, I also made heavy use
+of MikroTik WinBox for configuring radios and routers.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Dirty 30 Build Day</title><link href="https://k0swe.radio/2022/05/15/dirty-30-build.html" rel="alternate" type="text/html" title="Dirty 30 Build Day" /><published>2022-05-15T00:00:00+00:00</published><updated>2022-05-15T00:00:00+00:00</updated><id>https://k0swe.radio/2022/05/15/dirty-30-build</id><content type="html" xml:base="https://k0swe.radio/2022/05/15/dirty-30-build.html">&lt;p&gt;&lt;a href=&quot;https://flyclipart.com/concept-map-diagram-network-icon-network-icon-png-83003&quot;&gt;&lt;img src=&quot;/assets/concept-map-diagram-network-icon-83003.png&quot; alt=&quot;Network Map&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;I spent the day in Evergreen helping with the &lt;a href=&quot;https://dirty30.org/&quot;&gt;Dirty 30&lt;/a&gt; communications dry
 run. We set up the comms trailer, all 5 aid stations and checkpoints, and the network center point
@@ -135,26 +162,4 @@ interface I recently found and love so much, the Digirig Mobile, for one side of
 However, while it worked just fine for me on FT8, I’ve had some issues trying to get it to work for
 AX.25 and VARA FM. I think it’s “going deaf” briefly when switching from TX back to RX, just long
 enough to miss the reply in AX.25 and VARA FM. Maybe FT8’s turnaround time is just more forgiving? I
-need to do more investigation.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Progress on Pat+VARA</title><link href="https://k0swe.radio/2021/09/28/pat-vara-progress.html" rel="alternate" type="text/html" title="Progress on Pat+VARA" /><published>2021-09-28T00:00:00+00:00</published><updated>2021-09-28T00:00:00+00:00</updated><id>https://k0swe.radio/2021/09/28/pat-vara-progress</id><content type="html" xml:base="https://k0swe.radio/2021/09/28/pat-vara-progress.html">&lt;p&gt;&lt;img src=&quot;/assets/2021-09-24-vara-fm.jpg&quot; alt=&quot;Two stations running VARA FM&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;I’ve spent a lot of time developing on &lt;a href=&quot;https://getpat.io/&quot;&gt;Pat&lt;/a&gt; this month. For a long time, adding
-support for the &lt;a href=&quot;https://www.winlink.org/tags/vara&quot;&gt;VARA&lt;/a&gt; transport has been a major requested
-feature, but it was never prioritized because VARA is only designed for Windows, and Pat’s primary
-user base is Linux &amp;amp; Raspberry Pi. However, folks in the community have been experimenting with
-running VARA in &lt;a href=&quot;https://www.winehq.org/&quot;&gt;Wine&lt;/a&gt;, and have even gone so far as to write an
-&lt;a href=&quot;https://github.com/WheezyE/Winelink&quot;&gt;installation script&lt;/a&gt;. When someone has made it this easy to
-install VARA on Linux, we don’t have any excuses left to delay integrating Pat!&lt;/p&gt;
-
-&lt;p&gt;I’ve been helping to lay some of the &lt;a href=&quot;https://github.com/n8jja/Pat-Vara&quot;&gt;groundwork&lt;/a&gt; for the modem
-driver. At this point I can complete an HF Winlink session, but I need to do a lot more testing
-before we hand it over to the general public. I’m battling bad propagation from my QTH (home) HF
-station and its poor antenna. There aren’t any VARA FM Winlink gateways within VHF distance, so I’ve
-been forced to pursue setting up my own VHF Winlink RMS/gateway.&lt;/p&gt;
-
-&lt;p&gt;And that in turn has forced me to pursue a topic I’ve been avoiding for some time:
-&lt;a href=&quot;https://www.cantab.net/users/john.wiseman/Documents/index.html&quot;&gt;BPQ&lt;/a&gt;. It’s an extremely flexible
-piece of software that at its heart wants to be a AX.25 packet radio gateway for Winlink and
-&lt;a href=&quot;https://en.wikipedia.org/wiki/Bulletin_board_system&quot;&gt;BBS&lt;/a&gt;’s, but it can be configured for much
-more. Because it’s so flexible, it’s also difficult to configure. I took a look at it a couple of
-years ago and decided it was too much to bite off at the time, but it’s really the tool I need for
-testing Pat+VARA integration, so I’m now climbing the steep learning curve.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry></feed>
+need to do more investigation.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry></feed>
