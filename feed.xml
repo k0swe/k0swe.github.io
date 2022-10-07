@@ -1,4 +1,31 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="https://k0swe.radio/feed.xml" rel="self" type="application/atom+xml" /><link href="https://k0swe.radio/" rel="alternate" type="text/html" /><updated>2022-09-23T14:37:22+00:00</updated><id>https://k0swe.radio/feed.xml</id><title type="html">K0SWE Blog</title><subtitle>Events and projects for amateur radio operator K0SWE, a.k.a. Chris.</subtitle><entry><title type="html">Dirty 30</title><link href="https://k0swe.radio/2022/06/04/dirty30.html" rel="alternate" type="text/html" title="Dirty 30" /><published>2022-06-04T00:00:00+00:00</published><updated>2022-06-04T00:00:00+00:00</updated><id>https://k0swe.radio/2022/06/04/dirty30</id><content type="html" xml:base="https://k0swe.radio/2022/06/04/dirty30.html">&lt;p&gt;&lt;img src=&quot;/assets/2022-06-02-CLR.jpg&quot; alt=&quot;City Lights Ridge site&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="https://k0swe.radio/feed.xml" rel="self" type="application/atom+xml" /><link href="https://k0swe.radio/" rel="alternate" type="text/html" /><updated>2022-10-07T23:48:50+00:00</updated><id>https://k0swe.radio/feed.xml</id><title type="html">K0SWE Blog</title><subtitle>Events and projects for amateur radio operator K0SWE, a.k.a. Chris.</subtitle><entry><title type="html">Field Day</title><link href="https://k0swe.radio/2022/06/26/field-day.html" rel="alternate" type="text/html" title="Field Day" /><published>2022-06-26T00:00:00+00:00</published><updated>2022-06-26T00:00:00+00:00</updated><id>https://k0swe.radio/2022/06/26/field-day</id><content type="html" xml:base="https://k0swe.radio/2022/06/26/field-day.html">&lt;p&gt;Yesterday, my daughter Kaylee and I drove up to Park County, Colorado to take part in
+&lt;a href=&quot;https://rmham.org/&quot;&gt;Rocky Mountain Ham Radio&lt;/a&gt;’s expedition for
+&lt;a href=&quot;http://www.arrl.org/field-day&quot;&gt;ARRL Field Day&lt;/a&gt;! Despite hanging out with RMHAM for a few years now,
+this is the first time I’ve made the pilgrimage. The site is an empty mountain residential lot about
+2 hours from metro Denver where I live, so it’s a bit of a trek. However, it was definitely worth
+it!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2022-06-25-site.jpg&quot; alt=&quot;Field Day site&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Kaylee and I were greeted by a small city of about 10 RVs plus several comm vans and trailers. All
+told, about 30 folks were running 3 “official” transmitters plus a few accessory ones, running
+voice, CW and FT8 over many bands.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2022-06-25-ft8.jpg&quot; alt=&quot;Wayne N0POH and Kaylee running FT8&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Kaylee isn’t licensed yet, but she got to try out a few HF contacts at the Get-On-The-Air station!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2022-06-25-gota.jpg&quot; alt=&quot;Lisa K0LMH and Kaylee at GOTA&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Despite all the awesomeness happening, I think Kaylee’s favorite part of the trip was dinner! I got
+to have some eyeball QSOs (contacts) with some of my favorite folks in the community, and the food
+was fantastic!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2022-06-25-dinner.jpg&quot; alt=&quot;Field Day Dinner&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Kaylee and I only stayed for a few hours, but I think I have a partner in crime to convince the rest
+of the family to come make a camping/RV trip next year! I’ll have to start working with Kaylee on
+getting her own callsign, too.&lt;/p&gt;</content><author><name></name></author><summary type="html">Yesterday, my daughter Kaylee and I drove up to Park County, Colorado to take part in Rocky Mountain Ham Radio’s expedition for ARRL Field Day! Despite hanging out with RMHAM for a few years now, this is the first time I’ve made the pilgrimage. The site is an empty mountain residential lot about 2 hours from metro Denver where I live, so it’s a bit of a trek. However, it was definitely worth it!</summary></entry><entry><title type="html">Dirty 30</title><link href="https://k0swe.radio/2022/06/04/dirty30.html" rel="alternate" type="text/html" title="Dirty 30" /><published>2022-06-04T00:00:00+00:00</published><updated>2022-06-04T00:00:00+00:00</updated><id>https://k0swe.radio/2022/06/04/dirty30</id><content type="html" xml:base="https://k0swe.radio/2022/06/04/dirty30.html">&lt;p&gt;&lt;img src=&quot;/assets/2022-06-02-CLR.jpg&quot; alt=&quot;City Lights Ridge site&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Yesterday was the &lt;a href=&quot;https://dirty30.org/&quot;&gt;Golden Gate Dirty 30&lt;/a&gt; ultramarathon. It’s always an annual
 highlight for Colorado amateur radio emergency organizations because it takes many of our teams
@@ -150,24 +177,4 @@ a second. The ping response visible on the SignaLink’s RX track is completely 
 the Digirig’s RX track.&lt;/p&gt;
 
 &lt;p&gt;I’m not giving up on the Digirig yet and I’m working with the designer, Denis K0TX, to understand
-what’s happening. In the meantime, my VARA FM adventures will need to use the SignaLink.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">BPQ for Dummies</title><link href="https://k0swe.radio/2021/10/09/bpq.html" rel="alternate" type="text/html" title="BPQ for Dummies" /><published>2021-10-09T00:00:00+00:00</published><updated>2021-10-09T00:00:00+00:00</updated><id>https://k0swe.radio/2021/10/09/bpq</id><content type="html" xml:base="https://k0swe.radio/2021/10/09/bpq.html">&lt;p&gt;&lt;img src=&quot;/assets/BPQ_and_VARA.png&quot; alt=&quot;Screenshot of LinBPQ and VARA FM&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;I’ve taken the plunge and started learning
-&lt;a href=&quot;https://www.cantab.net/users/john.wiseman/Documents/BPQ32.html&quot;&gt;BPQ&lt;/a&gt; in earnest. It’s a hefty
-program, and it’s clear that it has grown organically over many years. Which is to say, it’s
-cantankerous to work with, but it does get the job done. I asked one of my Elmers, Willem AC0KQ,
-about how to mentally model it, and he basically laughed and told me that it’s fruitless to try and
-build a mental model. Just copy other people’s configuration files and modify them to your needs.
-Well, so be it.&lt;/p&gt;
-
-&lt;p&gt;Willem does have a &lt;a href=&quot;https://prinmath.com/ham/&quot;&gt;script&lt;/a&gt; called &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;bpq-config&lt;/code&gt; that is basically an
-installer and setup wizard for LinBPQ. It assumes you’re using a Raspberry Pi and I’m not, but it
-did get me a base to work from. Getting a working config means I finally have a working AX.25 and
-VARA FM Winlink RMS to test Pat against!&lt;/p&gt;
-
-&lt;p&gt;Unfortunately, that’s not the end of my problems for testing Pat+VARA. I’ve been using the radio
-interface I recently found and love so much, the Digirig Mobile, for one side of my connection.
-However, while it worked just fine for me on FT8, I’ve had some issues trying to get it to work for
-AX.25 and VARA FM. I think it’s “going deaf” briefly when switching from TX back to RX, just long
-enough to miss the reply in AX.25 and VARA FM. Maybe FT8’s turnaround time is just more forgiving? I
-need to do more investigation.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry></feed>
+what’s happening. In the meantime, my VARA FM adventures will need to use the SignaLink.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry></feed>
