@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="https://k0swe.radio/feed.xml" rel="self" type="application/atom+xml" /><link href="https://k0swe.radio/" rel="alternate" type="text/html" /><updated>2022-11-30T01:33:23+00:00</updated><id>https://k0swe.radio/feed.xml</id><title type="html">K0SWE Blog</title><subtitle>Events and projects for amateur radio operator K0SWE, a.k.a. Chris.</subtitle><entry><title type="html">Motorola DMR Radios for Hams</title><link href="https://k0swe.radio/2022/09/10/motorola.html" rel="alternate" type="text/html" title="Motorola DMR Radios for Hams" /><published>2022-09-10T00:00:00+00:00</published><updated>2022-09-10T00:00:00+00:00</updated><id>https://k0swe.radio/2022/09/10/motorola</id><content type="html" xml:base="https://k0swe.radio/2022/09/10/motorola.html">&lt;p&gt;One of the things that came out of my trip to Westcreek was a renewed interest in getting Motorola
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="https://k0swe.radio/feed.xml" rel="self" type="application/atom+xml" /><link href="https://k0swe.radio/" rel="alternate" type="text/html" /><updated>2022-11-30T01:48:55+00:00</updated><id>https://k0swe.radio/feed.xml</id><title type="html">K0SWE Blog</title><subtitle>Events and projects for amateur radio operator K0SWE, a.k.a. Chris.</subtitle><entry><title type="html">Motorola DMR Radios for Hams</title><link href="https://k0swe.radio/2022/09/10/motorola.html" rel="alternate" type="text/html" title="Motorola DMR Radios for Hams" /><published>2022-09-10T00:00:00+00:00</published><updated>2022-09-10T00:00:00+00:00</updated><id>https://k0swe.radio/2022/09/10/motorola</id><content type="html" xml:base="https://k0swe.radio/2022/09/10/motorola.html">&lt;p&gt;One of the things that came out of my trip to Westcreek was a renewed interest in getting Motorola
 radios to work for myself. I originally became interested in this back in February when RMHAM
 University did a &lt;a href=&quot;https://www.youtube.com/watch?v=aUFTMX7Ys00&quot;&gt;class&lt;/a&gt; on using commercial DMR radios
 from Motorola and Kenwood for ham radio purposes. Among other things, the Motorola section of the
@@ -13,21 +13,23 @@ licenses for and successfully program one of these Motorola radios. Ultimately I
 TRBO CPS license as well as a wideband (25khz) entitlement from Motorola. There seems to be a lot of
 outdated information out there, so hopefully this will be updated advice.&lt;/p&gt;
 
-&lt;p&gt;First, note that the Motorola radio website is https://www.motorolasolutions.com; just plain
-motorola.com is for the cell phone division. I got an account on motorolasolutions.com, but that
-only gave me access to the consumer side with FRS/GMRS/MURS radios. To order the necessary part
-numbers, I had to contact customer service and have them upgrade my account to a business account
-with a 10-digit customer ID. It sounds like this is a common arrangement for hams. Once they did
-that, I was able to access https://myview.motorolasolutions.com/.&lt;/p&gt;
+&lt;p&gt;First, note that the Motorola radio website is
+&lt;a href=&quot;https://www.motorolasolutions.com&quot;&gt;https://www.motorolasolutions.com&lt;/a&gt;; just plain motorola.com is
+for the cell phone division. I got an account on motorolasolutions.com, but that only gave me access
+to the consumer side with FRS/GMRS/MURS radios. To order the necessary part numbers, I had to
+contact customer service and have them upgrade my account to a business account with a 10-digit
+customer ID. It sounds like this is a common arrangement for hams. Once they did that, I was able to
+access &lt;a href=&quot;https://myview.motorolasolutions.com/&quot;&gt;https://myview.motorolasolutions.com/&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;At this point I went on http://learning.motorolasolutions.com/ and took training course &lt;em&gt;PRD0001:
-FCC Narrowbanding Mandate Training&lt;/em&gt; which carefully explained that wideband FM channels are no
-longer allowed on commercial bands, only on ham radio bands. That only took about 15 minutes to
-complete. After I finished that, I had to again contact customer service and have them manually
-verify completion and open up the option to order the 25khz entitlement.&lt;/p&gt;
+&lt;p&gt;At this point I went on
+&lt;a href=&quot;http://learning.motorolasolutions.com/&quot;&gt;http://learning.motorolasolutions.com/&lt;/a&gt; and took training
+course &lt;em&gt;PRD0001: FCC Narrowbanding Mandate Training&lt;/em&gt; which carefully explained that wideband FM
+channels are no longer allowed on commercial bands, only on ham radio bands. That only took about 15
+minutes to complete. After I finished that, I had to again contact customer service and have them
+manually verify completion and open up the option to order the 25khz entitlement.&lt;/p&gt;
 
-&lt;p&gt;Once all of that was done I was able to go back to https://shop.motorolasolutions.com/ and order
-part numbers:&lt;/p&gt;
+&lt;p&gt;Once all of that was done I was able to go back to
+&lt;a href=&quot;https://shop.motorolasolutions.com/&quot;&gt;https://shop.motorolasolutions.com/&lt;/a&gt; and order part numbers:&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;HKVN4362A for the TRBO CPS, which became free in February of 2022&lt;/li&gt;
