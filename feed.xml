@@ -1,4 +1,15 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="https://k0swe.radio/feed.xml" rel="self" type="application/atom+xml" /><link href="https://k0swe.radio/" rel="alternate" type="text/html" /><updated>2022-11-30T01:48:55+00:00</updated><id>https://k0swe.radio/feed.xml</id><title type="html">K0SWE Blog</title><subtitle>Events and projects for amateur radio operator K0SWE, a.k.a. Chris.</subtitle><entry><title type="html">Motorola DMR Radios for Hams</title><link href="https://k0swe.radio/2022/09/10/motorola.html" rel="alternate" type="text/html" title="Motorola DMR Radios for Hams" /><published>2022-09-10T00:00:00+00:00</published><updated>2022-09-10T00:00:00+00:00</updated><id>https://k0swe.radio/2022/09/10/motorola</id><content type="html" xml:base="https://k0swe.radio/2022/09/10/motorola.html">&lt;p&gt;One of the things that came out of my trip to Westcreek was a renewed interest in getting Motorola
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="https://k0swe.radio/feed.xml" rel="self" type="application/atom+xml" /><link href="https://k0swe.radio/" rel="alternate" type="text/html" /><updated>2022-12-05T05:18:29+00:00</updated><id>https://k0swe.radio/feed.xml</id><title type="html">K0SWE Blog</title><subtitle>Events and projects for amateur radio operator K0SWE, a.k.a. Chris.</subtitle><entry><title type="html">On Hiatus</title><link href="https://k0swe.radio/2022/10/15/hiatus.html" rel="alternate" type="text/html" title="On Hiatus" /><published>2022-10-15T00:00:00+00:00</published><updated>2022-10-15T00:00:00+00:00</updated><id>https://k0swe.radio/2022/10/15/hiatus</id><content type="html" xml:base="https://k0swe.radio/2022/10/15/hiatus.html">&lt;p&gt;&lt;a href=&quot;https://commons.wikimedia.org/wiki/File:Moving-boxes.jpg&quot;&gt;&lt;img src=&quot;/assets/moving-boxes.jpeg&quot; alt=&quot;Moving boxes&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;My family and I are moving! It’s only a short distance, but it still means I need to take down all
+of the permanently installed shack components like my QTH antennas. I’ll have to rely on my mobile
+and portable gear for a while. It also means I won’t have much spare time for ham projects until
+everything is moved.&lt;/p&gt;
+
+&lt;p&gt;As luck would have it, Dave Casler just posted a video about a practice that luckily I’ve already
+been following: &lt;a href=&quot;https://www.youtube.com/watch?v=2TvdvcE2cJQ&quot;&gt;Keep the boxes!&lt;/a&gt; That should make the
+move (at least for the shack) a lot easier.&lt;/p&gt;
+
+&lt;p&gt;Wish us luck!&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Motorola DMR Radios for Hams</title><link href="https://k0swe.radio/2022/09/10/motorola.html" rel="alternate" type="text/html" title="Motorola DMR Radios for Hams" /><published>2022-09-10T00:00:00+00:00</published><updated>2022-09-10T00:00:00+00:00</updated><id>https://k0swe.radio/2022/09/10/motorola</id><content type="html" xml:base="https://k0swe.radio/2022/09/10/motorola.html">&lt;p&gt;One of the things that came out of my trip to Westcreek was a renewed interest in getting Motorola
 radios to work for myself. I originally became interested in this back in February when RMHAM
 University did a &lt;a href=&quot;https://www.youtube.com/watch?v=aUFTMX7Ys00&quot;&gt;class&lt;/a&gt; on using commercial DMR radios
 from Motorola and Kenwood for ham radio purposes. Among other things, the Motorola section of the
@@ -191,19 +202,4 @@ it should just work when I power it on. Seal it up so I don’t have to touch th
 of the software programs to start on boot, and go from zero to working Winlink RMS on VHF VARA FM
 within about 60 seconds. All of my work on &lt;a href=&quot;https://k0swe.radio/pipat&quot;&gt;PiPat&lt;/a&gt; a few years ago will
 help, although I’ll no longer be relying on the TNC-Pi. The TNC-Pi only works for AX.25, and for my
-purpose I need VARA FM.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Pat Forms Updates</title><link href="https://k0swe.radio/2021/12/06/pat-form-updates.html" rel="alternate" type="text/html" title="Pat Forms Updates" /><published>2021-12-06T00:00:00+00:00</published><updated>2021-12-06T00:00:00+00:00</updated><id>https://k0swe.radio/2021/12/06/pat-form-updates</id><content type="html" xml:base="https://k0swe.radio/2021/12/06/pat-form-updates.html">&lt;p&gt;&lt;img src=&quot;/assets/update.png&quot; alt=&quot;Update&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Pat officially launched &lt;a href=&quot;https://k0swe.radio/2021/07/10/pat-forms.html&quot;&gt;form templates&lt;/a&gt; back in
-July, and the reviews since then have been pretty positive! However, there’s definitely room for
-improvement, particularly in the process for downloading updated versions of the form templates. To
-find out about new versions, Pat has to scrape the Winlink website on a sort of blog post page.
-Scraping is notoriously brittle because as soon as someone changes the way the blog page HTML looks,
-there’s a high chance of breaking the scraper logic. Sure, we could release a new version of Pat to
-fix the problem, but that will require a lot of scrambling on the part of us, the Pat developers,
-followed by every user having to download that new version of Pat. What a mess that would be.&lt;/p&gt;
-
-&lt;p&gt;Instead, &lt;a href=&quot;https://github.com/martinhpedersen&quot;&gt;Martin&lt;/a&gt; (Pat’s founder) had the idea to separate the
-scraping logic into an &lt;a href=&quot;https://github.com/la5nta/pat-api&quot;&gt;online service/API&lt;/a&gt; and take the scraper
-out of the main Pat code. That way, if the Winlink blog page ever changes, we can change the online
-bit. Pat clients that touch our API project don’t have to be aware of the change, and everything
-keeps working. Nice!&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry></feed>
+purpose I need VARA FM.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry></feed>
