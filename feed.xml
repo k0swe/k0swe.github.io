@@ -1,4 +1,85 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="https://k0swe.radio/feed.xml" rel="self" type="application/atom+xml" /><link href="https://k0swe.radio/" rel="alternate" type="text/html" /><updated>2023-03-06T15:53:55+00:00</updated><id>https://k0swe.radio/feed.xml</id><title type="html">K0SWE Blog</title><subtitle>Events and projects for amateur radio operator K0SWE, a.k.a. Chris.</subtitle><entry><title type="html">On Hiatus</title><link href="https://k0swe.radio/2022/10/15/hiatus.html" rel="alternate" type="text/html" title="On Hiatus" /><published>2022-10-15T00:00:00+00:00</published><updated>2022-10-15T00:00:00+00:00</updated><id>https://k0swe.radio/2022/10/15/hiatus</id><content type="html" xml:base="https://k0swe.radio/2022/10/15/hiatus.html">&lt;p&gt;&lt;a href=&quot;https://commons.wikimedia.org/wiki/File:Moving-boxes.jpg&quot;&gt;&lt;img src=&quot;/assets/moving-boxes.jpeg&quot; alt=&quot;Moving boxes&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="https://k0swe.radio/feed.xml" rel="self" type="application/atom+xml" /><link href="https://k0swe.radio/" rel="alternate" type="text/html" /><updated>2023-03-08T03:55:09+00:00</updated><id>https://k0swe.radio/feed.xml</id><title type="html">K0SWE Blog</title><subtitle>Events and projects for amateur radio operator K0SWE, a.k.a. Chris.</subtitle><entry><title type="html">Getting started with Hamshack Hotline and FreePBX</title><link href="https://k0swe.radio/2023/03/03/pbx.html" rel="alternate" type="text/html" title="Getting started with Hamshack Hotline and FreePBX" /><published>2023-03-03T00:00:00+00:00</published><updated>2023-03-03T00:00:00+00:00</updated><id>https://k0swe.radio/2023/03/03/pbx</id><content type="html" xml:base="https://k0swe.radio/2023/03/03/pbx.html">&lt;p&gt;I’ve used VoIP a couple of times in conjuction with ham radio for supporting public events; some
+troubleshooting problems lend themselves to full duplex communication better than PTT radios. Until
+now I hadn’t really considered setting up something for myself, but then I learned about
+&lt;a href=&quot;https://hamshackhotline.com/&quot;&gt;Hamshack Hotline&lt;/a&gt;. It’s a collective of VoIP geeks running their own
+phone network, and it even has links into RF repeaters and such. Neat!&lt;/p&gt;
+
+&lt;p&gt;HH keeps a list of
+&lt;a href=&quot;https://wiki.hamshackhotline.com/doku.php?id=kb:supported.endpoints&quot;&gt;fully supported devices&lt;/a&gt;, but
+I was somewhat drawn to an unsupported device, a Cisco 7900 series, for nostalgic reasons (it’s what
+I supported in the Army) as well as cost (~$20 on eBay). Because of this, I was directed down the
+road of setting up my own local PBX with a trunk connection to HH. How hard could that be?&lt;/p&gt;
+
+&lt;h2 id=&quot;freepbx-initial-setup&quot;&gt;FreePBX initial setup&lt;/h2&gt;
+
+&lt;p&gt;Download https://www.freepbx.org/. I used the ISO image to create a VM for testing. Create an admin
+account and do basic configuration.
+&lt;a href=&quot;https://www.youtube.com/playlist?list=PL1fn6oC5ndU_umAhL9A_1zkC90hMPDPNO&quot;&gt;This YouTube series&lt;/a&gt; goes
+in-depth about the entire process.&lt;/p&gt;
+
+&lt;p&gt;Then add some phone extensions. &lt;a href=&quot;https://youtu.be/ME1fCwJNes8&quot;&gt;This video on creating extensions&lt;/a&gt;
+was particularly useful. I also found it very helpful to register a couple of software phone
+clients, which were relatively easy, before moving on to dealing with Cisco “legacy” hardware
+issues.&lt;/p&gt;
+
+&lt;h2 id=&quot;cisco-7965g-setup&quot;&gt;Cisco 7965G setup&lt;/h2&gt;
+
+&lt;p&gt;Download
+&lt;a href=&quot;https://software.cisco.com/download/home/281346596/type/282074288/release/9.4(2)SR3&quot;&gt;SIP Firmware&lt;/a&gt;.
+You need SIP firmware. Some folks advise to use v8 or v9, but both worked for me. You need the
+“firmware files only” zip file. Unzip the files.&lt;/p&gt;
+
+&lt;p&gt;The firmware files need to be served by a TFTP server. I used &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;tftpd-hap&lt;/code&gt; on my workstation.&lt;/p&gt;
+
+&lt;p&gt;Your DHCP server needs to advertise the TFTP server. My DHCP server is running on my MikroTik
+router. At first I tried setting “DHCP option 150,” but that didn’t seem to work; I could see in
+MikroTik WinBox that the phone kept rejecting DHCP offers. Instead I set the “next-server” option,
+which worked.&lt;/p&gt;
+
+&lt;p&gt;Follow the steps below to factory reset your Cisco IP phone and get it to download the new firmware.
+Here’s a &lt;a href=&quot;https://youtu.be/xcpJFfuSh7g&quot;&gt;good video&lt;/a&gt;.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Unplug the power cable from the IP phone and then plug it back in.&lt;/li&gt;
+  &lt;li&gt;While the phone is powering up, and before the speaker button flashes on and off, press and hold
+the pound # key.&lt;/li&gt;
+  &lt;li&gt;Continue to hold # until each line button (right of the LCD screen) flashes on and off in
+sequence in orange color.&lt;/li&gt;
+  &lt;li&gt;Now release the pound # key and type the following sequence &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;123456789*0#&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;(On the first phone I tried, I had a hardware issue: I’d start typing the 123… sequence and the
+phone would start booting normally before I could finish. Luckily, I bought two, and the other phone
+behaved as intended.)&lt;/p&gt;
+
+&lt;p&gt;The phone should show “Upgrading” and the MAC address on the screen. It will download the firmware
+files one by one and show its progress. After the last file is downloaded, the phone will reboot and
+the firmware upgrade is complete.&lt;/p&gt;
+
+&lt;p&gt;At this point, you need to configure the phone by downloading and modifying an
+&lt;a href=&quot;https://usecallmanager.nz/sepmac-cnf-xml.html&quot;&gt;XML file&lt;/a&gt;, renaming it to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;SEP{MAC_ADDRESS}.cfg.xml&lt;/code&gt;
+and putting that on your TFTP server. The XML file at a minimum needs to specify the SIP server
+address, username and password. Many other config options are available. As I was iterating on the
+config file, I found it useful to modify the value in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;phoneLabel&amp;gt;&lt;/code&gt; so I could easily tell if the
+phone had downloaded my latest version.&lt;/p&gt;
+
+&lt;p&gt;After all this, I was stuck for a while with the Cisco phone unable to register with the FreePBX
+server despite having picked up its configuration file. I found advice to find the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;force_rport&lt;/code&gt;
+setting within FreePBX/Asterisk for that phone’s extension advanced settings and turn that setting
+“off”; that made it so I could call out from the Cisco phone, but was unable to receive calls. I
+also tried enabling TCP for the Asterisk server and forcing that extension to use it; still no dice.&lt;/p&gt;
+
+&lt;p&gt;This is where the story takes a turn for the worse: I asked for advice from some of my ham friends,
+some of whom are VoIP professionals, and their advice was to abandon all hope. Cisco phones are
+apparently very nice in an enterprise setting with their proprietary controller, but are not really
+suitable for hobbyists. Yes, they can be made to work, but are not worth the time to set up and keep
+running. It’s better, my friends say, to use a desk phone that will work without putting up a fight.
+So I guess I’ll try out a Polycom or a Grandstream or something.&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusions&quot;&gt;Conclusions&lt;/h2&gt;
+
+&lt;p&gt;I’ve put many hours into this project, and I still don’t have a working connection to Hamshack
+Hotline! I guess I’m getting what I paid for. Still, I’ve learned a lot.&lt;/p&gt;</content><author><name></name></author><summary type="html">I’ve used VoIP a couple of times in conjuction with ham radio for supporting public events; some troubleshooting problems lend themselves to full duplex communication better than PTT radios. Until now I hadn’t really considered setting up something for myself, but then I learned about Hamshack Hotline. It’s a collective of VoIP geeks running their own phone network, and it even has links into RF repeaters and such. Neat!</summary></entry><entry><title type="html">On Hiatus</title><link href="https://k0swe.radio/2022/10/15/hiatus.html" rel="alternate" type="text/html" title="On Hiatus" /><published>2022-10-15T00:00:00+00:00</published><updated>2022-10-15T00:00:00+00:00</updated><id>https://k0swe.radio/2022/10/15/hiatus</id><content type="html" xml:base="https://k0swe.radio/2022/10/15/hiatus.html">&lt;p&gt;&lt;a href=&quot;https://commons.wikimedia.org/wiki/File:Moving-boxes.jpg&quot;&gt;&lt;img src=&quot;/assets/moving-boxes.jpeg&quot; alt=&quot;Moving boxes&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;My family and I are moving! It’s only a short distance, but it still means I need to take down all
 of the permanently installed shack components like my QTH antennas. I’ll have to rely on my mobile
@@ -176,30 +257,4 @@ contributor to Pat, and it was great to sing its virtues to another crowd.&lt;/p
 it tomorrow at &lt;a href=&quot;https://www.rmham.org/rocky-mountain-ham-university/&quot;&gt;RMHAM University&lt;/a&gt; Nerdfest.
 [Edit: here’s the &lt;a href=&quot;https://youtu.be/fSGivCXoU_0&quot;&gt;video link&lt;/a&gt;!]&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/2022-02-12-winlink-in-a-box-inside.jpg&quot; alt=&quot;Winlink in a Box inside&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Winlink in a Box</title><link href="https://k0swe.radio/2022/01/17/winlink-box.html" rel="alternate" type="text/html" title="Winlink in a Box" /><published>2022-01-17T00:00:00+00:00</published><updated>2022-01-17T00:00:00+00:00</updated><id>https://k0swe.radio/2022/01/17/winlink-box</id><content type="html" xml:base="https://k0swe.radio/2022/01/17/winlink-box.html">&lt;p&gt;&lt;img src=&quot;/assets/2022-01-15-ARES-pod.jpg&quot; alt=&quot;ARES Pod&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Saturday was the &lt;a href=&quot;http://ncarc.net/&quot;&gt;NCARC&lt;/a&gt; Winter Hamfest up in Loveland, Colorado, and the first
-in-person hamfest locally in a good long while. Even with masking and whatnot, it was wonderful to
-be back in person to see folks. I spent most of my time at talks. I got a proper introduction to
-amateur television from Jim KH6HTV, and that looks like something I’ll have to play with soon! I
-also really enjoyed an EmComm talk from Jim AD0ZM, and was particularly interested in the
-communications pod he had on display. Sure, I’ve seen pods like it before, but I was reminded that
-one of the really nice points about them is that it simplifies setup onsite.&lt;/p&gt;
-
-&lt;p&gt;Seeing Jim’s EmComm talk got me back in the thought process of working on Pat integration with VARA.
-Pat is sorely lacking VARA support which limits its utility to EmComm folks, and the project has
-been languishing. Seeing the pod got me thinking about the reasons I’ve been dragging my feet with
-the VARA integration. One of my biggest excuses (for excuse it is) is that setting up both the RMS
-station to test against as well as the client station is a lot of toil. It’s not that hard, but it
-takes a lot of connecting wires, booting programs and tuning gain levels before I can even start
-making any headway. And because I don’t have a lot of space, I inevitably have to take the whole
-thing apart within a day or two.&lt;/p&gt;
-
-&lt;p&gt;So my next (hopefully quick) project to springboard me back into Pat+VARA is going to be &lt;strong&gt;Winlink
-in a Box&lt;/strong&gt;. I want to take an HT, a soundcard interface and a Raspberry Pi and semi-permanently fix
-them in an ammo can. The can should have a power plug on one end, an antenna port on the other, and
-it should just work when I power it on. Seal it up so I don’t have to touch the gain knobs, set all
-of the software programs to start on boot, and go from zero to working Winlink RMS on VHF VARA FM
-within about 60 seconds. All of my work on &lt;a href=&quot;https://k0swe.radio/pipat&quot;&gt;PiPat&lt;/a&gt; a few years ago will
-help, although I’ll no longer be relying on the TNC-Pi. The TNC-Pi only works for AX.25, and for my
-purpose I need VARA FM.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry></feed>
+&lt;p&gt;&lt;img src=&quot;/assets/2022-02-12-winlink-in-a-box-inside.jpg&quot; alt=&quot;Winlink in a Box inside&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry></feed>

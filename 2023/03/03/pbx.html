@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Getting started with Hamshack Hotline and FreePBX | K0SWE Blog</title>
+<meta name="generator" content="Jekyll v3.9.2" />
+<meta property="og:title" content="Getting started with Hamshack Hotline and FreePBX" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="I’ve used VoIP a couple of times in conjuction with ham radio for supporting public events; some troubleshooting problems lend themselves to full duplex communication better than PTT radios. Until now I hadn’t really considered setting up something for myself, but then I learned about Hamshack Hotline. It’s a collective of VoIP geeks running their own phone network, and it even has links into RF repeaters and such. Neat!" />
+<meta property="og:description" content="I’ve used VoIP a couple of times in conjuction with ham radio for supporting public events; some troubleshooting problems lend themselves to full duplex communication better than PTT radios. Until now I hadn’t really considered setting up something for myself, but then I learned about Hamshack Hotline. It’s a collective of VoIP geeks running their own phone network, and it even has links into RF repeaters and such. Neat!" />
+<link rel="canonical" href="https://k0swe.radio/2023/03/03/pbx.html" />
+<meta property="og:url" content="https://k0swe.radio/2023/03/03/pbx.html" />
+<meta property="og:site_name" content="K0SWE Blog" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2023-03-03T00:00:00+00:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Getting started with Hamshack Hotline and FreePBX" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2023-03-03T00:00:00+00:00","datePublished":"2023-03-03T00:00:00+00:00","description":"I’ve used VoIP a couple of times in conjuction with ham radio for supporting public events; some troubleshooting problems lend themselves to full duplex communication better than PTT radios. Until now I hadn’t really considered setting up something for myself, but then I learned about Hamshack Hotline. It’s a collective of VoIP geeks running their own phone network, and it even has links into RF repeaters and such. Neat!","headline":"Getting started with Hamshack Hotline and FreePBX","mainEntityOfPage":{"@type":"WebPage","@id":"https://k0swe.radio/2023/03/03/pbx.html"},"url":"https://k0swe.radio/2023/03/03/pbx.html"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="https://k0swe.radio/feed.xml" title="K0SWE Blog" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">K0SWE Blog</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/about">About</a><a class="page-link" href="/army">Army</a><a class="page-link" href="/links">Links</a><a class="page-link" href="/pipat">PiPat</a><a class="page-link" href="/winlink-in-a-box">Winlink in a Box</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Getting started with Hamshack Hotline and FreePBX</h1>
+    <p class="post-meta"><time
+        class="dt-published"
+        datetime="2023-03-03T00:00:00+00:00"
+        itemprop="datePublished"
+      >
+        Mar 3, 2023
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody"><p>I’ve used VoIP a couple of times in conjuction with ham radio for supporting public events; some
+troubleshooting problems lend themselves to full duplex communication better than PTT radios. Until
+now I hadn’t really considered setting up something for myself, but then I learned about
+<a href="https://hamshackhotline.com/">Hamshack Hotline</a>. It’s a collective of VoIP geeks running their own
+phone network, and it even has links into RF repeaters and such. Neat!</p>
+
+<p>HH keeps a list of
+<a href="https://wiki.hamshackhotline.com/doku.php?id=kb:supported.endpoints">fully supported devices</a>, but
+I was somewhat drawn to an unsupported device, a Cisco 7900 series, for nostalgic reasons (it’s what
+I supported in the Army) as well as cost (~$20 on eBay). Because of this, I was directed down the
+road of setting up my own local PBX with a trunk connection to HH. How hard could that be?</p>
+
+<h2 id="freepbx-initial-setup">FreePBX initial setup</h2>
+
+<p>Download https://www.freepbx.org/. I used the ISO image to create a VM for testing. Create an admin
+account and do basic configuration.
+<a href="https://www.youtube.com/playlist?list=PL1fn6oC5ndU_umAhL9A_1zkC90hMPDPNO">This YouTube series</a> goes
+in-depth about the entire process.</p>
+
+<p>Then add some phone extensions. <a href="https://youtu.be/ME1fCwJNes8">This video on creating extensions</a>
+was particularly useful. I also found it very helpful to register a couple of software phone
+clients, which were relatively easy, before moving on to dealing with Cisco “legacy” hardware
+issues.</p>
+
+<h2 id="cisco-7965g-setup">Cisco 7965G setup</h2>
+
+<p>Download
+<a href="https://software.cisco.com/download/home/281346596/type/282074288/release/9.4(2)SR3">SIP Firmware</a>.
+You need SIP firmware. Some folks advise to use v8 or v9, but both worked for me. You need the
+“firmware files only” zip file. Unzip the files.</p>
+
+<p>The firmware files need to be served by a TFTP server. I used <code class="language-plaintext highlighter-rouge">tftpd-hap</code> on my workstation.</p>
+
+<p>Your DHCP server needs to advertise the TFTP server. My DHCP server is running on my MikroTik
+router. At first I tried setting “DHCP option 150,” but that didn’t seem to work; I could see in
+MikroTik WinBox that the phone kept rejecting DHCP offers. Instead I set the “next-server” option,
+which worked.</p>
+
+<p>Follow the steps below to factory reset your Cisco IP phone and get it to download the new firmware.
+Here’s a <a href="https://youtu.be/xcpJFfuSh7g">good video</a>.</p>
+
+<ol>
+  <li>Unplug the power cable from the IP phone and then plug it back in.</li>
+  <li>While the phone is powering up, and before the speaker button flashes on and off, press and hold
+the pound # key.</li>
+  <li>Continue to hold # until each line button (right of the LCD screen) flashes on and off in
+sequence in orange color.</li>
+  <li>Now release the pound # key and type the following sequence <code class="language-plaintext highlighter-rouge">123456789*0#</code></li>
+</ol>
+
+<p>(On the first phone I tried, I had a hardware issue: I’d start typing the 123… sequence and the
+phone would start booting normally before I could finish. Luckily, I bought two, and the other phone
+behaved as intended.)</p>
+
+<p>The phone should show “Upgrading” and the MAC address on the screen. It will download the firmware
+files one by one and show its progress. After the last file is downloaded, the phone will reboot and
+the firmware upgrade is complete.</p>
+
+<p>At this point, you need to configure the phone by downloading and modifying an
+<a href="https://usecallmanager.nz/sepmac-cnf-xml.html">XML file</a>, renaming it to <code class="language-plaintext highlighter-rouge">SEP{MAC_ADDRESS}.cfg.xml</code>
+and putting that on your TFTP server. The XML file at a minimum needs to specify the SIP server
+address, username and password. Many other config options are available. As I was iterating on the
+config file, I found it useful to modify the value in <code class="language-plaintext highlighter-rouge">&lt;phoneLabel&gt;</code> so I could easily tell if the
+phone had downloaded my latest version.</p>
+
+<p>After all this, I was stuck for a while with the Cisco phone unable to register with the FreePBX
+server despite having picked up its configuration file. I found advice to find the <code class="language-plaintext highlighter-rouge">force_rport</code>
+setting within FreePBX/Asterisk for that phone’s extension advanced settings and turn that setting
+“off”; that made it so I could call out from the Cisco phone, but was unable to receive calls. I
+also tried enabling TCP for the Asterisk server and forcing that extension to use it; still no dice.</p>
+
+<p>This is where the story takes a turn for the worse: I asked for advice from some of my ham friends,
+some of whom are VoIP professionals, and their advice was to abandon all hope. Cisco phones are
+apparently very nice in an enterprise setting with their proprietary controller, but are not really
+suitable for hobbyists. Yes, they can be made to work, but are not worth the time to set up and keep
+running. It’s better, my friends say, to use a desk phone that will work without putting up a fight.
+So I guess I’ll try out a Polycom or a Grandstream or something.</p>
+
+<h2 id="conclusions">Conclusions</h2>
+
+<p>I’ve put many hours into this project, and I still don’t have a working connection to Hamshack
+Hotline! I guess I’m getting what I paid for. Still, I’ve learned a lot.</p>
+</div>
+
+  <div class="post-nav">
+    <p>
+      
+      <a href="/2022/10/15/hiatus.html">&#8672;&nbsp;On Hiatus</a>
+      
+    </p>
+    <p>
+      
+    </p>
+  </div><a class="u-url" href="/2023/03/03/pbx.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">K0SWE Blog</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">K0SWE Blog</li><li><a class="u-email" href="mailto:k0swe@arrl.net">k0swe@arrl.net</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://github.com/xylo04"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">xylo04</span></a></li></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>Events and projects for amateur radio operator K0SWE, a.k.a. Chris.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
