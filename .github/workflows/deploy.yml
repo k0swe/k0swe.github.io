@@ -24,7 +24,7 @@ jobs:
           path: _site
 
       - name: Setup Ruby
-        uses: ruby/setup-ruby@v1.151.0
+        uses: ruby/setup-ruby@v1.152.0
 
       # Runs a single command using the runners shell
       - name: Run Jekyll build and deploy
