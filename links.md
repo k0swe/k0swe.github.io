@@ -26,7 +26,7 @@ find them useful as well!
 - [Rocky Mountain Ham Radio](https://www.rmham.org/) - a sort of "meta club" providing services to
   other clubs
 
-## Other Denver/Boulder area groups and resources
+### Other Denver/Boulder area groups and resources
 
 - [Colorado ARES R1D6](https://www.coaresr1d6.org/) - Jefferson, Clear Creek and Gilpin Counties
 - [Colorado ARES R1D3](http://bouldercountyares.org/) - Boulder and Broomfield Counties
@@ -39,6 +39,13 @@ find them useful as well!
   FM radio system with additional coverage into adjacent states"
 - [Colorado Council of Amateur Radio Clubs](https://www.ccarc.net/) - Regional frequency coordinator
 - [Ham Radio Outlet](https://goo.gl/maps/oTeGpAFZ2uiRnNNu6) - physical store in Aurora
+
+## Radio and Broadcasting History
+
+- [Business Studies: Broadcasting and Its History](https://wyomingllcattorney.com/Blog/Business-Studies-Broadcasting-History) -
+  Thank you to Ms. Garraway and Noah for pointing this out, it's super interesting!
+- [AT&T Long Lines – A Forgotten System](https://personal.garrettfuller.org/blog/2018/01/19/att-long-lines-a-forgotten-system/) -
+  Many of RMHAM's tower sites are former Long Lines sites!
 
 ## Digital Modes/Networks
 
