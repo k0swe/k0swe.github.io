@@ -42,10 +42,10 @@ find them useful as well!
 
 ## Radio and Broadcasting History
 
-- [AT&T Long Lines – A Forgotten System](https://personal.garrettfuller.org/blog/2018/01/19/att-long-lines-a-forgotten-system/) -
-  Many of RMHAM's tower sites are former Long Lines sites!
 - [Business Studies: Broadcasting and Its History](https://wyomingllcattorney.com/Blog/Business-Studies-Broadcasting-History) -
   Thank you to Ms. Garraway and Noah for pointing this out, it's super interesting!
+- [AT&T Long Lines – A Forgotten System](https://personal.garrettfuller.org/blog/2018/01/19/att-long-lines-a-forgotten-system/) -
+  Many of RMHAM's tower sites are former Long Lines sites!
 
 ## Digital Modes/Networks
 
