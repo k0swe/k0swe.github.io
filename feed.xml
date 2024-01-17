@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="https://k0swe.radio/feed.xml" rel="self" type="application/atom+xml" /><link href="https://k0swe.radio/" rel="alternate" type="text/html" /><updated>2024-01-17T05:30:15+00:00</updated><id>https://k0swe.radio/feed.xml</id><title type="html">K0SWE Blog</title><subtitle>Events and projects for amateur radio operator K0SWE, a.k.a. Chris.</subtitle><entry><title type="html">Starting with SATRAN</title><link href="https://k0swe.radio/2023/11/25/rotator.html" rel="alternate" type="text/html" title="Starting with SATRAN" /><published>2023-11-25T00:00:00+00:00</published><updated>2023-11-25T00:00:00+00:00</updated><id>https://k0swe.radio/2023/11/25/rotator</id><content type="html" xml:base="https://k0swe.radio/2023/11/25/rotator.html">&lt;p&gt;&lt;img src=&quot;/assets/satran-grey.jpg&quot; alt=&quot;SATRAN&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="https://k0swe.radio/feed.xml" rel="self" type="application/atom+xml" /><link href="https://k0swe.radio/" rel="alternate" type="text/html" /><updated>2024-01-17T06:05:26+00:00</updated><id>https://k0swe.radio/feed.xml</id><title type="html">K0SWE Blog</title><subtitle>Events and projects for amateur radio operator K0SWE, a.k.a. Chris.</subtitle><entry><title type="html">Starting with SATRAN</title><link href="https://k0swe.radio/2023/11/25/rotator.html" rel="alternate" type="text/html" title="Starting with SATRAN" /><published>2023-11-25T00:00:00+00:00</published><updated>2023-11-25T00:00:00+00:00</updated><id>https://k0swe.radio/2023/11/25/rotator</id><content type="html" xml:base="https://k0swe.radio/2023/11/25/rotator.html">&lt;p&gt;&lt;img src=&quot;/assets/satran-grey.jpg&quot; alt=&quot;SATRAN&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Way back in 2019 I got an &lt;a href=&quot;https://k0swe.radio/2019/11/22/amsat-ariss.html&quot;&gt;introduction to AMSAT&lt;/a&gt;,
 and have been interested in making contacts ever since. I picked up an Arrow antenna,
@@ -22,7 +22,21 @@ related to OSH Park who I’ve used in the past for PCBs. However, Daniel only p
 templates, not DXF CAD drawings, so I’ll have to redraw those in CAD to be able to send them off.&lt;/p&gt;
 
 &lt;p&gt;It might take a while to gather all of the different bits and pieces of this project, but I think it
-will be rewarding to put together, especially if it gives me a workable AMSAT tool in the end!&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">ARES Catalog</title><link href="https://k0swe.radio/2023/03/29/catalog.html" rel="alternate" type="text/html" title="ARES Catalog" /><published>2023-03-29T00:00:00+00:00</published><updated>2023-03-29T00:00:00+00:00</updated><id>https://k0swe.radio/2023/03/29/catalog</id><content type="html" xml:base="https://k0swe.radio/2023/03/29/catalog.html">&lt;p&gt;It seems I’ve been roped into another project. Colorado ARES section leaders want to create a
+will be rewarding to put together, especially if it gives me a workable AMSAT tool in the end!&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Catalog Progress</title><link href="https://k0swe.radio/2023/05/26/catalog-progress.html" rel="alternate" type="text/html" title="Catalog Progress" /><published>2023-05-26T00:00:00+00:00</published><updated>2023-05-26T00:00:00+00:00</updated><id>https://k0swe.radio/2023/05/26/catalog-progress</id><content type="html" xml:base="https://k0swe.radio/2023/05/26/catalog-progress.html">&lt;p&gt;I’ve been plugging away at the &lt;a href=&quot;/2023/03/29/catalog.html&quot;&gt;ARES Catalog&lt;/a&gt; project. After negotiating
+some clearer requirements, I set out building a prototype with &lt;a href=&quot;https://nextjs.org/&quot;&gt;Next.JS&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;For the database, I started out with &lt;a href=&quot;https://www.postgresql.org/&quot;&gt;Postgres&lt;/a&gt; using the
+&lt;a href=&quot;https://www.prisma.io/nextjs&quot;&gt;Prisma&lt;/a&gt; library. I experimented at first with writing my own Next.JS
+server-side API, then using &lt;a href=&quot;https://github.com/premieroctet/next-crud&quot;&gt;Next-CRUD&lt;/a&gt; to generate the
+API. Ultimately, I abandoned this whole line of development because I realized that Postgres was
+costing me too much money for a scale-to-zero project. Since then, I switched the Next.JS app to use
+&lt;a href=&quot;https://www.mongodb.com/&quot;&gt;MongoDB&lt;/a&gt; via the &lt;a href=&quot;https://mongoosejs.com/&quot;&gt;Mongoose&lt;/a&gt; library.&lt;/p&gt;
+
+&lt;p&gt;The app’s core functionality has been coming along. I’ve imported the ICS 217s from Ben’s
+spreadsheets into the database and can display those, both in nice web tables as well as a printable
+view that closely matches the printed forms. Still, I can’t help but feel like my progress has been
+much slower trying to learn React than if I’d stayed in my comfort zone with Angular. React just
+hasn’t “clicked” for me yet.&lt;/p&gt;</content><author><name></name></author><summary type="html">I’ve been plugging away at the ARES Catalog project. After negotiating some clearer requirements, I set out building a prototype with Next.JS.</summary></entry><entry><title type="html">ARES Catalog</title><link href="https://k0swe.radio/2023/03/29/catalog.html" rel="alternate" type="text/html" title="ARES Catalog" /><published>2023-03-29T00:00:00+00:00</published><updated>2023-03-29T00:00:00+00:00</updated><id>https://k0swe.radio/2023/03/29/catalog</id><content type="html" xml:base="https://k0swe.radio/2023/03/29/catalog.html">&lt;p&gt;It seems I’ve been roped into another project. Colorado ARES section leaders want to create a
 catalog of important information for use by ARES groups across the state. It will include things
 like ICS 217s describing all of the repeaters and channels used by each group, ICS 205s to break
 those channels down per-event, and ICS 205As with contact information of event personnel. I’ve been
@@ -255,39 +269,4 @@ was fantastic!&lt;/p&gt;
 
 &lt;p&gt;Kaylee and I only stayed for a few hours, but I think I have a partner in crime to convince the rest
 of the family to come make a camping/RV trip next year! I’ll have to start working with Kaylee on
-getting her own callsign, too.&lt;/p&gt;</content><author><name></name></author><summary type="html">Yesterday, my daughter Kaylee and I drove up to Park County, Colorado to take part in Rocky Mountain Ham Radio’s expedition for ARRL Field Day! Despite hanging out with RMHAM for a few years now, this is the first time I’ve made the pilgrimage. The site is an empty mountain residential lot about 2 hours from metro Denver where I live, so it’s a bit of a trek. However, it was definitely worth it!</summary></entry><entry><title type="html">Dirty 30</title><link href="https://k0swe.radio/2022/06/04/dirty30.html" rel="alternate" type="text/html" title="Dirty 30" /><published>2022-06-04T00:00:00+00:00</published><updated>2022-06-04T00:00:00+00:00</updated><id>https://k0swe.radio/2022/06/04/dirty30</id><content type="html" xml:base="https://k0swe.radio/2022/06/04/dirty30.html">&lt;p&gt;&lt;img src=&quot;/assets/2022-06-02-CLR.jpg&quot; alt=&quot;City Lights Ridge site&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Yesterday was the &lt;a href=&quot;https://dirty30.org/&quot;&gt;Golden Gate Dirty 30&lt;/a&gt; ultramarathon. It’s always an annual
-highlight for Colorado amateur radio emergency organizations because it takes many of our teams
-coming together to support this complex event. Hundreds of crazy runners (this year it was
-about 300) attempt the 30 mile/50 kilometer course through 7,000 feet/2,100 meters of elevation
-climb and descent in a mountainous park with very little cell phone coverage. The ham team’s job is
-to make sure every one of them comes down off the mountain before it gets dark.&lt;/p&gt;
-
-&lt;p&gt;On Thursday, the &lt;a href=&quot;https://www.rmham.org/&quot;&gt;Rocky Mountain Ham&lt;/a&gt; tech team was on-site early setting up
-our IP-over-microwave network. We use the network to connect the 4 aid stations and one mountaintop
-checkpoint to the command center at the start/finish line. Each of these sites has RFID readers that
-can read the runners’ bibs and check them in as they run past. We also need one more site that the
-runners never see: a central point that can see most of the others by line-of-sight which gets set
-up on City Lights Ridge.&lt;/p&gt;
-
-&lt;p&gt;This was the second year that City Lights Ridge was my responsibility. About six of us hiked
-equipment up to the site and got it all set up and aligned with the other sites. After that, it was
-my job to monitor the network and make sure everything stayed running through the race Friday.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/2022-06-02-k0swe.jpg&quot; alt=&quot;cping&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;For monitoring the network, I made use of &lt;a href=&quot;https://prinmath.com/ham/cping.zip&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cping&lt;/code&gt;&lt;/a&gt; written by
-one of my mentors, Willem &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;AC0KQ&lt;/code&gt;. It’s a command-line utility that will simply ping a number of
-configured IP addresses every so often (default 2 seconds) and display the latency over time as
-different colored characters. It’s simple and effective at looking for problems on a medium-size
-network like this. Since our network runs almost all MikroTik networking gear, I also made heavy use
-of MikroTik WinBox for configuring radios and routers.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/2022-06-02-cping.jpg&quot; alt=&quot;cping&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;On Friday, the race went mostly without a hitch. Toward the afternoon we started getting some
-thunderstorms, and that caused me to pack up my personal belongings and leave the site unattended
-earlier than I expected, and also caused the Windy Peak checkpoint folks to pack up before a couple
-of the runners made it. But we kept accountability of everyone and accomplished our mission, which
-in turn allowed the runners to have fun and made the event a success. That’s all we can ask for!&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry></feed>
+getting her own callsign, too.&lt;/p&gt;</content><author><name></name></author><summary type="html">Yesterday, my daughter Kaylee and I drove up to Park County, Colorado to take part in Rocky Mountain Ham Radio’s expedition for ARRL Field Day! Despite hanging out with RMHAM for a few years now, this is the first time I’ve made the pilgrimage. The site is an empty mountain residential lot about 2 hours from metro Denver where I live, so it’s a bit of a trek. However, it was definitely worth it!</summary></entry></feed>
