@@ -1,4 +1,27 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="https://k0swe.radio/feed.xml" rel="self" type="application/atom+xml" /><link href="https://k0swe.radio/" rel="alternate" type="text/html" /><updated>2024-01-16T23:09:38+00:00</updated><id>https://k0swe.radio/feed.xml</id><title type="html">K0SWE Blog</title><subtitle>Events and projects for amateur radio operator K0SWE, a.k.a. Chris.</subtitle><entry><title type="html">Getting started with Hamshack Hotline and FreePBX</title><link href="https://k0swe.radio/2023/03/03/pbx.html" rel="alternate" type="text/html" title="Getting started with Hamshack Hotline and FreePBX" /><published>2023-03-03T00:00:00+00:00</published><updated>2023-03-03T00:00:00+00:00</updated><id>https://k0swe.radio/2023/03/03/pbx</id><content type="html" xml:base="https://k0swe.radio/2023/03/03/pbx.html">&lt;p&gt;I’ve used VoIP a couple of times in conjuction with ham radio for supporting public events; some
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="https://k0swe.radio/feed.xml" rel="self" type="application/atom+xml" /><link href="https://k0swe.radio/" rel="alternate" type="text/html" /><updated>2024-01-17T03:36:15+00:00</updated><id>https://k0swe.radio/feed.xml</id><title type="html">K0SWE Blog</title><subtitle>Events and projects for amateur radio operator K0SWE, a.k.a. Chris.</subtitle><entry><title type="html">Starting with SATRAN</title><link href="https://k0swe.radio/2023/11/25/rotator.html" rel="alternate" type="text/html" title="Starting with SATRAN" /><published>2023-11-25T00:00:00+00:00</published><updated>2023-11-25T00:00:00+00:00</updated><id>https://k0swe.radio/2023/11/25/rotator</id><content type="html" xml:base="https://k0swe.radio/2023/11/25/rotator.html">&lt;p&gt;&lt;img src=&quot;/assets/satran-grey.jpg&quot; alt=&quot;SATRAN&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Way back in 2019 I got an &lt;a href=&quot;https://k0swe.radio/2019/11/22/amsat-ariss.html&quot;&gt;introduction to AMSAT&lt;/a&gt;,
+and have been interested in making contacts ever since. I picked up an Arrow antenna, collected some
+telemetry, and even tried making QSOs once, but the extreme level of multitasking was overwhelming.
+The one thing I’ve been really keen to automate has been tracking: keeping the antenna pointed at
+the satellite throughout its pass. Automating that part requires an azimuth-elevation (az/el)
+rotator. The most well-known option for that is the Yaesu G-5500 rotator which retails new for about
+$700, too expensive to justify using once or twice while I see if I enjoy working AMSAT regularly.
+I’ve kept my eyes open for lighter-weight options, and one that stuck out was
+&lt;a href=&quot;https://satran.io&quot;&gt;SATRAN&lt;/a&gt; by Daniel Nikolajsen, SM7YSA. For a while, it was sold as a kit, but
+mainly in Europe and explicitly not to the US or Canada.&lt;/p&gt;
+
+&lt;p&gt;Well, it seems SATRAN is no longer being sold as a kit, but the plans to build it are available, so
+I’ve finally decided to build my own. Daniel published pretty much everything necessary to get it
+going: STL files to 3D print the enclosure, Gerber files to order PCBs, scale drawings to cut sheet
+metal parts, and firmware code. I’ve spent some time reverse-engineering which electrical components
+need to go on the PCBs, as well as started prepping and 3D printing the housing. For the two sheet
+metal parts, there’s a service called OSH Cut that I think I’ll try. They seem to be tangentially
+related to OSH Park who I’ve used in the past for PCBs. However, Daniel only published PDF printable
+templates, not DXF CAD drawings, so I’ll have to redraw those in CAD to be able to send them off.&lt;/p&gt;
+
+&lt;p&gt;It might take a while to gather all of the different bits and pieces of this project, but I think it
+will be rewarding to put together, especially if it gives me a workable AMSAT tool in the end!&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Getting started with Hamshack Hotline and FreePBX</title><link href="https://k0swe.radio/2023/03/03/pbx.html" rel="alternate" type="text/html" title="Getting started with Hamshack Hotline and FreePBX" /><published>2023-03-03T00:00:00+00:00</published><updated>2023-03-03T00:00:00+00:00</updated><id>https://k0swe.radio/2023/03/03/pbx</id><content type="html" xml:base="https://k0swe.radio/2023/03/03/pbx.html">&lt;p&gt;I’ve used VoIP a couple of times in conjuction with ham radio for supporting public events; some
 troubleshooting problems lend themselves to full duplex communication better than PTT radios. Until
 now I hadn’t really considered setting up something for myself, but then I learned about
 &lt;a href=&quot;https://hamshackhotline.com/&quot;&gt;Hamshack Hotline&lt;/a&gt;. It’s a collective of VoIP geeks running their own
@@ -252,11 +275,4 @@ contributor to Pat, and it was great to sing its virtues to another crowd.&lt;/p
   &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=oiqAAfBgPCo&quot;&gt;Chris Keller K0SWE - Winlink Protocols and Pat&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=iLtap7mNnyU&quot;&gt;John Maxwell W0VG - RMS Trimode&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=LCItApXlPPo&quot;&gt;Willem Schreuder AC0KQ - BPQ&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">Earlier today I was one of the presenters at another RMHAM University session: Data Transmission via Radio. I joined John W0VG, Willem AC0KQ and Gary WB5PJB in talking about the Winlink email ecosystem from many different angles.</summary></entry><entry><title type="html">Winlink in a Box Presentation</title><link href="https://k0swe.radio/2022/02/11/winlink-box-preso.html" rel="alternate" type="text/html" title="Winlink in a Box Presentation" /><published>2022-02-11T00:00:00+00:00</published><updated>2022-02-11T00:00:00+00:00</updated><id>https://k0swe.radio/2022/02/11/winlink-box-preso</id><content type="html" xml:base="https://k0swe.radio/2022/02/11/winlink-box-preso.html">&lt;p&gt;&lt;img src=&quot;/assets/2022-02-11-winlink-in-a-box.jpg&quot; alt=&quot;Winlink in a Box&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Winlink in a Box&lt;/strong&gt; is complete, at least as a first iteration. And just in time; I’m going to
-&lt;a href=&quot;https://docs.google.com/presentation/d/1UEEDvDSZwf8X8w8VF07k1LM9I49G5oY94te-oSxsug8/edit?usp=sharing&quot;&gt;present&lt;/a&gt;
-it tomorrow at &lt;a href=&quot;https://www.rmham.org/rocky-mountain-ham-university/&quot;&gt;RMHAM University&lt;/a&gt; Nerdfest.
-[Edit: here’s the &lt;a href=&quot;https://youtu.be/fSGivCXoU_0&quot;&gt;video link&lt;/a&gt;!]&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/2022-02-12-winlink-in-a-box-inside.jpg&quot; alt=&quot;Winlink in a Box inside&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry></feed>
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">Earlier today I was one of the presenters at another RMHAM University session: Data Transmission via Radio. I joined John W0VG, Willem AC0KQ and Gary WB5PJB in talking about the Winlink email ecosystem from many different angles.</summary></entry></feed>
