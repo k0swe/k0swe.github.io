@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="https://k0swe.radio/feed.xml" rel="self" type="application/atom+xml" /><link href="https://k0swe.radio/" rel="alternate" type="text/html" /><updated>2024-01-17T03:39:53+00:00</updated><id>https://k0swe.radio/feed.xml</id><title type="html">K0SWE Blog</title><subtitle>Events and projects for amateur radio operator K0SWE, a.k.a. Chris.</subtitle><entry><title type="html">Starting with SATRAN</title><link href="https://k0swe.radio/2023/11/25/rotator.html" rel="alternate" type="text/html" title="Starting with SATRAN" /><published>2023-11-25T00:00:00+00:00</published><updated>2023-11-25T00:00:00+00:00</updated><id>https://k0swe.radio/2023/11/25/rotator</id><content type="html" xml:base="https://k0swe.radio/2023/11/25/rotator.html">&lt;p&gt;&lt;img src=&quot;/assets/satran-grey.jpg&quot; alt=&quot;SATRAN&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="https://k0swe.radio/feed.xml" rel="self" type="application/atom+xml" /><link href="https://k0swe.radio/" rel="alternate" type="text/html" /><updated>2024-01-17T04:18:35+00:00</updated><id>https://k0swe.radio/feed.xml</id><title type="html">K0SWE Blog</title><subtitle>Events and projects for amateur radio operator K0SWE, a.k.a. Chris.</subtitle><entry><title type="html">Starting with SATRAN</title><link href="https://k0swe.radio/2023/11/25/rotator.html" rel="alternate" type="text/html" title="Starting with SATRAN" /><published>2023-11-25T00:00:00+00:00</published><updated>2023-11-25T00:00:00+00:00</updated><id>https://k0swe.radio/2023/11/25/rotator</id><content type="html" xml:base="https://k0swe.radio/2023/11/25/rotator.html">&lt;p&gt;&lt;img src=&quot;/assets/satran-grey.jpg&quot; alt=&quot;SATRAN&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Way back in 2019 I got an &lt;a href=&quot;https://k0swe.radio/2019/11/22/amsat-ariss.html&quot;&gt;introduction to AMSAT&lt;/a&gt;,
 and have been interested in making contacts ever since. I picked up an Arrow antenna,
@@ -105,7 +105,37 @@ So I guess I’ll try out a Polycom or a Grandstream or something.&lt;/p&gt;
 &lt;h2 id=&quot;conclusions&quot;&gt;Conclusions&lt;/h2&gt;
 
 &lt;p&gt;I’ve put many hours into this project, and I still don’t have a working connection to Hamshack
-Hotline! I guess I’m getting what I paid for. Still, I’ve learned a lot.&lt;/p&gt;</content><author><name></name></author><summary type="html">I’ve used VoIP a couple of times in conjuction with ham radio for supporting public events; some troubleshooting problems lend themselves to full duplex communication better than PTT radios. Until now I hadn’t really considered setting up something for myself, but then I learned about Hamshack Hotline. It’s a collective of VoIP geeks running their own phone network, and it even has links into RF repeaters and such. Neat!</summary></entry><entry><title type="html">On Hiatus</title><link href="https://k0swe.radio/2022/10/15/hiatus.html" rel="alternate" type="text/html" title="On Hiatus" /><published>2022-10-15T00:00:00+00:00</published><updated>2022-10-15T00:00:00+00:00</updated><id>https://k0swe.radio/2022/10/15/hiatus</id><content type="html" xml:base="https://k0swe.radio/2022/10/15/hiatus.html">&lt;p&gt;&lt;a href=&quot;https://commons.wikimedia.org/wiki/File:Moving-boxes.jpg&quot;&gt;&lt;img src=&quot;/assets/moving-boxes.jpeg&quot; alt=&quot;Moving boxes&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+Hotline! I guess I’m getting what I paid for. Still, I’ve learned a lot.&lt;/p&gt;</content><author><name></name></author><summary type="html">I’ve used VoIP a couple of times in conjuction with ham radio for supporting public events; some troubleshooting problems lend themselves to full duplex communication better than PTT radios. Until now I hadn’t really considered setting up something for myself, but then I learned about Hamshack Hotline. It’s a collective of VoIP geeks running their own phone network, and it even has links into RF repeaters and such. Neat!</summary></entry><entry><title type="html">Prepping for W1AW/0 Colorado</title><link href="https://k0swe.radio/2023/02/25/w1aw0.html" rel="alternate" type="text/html" title="Prepping for W1AW/0 Colorado" /><published>2023-02-25T00:00:00+00:00</published><updated>2023-02-25T00:00:00+00:00</updated><id>https://k0swe.radio/2023/02/25/w1aw0</id><content type="html" xml:base="https://k0swe.radio/2023/02/25/w1aw0.html">&lt;p&gt;A few days ago I was posed a question by some friends who happen to currently be ARRL section
+leaders for Colorado.&lt;/p&gt;
+
+&lt;p&gt;This year the ARRL has a special event called Volunteers On The Air, VOTA. As part of that program,
+each section will have a couple of week-long blocks at at points through the year to operate with
+the callsign “W1AW portable,” which is a very special honor! However, each section needs to organize
+their own operators.&lt;/p&gt;
+
+&lt;p&gt;So coming up in May, we need to have skilled Colorado operators lined up to take shifts to operate
+as many bands and modes as possible for 7 consecutive days. However, the ARRL didn’t perscribe how
+exactly we should manage those logistics. There’s an online tool available that was developed by
+another section, but my friends weren’t impressed; it’s sort of a “Contact Us” form with a text
+field for the operator’s callsign and dropdowns for their requested date, time, band and mode.
+Submitting the form sends the information to who-knows-where, operators have to fill out this form
+once for each shift they pick up, and have no visibility as to who else might want to operate at
+that time.&lt;/p&gt;
+
+&lt;p&gt;My friends thought maybe Colorado could come up with something better. And I agree.&lt;/p&gt;
+
+&lt;p&gt;So I’ve spent the past few days building a web app basically from scratch, but leveraging some of my
+work on &lt;a href=&quot;https://github.com/k0swe/forester&quot;&gt;Forester&lt;/a&gt;. The new app will also be written in Angular
+Typescript and use Firebase for storage and cloud functions. The basic idea is for operators to sign
+up with an account and get approved by one of the section leaders. Once they’re approved, they can
+view the entire shift schedule by day, band and mode. They can see who’s operating around them, and
+they can reserve shifts (or cancel) with a single click. And because I’m using Firestore’s realtime
+capabilities, users can watch the shifts get reserved and freed up immediately without a page
+refresh.&lt;/p&gt;
+
+&lt;p&gt;The tool is still pretty early in development, but I feel like we’ve already leveled up over what’s
+out there. Plus, it’s open-source, so other sections can adopt it if they’re interested. Check out
+my &lt;a href=&quot;https://github.com/k0swe/w1aw-schedule&quot;&gt;W1AW/0 Colorado Scheduler&lt;/a&gt; on GitHub.&lt;/p&gt;</content><author><name></name></author><summary type="html">A few days ago I was posed a question by some friends who happen to currently be ARRL section leaders for Colorado.</summary></entry><entry><title type="html">On Hiatus</title><link href="https://k0swe.radio/2022/10/15/hiatus.html" rel="alternate" type="text/html" title="On Hiatus" /><published>2022-10-15T00:00:00+00:00</published><updated>2022-10-15T00:00:00+00:00</updated><id>https://k0swe.radio/2022/10/15/hiatus</id><content type="html" xml:base="https://k0swe.radio/2022/10/15/hiatus.html">&lt;p&gt;&lt;a href=&quot;https://commons.wikimedia.org/wiki/File:Moving-boxes.jpg&quot;&gt;&lt;img src=&quot;/assets/moving-boxes.jpeg&quot; alt=&quot;Moving boxes&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;My family and I are moving! It’s only a short distance, but it still means I need to take down all
 of the permanently installed shack components like my QTH antennas. I’ll have to rely on my mobile
@@ -258,22 +288,4 @@ ensure success at the race.&lt;/p&gt;</content><author><name></name></author><su
 &lt;p&gt;I made it down to &lt;a href=&quot;https://w0eno.org/&quot;&gt;Longmont Amateur Radio Club&lt;/a&gt;’s annual-once-again swapfest. I
 took my youngest daughter who had a marvelous time running around, greeting all of the vendors and
 looking at all of the bits and bobs. I didn’t find any treasures, but it was great to get some
-eyeball QSOs with folks I hadn’t seen in a while. I’m glad these events are finally starting again!&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Data Transmission via Radio</title><link href="https://k0swe.radio/2022/03/12/data-transmission.html" rel="alternate" type="text/html" title="Data Transmission via Radio" /><published>2022-03-12T00:00:00+00:00</published><updated>2022-03-12T00:00:00+00:00</updated><id>https://k0swe.radio/2022/03/12/data-transmission</id><content type="html" xml:base="https://k0swe.radio/2022/03/12/data-transmission.html">&lt;p&gt;Earlier today I was one of the presenters at another &lt;a href=&quot;https://www.rmham.org/&quot;&gt;RMHAM&lt;/a&gt; University
-session: Data Transmission via Radio. I joined John W0VG, Willem AC0KQ and Gary WB5PJB in talking
-about the Winlink email ecosystem from many different angles.&lt;/p&gt;
-
-&lt;p&gt;I was given the task of figuring out how to talk about protocols in an understandable way, and I
-hope I did the topic justice. I also had a chance to talk about my favorite little Winlink client,
-&lt;a href=&quot;https://getpat.io&quot;&gt;Pat&lt;/a&gt;. Of course, anyone who keeps up with my dealings knows that I’m a regular
-contributor to Pat, and it was great to sing its virtues to another crowd.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/queen-elizabeth-donald-trump.jpg&quot; alt=&quot;Donald Trump standing in front of Queen Elizabeth II&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Videos of all of the sessions have been posted to YouTube:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=RDUPjlm1LSs&quot;&gt;Gary Sutton WB5PJB - Basic Winlink&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=oiqAAfBgPCo&quot;&gt;Chris Keller K0SWE - Winlink Protocols and Pat&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=iLtap7mNnyU&quot;&gt;John Maxwell W0VG - RMS Trimode&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=LCItApXlPPo&quot;&gt;Willem Schreuder AC0KQ - BPQ&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">Earlier today I was one of the presenters at another RMHAM University session: Data Transmission via Radio. I joined John W0VG, Willem AC0KQ and Gary WB5PJB in talking about the Winlink email ecosystem from many different angles.</summary></entry></feed>
+eyeball QSOs with folks I hadn’t seen in a while. I’m glad these events are finally starting again!&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry></feed>
