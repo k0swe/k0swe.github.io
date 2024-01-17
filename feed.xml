@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="https://k0swe.radio/feed.xml" rel="self" type="application/atom+xml" /><link href="https://k0swe.radio/" rel="alternate" type="text/html" /><updated>2024-01-17T06:26:03+00:00</updated><id>https://k0swe.radio/feed.xml</id><title type="html">K0SWE Blog</title><subtitle>Events and projects for amateur radio operator K0SWE, a.k.a. Chris.</subtitle><entry><title type="html">Starting with SATRAN</title><link href="https://k0swe.radio/2023/11/25/rotator.html" rel="alternate" type="text/html" title="Starting with SATRAN" /><published>2023-11-25T00:00:00+00:00</published><updated>2023-11-25T00:00:00+00:00</updated><id>https://k0swe.radio/2023/11/25/rotator</id><content type="html" xml:base="https://k0swe.radio/2023/11/25/rotator.html">&lt;p&gt;&lt;img src=&quot;/assets/satran-grey.jpg&quot; alt=&quot;SATRAN&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="https://k0swe.radio/feed.xml" rel="self" type="application/atom+xml" /><link href="https://k0swe.radio/" rel="alternate" type="text/html" /><updated>2024-01-17T06:30:36+00:00</updated><id>https://k0swe.radio/feed.xml</id><title type="html">K0SWE Blog</title><subtitle>Events and projects for amateur radio operator K0SWE, a.k.a. Chris.</subtitle><entry><title type="html">Starting with SATRAN</title><link href="https://k0swe.radio/2023/11/25/rotator.html" rel="alternate" type="text/html" title="Starting with SATRAN" /><published>2023-11-25T00:00:00+00:00</published><updated>2023-11-25T00:00:00+00:00</updated><id>https://k0swe.radio/2023/11/25/rotator</id><content type="html" xml:base="https://k0swe.radio/2023/11/25/rotator.html">&lt;p&gt;&lt;img src=&quot;/assets/satran-grey.jpg&quot; alt=&quot;SATRAN&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Way back in 2019 I got an &lt;a href=&quot;https://k0swe.radio/2019/11/22/amsat-ariss.html&quot;&gt;introduction to AMSAT&lt;/a&gt;,
 and have been interested in making contacts ever since. I picked up an Arrow antenna,
@@ -169,19 +169,20 @@ refresh.&lt;/p&gt;
 out there. Plus, it’s open-source, so other sections can adopt it if they’re interested. Check out
 my &lt;a href=&quot;https://github.com/k0swe/w1aw-schedule&quot;&gt;W1AW/0 Colorado Scheduler&lt;/a&gt; on GitHub.&lt;/p&gt;</content><author><name></name></author><summary type="html">A few days ago I was posed a question by some friends who happen to currently be ARRL section leaders for Colorado.</summary></entry><entry><title type="html">Entry Panel</title><link href="https://k0swe.radio/2023/02/06/entry-panel.html" rel="alternate" type="text/html" title="Entry Panel" /><published>2023-02-06T00:00:00+00:00</published><updated>2023-02-06T00:00:00+00:00</updated><id>https://k0swe.radio/2023/02/06/entry-panel</id><content type="html" xml:base="https://k0swe.radio/2023/02/06/entry-panel.html">&lt;p&gt;&lt;img src=&quot;/assets/2023-02-06-entry-panel.jpg&quot; alt=&quot;Entry panel&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;The move has been going well. We’re mostly settled in, and ham-wise I’ve been able to limp along
-with a window coax passthrough to my temporary station.&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&quot;/2022/10/15/hiatus.html&quot;&gt;move&lt;/a&gt; has been going well. We’re mostly settled in, and ham-wise I’ve
+been able to limp along with a window coax passthrough to my temporary station.&lt;/p&gt;
 
-&lt;p&gt;But today, I did the scariest thing since cutting a hole in the roof of my car: I cut a hole in the
-side of my house! I purchased an entry panel from
-&lt;a href=&quot;https://www.kf7p.com/KF7P/Welcome.html&quot;&gt;KF7P Metalwerks&lt;/a&gt;, and it looks excellent. The process of
-cutting the hole was nerve-wracking, but it went smoothly. The panel came with a section of conduit,
-so getting the panel placed correctly and weather sealed was easy. I’m very happy with the result.
-I’ll be able to establish a good ground system and run plenty of cables through the panel.&lt;/p&gt;
+&lt;p&gt;But today, I did the scariest thing since
+&lt;a href=&quot;/2019/11/02/mobile-antenna.html&quot;&gt;cutting a hole in the roof of my car&lt;/a&gt;: I cut a hole in the side of
+my house! I purchased an entry panel from &lt;a href=&quot;https://www.kf7p.com/KF7P/Welcome.html&quot;&gt;KF7P Metalwerks&lt;/a&gt;,
+and it looks excellent. The process of cutting the hole was nerve-wracking, but it went smoothly.
+The panel came with a section of conduit, so getting the panel placed correctly and weather sealed
+was easy. I’m very happy with the result. I’ll be able to establish a good ground system and run
+plenty of cables through the panel.&lt;/p&gt;
 
 &lt;p&gt;The first thing I ran through was actually an ethernet cable for a microwave hop up to Eldorado
-Mountain and directly into the RMHAM backbone! I’ll get my UHF/VHF J-pole and HF long wire set up
-soon.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">On Hiatus</title><link href="https://k0swe.radio/2022/10/15/hiatus.html" rel="alternate" type="text/html" title="On Hiatus" /><published>2022-10-15T00:00:00+00:00</published><updated>2022-10-15T00:00:00+00:00</updated><id>https://k0swe.radio/2022/10/15/hiatus</id><content type="html" xml:base="https://k0swe.radio/2022/10/15/hiatus.html">&lt;p&gt;&lt;a href=&quot;https://commons.wikimedia.org/wiki/File:Moving-boxes.jpg&quot;&gt;&lt;img src=&quot;/assets/moving-boxes.jpeg&quot; alt=&quot;Moving boxes&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+Mountain and directly into the &lt;a href=&quot;https://www.rmham.org/amateur-microwave-network/&quot;&gt;RMHAM backbone&lt;/a&gt;!
+I’ll get my UHF/VHF J-pole and HF long wire set up soon.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">On Hiatus</title><link href="https://k0swe.radio/2022/10/15/hiatus.html" rel="alternate" type="text/html" title="On Hiatus" /><published>2022-10-15T00:00:00+00:00</published><updated>2022-10-15T00:00:00+00:00</updated><id>https://k0swe.radio/2022/10/15/hiatus</id><content type="html" xml:base="https://k0swe.radio/2022/10/15/hiatus.html">&lt;p&gt;&lt;a href=&quot;https://commons.wikimedia.org/wiki/File:Moving-boxes.jpg&quot;&gt;&lt;img src=&quot;/assets/moving-boxes.jpeg&quot; alt=&quot;Moving boxes&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;My family and I are moving! It’s only a short distance, but it still means I need to take down all
 of the permanently installed shack components like my QTH antennas. I’ll have to rely on my mobile
