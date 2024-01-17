@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="https://k0swe.radio/feed.xml" rel="self" type="application/atom+xml" /><link href="https://k0swe.radio/" rel="alternate" type="text/html" /><updated>2024-01-17T06:05:26+00:00</updated><id>https://k0swe.radio/feed.xml</id><title type="html">K0SWE Blog</title><subtitle>Events and projects for amateur radio operator K0SWE, a.k.a. Chris.</subtitle><entry><title type="html">Starting with SATRAN</title><link href="https://k0swe.radio/2023/11/25/rotator.html" rel="alternate" type="text/html" title="Starting with SATRAN" /><published>2023-11-25T00:00:00+00:00</published><updated>2023-11-25T00:00:00+00:00</updated><id>https://k0swe.radio/2023/11/25/rotator</id><content type="html" xml:base="https://k0swe.radio/2023/11/25/rotator.html">&lt;p&gt;&lt;img src=&quot;/assets/satran-grey.jpg&quot; alt=&quot;SATRAN&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="https://k0swe.radio/feed.xml" rel="self" type="application/atom+xml" /><link href="https://k0swe.radio/" rel="alternate" type="text/html" /><updated>2024-01-17T06:26:03+00:00</updated><id>https://k0swe.radio/feed.xml</id><title type="html">K0SWE Blog</title><subtitle>Events and projects for amateur radio operator K0SWE, a.k.a. Chris.</subtitle><entry><title type="html">Starting with SATRAN</title><link href="https://k0swe.radio/2023/11/25/rotator.html" rel="alternate" type="text/html" title="Starting with SATRAN" /><published>2023-11-25T00:00:00+00:00</published><updated>2023-11-25T00:00:00+00:00</updated><id>https://k0swe.radio/2023/11/25/rotator</id><content type="html" xml:base="https://k0swe.radio/2023/11/25/rotator.html">&lt;p&gt;&lt;img src=&quot;/assets/satran-grey.jpg&quot; alt=&quot;SATRAN&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Way back in 2019 I got an &lt;a href=&quot;https://k0swe.radio/2019/11/22/amsat-ariss.html&quot;&gt;introduction to AMSAT&lt;/a&gt;,
 and have been interested in making contacts ever since. I picked up an Arrow antenna,
@@ -167,7 +167,21 @@ refresh.&lt;/p&gt;
 
 &lt;p&gt;The tool is still pretty early in development, but I feel like we’ve already leveled up over what’s
 out there. Plus, it’s open-source, so other sections can adopt it if they’re interested. Check out
-my &lt;a href=&quot;https://github.com/k0swe/w1aw-schedule&quot;&gt;W1AW/0 Colorado Scheduler&lt;/a&gt; on GitHub.&lt;/p&gt;</content><author><name></name></author><summary type="html">A few days ago I was posed a question by some friends who happen to currently be ARRL section leaders for Colorado.</summary></entry><entry><title type="html">On Hiatus</title><link href="https://k0swe.radio/2022/10/15/hiatus.html" rel="alternate" type="text/html" title="On Hiatus" /><published>2022-10-15T00:00:00+00:00</published><updated>2022-10-15T00:00:00+00:00</updated><id>https://k0swe.radio/2022/10/15/hiatus</id><content type="html" xml:base="https://k0swe.radio/2022/10/15/hiatus.html">&lt;p&gt;&lt;a href=&quot;https://commons.wikimedia.org/wiki/File:Moving-boxes.jpg&quot;&gt;&lt;img src=&quot;/assets/moving-boxes.jpeg&quot; alt=&quot;Moving boxes&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+my &lt;a href=&quot;https://github.com/k0swe/w1aw-schedule&quot;&gt;W1AW/0 Colorado Scheduler&lt;/a&gt; on GitHub.&lt;/p&gt;</content><author><name></name></author><summary type="html">A few days ago I was posed a question by some friends who happen to currently be ARRL section leaders for Colorado.</summary></entry><entry><title type="html">Entry Panel</title><link href="https://k0swe.radio/2023/02/06/entry-panel.html" rel="alternate" type="text/html" title="Entry Panel" /><published>2023-02-06T00:00:00+00:00</published><updated>2023-02-06T00:00:00+00:00</updated><id>https://k0swe.radio/2023/02/06/entry-panel</id><content type="html" xml:base="https://k0swe.radio/2023/02/06/entry-panel.html">&lt;p&gt;&lt;img src=&quot;/assets/2023-02-06-entry-panel.jpg&quot; alt=&quot;Entry panel&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The move has been going well. We’re mostly settled in, and ham-wise I’ve been able to limp along
+with a window coax passthrough to my temporary station.&lt;/p&gt;
+
+&lt;p&gt;But today, I did the scariest thing since cutting a hole in the roof of my car: I cut a hole in the
+side of my house! I purchased an entry panel from
+&lt;a href=&quot;https://www.kf7p.com/KF7P/Welcome.html&quot;&gt;KF7P Metalwerks&lt;/a&gt;, and it looks excellent. The process of
+cutting the hole was nerve-wracking, but it went smoothly. The panel came with a section of conduit,
+so getting the panel placed correctly and weather sealed was easy. I’m very happy with the result.
+I’ll be able to establish a good ground system and run plenty of cables through the panel.&lt;/p&gt;
+
+&lt;p&gt;The first thing I ran through was actually an ethernet cable for a microwave hop up to Eldorado
+Mountain and directly into the RMHAM backbone! I’ll get my UHF/VHF J-pole and HF long wire set up
+soon.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">On Hiatus</title><link href="https://k0swe.radio/2022/10/15/hiatus.html" rel="alternate" type="text/html" title="On Hiatus" /><published>2022-10-15T00:00:00+00:00</published><updated>2022-10-15T00:00:00+00:00</updated><id>https://k0swe.radio/2022/10/15/hiatus</id><content type="html" xml:base="https://k0swe.radio/2022/10/15/hiatus.html">&lt;p&gt;&lt;a href=&quot;https://commons.wikimedia.org/wiki/File:Moving-boxes.jpg&quot;&gt;&lt;img src=&quot;/assets/moving-boxes.jpeg&quot; alt=&quot;Moving boxes&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;My family and I are moving! It’s only a short distance, but it still means I need to take down all
 of the permanently installed shack components like my QTH antennas. I’ll have to rely on my mobile
@@ -242,31 +256,4 @@ radios, I was able to help set up the data center equipment.&lt;/p&gt;
 &lt;p&gt;We worked hard starting in the morning. By the afternoon we started to get typical Front Range
 monsoon thunderstorms which forced the crew off the tower, and we weren’t able to get the two dishes
 peaked with each other. But all of the equipment is mounted and connected in the data center, so it
-should be a simple matter to get them peaked on another day. This was a great learning experience!&lt;/p&gt;</content><author><name></name></author><summary type="html">Today I had the opportunity to help RMHAM with a site expansion. The club was recently awarded a grant from the ARDC to expand the RMHAM IP microwave network and linked DMR system. There were two teams to set up two differnt sides of a new link: Limon and Westcreek. I joined the Westcreek crew.</summary></entry><entry><title type="html">Field Day</title><link href="https://k0swe.radio/2022/06/26/field-day.html" rel="alternate" type="text/html" title="Field Day" /><published>2022-06-26T00:00:00+00:00</published><updated>2022-06-26T00:00:00+00:00</updated><id>https://k0swe.radio/2022/06/26/field-day</id><content type="html" xml:base="https://k0swe.radio/2022/06/26/field-day.html">&lt;p&gt;Yesterday, my daughter Kaylee and I drove up to Park County, Colorado to take part in
-&lt;a href=&quot;https://rmham.org/&quot;&gt;Rocky Mountain Ham Radio&lt;/a&gt;’s expedition for
-&lt;a href=&quot;http://www.arrl.org/field-day&quot;&gt;ARRL Field Day&lt;/a&gt;! Despite hanging out with RMHAM for a few years now,
-this is the first time I’ve made the pilgrimage. The site is an empty mountain residential lot about
-2 hours from metro Denver where I live, so it’s a bit of a trek. However, it was definitely worth
-it!&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/2022-06-25-site.jpg&quot; alt=&quot;Field Day site&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Kaylee and I were greeted by a small city of about 10 RVs plus several comm vans and trailers. All
-told, about 30 folks were running 3 “official” transmitters plus a few accessory ones, running
-voice, CW and FT8 over many bands.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/2022-06-25-ft8.jpg&quot; alt=&quot;Wayne N0POH and Kaylee running FT8&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Kaylee isn’t licensed yet, but she got to try out a few HF contacts at the Get-On-The-Air station!&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/2022-06-25-gota.jpg&quot; alt=&quot;Lisa K0LMH and Kaylee at GOTA&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Despite all the awesomeness happening, I think Kaylee’s favorite part of the trip was dinner! I got
-to have some eyeball QSOs (contacts) with some of my favorite folks in the community, and the food
-was fantastic!&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/2022-06-25-dinner.jpg&quot; alt=&quot;Field Day Dinner&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Kaylee and I only stayed for a few hours, but I think I have a partner in crime to convince the rest
-of the family to come make a camping/RV trip next year! I’ll have to start working with Kaylee on
-getting her own callsign, too.&lt;/p&gt;</content><author><name></name></author><summary type="html">Yesterday, my daughter Kaylee and I drove up to Park County, Colorado to take part in Rocky Mountain Ham Radio’s expedition for ARRL Field Day! Despite hanging out with RMHAM for a few years now, this is the first time I’ve made the pilgrimage. The site is an empty mountain residential lot about 2 hours from metro Denver where I live, so it’s a bit of a trek. However, it was definitely worth it!</summary></entry></feed>
+should be a simple matter to get them peaked on another day. This was a great learning experience!&lt;/p&gt;</content><author><name></name></author><summary type="html">Today I had the opportunity to help RMHAM with a site expansion. The club was recently awarded a grant from the ARDC to expand the RMHAM IP microwave network and linked DMR system. There were two teams to set up two differnt sides of a new link: Limon and Westcreek. I joined the Westcreek crew.</summary></entry></feed>
