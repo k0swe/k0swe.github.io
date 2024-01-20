@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="https://k0swe.radio/feed.xml" rel="self" type="application/atom+xml" /><link href="https://k0swe.radio/" rel="alternate" type="text/html" /><updated>2024-01-20T03:25:35+00:00</updated><id>https://k0swe.radio/feed.xml</id><title type="html">K0SWE Blog</title><subtitle>Events and projects for amateur radio operator K0SWE, a.k.a. Chris.</subtitle><entry><title type="html">Starting with SATRAN</title><link href="https://k0swe.radio/2023/11/25/rotator.html" rel="alternate" type="text/html" title="Starting with SATRAN" /><published>2023-11-25T00:00:00+00:00</published><updated>2023-11-25T00:00:00+00:00</updated><id>https://k0swe.radio/2023/11/25/rotator</id><content type="html" xml:base="https://k0swe.radio/2023/11/25/rotator.html">&lt;p&gt;&lt;img src=&quot;/assets/satran-grey.jpg&quot; alt=&quot;SATRAN&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="https://k0swe.radio/feed.xml" rel="self" type="application/atom+xml" /><link href="https://k0swe.radio/" rel="alternate" type="text/html" /><updated>2024-01-20T04:04:40+00:00</updated><id>https://k0swe.radio/feed.xml</id><title type="html">K0SWE Blog</title><subtitle>Events and projects for amateur radio operator K0SWE, a.k.a. Chris.</subtitle><entry><title type="html">Starting with SATRAN</title><link href="https://k0swe.radio/2023/11/25/rotator.html" rel="alternate" type="text/html" title="Starting with SATRAN" /><published>2023-11-25T00:00:00+00:00</published><updated>2023-11-25T00:00:00+00:00</updated><id>https://k0swe.radio/2023/11/25/rotator</id><content type="html" xml:base="https://k0swe.radio/2023/11/25/rotator.html">&lt;p&gt;&lt;img src=&quot;/assets/satran-grey.jpg&quot; alt=&quot;SATRAN&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Way back in 2019 I got an &lt;a href=&quot;https://k0swe.radio/2019/11/22/amsat-ariss.html&quot;&gt;introduction to AMSAT&lt;/a&gt;,
 and have been interested in making contacts ever since. I picked up an Arrow antenna,
@@ -22,7 +22,39 @@ related to OSH Park who I’ve used in the past for PCBs. However, Daniel only p
 templates, not DXF CAD drawings, so I’ll have to redraw those in CAD to be able to send them off.&lt;/p&gt;
 
 &lt;p&gt;It might take a while to gather all of the different bits and pieces of this project, but I think it
-will be rewarding to put together, especially if it gives me a workable AMSAT tool in the end!&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Field Day</title><link href="https://k0swe.radio/2023/06/26/field-day.html" rel="alternate" type="text/html" title="Field Day" /><published>2023-06-26T00:00:00+00:00</published><updated>2023-06-26T00:00:00+00:00</updated><id>https://k0swe.radio/2023/06/26/field-day</id><content type="html" xml:base="https://k0swe.radio/2023/06/26/field-day.html">&lt;p&gt;I’m just coming back from another fabulous Field Day spent with RMHAM! Words hardly do the event
+will be rewarding to put together, especially if it gives me a workable AMSAT tool in the end!&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">ARRL Rocky Mountain Division Convention in Albuquerque</title><link href="https://k0swe.radio/2023/08/14/albuquerque.html" rel="alternate" type="text/html" title="ARRL Rocky Mountain Division Convention in Albuquerque" /><published>2023-08-14T00:00:00+00:00</published><updated>2023-08-14T00:00:00+00:00</updated><id>https://k0swe.radio/2023/08/14/albuquerque</id><content type="html" xml:base="https://k0swe.radio/2023/08/14/albuquerque.html">&lt;p&gt;This year’s ARRL Rocky Mountain Division Convention was this past weekend in Albuquerque. The
+original planners had backed out a couple of months before their event, so the Rocky Mountain Ham
+New Mexico team quickly threw together a replacement event. I attended both because I had never been
+to a division convention before, plus to be an extra hand to the RMHAM NM team.&lt;/p&gt;
+
+&lt;p&gt;There was meant to be a &lt;a href=&quot;https://en.wikipedia.org/wiki/Very_Large_Array&quot;&gt;Very Large Array&lt;/a&gt; tour the
+Friday before the event, but unfortunately that was cancelled due to a power outage. Instead, many
+of the RMHAM Colorado folks and I travelled a short way to Los Alamos to experience the Bradbury
+Museum and the Fuller Lodge.&lt;/p&gt;
+
+&lt;p&gt;After that, the event proper was underway.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2023-08-11_22-48_tribander.JPG&quot; alt=&quot;Setting up the tribander antenna for the event station&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../assets/2023-08-12_06-28_st-pius-x.JPG&quot; alt=&quot;Most of the event was at the beautiful campus of Saint Pius X Catholic High School&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../assets/2023-08-12_07-19_event-station.JPG&quot; alt=&quot;Setting up the event station in the morning&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../assets/2023-08-12_07-30_brian.JPG&quot; alt=&quot;Brian N5ZGT was the event director&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../assets/2023-08-12_07-42_registration.JPG&quot; alt=&quot;Warm welcomes at the registration table&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../assets/2023-08-12_08-32_event-station.JPG&quot; alt=&quot;Operating the special event station&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../assets/2023-08-12_hamfest.png&quot; alt=&quot;Treasures to be found at the swap meet&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../assets/2023-08-12_08-34_prize-table.JPG&quot; alt=&quot;Everyone&apos;s excited for the prizes&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../assets/2023-08-12_12-58-classroom.jpg&quot; alt=&quot;A great slate of interesting classes&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../assets/2023-08-12_19-25-banquet.jpeg&quot; alt=&quot;At the banquet dinner we got to hear about the challenging Bouvet Island DXpedition&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../assets/2023-08-13_07-11_balloons.JPG&quot; alt=&quot;Beautiful hot air balloons as a very Albuquerque background&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">This year’s ARRL Rocky Mountain Division Convention was this past weekend in Albuquerque. The original planners had backed out a couple of months before their event, so the Rocky Mountain Ham New Mexico team quickly threw together a replacement event. I attended both because I had never been to a division convention before, plus to be an extra hand to the RMHAM NM team.</summary></entry><entry><title type="html">Field Day</title><link href="https://k0swe.radio/2023/06/26/field-day.html" rel="alternate" type="text/html" title="Field Day" /><published>2023-06-26T00:00:00+00:00</published><updated>2023-06-26T00:00:00+00:00</updated><id>https://k0swe.radio/2023/06/26/field-day</id><content type="html" xml:base="https://k0swe.radio/2023/06/26/field-day.html">&lt;p&gt;I’m just coming back from another fabulous Field Day spent with RMHAM! Words hardly do the event
 justice, so take a look at some of the pictures!&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/2023-06-23_19-03.jpg&quot; alt=&quot;Hanging out in the afternoon&quot; /&gt;&lt;/p&gt;
@@ -217,51 +249,4 @@ everything is moved.&lt;/p&gt;
 been following: &lt;a href=&quot;https://www.youtube.com/watch?v=2TvdvcE2cJQ&quot;&gt;Keep the boxes!&lt;/a&gt; That should make the
 move (at least for the shack) a lot easier.&lt;/p&gt;
 
-&lt;p&gt;Wish us luck!&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Motorola DMR Radios for Hams</title><link href="https://k0swe.radio/2022/09/10/motorola.html" rel="alternate" type="text/html" title="Motorola DMR Radios for Hams" /><published>2022-09-10T00:00:00+00:00</published><updated>2022-09-10T00:00:00+00:00</updated><id>https://k0swe.radio/2022/09/10/motorola</id><content type="html" xml:base="https://k0swe.radio/2022/09/10/motorola.html">&lt;p&gt;One of the things that came out of my trip to Westcreek was a renewed interest in getting Motorola
-radios to work for myself. I originally became interested in this back in February when RMHAM
-University did a &lt;a href=&quot;https://www.youtube.com/watch?v=aUFTMX7Ys00&quot;&gt;class&lt;/a&gt; on using commercial DMR radios
-from Motorola and Kenwood for ham radio purposes. Among other things, the Motorola section of the
-class covered the very important difference between using the old and new versions of the customer
-programming software (CPS). The class piqued my interest and I picked up a sleek Motorola SL-300 but
-didn’t actually get very far programming it.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/2021-10-02-moto-sl300.jpg&quot; alt=&quot;Motorola SL-300&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;So over the past couple of weeks, I’ve tried to keep track of everything I needed to do to get
-licenses for and successfully program one of these Motorola radios. Ultimately I needed to get the
-TRBO CPS license as well as a wideband (25khz) entitlement from Motorola. There seems to be a lot of
-outdated information out there, so hopefully this will be updated advice.&lt;/p&gt;
-
-&lt;p&gt;First, note that the Motorola radio website is
-&lt;a href=&quot;https://www.motorolasolutions.com&quot;&gt;https://www.motorolasolutions.com&lt;/a&gt;; just plain motorola.com is
-for the cell phone division. I got an account on motorolasolutions.com, but that only gave me access
-to the consumer side with FRS/GMRS/MURS radios. To order the necessary part numbers, I had to
-contact customer service and have them upgrade my account to a business account with a 10-digit
-customer ID. It sounds like this is a common arrangement for hams. Once they did that, I was able to
-access &lt;a href=&quot;https://myview.motorolasolutions.com/&quot;&gt;https://myview.motorolasolutions.com/&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;At this point I went on
-&lt;a href=&quot;http://learning.motorolasolutions.com/&quot;&gt;http://learning.motorolasolutions.com/&lt;/a&gt; and took training
-course &lt;em&gt;PRD0001: FCC Narrowbanding Mandate Training&lt;/em&gt; which carefully explained that wideband FM
-channels are no longer allowed on commercial bands, only on ham radio bands. That only took about 15
-minutes to complete. After I finished that, I had to again contact customer service and have them
-manually verify completion and open up the option to order the 25khz entitlement.&lt;/p&gt;
-
-&lt;p&gt;Once all of that was done I was able to go back to
-&lt;a href=&quot;https://shop.motorolasolutions.com/&quot;&gt;https://shop.motorolasolutions.com/&lt;/a&gt; and order part numbers:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;HKVN4362A for the TRBO CPS, which became free in February of 2022&lt;/li&gt;
-  &lt;li&gt;HKVN4046A for the 25khz entitlement, also free&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/2022-09-10-motorola-cart.png&quot; alt=&quot;Motorola Solutions shopping cart&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;After all of this hassle, I was finally able to download the TRBO CPS 2 from MyView, add the
-wideband entitlement and program to my heart’s content. I wouldn’t really say I’m happy with CPS 2
-because there is no import/export functionality, but considering there’s no other option with
-Motorola radios, I guess I’ll just be happy it works at all!&lt;/p&gt;
-
-&lt;p&gt;The bottom line here is that when working with Motorola equipment as a ham, don’t expect to be able
-to do anything self-service. Contact customer support; it’s relatively quick and painless, and you
-won’t get far any other way.&lt;/p&gt;</content><author><name></name></author><summary type="html">One of the things that came out of my trip to Westcreek was a renewed interest in getting Motorola radios to work for myself. I originally became interested in this back in February when RMHAM University did a class on using commercial DMR radios from Motorola and Kenwood for ham radio purposes. Among other things, the Motorola section of the class covered the very important difference between using the old and new versions of the customer programming software (CPS). The class piqued my interest and I picked up a sleek Motorola SL-300 but didn’t actually get very far programming it.</summary></entry></feed>
+&lt;p&gt;Wish us luck!&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry></feed>
