@@ -18,22 +18,22 @@ After that, the event proper was underway.
 
 ![Setting up the tribander antenna for the event station](/assets/2023-08-11_22-48_tribander.JPG)
 
-![Most of the event was at the beautiful campus of Saint Pius X Catholic High School](../assets/2023-08-12_06-28_st-pius-x.JPG)
+![Most of the event was at the beautiful campus of Saint Pius X Catholic High School](/assets/2023-08-12_06-28_st-pius-x.JPG)
 
-![Setting up the event station in the morning](../assets/2023-08-12_07-19_event-station.JPG)
+![Setting up the event station in the morning](/assets/2023-08-12_07-19_event-station.JPG)
 
-![Brian N5ZGT was the event director](../assets/2023-08-12_07-30_brian.JPG)
+![Brian N5ZGT was the event director](/assets/2023-08-12_07-30_brian.JPG)
 
-![Warm welcomes at the registration table](../assets/2023-08-12_07-42_registration.JPG)
+![Warm welcomes at the registration table](/assets/2023-08-12_07-42_registration.JPG)
 
-![Operating the special event station](../assets/2023-08-12_08-32_event-station.JPG)
+![Operating the special event station](/assets/2023-08-12_08-32_event-station.JPG)
 
-![Treasures to be found at the swap meet](../assets/2023-08-12_hamfest.png)
+![Treasures to be found at the swap meet](/assets/2023-08-12_hamfest.png)
 
-![Everyone's excited for the prizes](../assets/2023-08-12_08-34_prize-table.JPG)
+![Everyone's excited for the prizes](/assets/2023-08-12_08-34_prize-table.JPG)
 
-![A great slate of interesting classes](../assets/2023-08-12_12-58-classroom.jpg)
+![A great slate of interesting classes](/assets/2023-08-12_12-58-classroom.jpg)
 
-![At the banquet dinner we got to hear about the challenging Bouvet Island DXpedition](../assets/2023-08-12_19-25-banquet.jpeg)
+![At the banquet dinner we got to hear about the challenging Bouvet Island DXpedition](/assets/2023-08-12_19-25-banquet.jpeg)
 
-![Beautiful hot air balloons as a very Albuquerque background](../assets/2023-08-13_07-11_balloons.JPG)
+![Beautiful hot air balloons as a very Albuquerque background](/assets/2023-08-13_07-11_balloons.JPG)
