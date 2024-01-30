@@ -3,21 +3,21 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Starting with SATRAN | K0SWE Blog</title>
+<title>ColMon | K0SWE Blog</title>
 <meta name="generator" content="Jekyll v3.9.3" />
-<meta property="og:title" content="Starting with SATRAN" />
+<meta property="og:title" content="ColMon" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Events and projects for amateur radio operator K0SWE, a.k.a. Chris." />
 <meta property="og:description" content="Events and projects for amateur radio operator K0SWE, a.k.a. Chris." />
-<link rel="canonical" href="https://k0swe.radio/2023/11/25/rotator.html" />
-<meta property="og:url" content="https://k0swe.radio/2023/11/25/rotator.html" />
+<link rel="canonical" href="https://k0swe.radio/2024/01/29/colmon.html" />
+<meta property="og:url" content="https://k0swe.radio/2024/01/29/colmon.html" />
 <meta property="og:site_name" content="K0SWE Blog" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2023-11-25T00:00:00+00:00" />
+<meta property="article:published_time" content="2024-01-29T00:00:00+00:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Starting with SATRAN" />
+<meta property="twitter:title" content="ColMon" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2023-11-25T00:00:00+00:00","datePublished":"2023-11-25T00:00:00+00:00","description":"Events and projects for amateur radio operator K0SWE, a.k.a. Chris.","headline":"Starting with SATRAN","mainEntityOfPage":{"@type":"WebPage","@id":"https://k0swe.radio/2023/11/25/rotator.html"},"url":"https://k0swe.radio/2023/11/25/rotator.html"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-01-29T00:00:00+00:00","datePublished":"2024-01-29T00:00:00+00:00","description":"Events and projects for amateur radio operator K0SWE, a.k.a. Chris.","headline":"ColMon","mainEntityOfPage":{"@type":"WebPage","@id":"https://k0swe.radio/2024/01/29/colmon.html"},"url":"https://k0swe.radio/2024/01/29/colmon.html"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="https://k0swe.radio/feed.xml" title="K0SWE Blog" /></head>
 <body><header class="site-header" role="banner">
@@ -39,55 +39,51 @@
       <div class="wrapper">
         <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">Starting with SATRAN</h1>
+    <h1 class="post-title p-name" itemprop="name headline">ColMon</h1>
     <p class="post-meta"><time
         class="dt-published"
-        datetime="2023-11-25T00:00:00+00:00"
+        datetime="2024-01-29T00:00:00+00:00"
         itemprop="datePublished"
       >
-        Nov 25, 2023
+        Jan 29, 2024
       </time></p>
   </header>
 
-  <div class="post-content e-content" itemprop="articleBody"><p><img src="/assets/satran-grey.jpg" alt="SATRAN" /></p>
+  <div class="post-content e-content" itemprop="articleBody"><p><img src="/assets/cornell-ashen-cabin.jpg" alt="Cornell Ashen Cabin" /></p>
 
-<p>Way back in 2019 I got an <a href="https://k0swe.radio/2019/11/22/amsat-ariss.html">introduction to AMSAT</a>,
-and have been interested in making contacts ever since. I picked up an Arrow antenna,
-<a href="https://k0swe.radio/2019/12/04/baby-steps-toward-ariss.html">collected some telemetry</a>, and even
-tried making QSOs once, but the extreme level of multitasking was overwhelming. The one thing I’ve
-been really keen to automate has been tracking: keeping the antenna pointed at the satellite
-throughout its pass. Automating that part requires an azimuth-elevation (az/el) rotator. The most
-well-known option for that is the Yaesu G-5500 rotator which retails new for about $700, too
-expensive to justify using once or twice while I see if I enjoy working AMSAT regularly. I’ve kept
-my eyes open for lighter-weight options, and one that stuck out was <a href="https://satran.io">SATRAN</a> by
-Daniel Nikolajsen, SM7YSA. For a while, it was sold as a kit, but mainly in Europe and explicitly
-not to the US or Canada.</p>
+<p>I’m beginning a project with Willem AC0KQ to build an AllMon replacement for the Colorado
+Connection. The <a href="https://colcon.org">Colorado Connection</a> is a network of
+<a href="https://allstarlink.org/">AllStarLink</a> linked analog repeaters spanning across the state of
+Colorado. It’s a great resource for hams in the state, but the
+<a href="https://community.allstarlink.org/c/allmon/13">AllMon</a> web interface is a bit dated. We’re calling
+our replacement ColMon, and it will be customized to our needs.</p>
 
-<p>Well, it seems SATRAN is no longer being sold as a kit, but the plans to build it are available, so
-I’ve finally decided to build my own. Daniel published pretty much everything necessary to get it
-going: STL files to 3D print the enclosure, Gerber files to order PCBs, scale drawings to cut sheet
-metal parts, and firmware code. I’ve spent some time reverse-engineering which electrical components
-need to go on the PCBs, as well as started prepping and 3D printing the housing. For the two sheet
-metal parts, there’s a service called OSH Cut that I think I’ll try. They seem to be tangentially
-related to OSH Park who I’ve used in the past for PCBs. However, Daniel only published PDF printable
-templates, not DXF CAD drawings, so I’ll have to redraw those in CAD to be able to send them off.</p>
+<p>Willem built a working prototype before I joined the project. We’ve worked together a little bit in
+the past, and I respect him a lot, so I’m excited to be working with him on this project. That said,
+we come from different generations of programming. Willem’s systems are usually written in C or
+Perl, using Apache CGI for dynamic web pages and hand-rolled HTML, CSS and JavaScript, and plaintext
+protocols with tab-separated fields and newline record separators. I’m more comfortable using
+Angular TypeScript and Golang, with a preference for REST APIs and JSON.</p>
 
-<p>It might take a while to gather all of the different bits and pieces of this project, but I think it
-will be rewarding to put together, especially if it gives me a workable AMSAT tool in the end!</p>
+<p>The analogy I’ve landed on is that he’s used to hand-crafting beautiful log cabins, while I’m ready
+to bring in the house-sized 3D printer. Is either approach better or worse? No, they both have pros
+and cons, but we’ll both have to get out of our comfort zones and work together to find a middle
+ground where we can both be productive.</p>
+
+<p>With some luck, our skills together will come up with a beautiful and innovative fusion like the
+<a href="https://news.cornell.edu/stories/2020/05/cabin-project-upcycles-ash-trees-sustainable-architecture">Cornell Ashen Cabin</a>.</p>
 </div>
 
   <div class="post-nav">
     <p>
       
-      <a href="/2023/08/14/albuquerque.html">&#8672;&nbsp;ARRL Rocky Mountain Division Convention in Albuquerque</a>
+      <a href="/2023/11/25/rotator.html">&#8672;&nbsp;Starting with SATRAN</a>
       
     </p>
     <p>
       
-      <a href="/2024/01/29/colmon.html">ColMon&nbsp;&#8674;</a>
-      
     </p>
-  </div><a class="u-url" href="/2023/11/25/rotator.html" hidden></a>
+  </div><a class="u-url" href="/2024/01/29/colmon.html" hidden></a>
 </article>
 
       </div>

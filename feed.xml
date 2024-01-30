@@ -1,4 +1,26 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="https://k0swe.radio/feed.xml" rel="self" type="application/atom+xml" /><link href="https://k0swe.radio/" rel="alternate" type="text/html" /><updated>2024-01-28T21:46:59+00:00</updated><id>https://k0swe.radio/feed.xml</id><title type="html">K0SWE Blog</title><subtitle>Events and projects for amateur radio operator K0SWE, a.k.a. Chris.</subtitle><entry><title type="html">Starting with SATRAN</title><link href="https://k0swe.radio/2023/11/25/rotator.html" rel="alternate" type="text/html" title="Starting with SATRAN" /><published>2023-11-25T00:00:00+00:00</published><updated>2023-11-25T00:00:00+00:00</updated><id>https://k0swe.radio/2023/11/25/rotator</id><content type="html" xml:base="https://k0swe.radio/2023/11/25/rotator.html">&lt;p&gt;&lt;img src=&quot;/assets/satran-grey.jpg&quot; alt=&quot;SATRAN&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="https://k0swe.radio/feed.xml" rel="self" type="application/atom+xml" /><link href="https://k0swe.radio/" rel="alternate" type="text/html" /><updated>2024-01-30T01:02:00+00:00</updated><id>https://k0swe.radio/feed.xml</id><title type="html">K0SWE Blog</title><subtitle>Events and projects for amateur radio operator K0SWE, a.k.a. Chris.</subtitle><entry><title type="html">ColMon</title><link href="https://k0swe.radio/2024/01/29/colmon.html" rel="alternate" type="text/html" title="ColMon" /><published>2024-01-29T00:00:00+00:00</published><updated>2024-01-29T00:00:00+00:00</updated><id>https://k0swe.radio/2024/01/29/colmon</id><content type="html" xml:base="https://k0swe.radio/2024/01/29/colmon.html">&lt;p&gt;&lt;img src=&quot;/assets/cornell-ashen-cabin.jpg&quot; alt=&quot;Cornell Ashen Cabin&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I’m beginning a project with Willem AC0KQ to build an AllMon replacement for the Colorado
+Connection. The &lt;a href=&quot;https://colcon.org&quot;&gt;Colorado Connection&lt;/a&gt; is a network of
+&lt;a href=&quot;https://allstarlink.org/&quot;&gt;AllStarLink&lt;/a&gt; linked analog repeaters spanning across the state of
+Colorado. It’s a great resource for hams in the state, but the
+&lt;a href=&quot;https://community.allstarlink.org/c/allmon/13&quot;&gt;AllMon&lt;/a&gt; web interface is a bit dated. We’re calling
+our replacement ColMon, and it will be customized to our needs.&lt;/p&gt;
+
+&lt;p&gt;Willem built a working prototype before I joined the project. We’ve worked together a little bit in
+the past, and I respect him a lot, so I’m excited to be working with him on this project. That said,
+we come from different generations of programming. Willem’s systems are usually written in C or
+Perl, using Apache CGI for dynamic web pages and hand-rolled HTML, CSS and JavaScript, and plaintext
+protocols with tab-separated fields and newline record separators. I’m more comfortable using
+Angular TypeScript and Golang, with a preference for REST APIs and JSON.&lt;/p&gt;
+
+&lt;p&gt;The analogy I’ve landed on is that he’s used to hand-crafting beautiful log cabins, while I’m ready
+to bring in the house-sized 3D printer. Is either approach better or worse? No, they both have pros
+and cons, but we’ll both have to get out of our comfort zones and work together to find a middle
+ground where we can both be productive.&lt;/p&gt;
+
+&lt;p&gt;With some luck, our skills together will come up with a beautiful and innovative fusion like the
+&lt;a href=&quot;https://news.cornell.edu/stories/2020/05/cabin-project-upcycles-ash-trees-sustainable-architecture&quot;&gt;Cornell Ashen Cabin&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Starting with SATRAN</title><link href="https://k0swe.radio/2023/11/25/rotator.html" rel="alternate" type="text/html" title="Starting with SATRAN" /><published>2023-11-25T00:00:00+00:00</published><updated>2023-11-25T00:00:00+00:00</updated><id>https://k0swe.radio/2023/11/25/rotator</id><content type="html" xml:base="https://k0swe.radio/2023/11/25/rotator.html">&lt;p&gt;&lt;img src=&quot;/assets/satran-grey.jpg&quot; alt=&quot;SATRAN&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Way back in 2019 I got an &lt;a href=&quot;https://k0swe.radio/2019/11/22/amsat-ariss.html&quot;&gt;introduction to AMSAT&lt;/a&gt;,
 and have been interested in making contacts ever since. I picked up an Arrow antenna,
@@ -238,15 +260,4 @@ plenty of cables through the panel.&lt;/p&gt;
 
 &lt;p&gt;The first thing I ran through was actually an ethernet cable for a microwave hop up to Eldorado
 Mountain and directly into the &lt;a href=&quot;https://www.rmham.org/amateur-microwave-network/&quot;&gt;RMHAM backbone&lt;/a&gt;!
-I’ll get my UHF/VHF J-pole and HF long wire set up soon.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">On Hiatus</title><link href="https://k0swe.radio/2022/10/15/hiatus.html" rel="alternate" type="text/html" title="On Hiatus" /><published>2022-10-15T00:00:00+00:00</published><updated>2022-10-15T00:00:00+00:00</updated><id>https://k0swe.radio/2022/10/15/hiatus</id><content type="html" xml:base="https://k0swe.radio/2022/10/15/hiatus.html">&lt;p&gt;&lt;a href=&quot;https://commons.wikimedia.org/wiki/File:Moving-boxes.jpg&quot;&gt;&lt;img src=&quot;/assets/moving-boxes.jpeg&quot; alt=&quot;Moving boxes&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;My family and I are moving! It’s only a short distance, but it still means I need to take down all
-of the permanently installed shack components like my QTH antennas. I’ll have to rely on my mobile
-and portable gear for a while. It also means I won’t have much spare time for ham projects until
-everything is moved.&lt;/p&gt;
-
-&lt;p&gt;As luck would have it, Dave Casler just posted a video about a practice that luckily I’ve already
-been following: &lt;a href=&quot;https://www.youtube.com/watch?v=2TvdvcE2cJQ&quot;&gt;Keep the boxes!&lt;/a&gt; That should make the
-move (at least for the shack) a lot easier.&lt;/p&gt;
-
-&lt;p&gt;Wish us luck!&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry></feed>
+I’ll get my UHF/VHF J-pole and HF long wire set up soon.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry></feed>
