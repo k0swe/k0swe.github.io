@@ -1,263 +1,263 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="https://k0swe.radio/feed.xml" rel="self" type="application/atom+xml" /><link href="https://k0swe.radio/" rel="alternate" type="text/html" /><updated>2024-02-06T15:10:33+00:00</updated><id>https://k0swe.radio/feed.xml</id><title type="html">K0SWE Blog</title><subtitle>Events and projects for amateur radio operator K0SWE, a.k.a. Chris.</subtitle><entry><title type="html">ColMon</title><link href="https://k0swe.radio/2024/01/29/colmon.html" rel="alternate" type="text/html" title="ColMon" /><published>2024-01-29T00:00:00+00:00</published><updated>2024-01-29T00:00:00+00:00</updated><id>https://k0swe.radio/2024/01/29/colmon</id><content type="html" xml:base="https://k0swe.radio/2024/01/29/colmon.html">&lt;p&gt;&lt;img src=&quot;/assets/cornell-ashen-cabin.jpg&quot; alt=&quot;Cornell Ashen Cabin&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.4">Jekyll</generator><link href="https://k0swe.radio/feed.xml" rel="self" type="application/atom+xml" /><link href="https://k0swe.radio/" rel="alternate" type="text/html" /><updated>2024-02-12T03:53:21+00:00</updated><id>https://k0swe.radio/feed.xml</id><title type="html">K0SWE Blog</title><subtitle>Events and projects for amateur radio operator K0SWE, a.k.a. Chris.</subtitle><entry><title type="html">ColMon</title><link href="https://k0swe.radio/2024/01/29/colmon.html" rel="alternate" type="text/html" title="ColMon" /><published>2024-01-29T00:00:00+00:00</published><updated>2024-01-29T00:00:00+00:00</updated><id>https://k0swe.radio/2024/01/29/colmon</id><content type="html" xml:base="https://k0swe.radio/2024/01/29/colmon.html"><![CDATA[<p><img src="/assets/cornell-ashen-cabin.jpg" alt="Cornell Ashen Cabin" /></p>
 
-&lt;p&gt;I’m beginning a project with Willem AC0KQ to build an AllMon replacement for the Colorado
-Connection. The &lt;a href=&quot;https://colcon.org&quot;&gt;Colorado Connection&lt;/a&gt; is a network of
-&lt;a href=&quot;https://allstarlink.org/&quot;&gt;AllStarLink&lt;/a&gt; linked analog repeaters spanning across the state of
+<p>I’m beginning a project with Willem AC0KQ to build an AllMon replacement for the Colorado
+Connection. The <a href="https://colcon.org">Colorado Connection</a> is a network of
+<a href="https://allstarlink.org/">AllStarLink</a> linked analog repeaters spanning across the state of
 Colorado. It’s a great resource for hams in the state, but the
-&lt;a href=&quot;https://community.allstarlink.org/c/allmon/13&quot;&gt;AllMon&lt;/a&gt; web interface is a bit dated. We’re calling
-our replacement ColMon, and it will be customized to our needs.&lt;/p&gt;
+<a href="https://community.allstarlink.org/c/allmon/13">AllMon</a> web interface is a bit dated. We’re calling
+our replacement ColMon, and it will be customized to our needs.</p>
 
-&lt;p&gt;Willem built a working prototype before I joined the project. We’ve worked together a little bit in
+<p>Willem built a working prototype before I joined the project. We’ve worked together a little bit in
 the past, and I respect him a lot, so I’m excited to be working with him on this project. That said,
 we come from different generations of programming. Willem’s systems are usually written in C or
 Perl, using Apache CGI for dynamic web pages and hand-rolled HTML, CSS and JavaScript, and plaintext
 protocols with tab-separated fields and newline record separators. I’m more comfortable using
-Angular TypeScript and Golang, with a preference for REST APIs and JSON.&lt;/p&gt;
+Angular TypeScript and Golang, with a preference for REST APIs and JSON.</p>
 
-&lt;p&gt;The analogy I’ve landed on is that he’s used to hand-crafting beautiful log cabins, while I’m ready
+<p>The analogy I’ve landed on is that he’s used to hand-crafting beautiful log cabins, while I’m ready
 to bring in the house-sized 3D printer. Is either approach better or worse? No, they both have pros
 and cons, but we’ll both have to get out of our comfort zones and work together to find a middle
-ground where we can both be productive.&lt;/p&gt;
+ground where we can both be productive.</p>
 
-&lt;p&gt;With some luck, our skills together will come up with a beautiful and innovative fusion like the
-&lt;a href=&quot;https://news.cornell.edu/stories/2020/05/cabin-project-upcycles-ash-trees-sustainable-architecture&quot;&gt;Cornell Ashen Cabin&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Starting with SATRAN</title><link href="https://k0swe.radio/2023/11/25/rotator.html" rel="alternate" type="text/html" title="Starting with SATRAN" /><published>2023-11-25T00:00:00+00:00</published><updated>2023-11-25T00:00:00+00:00</updated><id>https://k0swe.radio/2023/11/25/rotator</id><content type="html" xml:base="https://k0swe.radio/2023/11/25/rotator.html">&lt;p&gt;&lt;img src=&quot;/assets/satran-grey.jpg&quot; alt=&quot;SATRAN&quot; /&gt;&lt;/p&gt;
+<p>With some luck, our skills together will come up with a beautiful and innovative fusion like the
+<a href="https://news.cornell.edu/stories/2020/05/cabin-project-upcycles-ash-trees-sustainable-architecture">Cornell Ashen Cabin</a>.</p>]]></content><author><name></name></author><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Starting with SATRAN</title><link href="https://k0swe.radio/2023/11/25/rotator.html" rel="alternate" type="text/html" title="Starting with SATRAN" /><published>2023-11-25T00:00:00+00:00</published><updated>2023-11-25T00:00:00+00:00</updated><id>https://k0swe.radio/2023/11/25/rotator</id><content type="html" xml:base="https://k0swe.radio/2023/11/25/rotator.html"><![CDATA[<p><img src="/assets/satran-grey.jpg" alt="SATRAN" /></p>
 
-&lt;p&gt;Way back in 2019 I got an &lt;a href=&quot;https://k0swe.radio/2019/11/22/amsat-ariss.html&quot;&gt;introduction to AMSAT&lt;/a&gt;,
+<p>Way back in 2019 I got an <a href="https://k0swe.radio/2019/11/22/amsat-ariss.html">introduction to AMSAT</a>,
 and have been interested in making contacts ever since. I picked up an Arrow antenna,
-&lt;a href=&quot;https://k0swe.radio/2019/12/04/baby-steps-toward-ariss.html&quot;&gt;collected some telemetry&lt;/a&gt;, and even
+<a href="https://k0swe.radio/2019/12/04/baby-steps-toward-ariss.html">collected some telemetry</a>, and even
 tried making QSOs once, but the extreme level of multitasking was overwhelming. The one thing I’ve
 been really keen to automate has been tracking: keeping the antenna pointed at the satellite
 throughout its pass. Automating that part requires an azimuth-elevation (az/el) rotator. The most
 well-known option for that is the Yaesu G-5500 rotator which retails new for about $700, too
 expensive to justify using once or twice while I see if I enjoy working AMSAT regularly. I’ve kept
-my eyes open for lighter-weight options, and one that stuck out was &lt;a href=&quot;https://satran.io&quot;&gt;SATRAN&lt;/a&gt; by
+my eyes open for lighter-weight options, and one that stuck out was <a href="https://satran.io">SATRAN</a> by
 Daniel Nikolajsen, SM7YSA. For a while, it was sold as a kit, but mainly in Europe and explicitly
-not to the US or Canada.&lt;/p&gt;
+not to the US or Canada.</p>
 
-&lt;p&gt;Well, it seems SATRAN is no longer being sold as a kit, but the plans to build it are available, so
+<p>Well, it seems SATRAN is no longer being sold as a kit, but the plans to build it are available, so
 I’ve finally decided to build my own. Daniel published pretty much everything necessary to get it
 going: STL files to 3D print the enclosure, Gerber files to order PCBs, scale drawings to cut sheet
 metal parts, and firmware code. I’ve spent some time reverse-engineering which electrical components
 need to go on the PCBs, as well as started prepping and 3D printing the housing. For the two sheet
 metal parts, there’s a service called OSH Cut that I think I’ll try. They seem to be tangentially
 related to OSH Park who I’ve used in the past for PCBs. However, Daniel only published PDF printable
-templates, not DXF CAD drawings, so I’ll have to redraw those in CAD to be able to send them off.&lt;/p&gt;
+templates, not DXF CAD drawings, so I’ll have to redraw those in CAD to be able to send them off.</p>
 
-&lt;p&gt;It might take a while to gather all of the different bits and pieces of this project, but I think it
-will be rewarding to put together, especially if it gives me a workable AMSAT tool in the end!&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">ARRL Rocky Mountain Division Convention in Albuquerque</title><link href="https://k0swe.radio/2023/08/14/albuquerque.html" rel="alternate" type="text/html" title="ARRL Rocky Mountain Division Convention in Albuquerque" /><published>2023-08-14T00:00:00+00:00</published><updated>2023-08-14T00:00:00+00:00</updated><id>https://k0swe.radio/2023/08/14/albuquerque</id><content type="html" xml:base="https://k0swe.radio/2023/08/14/albuquerque.html">&lt;p&gt;This year’s ARRL Rocky Mountain Division Convention was this past weekend in Albuquerque. The
+<p>It might take a while to gather all of the different bits and pieces of this project, but I think it
+will be rewarding to put together, especially if it gives me a workable AMSAT tool in the end!</p>]]></content><author><name></name></author><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">ARRL Rocky Mountain Division Convention in Albuquerque</title><link href="https://k0swe.radio/2023/08/14/albuquerque.html" rel="alternate" type="text/html" title="ARRL Rocky Mountain Division Convention in Albuquerque" /><published>2023-08-14T00:00:00+00:00</published><updated>2023-08-14T00:00:00+00:00</updated><id>https://k0swe.radio/2023/08/14/albuquerque</id><content type="html" xml:base="https://k0swe.radio/2023/08/14/albuquerque.html"><![CDATA[<p>This year’s ARRL Rocky Mountain Division Convention was this past weekend in Albuquerque. The
 original planners had backed out a couple of months before their event, so the Rocky Mountain Ham
 New Mexico team quickly threw together a replacement event. I attended both because I had never been
-to a division convention before, plus to be an extra hand to the RMHAM NM team.&lt;/p&gt;
+to a division convention before, plus to be an extra hand to the RMHAM NM team.</p>
 
-&lt;p&gt;There was meant to be a &lt;a href=&quot;https://en.wikipedia.org/wiki/Very_Large_Array&quot;&gt;Very Large Array&lt;/a&gt; tour the
+<p>There was meant to be a <a href="https://en.wikipedia.org/wiki/Very_Large_Array">Very Large Array</a> tour the
 Friday before the event, but unfortunately that was cancelled due to a power outage. Instead, many
 of the RMHAM Colorado folks and I travelled a short way to Los Alamos to experience the Bradbury
-Museum and the Fuller Lodge.&lt;/p&gt;
+Museum and the Fuller Lodge.</p>
 
-&lt;p&gt;After that, the event proper was underway.&lt;/p&gt;
+<p>After that, the event proper was underway.</p>
 
-&lt;p&gt;&lt;img src=&quot;/assets/2023-08-11_22-48_tribander.JPG&quot; alt=&quot;Setting up the tribander antenna for the event station&quot; /&gt;&lt;/p&gt;
+<p><img src="/assets/2023-08-11_22-48_tribander.JPG" alt="Setting up the tribander antenna for the event station" /></p>
 
-&lt;p&gt;&lt;img src=&quot;/assets/2023-08-12_06-28_st-pius-x.JPG&quot; alt=&quot;Most of the event was at the beautiful campus of Saint Pius X Catholic High School&quot; /&gt;&lt;/p&gt;
+<p><img src="/assets/2023-08-12_06-28_st-pius-x.JPG" alt="Most of the event was at the beautiful campus of Saint Pius X Catholic High School" /></p>
 
-&lt;p&gt;&lt;img src=&quot;/assets/2023-08-12_07-19_event-station.JPG&quot; alt=&quot;Setting up the event station in the morning&quot; /&gt;&lt;/p&gt;
+<p><img src="/assets/2023-08-12_07-19_event-station.JPG" alt="Setting up the event station in the morning" /></p>
 
-&lt;p&gt;&lt;img src=&quot;/assets/2023-08-12_07-30_brian.JPG&quot; alt=&quot;Brian N5ZGT was the event director&quot; /&gt;&lt;/p&gt;
+<p><img src="/assets/2023-08-12_07-30_brian.JPG" alt="Brian N5ZGT was the event director" /></p>
 
-&lt;p&gt;&lt;img src=&quot;/assets/2023-08-12_07-42_registration.JPG&quot; alt=&quot;Warm welcomes at the registration table&quot; /&gt;&lt;/p&gt;
+<p><img src="/assets/2023-08-12_07-42_registration.JPG" alt="Warm welcomes at the registration table" /></p>
 
-&lt;p&gt;&lt;img src=&quot;/assets/2023-08-12_08-32_event-station.JPG&quot; alt=&quot;Operating the special event station&quot; /&gt;&lt;/p&gt;
+<p><img src="/assets/2023-08-12_08-32_event-station.JPG" alt="Operating the special event station" /></p>
 
-&lt;p&gt;&lt;img src=&quot;/assets/2023-08-12_hamfest.png&quot; alt=&quot;Treasures to be found at the swap meet&quot; /&gt;&lt;/p&gt;
+<p><img src="/assets/2023-08-12_hamfest.png" alt="Treasures to be found at the swap meet" /></p>
 
-&lt;p&gt;&lt;img src=&quot;/assets/2023-08-12_08-34_prize-table.JPG&quot; alt=&quot;Everyone&apos;s excited for the prizes&quot; /&gt;&lt;/p&gt;
+<p><img src="/assets/2023-08-12_08-34_prize-table.JPG" alt="Everyone's excited for the prizes" /></p>
 
-&lt;p&gt;&lt;img src=&quot;/assets/2023-08-12_12-58-classroom.jpg&quot; alt=&quot;A great slate of interesting classes&quot; /&gt;&lt;/p&gt;
+<p><img src="/assets/2023-08-12_12-58-classroom.jpg" alt="A great slate of interesting classes" /></p>
 
-&lt;p&gt;&lt;img src=&quot;/assets/2023-08-12_19-25-banquet.jpeg&quot; alt=&quot;At the banquet dinner we got to hear about the challenging Bouvet Island DXpedition&quot; /&gt;&lt;/p&gt;
+<p><img src="/assets/2023-08-12_19-25-banquet.jpeg" alt="At the banquet dinner we got to hear about the challenging Bouvet Island DXpedition" /></p>
 
-&lt;p&gt;&lt;img src=&quot;/assets/2023-08-13_07-11_balloons.JPG&quot; alt=&quot;Beautiful hot air balloons as a very Albuquerque background&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">This year’s ARRL Rocky Mountain Division Convention was this past weekend in Albuquerque. The original planners had backed out a couple of months before their event, so the Rocky Mountain Ham New Mexico team quickly threw together a replacement event. I attended both because I had never been to a division convention before, plus to be an extra hand to the RMHAM NM team.</summary></entry><entry><title type="html">Field Day</title><link href="https://k0swe.radio/2023/06/26/field-day.html" rel="alternate" type="text/html" title="Field Day" /><published>2023-06-26T00:00:00+00:00</published><updated>2023-06-26T00:00:00+00:00</updated><id>https://k0swe.radio/2023/06/26/field-day</id><content type="html" xml:base="https://k0swe.radio/2023/06/26/field-day.html">&lt;p&gt;I’m just coming back from another fabulous Field Day spent with RMHAM! Words hardly do the event
-justice, so take a look at some of the pictures!&lt;/p&gt;
+<p><img src="/assets/2023-08-13_07-11_balloons.JPG" alt="Beautiful hot air balloons as a very Albuquerque background" /></p>]]></content><author><name></name></author><summary type="html"><![CDATA[This year’s ARRL Rocky Mountain Division Convention was this past weekend in Albuquerque. The original planners had backed out a couple of months before their event, so the Rocky Mountain Ham New Mexico team quickly threw together a replacement event. I attended both because I had never been to a division convention before, plus to be an extra hand to the RMHAM NM team.]]></summary></entry><entry><title type="html">Field Day</title><link href="https://k0swe.radio/2023/06/26/field-day.html" rel="alternate" type="text/html" title="Field Day" /><published>2023-06-26T00:00:00+00:00</published><updated>2023-06-26T00:00:00+00:00</updated><id>https://k0swe.radio/2023/06/26/field-day</id><content type="html" xml:base="https://k0swe.radio/2023/06/26/field-day.html"><![CDATA[<p>I’m just coming back from another fabulous Field Day spent with RMHAM! Words hardly do the event
+justice, so take a look at some of the pictures!</p>
 
-&lt;p&gt;&lt;img src=&quot;/assets/2023-06-23_19-03.jpg&quot; alt=&quot;Hanging out in the afternoon&quot; /&gt;&lt;/p&gt;
+<p><img src="/assets/2023-06-23_19-03.jpg" alt="Hanging out in the afternoon" /></p>
 
-&lt;p&gt;&lt;img src=&quot;/assets/2023-06-24_13-35.jpg&quot; alt=&quot;Kaylee on GOTA with me&quot; /&gt;&lt;/p&gt;
+<p><img src="/assets/2023-06-24_13-35.jpg" alt="Kaylee on GOTA with me" /></p>
 
-&lt;p&gt;&lt;img src=&quot;/assets/2023-06-24_19-07.jpg&quot; alt=&quot;Kaylee on GOTA with Lisa&quot; /&gt;&lt;/p&gt;
+<p><img src="/assets/2023-06-24_19-07.jpg" alt="Kaylee on GOTA with Lisa" /></p>
 
-&lt;p&gt;&lt;img src=&quot;/assets/2023-06-25_08-33.jpg&quot; alt=&quot;QRV with the FT8 station&quot; /&gt;&lt;/p&gt;
+<p><img src="/assets/2023-06-25_08-33.jpg" alt="QRV with the FT8 station" /></p>
 
-&lt;p&gt;&lt;img src=&quot;/assets/2023-06-25_09-34.jpg&quot; alt=&quot;Satellite station with the bunk trailer in the background&quot; /&gt;&lt;/p&gt;
+<p><img src="/assets/2023-06-25_09-34.jpg" alt="Satellite station with the bunk trailer in the background" /></p>
 
-&lt;p&gt;&lt;img src=&quot;/assets/2023-06-26_21-17.jpg&quot; alt=&quot;Ava and I taking a sunset stroll&quot; /&gt;&lt;/p&gt;
+<p><img src="/assets/2023-06-26_21-17.jpg" alt="Ava and I taking a sunset stroll" /></p>
 
-&lt;p&gt;&lt;img src=&quot;/assets/2023-06-24-field-day-crew.jpg&quot; alt=&quot;The whole RMHAM Field Day crew&quot; /&gt;&lt;/p&gt;
+<p><img src="/assets/2023-06-24-field-day-crew.jpg" alt="The whole RMHAM Field Day crew" /></p>
 
-&lt;p&gt;This was my family’s first RV trip, so we rented from Cruise America and had a wonderful time. This
+<p>This was my family’s first RV trip, so we rented from Cruise America and had a wonderful time. This
 was also my first time taking the entire clan up to Field Day. I got all of them on the Get On The
 Air (GOTA) station to make a few contacts, and my older daughter is seriously hooked! She made
-almost 30 QSOs and probably would have kept going if there had been time.&lt;/p&gt;
+almost 30 QSOs and probably would have kept going if there had been time.</p>
 
-&lt;hr /&gt;
+<hr />
 
-&lt;p&gt;Edit: John W0VG posted a video, &lt;a href=&quot;https://www.youtube.com/watch?v=hXDzzWUICxc&quot;&gt;check it out&lt;/a&gt;!&lt;/p&gt;</content><author><name></name></author><summary type="html">I’m just coming back from another fabulous Field Day spent with RMHAM! Words hardly do the event justice, so take a look at some of the pictures!</summary></entry><entry><title type="html">Catalog Progress</title><link href="https://k0swe.radio/2023/05/26/catalog-progress.html" rel="alternate" type="text/html" title="Catalog Progress" /><published>2023-05-26T00:00:00+00:00</published><updated>2023-05-26T00:00:00+00:00</updated><id>https://k0swe.radio/2023/05/26/catalog-progress</id><content type="html" xml:base="https://k0swe.radio/2023/05/26/catalog-progress.html">&lt;p&gt;I’ve been plugging away at the &lt;a href=&quot;/2023/03/29/catalog.html&quot;&gt;ARES Catalog&lt;/a&gt; project. After negotiating
-some clearer requirements, I set out building a prototype with &lt;a href=&quot;https://nextjs.org/&quot;&gt;Next.JS&lt;/a&gt;.&lt;/p&gt;
+<p>Edit: John W0VG posted a video, <a href="https://www.youtube.com/watch?v=hXDzzWUICxc">check it out</a>!</p>]]></content><author><name></name></author><summary type="html"><![CDATA[I’m just coming back from another fabulous Field Day spent with RMHAM! Words hardly do the event justice, so take a look at some of the pictures!]]></summary></entry><entry><title type="html">Catalog Progress</title><link href="https://k0swe.radio/2023/05/26/catalog-progress.html" rel="alternate" type="text/html" title="Catalog Progress" /><published>2023-05-26T00:00:00+00:00</published><updated>2023-05-26T00:00:00+00:00</updated><id>https://k0swe.radio/2023/05/26/catalog-progress</id><content type="html" xml:base="https://k0swe.radio/2023/05/26/catalog-progress.html"><![CDATA[<p>I’ve been plugging away at the <a href="/2023/03/29/catalog.html">ARES Catalog</a> project. After negotiating
+some clearer requirements, I set out building a prototype with <a href="https://nextjs.org/">Next.JS</a>.</p>
 
-&lt;p&gt;For the database, I started out with &lt;a href=&quot;https://www.postgresql.org/&quot;&gt;Postgres&lt;/a&gt; using the
-&lt;a href=&quot;https://www.prisma.io/nextjs&quot;&gt;Prisma&lt;/a&gt; library. I experimented at first with writing my own Next.JS
-server-side API, then using &lt;a href=&quot;https://github.com/premieroctet/next-crud&quot;&gt;Next-CRUD&lt;/a&gt; to generate the
+<p>For the database, I started out with <a href="https://www.postgresql.org/">Postgres</a> using the
+<a href="https://www.prisma.io/nextjs">Prisma</a> library. I experimented at first with writing my own Next.JS
+server-side API, then using <a href="https://github.com/premieroctet/next-crud">Next-CRUD</a> to generate the
 API. Ultimately, I abandoned this whole line of development because I realized that Postgres was
 costing me too much money for a scale-to-zero project. Since then, I switched the Next.JS app to use
-&lt;a href=&quot;https://www.mongodb.com/&quot;&gt;MongoDB&lt;/a&gt; via the &lt;a href=&quot;https://mongoosejs.com/&quot;&gt;Mongoose&lt;/a&gt; library.&lt;/p&gt;
+<a href="https://www.mongodb.com/">MongoDB</a> via the <a href="https://mongoosejs.com/">Mongoose</a> library.</p>
 
-&lt;p&gt;The app’s core functionality has been coming along. I’ve imported the ICS 217s from Ben’s
+<p>The app’s core functionality has been coming along. I’ve imported the ICS 217s from Ben’s
 spreadsheets into the database and can display those, both in nice web tables as well as a printable
 view that closely matches the printed forms. Still, I can’t help but feel like my progress has been
 much slower trying to learn React than if I’d stayed in my comfort zone with Angular. React just
-hasn’t “clicked” for me yet.&lt;/p&gt;</content><author><name></name></author><summary type="html">I’ve been plugging away at the ARES Catalog project. After negotiating some clearer requirements, I set out building a prototype with Next.JS.</summary></entry><entry><title type="html">ARES Catalog</title><link href="https://k0swe.radio/2023/03/29/catalog.html" rel="alternate" type="text/html" title="ARES Catalog" /><published>2023-03-29T00:00:00+00:00</published><updated>2023-03-29T00:00:00+00:00</updated><id>https://k0swe.radio/2023/03/29/catalog</id><content type="html" xml:base="https://k0swe.radio/2023/03/29/catalog.html">&lt;p&gt;It seems I’ve been roped into another project. Colorado ARES section leaders want to create a
+hasn’t “clicked” for me yet.</p>]]></content><author><name></name></author><summary type="html"><![CDATA[I’ve been plugging away at the ARES Catalog project. After negotiating some clearer requirements, I set out building a prototype with Next.JS.]]></summary></entry><entry><title type="html">ARES Catalog</title><link href="https://k0swe.radio/2023/03/29/catalog.html" rel="alternate" type="text/html" title="ARES Catalog" /><published>2023-03-29T00:00:00+00:00</published><updated>2023-03-29T00:00:00+00:00</updated><id>https://k0swe.radio/2023/03/29/catalog</id><content type="html" xml:base="https://k0swe.radio/2023/03/29/catalog.html"><![CDATA[<p>It seems I’ve been roped into another project. Colorado ARES section leaders want to create a
 catalog of important information for use by ARES groups across the state. It will include things
 like ICS 217s describing all of the repeaters and channels used by each group, ICS 205s to break
 those channels down per-event, and ICS 205As with contact information of event personnel. I’ve been
 tasked with creating a web application to collect and display this information. I’m just one of
 several people working on this project, but I’m the only one with web development experience. Ben
 KB0UBZ is technically savvy and is willing to help collect and massage data. Our subject matter
-experts are Joe KD0TYU and Randy N0OEM.&lt;/p&gt;
+experts are Joe KD0TYU and Randy N0OEM.</p>
 
-&lt;p&gt;At this point, we’re really trying to narrow down exactly what we’re trying to build in the first
+<p>At this point, we’re really trying to narrow down exactly what we’re trying to build in the first
 place. Willem AC0KQ pitched this project to me as somthing to fill out complete Incident Action
 Plans with many ICS forms, but Joe and Randy’s vision for this as a catalog is quite different. I
 think we’ll start with the bare minimum, just publishe ICS 217s organized by ARES group, and then
-build from there.&lt;/p&gt;</content><author><name></name></author><summary type="html">It seems I’ve been roped into another project. Colorado ARES section leaders want to create a catalog of important information for use by ARES groups across the state. It will include things like ICS 217s describing all of the repeaters and channels used by each group, ICS 205s to break those channels down per-event, and ICS 205As with contact information of event personnel. I’ve been tasked with creating a web application to collect and display this information. I’m just one of several people working on this project, but I’m the only one with web development experience. Ben KB0UBZ is technically savvy and is willing to help collect and massage data. Our subject matter experts are Joe KD0TYU and Randy N0OEM.</summary></entry><entry><title type="html">Grandstream Phone</title><link href="https://k0swe.radio/2023/03/18/grandstream.html" rel="alternate" type="text/html" title="Grandstream Phone" /><published>2023-03-18T00:00:00+00:00</published><updated>2023-03-18T00:00:00+00:00</updated><id>https://k0swe.radio/2023/03/18/grandstream</id><content type="html" xml:base="https://k0swe.radio/2023/03/18/grandstream.html">&lt;p&gt;As a follow-up to my &lt;a href=&quot;/2023/03/03/pbx.html&quot;&gt;previous post&lt;/a&gt; on IP phones, I picked up a
-&lt;a href=&quot;https://www.amazon.com/gp/product/B00VNMWRFK/&quot;&gt;Grandstream GXP1625&lt;/a&gt; for still pretty cheap. Let me
+build from there.</p>]]></content><author><name></name></author><summary type="html"><![CDATA[It seems I’ve been roped into another project. Colorado ARES section leaders want to create a catalog of important information for use by ARES groups across the state. It will include things like ICS 217s describing all of the repeaters and channels used by each group, ICS 205s to break those channels down per-event, and ICS 205As with contact information of event personnel. I’ve been tasked with creating a web application to collect and display this information. I’m just one of several people working on this project, but I’m the only one with web development experience. Ben KB0UBZ is technically savvy and is willing to help collect and massage data. Our subject matter experts are Joe KD0TYU and Randy N0OEM.]]></summary></entry><entry><title type="html">Grandstream Phone</title><link href="https://k0swe.radio/2023/03/18/grandstream.html" rel="alternate" type="text/html" title="Grandstream Phone" /><published>2023-03-18T00:00:00+00:00</published><updated>2023-03-18T00:00:00+00:00</updated><id>https://k0swe.radio/2023/03/18/grandstream</id><content type="html" xml:base="https://k0swe.radio/2023/03/18/grandstream.html"><![CDATA[<p>As a follow-up to my <a href="/2023/03/03/pbx.html">previous post</a> on IP phones, I picked up a
+<a href="https://www.amazon.com/gp/product/B00VNMWRFK/">Grandstream GXP1625</a> for still pretty cheap. Let me
 tell you how much easier it was to set up with both FreePBX and Hamshack Hotline! The phone has a
 web interface, and it was a breeze to configure. I didn’t have to mess with XML files or TFTP
 servers. I pointed the phone at Hamshack Hotline and my own experimental FreePBX server, and it just
-worked. So much easier than the Cisco phone.&lt;/p&gt;</content><author><name></name></author><summary type="html">As a follow-up to my previous post on IP phones, I picked up a Grandstream GXP1625 for still pretty cheap. Let me tell you how much easier it was to set up with both FreePBX and Hamshack Hotline! The phone has a web interface, and it was a breeze to configure. I didn’t have to mess with XML files or TFTP servers. I pointed the phone at Hamshack Hotline and my own experimental FreePBX server, and it just worked. So much easier than the Cisco phone.</summary></entry><entry><title type="html">Getting started with Hamshack Hotline and FreePBX</title><link href="https://k0swe.radio/2023/03/03/pbx.html" rel="alternate" type="text/html" title="Getting started with Hamshack Hotline and FreePBX" /><published>2023-03-03T00:00:00+00:00</published><updated>2023-03-03T00:00:00+00:00</updated><id>https://k0swe.radio/2023/03/03/pbx</id><content type="html" xml:base="https://k0swe.radio/2023/03/03/pbx.html">&lt;p&gt;I’ve used VoIP a couple of times in conjuction with ham radio for supporting public events; some
+worked. So much easier than the Cisco phone.</p>]]></content><author><name></name></author><summary type="html"><![CDATA[As a follow-up to my previous post on IP phones, I picked up a Grandstream GXP1625 for still pretty cheap. Let me tell you how much easier it was to set up with both FreePBX and Hamshack Hotline! The phone has a web interface, and it was a breeze to configure. I didn’t have to mess with XML files or TFTP servers. I pointed the phone at Hamshack Hotline and my own experimental FreePBX server, and it just worked. So much easier than the Cisco phone.]]></summary></entry><entry><title type="html">Getting started with Hamshack Hotline and FreePBX</title><link href="https://k0swe.radio/2023/03/03/pbx.html" rel="alternate" type="text/html" title="Getting started with Hamshack Hotline and FreePBX" /><published>2023-03-03T00:00:00+00:00</published><updated>2023-03-03T00:00:00+00:00</updated><id>https://k0swe.radio/2023/03/03/pbx</id><content type="html" xml:base="https://k0swe.radio/2023/03/03/pbx.html"><![CDATA[<p>I’ve used VoIP a couple of times in conjuction with ham radio for supporting public events; some
 troubleshooting problems lend themselves to full duplex communication better than PTT radios. Until
 now I hadn’t really considered setting up something for myself, but then I learned about
-&lt;a href=&quot;https://hamshackhotline.com/&quot;&gt;Hamshack Hotline&lt;/a&gt;. It’s a collective of VoIP geeks running their own
-phone network, and it even has links into RF repeaters and such. Neat!&lt;/p&gt;
+<a href="https://hamshackhotline.com/">Hamshack Hotline</a>. It’s a collective of VoIP geeks running their own
+phone network, and it even has links into RF repeaters and such. Neat!</p>
 
-&lt;p&gt;HH keeps a list of
-&lt;a href=&quot;https://wiki.hamshackhotline.com/doku.php?id=kb:supported.endpoints&quot;&gt;fully supported devices&lt;/a&gt;, but
+<p>HH keeps a list of
+<a href="https://wiki.hamshackhotline.com/doku.php?id=kb:supported.endpoints">fully supported devices</a>, but
 I was somewhat drawn to an unsupported device, a Cisco 7900 series, for nostalgic reasons (it’s what
 I supported in the Army) as well as cost (~$20 on eBay). Because of this, I was directed down the
-road of setting up my own local PBX with a trunk connection to HH. How hard could that be?&lt;/p&gt;
+road of setting up my own local PBX with a trunk connection to HH. How hard could that be?</p>
 
-&lt;h2 id=&quot;freepbx-initial-setup&quot;&gt;FreePBX initial setup&lt;/h2&gt;
+<h2 id="freepbx-initial-setup">FreePBX initial setup</h2>
 
-&lt;p&gt;Download https://www.freepbx.org/. I used the ISO image to create a VM for testing. Create an admin
+<p>Download https://www.freepbx.org/. I used the ISO image to create a VM for testing. Create an admin
 account and do basic configuration.
-&lt;a href=&quot;https://www.youtube.com/playlist?list=PL1fn6oC5ndU_umAhL9A_1zkC90hMPDPNO&quot;&gt;This YouTube series&lt;/a&gt; goes
-in-depth about the entire process.&lt;/p&gt;
+<a href="https://www.youtube.com/playlist?list=PL1fn6oC5ndU_umAhL9A_1zkC90hMPDPNO">This YouTube series</a> goes
+in-depth about the entire process.</p>
 
-&lt;p&gt;Then add some phone extensions. &lt;a href=&quot;https://youtu.be/ME1fCwJNes8&quot;&gt;This video on creating extensions&lt;/a&gt;
+<p>Then add some phone extensions. <a href="https://youtu.be/ME1fCwJNes8">This video on creating extensions</a>
 was particularly useful. I also found it very helpful to register a couple of software phone
 clients, which were relatively easy, before moving on to dealing with Cisco “legacy” hardware
-issues.&lt;/p&gt;
+issues.</p>
 
-&lt;h2 id=&quot;cisco-7965g-setup&quot;&gt;Cisco 7965G setup&lt;/h2&gt;
+<h2 id="cisco-7965g-setup">Cisco 7965G setup</h2>
 
-&lt;p&gt;&lt;img src=&quot;/assets/cisco-7965.jpg&quot; alt=&quot;Cisco 7965&quot; /&gt;&lt;/p&gt;
+<p><img src="/assets/cisco-7965.jpg" alt="Cisco 7965" /></p>
 
-&lt;p&gt;Download
-&lt;a href=&quot;https://software.cisco.com/download/home/281346596/type/282074288/release/9.4(2)SR3&quot;&gt;SIP Firmware&lt;/a&gt;.
+<p>Download
+<a href="https://software.cisco.com/download/home/281346596/type/282074288/release/9.4(2)SR3">SIP Firmware</a>.
 You need SIP firmware. Some folks advise to use v8 or v9, but both worked for me. You need the
-“firmware files only” zip file. Unzip the files.&lt;/p&gt;
+“firmware files only” zip file. Unzip the files.</p>
 
-&lt;p&gt;The firmware files need to be served by a TFTP server. I used &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;tftpd-hap&lt;/code&gt; on my workstation.&lt;/p&gt;
+<p>The firmware files need to be served by a TFTP server. I used <code class="language-plaintext highlighter-rouge">tftpd-hap</code> on my workstation.</p>
 
-&lt;p&gt;Your DHCP server needs to advertise the TFTP server. My DHCP server is running on my MikroTik
+<p>Your DHCP server needs to advertise the TFTP server. My DHCP server is running on my MikroTik
 router. At first I tried setting “DHCP option 150,” but that didn’t seem to work; I could see in
 MikroTik WinBox that the phone kept rejecting DHCP offers. Instead I set the “next-server” option,
-which worked.&lt;/p&gt;
+which worked.</p>
 
-&lt;p&gt;Follow the steps below to factory reset your Cisco IP phone and get it to download the new firmware.
-Here’s a &lt;a href=&quot;https://youtu.be/xcpJFfuSh7g&quot;&gt;good video&lt;/a&gt;.&lt;/p&gt;
+<p>Follow the steps below to factory reset your Cisco IP phone and get it to download the new firmware.
+Here’s a <a href="https://youtu.be/xcpJFfuSh7g">good video</a>.</p>
 
-&lt;ol&gt;
-  &lt;li&gt;Unplug the power cable from the IP phone and then plug it back in.&lt;/li&gt;
-  &lt;li&gt;While the phone is powering up, and before the speaker button flashes on and off, press and hold
-the pound # key.&lt;/li&gt;
-  &lt;li&gt;Continue to hold # until each line button (right of the LCD screen) flashes on and off in
-sequence in orange color.&lt;/li&gt;
-  &lt;li&gt;Now release the pound # key and type the following sequence &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;123456789*0#&lt;/code&gt;&lt;/li&gt;
-&lt;/ol&gt;
+<ol>
+  <li>Unplug the power cable from the IP phone and then plug it back in.</li>
+  <li>While the phone is powering up, and before the speaker button flashes on and off, press and hold
+the pound # key.</li>
+  <li>Continue to hold # until each line button (right of the LCD screen) flashes on and off in
+sequence in orange color.</li>
+  <li>Now release the pound # key and type the following sequence <code class="language-plaintext highlighter-rouge">123456789*0#</code></li>
+</ol>
 
-&lt;p&gt;(On the first phone I tried, I had a hardware issue: I’d start typing the 123… sequence and the
+<p>(On the first phone I tried, I had a hardware issue: I’d start typing the 123… sequence and the
 phone would start booting normally before I could finish. Luckily, I bought two, and the other phone
-behaved as intended.)&lt;/p&gt;
+behaved as intended.)</p>
 
-&lt;p&gt;The phone should show “Upgrading” and the MAC address on the screen. It will download the firmware
+<p>The phone should show “Upgrading” and the MAC address on the screen. It will download the firmware
 files one by one and show its progress. After the last file is downloaded, the phone will reboot and
-the firmware upgrade is complete.&lt;/p&gt;
+the firmware upgrade is complete.</p>
 
-&lt;p&gt;At this point, you need to configure the phone by downloading and modifying an
-&lt;a href=&quot;https://usecallmanager.nz/sepmac-cnf-xml.html&quot;&gt;XML file&lt;/a&gt;, renaming it to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;SEP{MAC_ADDRESS}.cfg.xml&lt;/code&gt;
+<p>At this point, you need to configure the phone by downloading and modifying an
+<a href="https://usecallmanager.nz/sepmac-cnf-xml.html">XML file</a>, renaming it to <code class="language-plaintext highlighter-rouge">SEP{MAC_ADDRESS}.cfg.xml</code>
 and putting that on your TFTP server. The XML file at a minimum needs to specify the SIP server
 address, username and password. Many other config options are available. As I was iterating on the
-config file, I found it useful to modify the value in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;phoneLabel&amp;gt;&lt;/code&gt; so I could easily tell if the
-phone had downloaded my latest version.&lt;/p&gt;
+config file, I found it useful to modify the value in <code class="language-plaintext highlighter-rouge">&lt;phoneLabel&gt;</code> so I could easily tell if the
+phone had downloaded my latest version.</p>
 
-&lt;p&gt;After all this, I was stuck for a while with the Cisco phone unable to register with the FreePBX
-server despite having picked up its configuration file. I found advice to find the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;force_rport&lt;/code&gt;
+<p>After all this, I was stuck for a while with the Cisco phone unable to register with the FreePBX
+server despite having picked up its configuration file. I found advice to find the <code class="language-plaintext highlighter-rouge">force_rport</code>
 setting within FreePBX/Asterisk for that phone’s extension advanced settings and turn that setting
 “off”; that made it so I could call out from the Cisco phone, but was unable to receive calls. I
-also tried enabling TCP for the Asterisk server and forcing that extension to use it; still no dice.&lt;/p&gt;
+also tried enabling TCP for the Asterisk server and forcing that extension to use it; still no dice.</p>
 
-&lt;p&gt;This is where the story takes a turn for the worse: I asked for advice from some of my ham friends,
+<p>This is where the story takes a turn for the worse: I asked for advice from some of my ham friends,
 some of whom are VoIP professionals, and their advice was to abandon all hope. Cisco phones are
 apparently very nice in an enterprise setting with their proprietary controller, but are not really
 suitable for hobbyists. Yes, they can be made to work, but are not worth the time to set up and keep
 running. It’s better, my friends say, to use a desk phone that will work without putting up a fight.
-So I guess I’ll try out a Polycom or a Grandstream or something.&lt;/p&gt;
+So I guess I’ll try out a Polycom or a Grandstream or something.</p>
 
-&lt;h2 id=&quot;conclusions&quot;&gt;Conclusions&lt;/h2&gt;
+<h2 id="conclusions">Conclusions</h2>
 
-&lt;p&gt;I’ve put many hours into this project, and I still don’t have a working connection to Hamshack
-Hotline! I guess I’m getting what I paid for. Still, I’ve learned a lot.&lt;/p&gt;</content><author><name></name></author><summary type="html">I’ve used VoIP a couple of times in conjuction with ham radio for supporting public events; some troubleshooting problems lend themselves to full duplex communication better than PTT radios. Until now I hadn’t really considered setting up something for myself, but then I learned about Hamshack Hotline. It’s a collective of VoIP geeks running their own phone network, and it even has links into RF repeaters and such. Neat!</summary></entry><entry><title type="html">Prepping for W1AW/0 Colorado</title><link href="https://k0swe.radio/2023/02/25/w1aw0.html" rel="alternate" type="text/html" title="Prepping for W1AW/0 Colorado" /><published>2023-02-25T00:00:00+00:00</published><updated>2023-02-25T00:00:00+00:00</updated><id>https://k0swe.radio/2023/02/25/w1aw0</id><content type="html" xml:base="https://k0swe.radio/2023/02/25/w1aw0.html">&lt;p&gt;A few days ago I was posed a question by some friends who happen to currently be ARRL section
-leaders for Colorado.&lt;/p&gt;
+<p>I’ve put many hours into this project, and I still don’t have a working connection to Hamshack
+Hotline! I guess I’m getting what I paid for. Still, I’ve learned a lot.</p>]]></content><author><name></name></author><summary type="html"><![CDATA[I’ve used VoIP a couple of times in conjuction with ham radio for supporting public events; some troubleshooting problems lend themselves to full duplex communication better than PTT radios. Until now I hadn’t really considered setting up something for myself, but then I learned about Hamshack Hotline. It’s a collective of VoIP geeks running their own phone network, and it even has links into RF repeaters and such. Neat!]]></summary></entry><entry><title type="html">Prepping for W1AW/0 Colorado</title><link href="https://k0swe.radio/2023/02/25/w1aw0.html" rel="alternate" type="text/html" title="Prepping for W1AW/0 Colorado" /><published>2023-02-25T00:00:00+00:00</published><updated>2023-02-25T00:00:00+00:00</updated><id>https://k0swe.radio/2023/02/25/w1aw0</id><content type="html" xml:base="https://k0swe.radio/2023/02/25/w1aw0.html"><![CDATA[<p>A few days ago I was posed a question by some friends who happen to currently be ARRL section
+leaders for Colorado.</p>
 
-&lt;p&gt;This year the ARRL has a special event called Volunteers On The Air, VOTA. As part of that program,
+<p>This year the ARRL has a special event called Volunteers On The Air, VOTA. As part of that program,
 each section will have a couple of week-long blocks at at points through the year to operate with
 the callsign “W1AW portable,” which is a very special honor! However, each section needs to organize
-their own operators.&lt;/p&gt;
+their own operators.</p>
 
-&lt;p&gt;So coming up in May, we need to have skilled Colorado operators lined up to take shifts to operate
+<p>So coming up in May, we need to have skilled Colorado operators lined up to take shifts to operate
 as many bands and modes as possible for 7 consecutive days. However, the ARRL didn’t perscribe how
 exactly we should manage those logistics. There’s an online tool available that was developed by
 another section, but my friends weren’t impressed; it’s sort of a “Contact Us” form with a text
 field for the operator’s callsign and dropdowns for their requested date, time, band and mode.
 Submitting the form sends the information to who-knows-where, operators have to fill out this form
 once for each shift they pick up, and have no visibility as to who else might want to operate at
-that time.&lt;/p&gt;
+that time.</p>
 
-&lt;p&gt;My friends thought maybe Colorado could come up with something better. And I agree.&lt;/p&gt;
+<p>My friends thought maybe Colorado could come up with something better. And I agree.</p>
 
-&lt;p&gt;So I’ve spent the past few days building a web app basically from scratch, but leveraging some of my
-work on &lt;a href=&quot;https://github.com/k0swe/forester&quot;&gt;Forester&lt;/a&gt;. The new app will also be written in Angular
+<p>So I’ve spent the past few days building a web app basically from scratch, but leveraging some of my
+work on <a href="https://github.com/k0swe/forester">Forester</a>. The new app will also be written in Angular
 Typescript and use Firebase for storage and cloud functions. The basic idea is for operators to sign
 up with an account and get approved by one of the section leaders. Once they’re approved, they can
 view the entire shift schedule by day, band and mode. They can see who’s operating around them, and
 they can reserve shifts (or cancel) with a single click. And because I’m using Firestore’s realtime
 capabilities, users can watch the shifts get reserved and freed up immediately without a page
-refresh.&lt;/p&gt;
+refresh.</p>
 
-&lt;p&gt;The tool is still pretty early in development, but I feel like we’ve already leveled up over what’s
+<p>The tool is still pretty early in development, but I feel like we’ve already leveled up over what’s
 out there. Plus, it’s open-source, so other sections can adopt it if they’re interested. Check out
-my &lt;a href=&quot;https://github.com/k0swe/w1aw-schedule&quot;&gt;W1AW/0 Colorado Scheduler&lt;/a&gt; on GitHub.&lt;/p&gt;</content><author><name></name></author><summary type="html">A few days ago I was posed a question by some friends who happen to currently be ARRL section leaders for Colorado.</summary></entry><entry><title type="html">Entry Panel</title><link href="https://k0swe.radio/2023/02/06/entry-panel.html" rel="alternate" type="text/html" title="Entry Panel" /><published>2023-02-06T00:00:00+00:00</published><updated>2023-02-06T00:00:00+00:00</updated><id>https://k0swe.radio/2023/02/06/entry-panel</id><content type="html" xml:base="https://k0swe.radio/2023/02/06/entry-panel.html">&lt;p&gt;&lt;img src=&quot;/assets/2023-02-06-entry-panel.jpg&quot; alt=&quot;Entry panel&quot; /&gt;&lt;/p&gt;
+my <a href="https://github.com/k0swe/w1aw-schedule">W1AW/0 Colorado Scheduler</a> on GitHub.</p>]]></content><author><name></name></author><summary type="html"><![CDATA[A few days ago I was posed a question by some friends who happen to currently be ARRL section leaders for Colorado.]]></summary></entry><entry><title type="html">Entry Panel</title><link href="https://k0swe.radio/2023/02/06/entry-panel.html" rel="alternate" type="text/html" title="Entry Panel" /><published>2023-02-06T00:00:00+00:00</published><updated>2023-02-06T00:00:00+00:00</updated><id>https://k0swe.radio/2023/02/06/entry-panel</id><content type="html" xml:base="https://k0swe.radio/2023/02/06/entry-panel.html"><![CDATA[<p><img src="/assets/2023-02-06-entry-panel.jpg" alt="Entry panel" /></p>
 
-&lt;p&gt;The &lt;a href=&quot;/2022/10/15/hiatus.html&quot;&gt;move&lt;/a&gt; has been going well. We’re mostly settled in, and ham-wise I’ve
-been able to limp along with a window coax passthrough to my temporary station.&lt;/p&gt;
+<p>The <a href="/2022/10/15/hiatus.html">move</a> has been going well. We’re mostly settled in, and ham-wise I’ve
+been able to limp along with a window coax passthrough to my temporary station.</p>
 
-&lt;p&gt;But today, I did the scariest thing since
-&lt;a href=&quot;/2019/11/02/mobile-antenna.html&quot;&gt;cutting a hole in the roof of my car&lt;/a&gt;: I cut a hole in the side of
-my house! I purchased an entry panel from &lt;a href=&quot;https://www.kf7p.com/KF7P/Welcome.html&quot;&gt;KF7P Metalwerks&lt;/a&gt;,
+<p>But today, I did the scariest thing since
+<a href="/2019/11/02/mobile-antenna.html">cutting a hole in the roof of my car</a>: I cut a hole in the side of
+my house! I purchased an entry panel from <a href="https://www.kf7p.com/KF7P/Welcome.html">KF7P Metalwerks</a>,
 and it looks excellent. The process of cutting the hole was nerve-wracking, but it went smoothly.
 The panel came with a section of conduit, so getting the panel placed correctly and weather sealed
 was easy. I’m very happy with the result. I’ll be able to establish a good ground system and run
-plenty of cables through the panel.&lt;/p&gt;
+plenty of cables through the panel.</p>
 
-&lt;p&gt;The first thing I ran through was actually an ethernet cable for a microwave hop up to Eldorado
-Mountain and directly into the &lt;a href=&quot;https://www.rmham.org/amateur-microwave-network/&quot;&gt;RMHAM backbone&lt;/a&gt;!
-I’ll get my UHF/VHF J-pole and HF long wire set up soon.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry></feed>
+<p>The first thing I ran through was actually an ethernet cable for a microwave hop up to Eldorado
+Mountain and directly into the <a href="https://www.rmham.org/amateur-microwave-network/">RMHAM backbone</a>!
+I’ll get my UHF/VHF J-pole and HF long wire set up soon.</p>]]></content><author><name></name></author><summary type="html"><![CDATA[]]></summary></entry></feed>
