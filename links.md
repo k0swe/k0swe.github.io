@@ -16,6 +16,7 @@ find them useful as well!
 - [Winlink in a Box](https://youtu.be/fSGivCXoU_0) (18 minutes)
 - [Winlink Protocols and Pat](https://youtu.be/oiqAAfBgPCo) (35 minutes)
 - [Small Rotators for AMSAT](https://youtu.be/-tH1E7pyXzU) (25 minutes)
+- [ARRL VOTA Planning and Operations](https://youtu.be/v-RRP2vo-Jc?si) (23 minutes)
 
 ## Denver/Boulder area clubs
 
