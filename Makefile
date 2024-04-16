@@ -21,6 +21,7 @@ update: install
 .PHONY: format
 format:
 		prettier --write .
+		./resize-images.sh
 
 .PHONY: clean
 clean:
