@@ -1,4 +1,34 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="https://k0swe.radio/feed.xml" rel="self" type="application/atom+xml" /><link href="https://k0swe.radio/" rel="alternate" type="text/html" /><updated>2024-03-25T14:11:20+00:00</updated><id>https://k0swe.radio/feed.xml</id><title type="html">K0SWE Blog</title><subtitle>Events and projects for amateur radio operator K0SWE, a.k.a. Chris.</subtitle><entry><title type="html">ColMon</title><link href="https://k0swe.radio/2024/01/29/colmon.html" rel="alternate" type="text/html" title="ColMon" /><published>2024-01-29T00:00:00+00:00</published><updated>2024-01-29T00:00:00+00:00</updated><id>https://k0swe.radio/2024/01/29/colmon</id><content type="html" xml:base="https://k0swe.radio/2024/01/29/colmon.html"><![CDATA[<p><img src="/assets/cornell-ashen-cabin.jpg" alt="Cornell Ashen Cabin" /></p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="https://k0swe.radio/feed.xml" rel="self" type="application/atom+xml" /><link href="https://k0swe.radio/" rel="alternate" type="text/html" /><updated>2024-04-16T05:05:57+00:00</updated><id>https://k0swe.radio/feed.xml</id><title type="html">K0SWE Blog</title><subtitle>Events and projects for amateur radio operator K0SWE, a.k.a. Chris.</subtitle><entry><title type="html">Foxhunt</title><link href="https://k0swe.radio/2024/04/15/foxhunt.html" rel="alternate" type="text/html" title="Foxhunt" /><published>2024-04-15T00:00:00+00:00</published><updated>2024-04-15T00:00:00+00:00</updated><id>https://k0swe.radio/2024/04/15/foxhunt</id><content type="html" xml:base="https://k0swe.radio/2024/04/15/foxhunt.html"><![CDATA[<p><img src="/assets/2024-04-14-foxhunt-lunch.jpg" alt="Foxhunt lunch" /></p>
+
+<p>Yesterday, RMHAM hosted their first big ARDF foxhunt in a while. I’ve run two foxhunts for high
+school students before, but this is the first city-scale foxhunt I’ve participated in.</p>
+
+<p>In addition to the traditional tools of the trade, an HT, yagi and offset attenuator, I was using
+something special: a KrakenSDR. The receiver consists essentially of five RTL-SDR dongles (five sets
+of R820T2 and RTL2832U chips) tied to a signle clock source, which lets it calculate the direction
+of arrival (DOA) of signals. Instead of jumping out of the car and spinning around with the yagi, I
+can just drive around and let the Kraken sample every few seconds. Even if each sample is not quite
+as accurate, the Kraken can take many more samples and average them to get a more accurate result.</p>
+
+<p>Yesterday morning as the event started, I felt good about my chances of being successful. When the
+fox started transmitting, I was able to get some pings and start driving generally towards it. I
+wish I’d had a separeate driver with me so I could focus on the Kraken, but as it was, I sort of
+noticed the Kraken’s predicted target was jumping around a little bit as the samples came in. After
+a couple of miles of driving I turned on the turn-by-turn navigation in the Kraken app and started
+following it. The pings kept getting stronger, and I was getting closer. Eventually I turned into a
+suburban neighborhood that was a rabbit-warren of criss-crossing roads; if I had been using the yagi
+I would have had a very hard time. But the Kraken knew where the fox was and the navigation was
+spot-on.</p>
+
+<p>The fox was located at a house that was only obvious because of the antennas on the roof. I parked,
+rang the doorbell, and sure enough, this was the place! I was the first one to find the fox. John
+W0VG and Mark N0OHJ hadn’t even finished getting their coffee yet. I was pretty proud of myself.</p>
+
+<p>Admittedly, this was designed to be an easy foxhunt. The fox was transmitting at 20W from a pretty
+high location, without any tricky terrain. Robert N0CFM talked about some of the foxhunts he’s run,
+and one in particular where he was transmitting from a low canyon and the signal was bouncing off a
+rock formation outside the search boundary. That would be a lot harder to find even with the Kraken.
+Still, have to start somewhere!</p>]]></content><author><name></name></author><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">ColMon</title><link href="https://k0swe.radio/2024/01/29/colmon.html" rel="alternate" type="text/html" title="ColMon" /><published>2024-01-29T00:00:00+00:00</published><updated>2024-01-29T00:00:00+00:00</updated><id>https://k0swe.radio/2024/01/29/colmon</id><content type="html" xml:base="https://k0swe.radio/2024/01/29/colmon.html"><![CDATA[<p><img src="/assets/cornell-ashen-cabin.jpg" alt="Cornell Ashen Cabin" /></p>
 
 <p>I’m beginning a project with Willem AC0KQ to build an AllMon replacement for the Colorado
 Connection. The <a href="https://colcon.org">Colorado Connection</a> is a network of
@@ -245,19 +275,4 @@ refresh.</p>
 
 <p>The tool is still pretty early in development, but I feel like we’ve already leveled up over what’s
 out there. Plus, it’s open-source, so other sections can adopt it if they’re interested. Check out
-my <a href="https://github.com/k0swe/w1aw-schedule">W1AW/0 Colorado Scheduler</a> on GitHub.</p>]]></content><author><name></name></author><summary type="html"><![CDATA[A few days ago I was posed a question by some friends who happen to currently be ARRL section leaders for Colorado.]]></summary></entry><entry><title type="html">Entry Panel</title><link href="https://k0swe.radio/2023/02/06/entry-panel.html" rel="alternate" type="text/html" title="Entry Panel" /><published>2023-02-06T00:00:00+00:00</published><updated>2023-02-06T00:00:00+00:00</updated><id>https://k0swe.radio/2023/02/06/entry-panel</id><content type="html" xml:base="https://k0swe.radio/2023/02/06/entry-panel.html"><![CDATA[<p><img src="/assets/2023-02-06-entry-panel.jpg" alt="Entry panel" /></p>
-
-<p>The <a href="/2022/10/15/hiatus.html">move</a> has been going well. We’re mostly settled in, and ham-wise I’ve
-been able to limp along with a window coax passthrough to my temporary station.</p>
-
-<p>But today, I did the scariest thing since
-<a href="/2019/11/02/mobile-antenna.html">cutting a hole in the roof of my car</a>: I cut a hole in the side of
-my house! I purchased an entry panel from <a href="https://www.kf7p.com/KF7P/Welcome.html">KF7P Metalwerks</a>,
-and it looks excellent. The process of cutting the hole was nerve-wracking, but it went smoothly.
-The panel came with a section of conduit, so getting the panel placed correctly and weather sealed
-was easy. I’m very happy with the result. I’ll be able to establish a good ground system and run
-plenty of cables through the panel.</p>
-
-<p>The first thing I ran through was actually an ethernet cable for a microwave hop up to Eldorado
-Mountain and directly into the <a href="https://www.rmham.org/amateur-microwave-network/">RMHAM backbone</a>!
-I’ll get my UHF/VHF J-pole and HF long wire set up soon.</p>]]></content><author><name></name></author><summary type="html"><![CDATA[]]></summary></entry></feed>
+my <a href="https://github.com/k0swe/w1aw-schedule">W1AW/0 Colorado Scheduler</a> on GitHub.</p>]]></content><author><name></name></author><summary type="html"><![CDATA[A few days ago I was posed a question by some friends who happen to currently be ARRL section leaders for Colorado.]]></summary></entry></feed>
