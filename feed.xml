@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="https://k0swe.radio/feed.xml" rel="self" type="application/atom+xml" /><link href="https://k0swe.radio/" rel="alternate" type="text/html" /><updated>2024-04-19T02:37:29+00:00</updated><id>https://k0swe.radio/feed.xml</id><title type="html">K0SWE Blog</title><subtitle>Events and projects for amateur radio operator K0SWE, a.k.a. Chris.</subtitle><entry><title type="html">Foxhunt</title><link href="https://k0swe.radio/2024/04/15/foxhunt.html" rel="alternate" type="text/html" title="Foxhunt" /><published>2024-04-15T00:00:00+00:00</published><updated>2024-04-15T00:00:00+00:00</updated><id>https://k0swe.radio/2024/04/15/foxhunt</id><content type="html" xml:base="https://k0swe.radio/2024/04/15/foxhunt.html"><![CDATA[<p><img src="/assets/2024-04-14-foxhunt-lunch.jpg" alt="Foxhunt lunch" /></p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="https://k0swe.radio/feed.xml" rel="self" type="application/atom+xml" /><link href="https://k0swe.radio/" rel="alternate" type="text/html" /><updated>2024-04-19T15:17:18+00:00</updated><id>https://k0swe.radio/feed.xml</id><title type="html">K0SWE Blog</title><subtitle>Events and projects for amateur radio operator K0SWE, a.k.a. Chris.</subtitle><entry><title type="html">Foxhunt</title><link href="https://k0swe.radio/2024/04/15/foxhunt.html" rel="alternate" type="text/html" title="Foxhunt" /><published>2024-04-15T00:00:00+00:00</published><updated>2024-04-15T00:00:00+00:00</updated><id>https://k0swe.radio/2024/04/15/foxhunt</id><content type="html" xml:base="https://k0swe.radio/2024/04/15/foxhunt.html"><![CDATA[<p><img src="/assets/2024-04-14-foxhunt-lunch.jpg" alt="Foxhunt lunch" /></p>
 
 <p>Yesterday, RMHAM hosted their first big ARDF foxhunt in a while. I’ve run two foxhunts for high
 school students before, but this is the first city-scale foxhunt I’ve participated in.</p>
@@ -22,15 +22,15 @@ spot-on.</p>
 
 <p>The fox was located at a house that was only obvious because of the antennas on the roof. I parked,
 rang the doorbell, and sure enough, this was the place! I was the first one to find the fox. John
-W0VG and Mark N0OHJ hadn’t even finished getting their coffee yet. I was pretty proud of myself.</p>
+<code class="language-plaintext highlighter-rouge">W0VG</code> and Mark <code class="language-plaintext highlighter-rouge">N0OHJ</code> hadn’t even finished getting their coffee yet. I was pretty proud of myself.</p>
 
 <p>Admittedly, this was designed to be an easy foxhunt. The fox was transmitting at 20W from a pretty
-high location, without any tricky terrain. Robert N0CFM talked about some of the foxhunts he’s run,
-and one in particular where he was transmitting from a low canyon and the signal was bouncing off a
-rock formation outside the search boundary. That would be a lot harder to find even with the Kraken.
-Still, have to start somewhere!</p>]]></content><author><name></name></author><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">ColMon</title><link href="https://k0swe.radio/2024/01/29/colmon.html" rel="alternate" type="text/html" title="ColMon" /><published>2024-01-29T00:00:00+00:00</published><updated>2024-01-29T00:00:00+00:00</updated><id>https://k0swe.radio/2024/01/29/colmon</id><content type="html" xml:base="https://k0swe.radio/2024/01/29/colmon.html"><![CDATA[<p><img src="/assets/cornell-ashen-cabin.jpg" alt="Cornell Ashen Cabin" /></p>
+high location, without any tricky terrain. Robert <code class="language-plaintext highlighter-rouge">N0CFM</code> talked about some of the foxhunts he’s
+run, and one in particular where he was transmitting from a low canyon and the signal was bouncing
+off a rock formation outside the search boundary. That would be a lot harder to find even with the
+Kraken. Still, have to start somewhere!</p>]]></content><author><name></name></author><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">ColMon</title><link href="https://k0swe.radio/2024/01/29/colmon.html" rel="alternate" type="text/html" title="ColMon" /><published>2024-01-29T00:00:00+00:00</published><updated>2024-01-29T00:00:00+00:00</updated><id>https://k0swe.radio/2024/01/29/colmon</id><content type="html" xml:base="https://k0swe.radio/2024/01/29/colmon.html"><![CDATA[<p><img src="/assets/cornell-ashen-cabin.jpg" alt="Cornell Ashen Cabin" /></p>
 
-<p>I’m beginning a project with Willem AC0KQ to build an AllMon replacement for the Colorado
+<p>I’m beginning a project with Willem <code class="language-plaintext highlighter-rouge">AC0KQ</code> to build an AllMon replacement for the Colorado
 Connection. The <a href="https://colcon.org">Colorado Connection</a> is a network of
 <a href="https://allstarlink.org/">AllStarLink</a> linked analog repeaters spanning across the state of
 Colorado. It’s a great resource for hams in the state, but the
@@ -61,7 +61,7 @@ throughout its pass. Automating that part requires an azimuth-elevation (az/el) 
 well-known option for that is the Yaesu G-5500 rotator which retails new for about $700, too
 expensive to justify using once or twice while I see if I enjoy working AMSAT regularly. I’ve kept
 my eyes open for lighter-weight options, and one that stuck out was <a href="https://satran.io">SATRAN</a> by
-Daniel Nikolajsen, SM7YSA. For a while, it was sold as a kit, but mainly in Europe and explicitly
+Daniel Nikolajsen, <code class="language-plaintext highlighter-rouge">SM7YSA</code>. For a while, it was sold as a kit, but mainly in Europe and explicitly
 not to the US or Canada.</p>
 
 <p>Well, it seems SATRAN is no longer being sold as a kit, but the plans to build it are available, so
@@ -92,7 +92,7 @@ Museum and the Fuller Lodge.</p>
 
 <p><img src="/assets/2023-08-12_07-19_event-station.JPG" alt="Setting up the event station in the morning" /></p>
 
-<p><img src="/assets/2023-08-12_07-30_brian.JPG" alt="Brian N5ZGT was the event director" /></p>
+<p><img src="/assets/2023-08-12_07-30_brian.JPG" alt="Brian `N5ZGT` was the event director" /></p>
 
 <p><img src="/assets/2023-08-12_07-42_registration.JPG" alt="Warm welcomes at the registration table" /></p>
 
@@ -130,7 +130,7 @@ almost 30 QSOs and probably would have kept going if there had been time.</p>
 
 <hr />
 
-<p>Edit: John W0VG posted a video, <a href="https://www.youtube.com/watch?v=hXDzzWUICxc">check it out</a>!</p>]]></content><author><name></name></author><summary type="html"><![CDATA[I’m just coming back from another fabulous Field Day spent with RMHAM! Words hardly do the event justice, so take a look at some of the pictures!]]></summary></entry><entry><title type="html">Catalog Progress</title><link href="https://k0swe.radio/2023/05/26/catalog-progress.html" rel="alternate" type="text/html" title="Catalog Progress" /><published>2023-05-26T00:00:00+00:00</published><updated>2023-05-26T00:00:00+00:00</updated><id>https://k0swe.radio/2023/05/26/catalog-progress</id><content type="html" xml:base="https://k0swe.radio/2023/05/26/catalog-progress.html"><![CDATA[<p>I’ve been plugging away at the <a href="/2023/03/29/catalog.html">ARES Catalog</a> project. After negotiating
+<p>Edit: John <code class="language-plaintext highlighter-rouge">W0VG</code> posted a video, <a href="https://www.youtube.com/watch?v=hXDzzWUICxc">check it out</a>!</p>]]></content><author><name></name></author><summary type="html"><![CDATA[I’m just coming back from another fabulous Field Day spent with RMHAM! Words hardly do the event justice, so take a look at some of the pictures!]]></summary></entry><entry><title type="html">Catalog Progress</title><link href="https://k0swe.radio/2023/05/26/catalog-progress.html" rel="alternate" type="text/html" title="Catalog Progress" /><published>2023-05-26T00:00:00+00:00</published><updated>2023-05-26T00:00:00+00:00</updated><id>https://k0swe.radio/2023/05/26/catalog-progress</id><content type="html" xml:base="https://k0swe.radio/2023/05/26/catalog-progress.html"><![CDATA[<p>I’ve been plugging away at the <a href="/2023/03/29/catalog.html">ARES Catalog</a> project. After negotiating
 some clearer requirements, I set out building a prototype with <a href="https://nextjs.org/">Next.JS</a>.</p>
 
 <p>For the database, I started out with <a href="https://www.postgresql.org/">Postgres</a> using the
@@ -150,11 +150,11 @@ like ICS 217s describing all of the repeaters and channels used by each group, I
 those channels down per-event, and ICS 205As with contact information of event personnel. I’ve been
 tasked with creating a web application to collect and display this information. I’m just one of
 several people working on this project, but I’m the only one with web development experience. Ben
-KB0UBZ is technically savvy and is willing to help collect and massage data. Our subject matter
-experts are Joe KD0TYU and Randy N0OEM.</p>
+<code class="language-plaintext highlighter-rouge">KB0UBZ</code> is technically savvy and is willing to help collect and massage data. Our subject matter
+experts are Joe <code class="language-plaintext highlighter-rouge">KD0TYU</code> and Randy <code class="language-plaintext highlighter-rouge">N0OEM</code>.</p>
 
 <p>At this point, we’re really trying to narrow down exactly what we’re trying to build in the first
-place. Willem AC0KQ pitched this project to me as somthing to fill out complete Incident Action
+place. Willem <code class="language-plaintext highlighter-rouge">AC0KQ</code> pitched this project to me as somthing to fill out complete Incident Action
 Plans with many ICS forms, but Joe and Randy’s vision for this as a catalog is quite different. I
 think we’ll start with the bare minimum, just publishe ICS 217s organized by ARES group, and then
 build from there.</p>]]></content><author><name></name></author><summary type="html"><![CDATA[It seems I’ve been roped into another project. Colorado ARES section leaders want to create a catalog of important information for use by ARES groups across the state. It will include things like ICS 217s describing all of the repeaters and channels used by each group, ICS 205s to break those channels down per-event, and ICS 205As with contact information of event personnel. I’ve been tasked with creating a web application to collect and display this information. I’m just one of several people working on this project, but I’m the only one with web development experience. Ben KB0UBZ is technically savvy and is willing to help collect and massage data. Our subject matter experts are Joe KD0TYU and Randy N0OEM.]]></summary></entry><entry><title type="html">Grandstream Phone</title><link href="https://k0swe.radio/2023/03/18/grandstream.html" rel="alternate" type="text/html" title="Grandstream Phone" /><published>2023-03-18T00:00:00+00:00</published><updated>2023-03-18T00:00:00+00:00</updated><id>https://k0swe.radio/2023/03/18/grandstream</id><content type="html" xml:base="https://k0swe.radio/2023/03/18/grandstream.html"><![CDATA[<p>As a follow-up to my <a href="/2023/03/03/pbx.html">previous post</a> on IP phones, I picked up a
@@ -250,8 +250,8 @@ leaders for Colorado.</p>
 
 <p>This year the ARRL has a special event called Volunteers On The Air, VOTA. As part of that program,
 each section will have a couple of week-long blocks at at points through the year to operate with
-the callsign “W1AW portable,” which is a very special honor! However, each section needs to organize
-their own operators.</p>
+the callsign “<code class="language-plaintext highlighter-rouge">W1AW</code> portable,” which is a very special honor! However, each section needs to
+organize their own operators.</p>
 
 <p>So coming up in May, we need to have skilled Colorado operators lined up to take shifts to operate
 as many bands and modes as possible for 7 consecutive days. However, the ARRL didn’t perscribe how
