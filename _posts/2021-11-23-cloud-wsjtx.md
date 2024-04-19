@@ -6,7 +6,7 @@ date: 2021-11-23
 
 ![Screenshot of CloudWsjtx](/assets/2021-11-23-CloudWsjtx.png)
 
-A couple of weeks ago, I was approached by Pearce N2LW with an interesting project idea. I don't
+A couple of weeks ago, I was approached by Pearce `N2LW` with an interesting project idea. I don't
 want to spoil the entire idea, but the basic premise is to be able to "play" WSJT-X from anywhere.
 With Forester and `kel-agent`, I have a good tech foundation to make that a reality, and Pearce's
 background also lends itself to the project, so we've been working together.

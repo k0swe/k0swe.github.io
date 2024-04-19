@@ -11,11 +11,11 @@ been able to limp along with a window coax passthrough to my temporary station.
 
 But today, I did the scariest thing since
 [cutting a hole in the roof of my car](/2019/11/02/mobile-antenna.html): I cut a hole in the side of
-my house! I purchased an entry panel from [KF7P Metalwerks](https://www.kf7p.com/KF7P/Welcome.html),
-and it looks excellent. The process of cutting the hole was nerve-wracking, but it went smoothly.
-The panel came with a section of conduit, so getting the panel placed correctly and weather sealed
-was easy. I'm very happy with the result. I'll be able to establish a good ground system and run
-plenty of cables through the panel.
+my house! I purchased an entry panel from
+[`KF7P` Metalwerks](https://www.kf7p.com/KF7P/Welcome.html), and it looks excellent. The process of
+cutting the hole was nerve-wracking, but it went smoothly. The panel came with a section of conduit,
+so getting the panel placed correctly and weather sealed was easy. I'm very happy with the result.
+I'll be able to establish a good ground system and run plenty of cables through the panel.
 
 The first thing I ran through was actually an ethernet cable for a microwave hop up to Eldorado
 Mountain and directly into the [RMHAM backbone](https://www.rmham.org/amateur-microwave-network/)!

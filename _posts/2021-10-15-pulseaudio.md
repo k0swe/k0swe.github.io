@@ -25,5 +25,5 @@ Notice, the pause on the Digirig is about 2 seconds, where the pause on the Sign
 a second. The ping response visible on the SignaLink's RX track is completely in the deaf section of
 the Digirig's RX track.
 
-I'm not giving up on the Digirig yet and I'm working with the designer, Denis K0TX, to understand
+I'm not giving up on the Digirig yet and I'm working with the designer, Denis `K0TX`, to understand
 what's happening. In the meantime, my VARA FM adventures will need to use the SignaLink.

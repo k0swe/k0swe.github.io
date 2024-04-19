@@ -20,13 +20,13 @@ This reference design is meant to be as simple and straightforward as possible t
 configure; as such, it does not use the full flexibility of any of the components. Use this as a
 starting point, then extend based on your own interests or requirements.
 
-Many thanks to Martin Hebnes Pedersen LA5NTA for creating and maintaining
+Many thanks to Martin Hebnes Pedersen `LA5NTA` for creating and maintaining
 [Pat](https://github.com/la5nta/pat)!
 
-PiPat is inspired by [PiGate](http://www.pigate.net/) by Mark Griffith KD0QYN.
+PiPat is inspired by [PiGate](http://www.pigate.net/) by Mark Griffith `KD0QYN`.
 
-Also check out videos from Jason Oleham KM4ACK about building basically the same thing. He has tons
-of videos incorporating Raspberry Pi and ham radio, and has built up scripts for many tasks
+Also check out videos from Jason Oleham `KM4ACK` about building basically the same thing. He has
+tons of videos incorporating Raspberry Pi and ham radio, and has built up scripts for many tasks
 including those outlined here.
 
 ## Need help?
@@ -273,7 +273,7 @@ possible.
 
 In addition to location, GPS provides accurate time which can be used to set the system clock. If
 you’re already using GPS, it’s a great option. See
-[this guide from Mike Richards G4WNC](https://photobyte.org/raspberry-pi-stretch-gps-dongle-as-a-time-source-with-chrony-timedatectl/).
+[this guide from Mike Richards `G4WNC`](https://photobyte.org/raspberry-pi-stretch-gps-dongle-as-a-time-source-with-chrony-timedatectl/).
 In summary:
 
 ```

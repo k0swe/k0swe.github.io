@@ -65,8 +65,8 @@ find them useful as well!
   - Concise
     [comparison](http://arrl-ohio.org/digital/Amateur%20Radio%20Digital%20Hotspot%20Comparison.pdf)
     by ARRL Ohio of many hotspots, dated 2016-11, but doesn't include Zumspot
-  - Another [comparison](https://amateurradionotes.com/hotspots.htm#thehotspots) by KE0FHS with more
-    products covered
+  - Another [comparison](https://amateurradionotes.com/hotspots.htm#thehotspots) by `KE0FHS` with
+    more products covered
 
 ### Data
 
@@ -102,10 +102,10 @@ find them useful as well!
 
 ### AnyTone D878UV
 
-- Jim Blocker KF5IW continuously updates and publishes a
+- Jim Blocker `KF5IW` continuously updates and publishes a
   [DMR contact list](https://kf5iw.com/contactdb.php) with worldwide coverage from sources like
   radioid.net, so you can always tell who's talking.
-- Dave Casler KE0OG has a [helpful video](https://youtu.be/MjnmOmSdqVU) on setting up the AnyTone
+- Dave Casler `KE0OG` has a [helpful video](https://youtu.be/MjnmOmSdqVU) on setting up the AnyTone
   D878UV for APRS, because it's not intuitive (at least, not as a first-time APRS user).
 
 ## Software
@@ -113,8 +113,8 @@ find them useful as well!
 - Since I primarily use Linux and many radio programs are built for Windows, I use Virtualbox to run
   Windows as a guest within Linux. There's a
   [good guide](https://feeding.cloud.geek.nz/posts/programming-anytone-d878uv-on-linux-using-windows10-and-virtualbox/)
-  from François Marier VA7GPL; I had missed the point about the `vboxusers` group, and it prevented
-  me from attaching USB devices.
+  from François Marier `VA7GPL`; I had missed the point about the `vboxusers` group, and it
+  prevented me from attaching USB devices.
 
 ## Test study aids
 

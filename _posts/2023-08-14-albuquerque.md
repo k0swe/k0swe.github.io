@@ -22,7 +22,7 @@ After that, the event proper was underway.
 
 ![Setting up the event station in the morning](/assets/2023-08-12_07-19_event-station.JPG)
 
-![Brian N5ZGT was the event director](/assets/2023-08-12_07-30_brian.JPG)
+![Brian `N5ZGT` was the event director](/assets/2023-08-12_07-30_brian.JPG)
 
 ![Warm welcomes at the registration table](/assets/2023-08-12_07-42_registration.JPG)
 

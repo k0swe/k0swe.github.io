@@ -23,7 +23,7 @@ along with USB UART and USB sound card chip all hard-wired together on a printed
 cable, but I would like to get something smaller. Therefore, I'm taking the opportunity to "level
 up" my electronics and PCB design skills.
 
-I've only done one custom PCB before, a [K3NG CW keyer](/2020/05/02/pcb-design.html). That project
+I've only done one custom PCB before, a [`K3NG` CW keyer](/2020/05/02/pcb-design.html). That project
 was an Arduino shield and was built with all through-hole parts. This time I want to try using an
 extruded aluminum enclosure and surface mount (SMT) parts. I'm aiming to fit the entire interface
 into about the size of a deck of cards, which so far seems very doable. Working with single-purpose

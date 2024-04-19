@@ -9,8 +9,8 @@ date: 2022-01-17
 Saturday was the [NCARC](http://ncarc.net/) Winter Hamfest up in Loveland, Colorado, and the first
 in-person hamfest locally in a good long while. Even with masking and whatnot, it was wonderful to
 be back in person to see folks. I spent most of my time at talks. I got a proper introduction to
-amateur television from Jim KH6HTV, and that looks like something I'll have to play with soon! I
-also really enjoyed an EmComm talk from Jim AD0ZM, and was particularly interested in the
+amateur television from Jim `KH6HTV`, and that looks like something I'll have to play with soon! I
+also really enjoyed an EmComm talk from Jim `AD0ZM`, and was particularly interested in the
 communications pod he had on display. Sure, I've seen pods like it before, but I was reminded that
 one of the really nice points about them is that it simplifies setup onsite.
 
