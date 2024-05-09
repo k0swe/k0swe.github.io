@@ -40,3 +40,5 @@ I have some overriding goals for my smart home:
 1. Fail-open operation. I don't want to have to worry about my home being unusable if a sensor, the
    internet, WiFi or local HA server are down. Wall switches and the thermostat still need to do
    their basic job. Everything needs to revert to a dumb appliance in the absence of smart control.
+
+I wonder how hard it would be to add ham radio info to Home Assistant? "There's DX on 20m..."
