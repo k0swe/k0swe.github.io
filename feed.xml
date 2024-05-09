@@ -1,4 +1,41 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="https://k0swe.radio/feed.xml" rel="self" type="application/atom+xml" /><link href="https://k0swe.radio/" rel="alternate" type="text/html" /><updated>2024-05-08T22:17:34+00:00</updated><id>https://k0swe.radio/feed.xml</id><title type="html">K0SWE Blog</title><subtitle>Events and projects for amateur radio operator K0SWE, a.k.a. Chris.</subtitle><entry><title type="html">Foxhunt</title><link href="https://k0swe.radio/2024/04/15/foxhunt.html" rel="alternate" type="text/html" title="Foxhunt" /><published>2024-04-15T00:00:00+00:00</published><updated>2024-04-15T00:00:00+00:00</updated><id>https://k0swe.radio/2024/04/15/foxhunt</id><content type="html" xml:base="https://k0swe.radio/2024/04/15/foxhunt.html"><![CDATA[<p><img src="/assets/2024-04-14-foxhunt-lunch.jpg" alt="Foxhunt lunch" /></p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="https://k0swe.radio/feed.xml" rel="self" type="application/atom+xml" /><link href="https://k0swe.radio/" rel="alternate" type="text/html" /><updated>2024-05-09T11:26:34+00:00</updated><id>https://k0swe.radio/feed.xml</id><title type="html">K0SWE Blog</title><subtitle>Events and projects for amateur radio operator K0SWE, a.k.a. Chris.</subtitle><entry><title type="html">Home Assistant</title><link href="https://k0swe.radio/2024/05/09/home-assistant.html" rel="alternate" type="text/html" title="Home Assistant" /><published>2024-05-09T00:00:00+00:00</published><updated>2024-05-09T00:00:00+00:00</updated><id>https://k0swe.radio/2024/05/09/home-assistant</id><content type="html" xml:base="https://k0swe.radio/2024/05/09/home-assistant.html"><![CDATA[<p>In a slight departure from my usual amateur radio topics, I’ve been busy setting up more smart home
+stuff. I’ve been curious about home automation for several years and slowly accumulating things like
+Google Home speakers, Leviton dimmer switches and Nest outdoor cameras. However, using the Google
+Home app as the central integration point and relying on WiFi for communication for everything has
+been showing its limitations lately.</p>
+
+<p>Enter <a href="https://www.home-assistant.io/">Home Assistant</a>, an open-source home automation platform that
+focuses on local control and privacy. I have several work friends that have rave reviews of Home
+Assistant, so I decided to give it a try. This has required revamping a lot of my basic home IT
+infrastructure: I picked up a used workstation from
+<a href="https://www.theserverstore.com/">The Server Store</a> to use as a home lab server (for more than just
+HA), and have replaced my Google WiFi mesh network with a Unifi setup. To add communication options,
+I also picked up a <a href="https://www.amazon.com/gp/product/B01GJ826F8">GoControl HUSBZB-1</a> USB stick that
+supports both Zigbee and Z-Wave.</p>
+
+<p>From there, I’ve been setting up Home Assistant on the server, adding integrations for existing
+devices and services, and adding new devices. Most things have been wonderfully easy. Considering
+it’s open source, Home Assistant is really well polished in terms of usability and seamless
+integration. I’ve added quite a few ThirdReality Zigbee devices like
+<a href="https://www.amazon.com/gp/product/B09MVKWBFF/">motion</a>,
+<a href="https://www.amazon.com/gp/product/B09XCWRHCT/">door</a>, and
+<a href="https://www.amazon.com/gp/product/B0BLTNZSQK/">temperature</a> sensors,
+<a href="https://www.amazon.com/gp/product/B0BPY5D1KC/">wall plugs</a>, and some
+<a href="https://www.amazon.com/gp/product/B08428JSDZ/">Innr color light bulbs</a>. I was even pleasantly
+surprised to see that my OctoPi 3D printer server popped right in!</p>
+
+<p>I have some overriding goals for my smart home:</p>
+
+<ol>
+  <li>Value add. Walking into a room turns on the lights, saving effort; the lights turn off when no
+one is there, saving energy. Notifications let us know when the garage door is left open or when
+the girls have dance class. The thermostat prioritizes rooms that are actually in use.</li>
+  <li>Spouse-approved. I don’t want to make things more complicated for my family or guests. Everything
+should be intuitive and reliable.</li>
+  <li>Fail-open operation. I don’t want to have to worry about my home being unusable if a sensor, the
+internet, WiFi or local HA server are down. Wall switches and the thermostat still need to do
+their basic job. Everything needs to revert to a dumb appliance in the absence of smart control.</li>
+</ol>]]></content><author><name></name></author><summary type="html"><![CDATA[In a slight departure from my usual amateur radio topics, I’ve been busy setting up more smart home stuff. I’ve been curious about home automation for several years and slowly accumulating things like Google Home speakers, Leviton dimmer switches and Nest outdoor cameras. However, using the Google Home app as the central integration point and relying on WiFi for communication for everything has been showing its limitations lately.]]></summary></entry><entry><title type="html">Foxhunt</title><link href="https://k0swe.radio/2024/04/15/foxhunt.html" rel="alternate" type="text/html" title="Foxhunt" /><published>2024-04-15T00:00:00+00:00</published><updated>2024-04-15T00:00:00+00:00</updated><id>https://k0swe.radio/2024/04/15/foxhunt</id><content type="html" xml:base="https://k0swe.radio/2024/04/15/foxhunt.html"><![CDATA[<p><img src="/assets/2024-04-14-foxhunt-lunch.jpg" alt="Foxhunt lunch" /></p>
 
 <p>Yesterday, RMHAM hosted their first big ARDF foxhunt in a while. I’ve run two foxhunts for high
 school students before, but this is the first city-scale foxhunt I’ve participated in.</p>
@@ -245,34 +282,4 @@ So I guess I’ll try out a Polycom or a Grandstream or something.</p>
 <h2 id="conclusions">Conclusions</h2>
 
 <p>I’ve put many hours into this project, and I still don’t have a working connection to Hamshack
-Hotline! I guess I’m getting what I paid for. Still, I’ve learned a lot.</p>]]></content><author><name></name></author><summary type="html"><![CDATA[I’ve used VoIP a couple of times in conjuction with ham radio for supporting public events; some troubleshooting problems lend themselves to full duplex communication better than PTT radios. Until now I hadn’t really considered setting up something for myself, but then I learned about Hamshack Hotline. It’s a collective of VoIP geeks running their own phone network, and it even has links into RF repeaters and such. Neat!]]></summary></entry><entry><title type="html">Prepping for W1AW/0 Colorado</title><link href="https://k0swe.radio/2023/02/25/w1aw0.html" rel="alternate" type="text/html" title="Prepping for W1AW/0 Colorado" /><published>2023-02-25T00:00:00+00:00</published><updated>2023-02-25T00:00:00+00:00</updated><id>https://k0swe.radio/2023/02/25/w1aw0</id><content type="html" xml:base="https://k0swe.radio/2023/02/25/w1aw0.html"><![CDATA[<p>A few days ago I was posed a question by some friends who happen to currently be ARRL section
-leaders for Colorado.</p>
-
-<p>This year the ARRL has a special event called Volunteers On The Air, VOTA. As part of that program,
-each section will have a couple of week-long blocks at at points through the year to operate with
-the callsign “<code class="language-plaintext highlighter-rouge">W1AW</code> portable,” which is a very special honor! However, each section needs to
-organize their own operators.</p>
-
-<p>So coming up in May, we need to have skilled Colorado operators lined up to take shifts to operate
-as many bands and modes as possible for 7 consecutive days. However, the ARRL didn’t perscribe how
-exactly we should manage those logistics. There’s an online tool available that was developed by
-another section, but my friends weren’t impressed; it’s sort of a “Contact Us” form with a text
-field for the operator’s callsign and dropdowns for their requested date, time, band and mode.
-Submitting the form sends the information to who-knows-where, operators have to fill out this form
-once for each shift they pick up, and have no visibility as to who else might want to operate at
-that time.</p>
-
-<p>My friends thought maybe Colorado could come up with something better. And I agree.</p>
-
-<p>So I’ve spent the past few days building a web app basically from scratch, but leveraging some of my
-work on <a href="https://github.com/k0swe/forester">Forester</a>. The new app will also be written in Angular
-Typescript and use Firebase for storage and cloud functions. The basic idea is for operators to sign
-up with an account and get approved by one of the section leaders. Once they’re approved, they can
-view the entire shift schedule by day, band and mode. They can see who’s operating around them, and
-they can reserve shifts (or cancel) with a single click. And because I’m using Firestore’s realtime
-capabilities, users can watch the shifts get reserved and freed up immediately without a page
-refresh.</p>
-
-<p>The tool is still pretty early in development, but I feel like we’ve already leveled up over what’s
-out there. Plus, it’s open-source, so other sections can adopt it if they’re interested. Check out
-my <a href="https://github.com/k0swe/w1aw-schedule">W1AW/0 Colorado Scheduler</a> on GitHub.</p>]]></content><author><name></name></author><summary type="html"><![CDATA[A few days ago I was posed a question by some friends who happen to currently be ARRL section leaders for Colorado.]]></summary></entry></feed>
+Hotline! I guess I’m getting what I paid for. Still, I’ve learned a lot.</p>]]></content><author><name></name></author><summary type="html"><![CDATA[I’ve used VoIP a couple of times in conjuction with ham radio for supporting public events; some troubleshooting problems lend themselves to full duplex communication better than PTT radios. Until now I hadn’t really considered setting up something for myself, but then I learned about Hamshack Hotline. It’s a collective of VoIP geeks running their own phone network, and it even has links into RF repeaters and such. Neat!]]></summary></entry></feed>
