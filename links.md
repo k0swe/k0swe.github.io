@@ -44,6 +44,9 @@ find them useful as well!
 
 ## Radio and Broadcasting History
 
+- [All About Ham Radio For Beginners](https://www.aaastateofplay.com/all-about-ham-radio-for-beginners/) - Thank you to Conner
+  and Amelia for showing me this excellent beginner's overview! It's a great introduction, plus has links out to many other
+  resources like a glossary, lingo decoder, and much more!
 - [Business Studies: Broadcasting and Its History](https://wyomingllcattorney.com/Blog/Business-Studies-Broadcasting-History) -
   Thank you to Ms. Garraway and Noah for pointing this out, it's super interesting!
 - [AT&T Long Lines – A Forgotten System](https://personal.garrettfuller.org/blog/2018/01/19/att-long-lines-a-forgotten-system/) -
