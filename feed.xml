@@ -1,4 +1,39 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="https://k0swe.radio/feed.xml" rel="self" type="application/atom+xml" /><link href="https://k0swe.radio/" rel="alternate" type="text/html" /><updated>2025-11-22T20:31:48+00:00</updated><id>https://k0swe.radio/feed.xml</id><title type="html">K0SWE Blog</title><subtitle>Events and projects for amateur radio operator K0SWE, a.k.a. Chris.</subtitle><entry><title type="html">Home Assistant</title><link href="https://k0swe.radio/2024/05/09/home-assistant.html" rel="alternate" type="text/html" title="Home Assistant" /><published>2024-05-09T00:00:00+00:00</published><updated>2024-05-09T00:00:00+00:00</updated><id>https://k0swe.radio/2024/05/09/home-assistant</id><content type="html" xml:base="https://k0swe.radio/2024/05/09/home-assistant.html"><![CDATA[<p>In a slight departure from my usual amateur radio topics, I’ve been busy setting up more smart home
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="https://k0swe.radio/feed.xml" rel="self" type="application/atom+xml" /><link href="https://k0swe.radio/" rel="alternate" type="text/html" /><updated>2025-11-24T21:45:51+00:00</updated><id>https://k0swe.radio/feed.xml</id><title type="html">K0SWE Blog</title><subtitle>Events and projects for amateur radio operator K0SWE, a.k.a. Chris.</subtitle><entry><title type="html">HamCon Colorado</title><link href="https://k0swe.radio/2025/10/27/hamcon.html" rel="alternate" type="text/html" title="HamCon Colorado" /><published>2025-10-27T00:00:00+00:00</published><updated>2025-10-27T00:00:00+00:00</updated><id>https://k0swe.radio/2025/10/27/hamcon</id><content type="html" xml:base="https://k0swe.radio/2025/10/27/hamcon.html"><![CDATA[<p>Yesterday I returned home from HamCon Colorado 2025, which was held in Grand Junction. This was not
+my first time <a href="2023-08-14-albuquerque.md">attending</a> an ARRL Rocky Mountain Division Convention, but
+it was my first time at HamCon specifically. Colorado hosts the division convention every ~4 years,
+and we all know how 2020 and ‘21 turned out.</p>
+
+<p>Luckily for me, my connections allowed me to be part of the organizing committee. I ended up helping
+with the foxhunt in lieu of Dan Meyer, <code class="language-plaintext highlighter-rouge">N0PUF</code>, who was unable to attend for health reasons. Dan was
+kind enough to loan his equipment to me, including a matched set of five fox transmitters consisting
+of Alinco DJ-S11 HTs with homemade FoxMox controllers designed by Larry Benko, <code class="language-plaintext highlighter-rouge">W0QE</code>. Also in the
+kit were several hides like a hollow landscaping rock and a pet cleanup bag dispenser.</p>
+
+<p>I ended up driving up on Thursday afternoon, which gave me time to help set up the venue and get the
+lay of the land. We were based at the DoubleTree by Hilton Grand Junction, which was a very nice
+hotel with plenty of room for the event. I spent much of Friday programming a replacement for
+Indico, the presentation management system we used, since nobody really liked it (too complex for
+what we need). It wasn’t strictly necessary to start this during the convention, but I felt I had
+the necessary focus time to make major progress.</p>
+
+<p>Most of Saturday was dedicated to the foxhunt. I was up early to set up the five foxes around the
+hotel property. Four of them I considered between easy and moderate, with hides like the landscaping
+rock and the pet bag dispenser, and one behind a bush. The fifth fox was the “evil” one, which I
+placed on the eighth floor of the hotel near the ice machine. They could hear it all around the
+property, but would have to realize there was a vertical component to the hunt to find it. Many of
+my participants ended up being relative newcomers to foxhunting, and on average found three of the
+foxes in an hour or two. Only one impromptu team found all five! Most of the participants agreed
+that it was fun and that foxhunts should be held more often by more groups.</p>
+
+<p>Unfortunately, there was a small tragedy when I was collecting the foxes after the hunt. The fox on
+the eighth floor was missing! After a thorough search of the area and foxhunting for my own fox, I
+tracked it down to the hotel’s main compacting dumpster. It appears that a hotel staff member had
+mistaken it for trash and thrown it away. Given that the dumpster was potentially dangerous to
+access, I concluded it wasn’t worth the risk to retrieve it. So I had to break the news to Dan that
+his fox was lost. I’m going to have to build him a new one.</p>
+
+<p>Sunday was mostly taken up with tear-down and travel. I had a great time at HamCon Colorado and look
+forward to attending again in the future!</p>]]></content><author><name></name></author><summary type="html"><![CDATA[Yesterday I returned home from HamCon Colorado 2025, which was held in Grand Junction. This was not my first time attending an ARRL Rocky Mountain Division Convention, but it was my first time at HamCon specifically. Colorado hosts the division convention every ~4 years, and we all know how 2020 and ‘21 turned out.]]></summary></entry><entry><title type="html">Home Assistant</title><link href="https://k0swe.radio/2024/05/09/home-assistant.html" rel="alternate" type="text/html" title="Home Assistant" /><published>2024-05-09T00:00:00+00:00</published><updated>2024-05-09T00:00:00+00:00</updated><id>https://k0swe.radio/2024/05/09/home-assistant</id><content type="html" xml:base="https://k0swe.radio/2024/05/09/home-assistant.html"><![CDATA[<p>In a slight departure from my usual amateur radio topics, I’ve been busy setting up more smart home
 stuff. I’ve been curious about home automation for several years and slowly accumulating things like
 Google Home speakers, Leviton dimmer switches and Nest outdoor cameras. However, using the Google
 Home app as the central integration point and relying on WiFi for communication for everything has
@@ -201,87 +236,4 @@ build from there.</p>]]></content><author><name></name></author><summary type="h
 tell you how much easier it was to set up with both FreePBX and Hamshack Hotline! The phone has a
 web interface, and it was a breeze to configure. I didn’t have to mess with XML files or TFTP
 servers. I pointed the phone at Hamshack Hotline and my own experimental FreePBX server, and it just
-worked. So much easier than the Cisco phone.</p>]]></content><author><name></name></author><summary type="html"><![CDATA[As a follow-up to my previous post on IP phones, I picked up a Grandstream GXP1625 for still pretty cheap. Let me tell you how much easier it was to set up with both FreePBX and Hamshack Hotline! The phone has a web interface, and it was a breeze to configure. I didn’t have to mess with XML files or TFTP servers. I pointed the phone at Hamshack Hotline and my own experimental FreePBX server, and it just worked. So much easier than the Cisco phone.]]></summary></entry><entry><title type="html">Getting started with Hamshack Hotline and FreePBX</title><link href="https://k0swe.radio/2023/03/03/pbx.html" rel="alternate" type="text/html" title="Getting started with Hamshack Hotline and FreePBX" /><published>2023-03-03T00:00:00+00:00</published><updated>2023-03-03T00:00:00+00:00</updated><id>https://k0swe.radio/2023/03/03/pbx</id><content type="html" xml:base="https://k0swe.radio/2023/03/03/pbx.html"><![CDATA[<p>I’ve used VoIP a couple of times in conjuction with ham radio for supporting public events; some
-troubleshooting problems lend themselves to full duplex communication better than PTT radios. Until
-now I hadn’t really considered setting up something for myself, but then I learned about
-<a href="https://hamshackhotline.com/">Hamshack Hotline</a>. It’s a collective of VoIP geeks running their own
-phone network, and it even has links into RF repeaters and such. Neat!</p>
-
-<p>HH keeps a list of
-<a href="https://wiki.hamshackhotline.com/doku.php?id=kb:supported.endpoints">fully supported devices</a>, but
-I was somewhat drawn to an unsupported device, a Cisco 7900 series, for nostalgic reasons (it’s what
-I supported in the Army) as well as cost (~$20 on eBay). Because of this, I was directed down the
-road of setting up my own local PBX with a trunk connection to HH. How hard could that be?</p>
-
-<h2 id="freepbx-initial-setup">FreePBX initial setup</h2>
-
-<p>Download https://www.freepbx.org/. I used the ISO image to create a VM for testing. Create an admin
-account and do basic configuration.
-<a href="https://www.youtube.com/playlist?list=PL1fn6oC5ndU_umAhL9A_1zkC90hMPDPNO">This YouTube series</a> goes
-in-depth about the entire process.</p>
-
-<p>Then add some phone extensions. <a href="https://youtu.be/ME1fCwJNes8">This video on creating extensions</a>
-was particularly useful. I also found it very helpful to register a couple of software phone
-clients, which were relatively easy, before moving on to dealing with Cisco “legacy” hardware
-issues.</p>
-
-<h2 id="cisco-7965g-setup">Cisco 7965G setup</h2>
-
-<p><img src="/assets/cisco-7965.jpg" alt="Cisco 7965" /></p>
-
-<p>Download
-<a href="https://software.cisco.com/download/home/281346596/type/282074288/release/9.4(2)SR3">SIP Firmware</a>.
-You need SIP firmware. Some folks advise to use v8 or v9, but both worked for me. You need the
-“firmware files only” zip file. Unzip the files.</p>
-
-<p>The firmware files need to be served by a TFTP server. I used <code class="language-plaintext highlighter-rouge">tftpd-hap</code> on my workstation.</p>
-
-<p>Your DHCP server needs to advertise the TFTP server. My DHCP server is running on my MikroTik
-router. At first I tried setting “DHCP option 150,” but that didn’t seem to work; I could see in
-MikroTik WinBox that the phone kept rejecting DHCP offers. Instead I set the “next-server” option,
-which worked.</p>
-
-<p>Follow the steps below to factory reset your Cisco IP phone and get it to download the new firmware.
-Here’s a <a href="https://youtu.be/xcpJFfuSh7g">good video</a>.</p>
-
-<ol>
-  <li>Unplug the power cable from the IP phone and then plug it back in.</li>
-  <li>While the phone is powering up, and before the speaker button flashes on and off, press and hold
-the pound # key.</li>
-  <li>Continue to hold # until each line button (right of the LCD screen) flashes on and off in
-sequence in orange color.</li>
-  <li>Now release the pound # key and type the following sequence <code class="language-plaintext highlighter-rouge">123456789*0#</code></li>
-</ol>
-
-<p>(On the first phone I tried, I had a hardware issue: I’d start typing the 123… sequence and the
-phone would start booting normally before I could finish. Luckily, I bought two, and the other phone
-behaved as intended.)</p>
-
-<p>The phone should show “Upgrading” and the MAC address on the screen. It will download the firmware
-files one by one and show its progress. After the last file is downloaded, the phone will reboot and
-the firmware upgrade is complete.</p>
-
-<p>At this point, you need to configure the phone by downloading and modifying an
-<a href="https://usecallmanager.nz/sepmac-cnf-xml.html">XML file</a>, renaming it to <code class="language-plaintext highlighter-rouge">SEP{MAC_ADDRESS}.cfg.xml</code>
-and putting that on your TFTP server. The XML file at a minimum needs to specify the SIP server
-address, username and password. Many other config options are available. As I was iterating on the
-config file, I found it useful to modify the value in <code class="language-plaintext highlighter-rouge">&lt;phoneLabel&gt;</code> so I could easily tell if the
-phone had downloaded my latest version.</p>
-
-<p>After all this, I was stuck for a while with the Cisco phone unable to register with the FreePBX
-server despite having picked up its configuration file. I found advice to find the <code class="language-plaintext highlighter-rouge">force_rport</code>
-setting within FreePBX/Asterisk for that phone’s extension advanced settings and turn that setting
-“off”; that made it so I could call out from the Cisco phone, but was unable to receive calls. I
-also tried enabling TCP for the Asterisk server and forcing that extension to use it; still no dice.</p>
-
-<p>This is where the story takes a turn for the worse: I asked for advice from some of my ham friends,
-some of whom are VoIP professionals, and their advice was to abandon all hope. Cisco phones are
-apparently very nice in an enterprise setting with their proprietary controller, but are not really
-suitable for hobbyists. Yes, they can be made to work, but are not worth the time to set up and keep
-running. It’s better, my friends say, to use a desk phone that will work without putting up a fight.
-So I guess I’ll try out a Polycom or a Grandstream or something.</p>
-
-<h2 id="conclusions">Conclusions</h2>
-
-<p>I’ve put many hours into this project, and I still don’t have a working connection to Hamshack
-Hotline! I guess I’m getting what I paid for. Still, I’ve learned a lot.</p>]]></content><author><name></name></author><summary type="html"><![CDATA[I’ve used VoIP a couple of times in conjuction with ham radio for supporting public events; some troubleshooting problems lend themselves to full duplex communication better than PTT radios. Until now I hadn’t really considered setting up something for myself, but then I learned about Hamshack Hotline. It’s a collective of VoIP geeks running their own phone network, and it even has links into RF repeaters and such. Neat!]]></summary></entry></feed>
+worked. So much easier than the Cisco phone.</p>]]></content><author><name></name></author><summary type="html"><![CDATA[As a follow-up to my previous post on IP phones, I picked up a Grandstream GXP1625 for still pretty cheap. Let me tell you how much easier it was to set up with both FreePBX and Hamshack Hotline! The phone has a web interface, and it was a breeze to configure. I didn’t have to mess with XML files or TFTP servers. I pointed the phone at Hamshack Hotline and my own experimental FreePBX server, and it just worked. So much easier than the Cisco phone.]]></summary></entry></feed>
