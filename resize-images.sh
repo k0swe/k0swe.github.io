@@ -1,4 +1,10 @@
 #!/usr/bin/env bash
+
+if ! command -v convert >/dev/null 2>&1; then
+  echo "Error: 'convert' is required. Install ImageMagick and try again." >&2
+  exit 1
+fi
+
 max_dimension=1024
 images=$(find assets/ -iname "*.gif" -o -iname "*.png" -o -iname "*.jpg" -o -iname "*.webp" | sort)
 for i in $images; do
