@@ -6,10 +6,10 @@ date: 2026-08-26
 
 This is too cool not to share!
 
-At this past weekend's RMHAM Summer Swapfest, I acquired a couple of e-ink display gadgets with
-ESP32 microcontrollers without knowing exactly what they were. I figured that, at worst, they would
-be cheap Chinese Arduino-compatible devices that would be clunky but possible to program. Once I got
-them home and was able to research them properly, I discovered they were
+At this past weekend's [RMHAM](https://www.rmham.org/) Summer Swapfest, I acquired a couple of e-ink
+display gadgets with ESP32 microcontrollers without knowing exactly what they were. I figured that,
+at worst, they would be cheap Chinese Arduino-compatible devices that would be clunky but possible
+to program. Once I got them home and was able to research them properly, I discovered they were
 [Adafruit MagTags](https://www.adafruit.com/product/4800)!
 
 Being Adafruit products running CircuitPython, these boards came batteries included (literally, but
