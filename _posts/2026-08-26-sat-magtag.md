@@ -12,8 +12,8 @@ be cheap Chinese Arduino-compatible devices that would be clunky but possible to
 them home and was able to research them properly, I discovered they were
 [Adafruit MagTags](https://www.adafruit.com/product/4800)!
 
-Being Adafruit products running CircuitPython, these boards came batteries included (figuratively,
-but also literally) with great documentation and support! It was quick and easy to get them loaded
+Being Adafruit products running CircuitPython, these boards came batteries included (literally, but
+also figuratively) with great documentation and support! It was quick and easy to get them loaded
 with the baseline bootloader and CircuitPython firmware, and then start experimenting with test
 sketches that ping Google and the like.
 
