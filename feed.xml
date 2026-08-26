@@ -1,4 +1,40 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="https://k0swe.radio/feed.xml" rel="self" type="application/atom+xml" /><link href="https://k0swe.radio/" rel="alternate" type="text/html" /><updated>2026-07-30T03:00:12+00:00</updated><id>https://k0swe.radio/feed.xml</id><title type="html">K0SWE Blog</title><subtitle>Events and projects for amateur radio operator K0SWE, a.k.a. Chris.</subtitle><entry><title type="html">HamCon Colorado</title><link href="https://k0swe.radio/2025/10/27/hamcon.html" rel="alternate" type="text/html" title="HamCon Colorado" /><published>2025-10-27T00:00:00+00:00</published><updated>2025-10-27T00:00:00+00:00</updated><id>https://k0swe.radio/2025/10/27/hamcon</id><content type="html" xml:base="https://k0swe.radio/2025/10/27/hamcon.html"><![CDATA[<p>Yesterday I returned home from HamCon Colorado 2025, which was held in Grand Junction. This was not
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="https://k0swe.radio/feed.xml" rel="self" type="application/atom+xml" /><link href="https://k0swe.radio/" rel="alternate" type="text/html" /><updated>2026-08-26T14:34:57+00:00</updated><id>https://k0swe.radio/feed.xml</id><title type="html">K0SWE Blog</title><subtitle>Events and projects for amateur radio operator K0SWE, a.k.a. Chris.</subtitle><entry><title type="html">MagTag Sketch for Satellite Passes</title><link href="https://k0swe.radio/2026/08/26/sat-magtag.html" rel="alternate" type="text/html" title="MagTag Sketch for Satellite Passes" /><published>2026-08-26T00:00:00+00:00</published><updated>2026-08-26T00:00:00+00:00</updated><id>https://k0swe.radio/2026/08/26/sat-magtag</id><content type="html" xml:base="https://k0swe.radio/2026/08/26/sat-magtag.html"><![CDATA[<p>This is too cool not to share!</p>
+
+<p>At this past weekend’s RMHAM Summer Swapfest, I acquired a couple of e-ink display gadgets with
+ESP32 microcontrollers without knowing exactly what they were. I figured that, at worst, they would
+be cheap Chinese Arduino-compatible devices that would be clunky but possible to program. Once I got
+them home and was able to research them properly, I discovered they were
+<a href="https://www.adafruit.com/product/4800">Adafruit MagTags</a>!</p>
+
+<p>Being Adafruit products running CircuitPython, these boards came batteries included (figuratively,
+but also literally) with great documentation and support! It was quick and easy to get them loaded
+with the baseline bootloader and CircuitPython firmware, and then start experimenting with test
+sketches that ping Google and the like.</p>
+
+<p>With a baseline established, I went searching and found the excellent
+<a href="https://www.n2yo.com/api/">N2YO.com API</a> for AMSAT and other orbital objects. The great thing about
+it is that, in addition to providing fresh, raw
+<a href="https://en.wikipedia.org/wiki/Two-line_element_set">TLEs</a>, it can also provide pre-crunched pass
+information given the observer’s location. This is huge because it means I don’t have to do orbital
+math on a puny microcontroller! I can query each satellite I’m interested in, sort them all by the
+Acquisition of Signal (AOS) time, and throw them on the display.</p>
+
+<p><img src="/assets/2026-08-26-magtag-basic.jpg" alt="Basic MagTag display" /></p>
+
+<p>I started out simple, having the device wake up once an hour and update the display. Once that was
+working, I got a bit fancier and started highlighting current passes and graying out recent passes
+closer to real time. This required caching my N2YO queries because I was using up my API quota. As
+it turns out, when you’re querying six satellites on every run and making code changes that cause
+the program to run every few minutes, it’s rather easy to blow through 100 queries in an hour and
+get rate-limited! I also added a low battery mode to make the display show when the gadget needs to
+be recharged instead of just displaying stale data forever.</p>
+
+<p><img src="/assets/2026-08-26-magtag-active.jpg" alt="Active MagTag display" />
+<img src="/assets/2026-08-26-magtag-recent.jpg" alt="Recent MagTag display" /></p>
+
+<p>Overall, I’m quite happy with this very functional new gadget I have to keep me aware of AMSAT
+opportunities. Check out the
+<a href="https://github.com/xylo04/magtag/tree/main/sat-passes">MagTag Sketch for Satellite Passes</a>.</p>]]></content><author><name></name></author><summary type="html"><![CDATA[This is too cool not to share!]]></summary></entry><entry><title type="html">HamCon Colorado</title><link href="https://k0swe.radio/2025/10/27/hamcon.html" rel="alternate" type="text/html" title="HamCon Colorado" /><published>2025-10-27T00:00:00+00:00</published><updated>2025-10-27T00:00:00+00:00</updated><id>https://k0swe.radio/2025/10/27/hamcon</id><content type="html" xml:base="https://k0swe.radio/2025/10/27/hamcon.html"><![CDATA[<p>Yesterday I returned home from HamCon Colorado 2025, which was held in Grand Junction. This was not
 my first time <a href="/2023/08/14/albuquerque">attending</a> an ARRL Rocky Mountain Division Convention, but
 it was my first time at HamCon specifically. Colorado hosts the division convention every ~4 years,
 and we all know how 2020 and ‘21 turned out.</p>
@@ -231,9 +267,4 @@ experts are Joe <code class="language-plaintext highlighter-rouge">KD0TYU</code>
 place. Willem <code class="language-plaintext highlighter-rouge">AC0KQ</code> pitched this project to me as somthing to fill out complete Incident Action
 Plans with many ICS forms, but Joe and Randy’s vision for this as a catalog is quite different. I
 think we’ll start with the bare minimum, just publishe ICS 217s organized by ARES group, and then
-build from there.</p>]]></content><author><name></name></author><summary type="html"><![CDATA[It seems I’ve been roped into another project. Colorado ARES section leaders want to create a catalog of important information for use by ARES groups across the state. It will include things like ICS 217s describing all of the repeaters and channels used by each group, ICS 205s to break those channels down per-event, and ICS 205As with contact information of event personnel. I’ve been tasked with creating a web application to collect and display this information. I’m just one of several people working on this project, but I’m the only one with web development experience. Ben KB0UBZ is technically savvy and is willing to help collect and massage data. Our subject matter experts are Joe KD0TYU and Randy N0OEM.]]></summary></entry><entry><title type="html">Grandstream Phone</title><link href="https://k0swe.radio/2023/03/18/grandstream.html" rel="alternate" type="text/html" title="Grandstream Phone" /><published>2023-03-18T00:00:00+00:00</published><updated>2023-03-18T00:00:00+00:00</updated><id>https://k0swe.radio/2023/03/18/grandstream</id><content type="html" xml:base="https://k0swe.radio/2023/03/18/grandstream.html"><![CDATA[<p>As a follow-up to my <a href="/2023/03/03/pbx.html">previous post</a> on IP phones, I picked up a
-<a href="https://www.amazon.com/gp/product/B00VNMWRFK/">Grandstream GXP1625</a> for still pretty cheap. Let me
-tell you how much easier it was to set up with both FreePBX and Hamshack Hotline! The phone has a
-web interface, and it was a breeze to configure. I didn’t have to mess with XML files or TFTP
-servers. I pointed the phone at Hamshack Hotline and my own experimental FreePBX server, and it just
-worked. So much easier than the Cisco phone.</p>]]></content><author><name></name></author><summary type="html"><![CDATA[As a follow-up to my previous post on IP phones, I picked up a Grandstream GXP1625 for still pretty cheap. Let me tell you how much easier it was to set up with both FreePBX and Hamshack Hotline! The phone has a web interface, and it was a breeze to configure. I didn’t have to mess with XML files or TFTP servers. I pointed the phone at Hamshack Hotline and my own experimental FreePBX server, and it just worked. So much easier than the Cisco phone.]]></summary></entry></feed>
+build from there.</p>]]></content><author><name></name></author><summary type="html"><![CDATA[It seems I’ve been roped into another project. Colorado ARES section leaders want to create a catalog of important information for use by ARES groups across the state. It will include things like ICS 217s describing all of the repeaters and channels used by each group, ICS 205s to break those channels down per-event, and ICS 205As with contact information of event personnel. I’ve been tasked with creating a web application to collect and display this information. I’m just one of several people working on this project, but I’m the only one with web development experience. Ben KB0UBZ is technically savvy and is willing to help collect and massage data. Our subject matter experts are Joe KD0TYU and Randy N0OEM.]]></summary></entry></feed>
